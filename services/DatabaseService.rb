@@ -1,4 +1,5 @@
 require "mysql2"
+require_relative "../models/Player.rb"
 require_relative "../models/Position.rb"
 require_relative "../models/Team.rb"
 
@@ -42,10 +43,35 @@ class DatabaseService
         end
     end
 
+    def insertPlayer(jPlayer)
+        player = Player.fromJson(jPlayer)
+
+        result = @insertPlayer.execute(
+            player.id,
+            player.firstName,
+            player.lastName,
+            player.primaryNumber,
+            player.birthYear,
+            player.birthMonth,
+            player.birthDay,
+            player.birthCity,
+            player.birthProvince,
+            player.birthCountry,
+            player.height,
+            player.weight,
+            player.active,
+            player.shoot,
+            player.rookie,
+            player.teamId,
+            player.positionCode
+        )
+    end
+
     private
 
     def prepareStatements
         @insertTeam = @dbClient.prepare("REPLACE INTO Teams (id,name,venue,abbreviation,firstYearOfPlay,divisionId,conferenceId,franchiseid,active) VALUES (?,?,?,?,?,?,?,?,?)")
         @insertPosition = @dbClient.prepare("REPLACE INTO Positions (code,abbrev,fullName,type) VALUES (?,?,?,?)")
+        @insertPlayer = @dbClient.prepare("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
     end
 end
