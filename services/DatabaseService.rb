@@ -12,10 +12,8 @@ class DatabaseService
     def insertPositions(positions)
         positions.each do |item|
             position = Position.fromJson(item)
-            puts "Got position"
-            puts position
-
-            puts "Inserting into DB"
+            
+            Logger.debug "Inserting into DB"
             result = @insertPosition.execute(
                 position.code, 
                 position.abbrev, 

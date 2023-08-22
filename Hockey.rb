@@ -3,13 +3,15 @@
 require "thor"
 require "http"
 require "./services/DataService"
+require "./helpers/Logger"
 
 class Hockey < Thor
     desc "hockey build", "Build local data"
     def build()
+        Logger.info "Task Build"
         initTask()
 
-        p "Building and updating data..."
+        Logger.debug "Building and updating data..."
 
         # @dataService.updatePositions
         # @dataService.updateTeams
@@ -17,7 +19,7 @@ class Hockey < Thor
         rosterPlayerIds = [
             8478402 # Connor McDavid
         ]
-        @dataService.updatePlayers(rosterPlayerIds)
+        # @dataService.updatePlayers(rosterPlayerIds)
     end
 
     no_tasks do
