@@ -30,7 +30,7 @@ class APIService
         @filename = "#{id}-player-stats-archive.json"
         @endpoint = "/people/#{id}/stats?stats=yearByYear"
         
-        return callApiEndpoint()["stats"]["splits"]
+        return callApiEndpoint()["stats"][0]["splits"]
     end
 
     private 
