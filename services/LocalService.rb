@@ -1,7 +1,18 @@
 require "http"
 
-class APIService
-    def getAllPositions
+class LocalService
+    def updateEverything(playerIds)
+        Logger.info "Update everything"
+        getOrUpdateAllPositions
+        getOrUpdateAllTeams
+
+        playerIds.each do |playerId|
+            getOrUpdatePlayerForId(playerId)
+            getOrUpdatePlayerArchiveStatsForId(playerId)
+        end
+    end
+
+    def getOrUpdateAllPositions
         Logger.info "Fetching all positions"
         @filename = "positions.json"
         @endpoint = "/positions"
@@ -9,7 +20,7 @@ class APIService
         return callApiEndpoint()
     end
 #
-    def getAllTeams
+    def getOrUpdateAllTeams
         Logger.info "Fetching all teams"
         @filename = "teams.json"
         @endpoint = "/teams"
@@ -17,7 +28,7 @@ class APIService
         return callApiEndpoint()["teams"]
     end
 
-    def getPlayerForId(id)
+    def getOrUpdatePlayerForId(id)
         Logger.info "Fetching player with ID #{id}"
         @filename = "#{id}-player.json"
         @endpoint = "/people/#{id}"
@@ -25,7 +36,7 @@ class APIService
         return callApiEndpoint()["people"][0]
     end
 
-    def getPlayerArchiveStatsForId(id)
+    def getOrUpdatePlayerArchiveStatsForId(id)
         Logger.info "Fetching player's archive stats for ID #{id}"
         @filename = "#{id}-player-stats-archive.json"
         @endpoint = "/people/#{id}/stats?stats=yearByYear"

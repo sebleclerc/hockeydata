@@ -1,10 +1,10 @@
-require_relative "APIService.rb"
+require_relative "LocalService.rb"
 require_relative "DatabaseService.rb"
 
 class DataService
-    def initialize
-        @dbService = DatabaseService.new
-        @apiService = APIService.new
+    def initialize(dbService, localService)
+        @dbService = dbService
+        @localService = localService
     end
 
     def updatePositions

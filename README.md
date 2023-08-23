@@ -24,6 +24,9 @@ Défenseurs : But = 3 pts, passe = 1.5pts
 Gardien : Victoire = 3 pts, blanchissages = 3 pts, passe = 2 pts, but = 5 pts, fusillade = 1 pts pour défaite 2 pour victoire
 
 ## Roadmap
+### LocalService
+Add a `force` flag to force fetching from API
+
 ### Generate PDF
 Possiblement générer des fichiers PDFs de différents sujets
 Voir ça:  
