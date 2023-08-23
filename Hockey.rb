@@ -2,10 +2,10 @@
 
 require "thor"
 require "http"
-require "./services/DataService"
-require "./services/DatabaseService"
-require "./services/LocalService"
 require "./helpers/Logger"
+require "./services/DatabaseService"
+require "./services/ImportService"
+require "./services/LocalService"
 
 class Hockey < Thor
     desc "local", "Fetch and save local data"
@@ -15,14 +15,25 @@ class Hockey < Thor
 
         Logger.debug "Building local data..."
 
-        @localService.updateEverything(rosterPlayerIds)
+        @localService.validateEverything(rosterPlayerIds, false)
+    end
+
+    desc "import", "Import JSON files in database"
+    def import()
+        Logger.info "Task Import"
+        initTask()
+
+        @importService.importPositions
+        @importService.importTeams
+        @importService.importPlayers(rosterPlayerIds)
+        @importService.importPlayerArchiveStats(rosterPlayerIds)
     end
 
     no_tasks do
         def initTask()
             @dbService = DatabaseService.new
             @localService = LocalService.new
-            @dataService = DataService.new(@dbService, @localService)
+            @importService = ImportService.new(@dbService, @localService)
         end
 
         def rosterPlayerIds

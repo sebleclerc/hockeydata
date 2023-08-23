@@ -12,12 +12,12 @@ class DatabaseService
     def insertPositions(positions)
         positions.each do |item|
             position = Position.fromJson(item)
-            
+
             Logger.debug "Inserting into DB"
             result = @insertPosition.execute(
-                position.code, 
-                position.abbrev, 
-                position.fullName, 
+                position.code,
+                position.abbrev,
+                position.fullName,
                 position.type
             )
         end
@@ -26,7 +26,7 @@ class DatabaseService
     def insertTeams(teams)
         teams.each do |item|
             team = Team.fromJson(item)
-            
+
             result = @insertTeam.execute(
                 team.id,
                 team.name,
@@ -63,6 +63,9 @@ class DatabaseService
             player.teamId,
             player.positionCode
         )
+    end
+
+    def insertPlayerArchiveStat(playerStat)
     end
 
     private
