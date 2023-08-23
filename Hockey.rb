@@ -45,6 +45,9 @@ class Hockey < Thor
                 8482730, # Brandt Clark
                 8483460, # David Jiricek
                 8483495, # Simon Nemec
+
+                # Prospect
+                8481533, # Trevor Zegras
             ]
         end
     end
