@@ -28,7 +28,7 @@ class ImportService
     def importPlayerArchiveStats(playerIds)
         playerIds.each do |playerId|
             stat = @localService.getPlayerArchiveStatsForId(playerId)
-            @dbService.insertPlayerArchiveStat(stat)
+            @dbService.insertPlayerArchiveStat(playerId, stat)
         end
     end
 end
