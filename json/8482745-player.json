@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8482745,
+    "fullName" : "Mason McTavish",
+    "link" : "/api/v1/people/8482745",
+    "firstName" : "Mason",
+    "lastName" : "McTavish",
+    "primaryNumber" : "37",
+    "birthDate" : "2003-01-30",
+    "currentAge" : 20,
+    "birthCity" : "Zurich",
+    "birthCountry" : "CHE",
+    "nationality" : "CAN",
+    "height" : "6' 0\"",
+    "weight" : 213,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 24,
+      "name" : "Anaheim Ducks",
+      "link" : "/api/v1/teams/24"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

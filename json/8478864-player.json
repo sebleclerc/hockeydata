@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8478864,
+    "fullName" : "Kirill Kaprizov",
+    "link" : "/api/v1/people/8478864",
+    "firstName" : "Kirill",
+    "lastName" : "Kaprizov",
+    "primaryNumber" : "97",
+    "birthDate" : "1997-04-26",
+    "currentAge" : 26,
+    "birthCity" : "Novokuznetsk",
+    "birthCountry" : "RUS",
+    "nationality" : "RUS",
+    "height" : "5' 10\"",
+    "weight" : 202,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 30,
+      "name" : "Minnesota Wild",
+      "link" : "/api/v1/teams/30"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

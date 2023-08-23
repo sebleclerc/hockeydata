@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8483495,
+    "fullName" : "Simon Nemec",
+    "link" : "/api/v1/people/8483495",
+    "firstName" : "Simon",
+    "lastName" : "Nemec",
+    "primaryNumber" : "5",
+    "birthDate" : "2004-02-15",
+    "currentAge" : 19,
+    "birthCity" : "Liptovský Mikulá\u001A",
+    "birthCountry" : "SVK",
+    "nationality" : "SVK",
+    "height" : "6' 1\"",
+    "weight" : 190,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 1,
+      "name" : "New Jersey Devils",
+      "link" : "/api/v1/teams/1"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

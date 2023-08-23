@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8482117,
+    "fullName" : "Lukas Reichel",
+    "link" : "/api/v1/people/8482117",
+    "firstName" : "Lukas",
+    "lastName" : "Reichel",
+    "primaryNumber" : "27",
+    "birthDate" : "2002-05-17",
+    "currentAge" : 21,
+    "birthCity" : "Nürnberg",
+    "birthCountry" : "DEU",
+    "nationality" : "DEU",
+    "height" : "6' 0\"",
+    "weight" : 170,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "L",
+    "rosterStatus" : "N",
+    "currentTeam" : {
+      "id" : 16,
+      "name" : "Chicago Blackhawks",
+      "link" : "/api/v1/teams/16"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

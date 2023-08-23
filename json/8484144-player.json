@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8484144,
+    "fullName" : "Connor Bedard",
+    "link" : "/api/v1/people/8484144",
+    "firstName" : "Connor",
+    "lastName" : "Bedard",
+    "birthDate" : "2005-07-17",
+    "currentAge" : 18,
+    "birthCity" : "North Vancouver",
+    "birthStateProvince" : "BC",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "5' 10\"",
+    "weight" : 185,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "N",
+    "currentTeam" : {
+      "id" : 16,
+      "name" : "Chicago Blackhawks",
+      "link" : "/api/v1/teams/16"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

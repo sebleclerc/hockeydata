@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8473419,
+    "fullName" : "Brad Marchand",
+    "link" : "/api/v1/people/8473419",
+    "firstName" : "Brad",
+    "lastName" : "Marchand",
+    "primaryNumber" : "63",
+    "birthDate" : "1988-05-11",
+    "currentAge" : 35,
+    "birthCity" : "Halifax",
+    "birthStateProvince" : "NS",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "5' 9\"",
+    "weight" : 176,
+    "active" : true,
+    "alternateCaptain" : true,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 6,
+      "name" : "Boston Bruins",
+      "link" : "/api/v1/teams/6"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

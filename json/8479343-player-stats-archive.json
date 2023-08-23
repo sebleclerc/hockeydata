@@ -1,0 +1,621 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "points" : 11
+      },
+      "team" : {
+        "name" : "St. Louis Jr. Blues",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 167772
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 5,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "points" : 8
+      },
+      "team" : {
+        "name" : "St. Louis Jr. Blues",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 167772
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 71,
+        "goals" : 58,
+        "pim" : 22,
+        "games" : 60,
+        "penaltyMinutes" : "22",
+        "plusMinus" : 0,
+        "points" : 129
+      },
+      "team" : {
+        "name" : "Shattuck St. Mary's Bantam T1",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Bantam",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 91025
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 41,
+        "goals" : 36,
+        "pim" : 20,
+        "games" : 51,
+        "penaltyMinutes" : "20",
+        "points" : 77
+      },
+      "team" : {
+        "name" : "Shattuck",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "High-MN",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 23,
+        "goals" : 14,
+        "pim" : 10,
+        "shots" : 82,
+        "games" : 32,
+        "powerPlayGoals" : 3,
+        "penaltyMinutes" : "10",
+        "shotPct" : 17.1,
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 1,
+        "plusMinus" : 4,
+        "points" : 37
+      },
+      "team" : {
+        "name" : "USNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 18,
+        "goals" : 16,
+        "pim" : 14,
+        "games" : 20,
+        "penaltyMinutes" : "14",
+        "points" : 34
+      },
+      "team" : {
+        "name" : "USNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 4,
+        "pim" : 4,
+        "games" : 8,
+        "penaltyMinutes" : "4",
+        "points" : 11
+      },
+      "team" : {
+        "name" : "USNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 24,
+        "goals" : 13,
+        "pim" : 14,
+        "games" : 23,
+        "penaltyMinutes" : "14",
+        "plusMinus" : 16,
+        "points" : 37
+      },
+      "team" : {
+        "name" : "USAHNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 46,
+        "goals" : 24,
+        "pim" : 40,
+        "games" : 39,
+        "penaltyMinutes" : "40",
+        "points" : 70
+      },
+      "team" : {
+        "name" : "USAHNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 4,
+        "pim" : 2,
+        "shots" : 28,
+        "games" : 7,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "2",
+        "shotPct" : 14.3,
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 11,
+        "points" : 14
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJ18-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 11,
+        "points" : 14
+      },
+      "team" : {
+        "name" : "USA U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17253
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 70,
+        "goals" : 37,
+        "pim" : 40,
+        "games" : 62,
+        "penaltyMinutes" : "40",
+        "points" : 107
+      },
+      "team" : {
+        "name" : "U.S. National U18 Team",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USDP",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19564
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 24,
+        "goals" : 13,
+        "pim" : 14,
+        "games" : 23,
+        "penaltyMinutes" : "14",
+        "plusMinus" : 16,
+        "points" : 37
+      },
+      "team" : {
+        "name" : "USNTDP Juniors",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 52486
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "38:00",
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 0,
+        "games" : 3,
+        "hits" : 0,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "05:09",
+        "evenTimeOnIce" : "32:51",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 0,
+        "plusMinus" : -3,
+        "points" : 2,
+        "shifts" : 51
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 24,
+        "goals" : 21,
+        "pim" : 26,
+        "games" : 31,
+        "penaltyMinutes" : "26",
+        "plusMinus" : 15,
+        "points" : 45
+      },
+      "team" : {
+        "name" : "Boston Univ.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 6890
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 5,
+        "pim" : 2,
+        "games" : 8,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 6,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 3,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 3,
+        "points" : 11
+      },
+      "team" : {
+        "name" : "USA U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17276
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "1483:06",
+        "assists" : 42,
+        "goals" : 23,
+        "pim" : 24,
+        "shots" : 212,
+        "games" : 82,
+        "hits" : 7,
+        "powerPlayGoals" : 6,
+        "powerPlayPoints" : 20,
+        "powerPlayTimeOnIce" : "247:07",
+        "evenTimeOnIce" : "1224:59",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 47.44,
+        "shotPct" : 10.85,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "11:00",
+        "blocked" : 28,
+        "plusMinus" : -7,
+        "points" : 65,
+        "shifts" : 1892
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1495:17",
+        "assists" : 33,
+        "goals" : 14,
+        "pim" : 24,
+        "shots" : 200,
+        "games" : 82,
+        "hits" : 16,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 19,
+        "powerPlayTimeOnIce" : "288:55",
+        "evenTimeOnIce" : "1194:41",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 33.33,
+        "shotPct" : 7.0,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "11:41",
+        "blocked" : 21,
+        "plusMinus" : -21,
+        "points" : 47,
+        "shifts" : 1905
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 8,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -3,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1140:40",
+        "assists" : 27,
+        "goals" : 17,
+        "pim" : 28,
+        "shots" : 184,
+        "games" : 70,
+        "hits" : 20,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 15,
+        "powerPlayTimeOnIce" : "188:48",
+        "evenTimeOnIce" : "950:29",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 38.1,
+        "shotPct" : 9.2,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:23",
+        "blocked" : 13,
+        "plusMinus" : -6,
+        "points" : 44,
+        "shifts" : 1449
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "932:52",
+        "assists" : 21,
+        "goals" : 14,
+        "pim" : 18,
+        "shots" : 124,
+        "games" : 56,
+        "hits" : 20,
+        "powerPlayGoals" : 4,
+        "powerPlayPoints" : 10,
+        "powerPlayTimeOnIce" : "153:36",
+        "evenTimeOnIce" : "778:12",
+        "penaltyMinutes" : "18",
+        "faceOffPct" : 46.34,
+        "shotPct" : 11.3,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:04",
+        "blocked" : 14,
+        "plusMinus" : -5,
+        "points" : 35,
+        "shifts" : 1202
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1349:17",
+        "assists" : 35,
+        "goals" : 28,
+        "pim" : 28,
+        "shots" : 177,
+        "games" : 67,
+        "hits" : 17,
+        "powerPlayGoals" : 5,
+        "powerPlayPoints" : 11,
+        "powerPlayTimeOnIce" : "192:53",
+        "evenTimeOnIce" : "1079:08",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 42.65,
+        "shotPct" : 15.8,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "77:16",
+        "blocked" : 31,
+        "plusMinus" : 3,
+        "points" : 63,
+        "shifts" : 1693
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1701:31",
+        "assists" : 49,
+        "goals" : 37,
+        "pim" : 49,
+        "shots" : 223,
+        "games" : 82,
+        "hits" : 18,
+        "powerPlayGoals" : 6,
+        "powerPlayPoints" : 20,
+        "powerPlayTimeOnIce" : "263:23",
+        "evenTimeOnIce" : "1390:11",
+        "penaltyMinutes" : "49",
+        "faceOffPct" : 34.92,
+        "shotPct" : 16.59,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "47:57",
+        "blocked" : 34,
+        "plusMinus" : -2,
+        "points" : 86,
+        "shifts" : 2067
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

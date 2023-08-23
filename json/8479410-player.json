@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8479410,
+    "fullName" : "Mikhail Sergachev",
+    "link" : "/api/v1/people/8479410",
+    "firstName" : "Mikhail",
+    "lastName" : "Sergachev",
+    "primaryNumber" : "98",
+    "birthDate" : "1998-06-25",
+    "currentAge" : 25,
+    "birthCity" : "Nizhnekamsk",
+    "birthCountry" : "RUS",
+    "nationality" : "RUS",
+    "height" : "6' 1\"",
+    "weight" : 217,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 14,
+      "name" : "Tampa Bay Lightning",
+      "link" : "/api/v1/teams/14"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

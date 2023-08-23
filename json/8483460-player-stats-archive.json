@@ -1,0 +1,425 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 4,
+        "games" : 6,
+        "penaltyMinutes" : "4",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Czech Knights",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 281852
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 10,
+        "pim" : 16,
+        "games" : 37,
+        "penaltyMinutes" : "16",
+        "plusMinus" : 32,
+        "points" : 25
+      },
+      "team" : {
+        "name" : "HC Plzen U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czechia U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 85120
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 0,
+        "pim" : 4,
+        "games" : 8,
+        "penaltyMinutes" : "4",
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Plzensky kraj U15",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ODM",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 259385
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 19,
+        "pim" : 54,
+        "games" : 37,
+        "penaltyMinutes" : "54",
+        "plusMinus" : 26,
+        "points" : 40
+      },
+      "team" : {
+        "name" : "HC Plzen U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czechia U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 85120
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "HC Plzen",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8346
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 6,
+        "pim" : 10,
+        "games" : 24,
+        "penaltyMinutes" : "10",
+        "plusMinus" : 6,
+        "points" : 17
+      },
+      "team" : {
+        "name" : "HC Plzen U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "DHL Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 35132
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 1,
+        "pim" : 4,
+        "games" : 5,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 4,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "HC Plzen U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czechia U17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 256152
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 1,
+        "penaltyMinutes" : "0",
+        "points" : 2
+      },
+      "team" : {
+        "name" : "HC Plzen B U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czechia U20 3",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 291529
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 3,
+        "pim" : 34,
+        "games" : 34,
+        "penaltyMinutes" : "34",
+        "plusMinus" : 13,
+        "points" : 9
+      },
+      "team" : {
+        "name" : "HC Plzen",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8346
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 8,
+        "games" : 4,
+        "penaltyMinutes" : "8",
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Czechia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17013
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -1,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Czechia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17046
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 1,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EHT",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 68526
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 5,
+        "pim" : 49,
+        "games" : 29,
+        "penaltyMinutes" : "49",
+        "plusMinus" : 0,
+        "points" : 11
+      },
+      "team" : {
+        "name" : "HC Plzen",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8346
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -1,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17015
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -5,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Czechia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17046
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 8,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 5,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EHT",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 68526
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "72:16",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 5,
+        "games" : 4,
+        "hits" : 9,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "02:37",
+        "evenTimeOnIce" : "67:15",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:24",
+        "blocked" : 7,
+        "plusMinus" : -4,
+        "points" : 0,
+        "shifts" : 99
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 3,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 10,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Czechia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17046
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 32,
+        "goals" : 6,
+        "pim" : 36,
+        "games" : 55,
+        "penaltyMinutes" : "36",
+        "plusMinus" : -11,
+        "points" : 38
+      },
+      "team" : {
+        "name" : "Cleveland Monsters",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 22447
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EHT",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 68526
+    } ]
+  } ]
+}

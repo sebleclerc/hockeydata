@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8483460,
+    "fullName" : "David Jiricek",
+    "link" : "/api/v1/people/8483460",
+    "firstName" : "David",
+    "lastName" : "Jiricek",
+    "primaryNumber" : "55",
+    "birthDate" : "2003-11-28",
+    "currentAge" : 19,
+    "birthCity" : "Klatovy",
+    "birthCountry" : "CZE",
+    "nationality" : "CZE",
+    "height" : "6' 4\"",
+    "weight" : 199,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "R",
+    "rosterStatus" : "N",
+    "currentTeam" : {
+      "id" : 29,
+      "name" : "Columbus Blue Jackets",
+      "link" : "/api/v1/teams/29"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

@@ -1,0 +1,467 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 2,
+        "pim" : 18,
+        "shots" : 48,
+        "games" : 25,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "18",
+        "shotPct" : 4.2,
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 0,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "Irbis Kazan Jr.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia-Jr.",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 40,
+        "goals" : 17,
+        "pim" : 56,
+        "shots" : 156,
+        "games" : 67,
+        "powerPlayGoals" : 8,
+        "penaltyMinutes" : "56",
+        "shotPct" : 10.9,
+        "gameWinningGoals" : 5,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 15,
+        "points" : 57
+      },
+      "team" : {
+        "id" : 2768,
+        "name" : "Windsor",
+        "link" : "/api/v1/teams/2768"
+      },
+      "league" : {
+        "name" : "OHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 40,
+        "goals" : 17,
+        "pim" : 56,
+        "games" : 67,
+        "penaltyMinutes" : "56",
+        "plusMinus" : 15,
+        "points" : 57
+      },
+      "team" : {
+        "name" : "Windsor Spitfires",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "OHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9508
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 8,
+        "games" : 5,
+        "penaltyMinutes" : "8",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Russia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17523
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "48:30",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 2,
+        "games" : 4,
+        "hits" : 10,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "01:23",
+        "evenTimeOnIce" : "47:07",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 3,
+        "plusMinus" : 1,
+        "points" : 0,
+        "shifts" : 68
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 3,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Windsor Spitfires",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "M-Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9291
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 33,
+        "goals" : 10,
+        "pim" : 71,
+        "games" : 50,
+        "penaltyMinutes" : "71",
+        "plusMinus" : 22,
+        "points" : 43
+      },
+      "team" : {
+        "name" : "Windsor Spitfires",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "OHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9508
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 4,
+        "games" : 7,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 4,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Russia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17546
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "1213:28",
+        "assists" : 31,
+        "goals" : 9,
+        "pim" : 38,
+        "shots" : 141,
+        "games" : 79,
+        "hits" : 90,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 16,
+        "powerPlayTimeOnIce" : "146:09",
+        "evenTimeOnIce" : "1066:11",
+        "penaltyMinutes" : "38",
+        "faceOffPct" : 0.0,
+        "shotPct" : 6.38,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:08",
+        "blocked" : 64,
+        "plusMinus" : 11,
+        "points" : 40,
+        "shifts" : 1528
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1344:15",
+        "assists" : 26,
+        "goals" : 6,
+        "pim" : 28,
+        "shots" : 128,
+        "games" : 75,
+        "hits" : 97,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 6,
+        "powerPlayTimeOnIce" : "113:20",
+        "evenTimeOnIce" : "1214:24",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 50.0,
+        "shotPct" : 4.69,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "16:31",
+        "blocked" : 93,
+        "plusMinus" : 12,
+        "points" : 32,
+        "shifts" : 1603
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 10,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 11,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Russia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17485
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -3,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Russia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EHT",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 64546
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1425:43",
+        "assists" : 24,
+        "goals" : 10,
+        "pim" : 58,
+        "shots" : 118,
+        "games" : 70,
+        "hits" : 106,
+        "powerPlayGoals" : 5,
+        "powerPlayPoints" : 13,
+        "powerPlayTimeOnIce" : "131:15",
+        "evenTimeOnIce" : "1213:10",
+        "penaltyMinutes" : "58",
+        "faceOffPct" : 0.0,
+        "shotPct" : 8.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "81:18",
+        "blocked" : 99,
+        "plusMinus" : 15,
+        "points" : 34,
+        "shifts" : 1648
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "1230:20",
+        "assists" : 26,
+        "goals" : 4,
+        "pim" : 30,
+        "shots" : 108,
+        "games" : 56,
+        "hits" : 66,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 8,
+        "powerPlayTimeOnIce" : "116:06",
+        "evenTimeOnIce" : "1017:35",
+        "penaltyMinutes" : "30",
+        "faceOffPct" : 0.0,
+        "shotPct" : 3.7,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "96:39",
+        "blocked" : 73,
+        "plusMinus" : 5,
+        "points" : 30,
+        "shifts" : 1502
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1752:34",
+        "assists" : 31,
+        "goals" : 7,
+        "pim" : 59,
+        "shots" : 149,
+        "games" : 78,
+        "hits" : 139,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 7,
+        "powerPlayTimeOnIce" : "118:41",
+        "evenTimeOnIce" : "1470:32",
+        "penaltyMinutes" : "59",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.7,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "163:21",
+        "blocked" : 123,
+        "plusMinus" : 6,
+        "points" : 38,
+        "shifts" : 2073
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1881:04",
+        "assists" : 54,
+        "goals" : 10,
+        "pim" : 53,
+        "shots" : 156,
+        "games" : 79,
+        "hits" : 128,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 27,
+        "powerPlayTimeOnIce" : "201:24",
+        "evenTimeOnIce" : "1501:38",
+        "penaltyMinutes" : "53",
+        "faceOffPct" : 0.0,
+        "shotPct" : 6.41,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "178:02",
+        "blocked" : 149,
+        "plusMinus" : 13,
+        "points" : 64,
+        "shifts" : 2161
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

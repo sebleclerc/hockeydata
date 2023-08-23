@@ -1,0 +1,359 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 8,
+        "pim" : 2,
+        "games" : 6,
+        "penaltyMinutes" : "2",
+        "points" : 9
+      },
+      "team" : {
+        "name" : "BC Junior Canucks",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Brick Invitational",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 128856
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "points" : 2
+      },
+      "team" : {
+        "name" : "North Shore Winter Club",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 238192
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 9,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "points" : 16
+      },
+      "team" : {
+        "name" : "Pro Hockey Hutson Selects U12",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WSI U12",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 206736
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 3,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "points" : 4
+      },
+      "team" : {
+        "name" : "North Shore Winter Club",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 238192
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 24,
+        "games" : 7,
+        "points" : 32
+      },
+      "team" : {
+        "name" : "Draftday Hockey Selects U13",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WSI U13",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 243127
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 3,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "points" : 4
+      },
+      "team" : {
+        "name" : "West Van Academy Elite 15s",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "CSSHL U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 228934
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 4,
+        "pim" : 4,
+        "games" : 5,
+        "penaltyMinutes" : "4",
+        "points" : 5
+      },
+      "team" : {
+        "name" : "Pacific Selects U15",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WSI U15",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 259830
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 24,
+        "goals" : 64,
+        "pim" : 22,
+        "games" : 30,
+        "penaltyMinutes" : "22",
+        "points" : 88
+      },
+      "team" : {
+        "name" : "North Shore Warriors U15 Prep",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "CSSHL U15",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 269443
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 41,
+        "goals" : 43,
+        "pim" : 32,
+        "games" : 36,
+        "penaltyMinutes" : "32",
+        "points" : 84
+      },
+      "team" : {
+        "name" : "North Shore Warriors U18 Prep",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "CSSHL U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 246736
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -3,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "HV71 J20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "J20 Nationell",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5829
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 1,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 1,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "HV71 J18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "J18 Region",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 7118
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 12,
+        "pim" : 6,
+        "games" : 15,
+        "penaltyMinutes" : "6",
+        "plusMinus" : 9,
+        "points" : 28
+      },
+      "team" : {
+        "name" : "Regina Pats",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9641
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 7,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 12,
+        "points" : 14
+      },
+      "team" : {
+        "name" : "Canada U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17193
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 49,
+        "goals" : 51,
+        "pim" : 42,
+        "games" : 62,
+        "penaltyMinutes" : "42",
+        "plusMinus" : 0,
+        "points" : 100
+      },
+      "team" : {
+        "name" : "Regina Pats",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9641
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 6,
+        "pim" : 4,
+        "games" : 4,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 0,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Canada U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17193
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 9,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 72,
+        "goals" : 71,
+        "pim" : 62,
+        "games" : 57,
+        "penaltyMinutes" : "62",
+        "plusMinus" : 39,
+        "points" : 143
+      },
+      "team" : {
+        "name" : "Regina Pats",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9641
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 9,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 14,
+        "points" : 23
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    } ]
+  } ]
+}

@@ -1,0 +1,363 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Chicoutimi Jr Saguenéens",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 172472
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 2,
+        "penaltyMinutes" : "2",
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Chicoutimi Jr Saguenéens",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 172472
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 19,
+        "pim" : 2,
+        "games" : 28,
+        "penaltyMinutes" : "2",
+        "points" : 40
+      },
+      "team" : {
+        "name" : "Saguenay Espoirs Bantam AAA R",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QBAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 10236094
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Jonquière Élites",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMAAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 63533
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Rouyn-Noranda Huskies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9660
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 34,
+        "goals" : 18,
+        "pim" : 4,
+        "games" : 45,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 20,
+        "points" : 52
+      },
+      "team" : {
+        "name" : "Jonquière Élites",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QM18AAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 65044
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 10,
+        "pim" : 6,
+        "games" : 50,
+        "penaltyMinutes" : "6",
+        "plusMinus" : 8,
+        "points" : 23
+      },
+      "team" : {
+        "name" : "Rouyn-Noranda Huskies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9660
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 50,
+        "goals" : 26,
+        "pim" : 38,
+        "games" : 67,
+        "penaltyMinutes" : "38",
+        "plusMinus" : 34,
+        "points" : 76
+      },
+      "team" : {
+        "name" : "Rouyn-Noranda Huskies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9660
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 5,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Rouyn-Noranda Huskies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "M-Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9401
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 45,
+        "goals" : 40,
+        "pim" : 24,
+        "games" : 66,
+        "penaltyMinutes" : "24",
+        "plusMinus" : 43,
+        "points" : 85
+      },
+      "team" : {
+        "name" : "Rouyn-Noranda Huskies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9660
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 44,
+        "goals" : 34,
+        "pim" : 16,
+        "games" : 62,
+        "penaltyMinutes" : "16",
+        "plusMinus" : 37,
+        "points" : 78
+      },
+      "team" : {
+        "name" : "Chicoutimi Saguen\u001A©ens",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 6090
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 9,
+        "pim" : 2,
+        "games" : 36,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 10,
+        "points" : 20
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "52:21",
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 0,
+        "shots" : 6,
+        "games" : 4,
+        "hits" : 12,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "07:28",
+        "evenTimeOnIce" : "43:57",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 16.7,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:56",
+        "blocked" : 3,
+        "plusMinus" : -2,
+        "points" : 1,
+        "shifts" : 79
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 35,
+        "goals" : 21,
+        "pim" : 20,
+        "games" : 69,
+        "penaltyMinutes" : "20",
+        "plusMinus" : 29,
+        "points" : 56
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "585:48",
+        "assists" : 6,
+        "goals" : 14,
+        "pim" : 10,
+        "shots" : 58,
+        "games" : 34,
+        "hits" : 57,
+        "powerPlayGoals" : 4,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "63:39",
+        "evenTimeOnIce" : "472:06",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 0.0,
+        "shotPct" : 24.14,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "50:03",
+        "blocked" : 56,
+        "plusMinus" : 7,
+        "points" : 20,
+        "shifts" : 686
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 16,
+        "pim" : 20,
+        "games" : 40,
+        "penaltyMinutes" : "20",
+        "plusMinus" : 2,
+        "points" : 31
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    } ]
+  } ]
+}

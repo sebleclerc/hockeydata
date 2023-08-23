@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8474590,
+    "fullName" : "John Carlson",
+    "link" : "/api/v1/people/8474590",
+    "firstName" : "John",
+    "lastName" : "Carlson",
+    "primaryNumber" : "74",
+    "birthDate" : "1990-01-10",
+    "currentAge" : 33,
+    "birthCity" : "Natick",
+    "birthStateProvince" : "MA",
+    "birthCountry" : "USA",
+    "nationality" : "USA",
+    "height" : "6' 3\"",
+    "weight" : 215,
+    "active" : true,
+    "alternateCaptain" : true,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 15,
+      "name" : "Washington Capitals",
+      "link" : "/api/v1/teams/15"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

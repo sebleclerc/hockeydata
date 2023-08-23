@@ -1,0 +1,389 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 2,
+        "penaltyMinutes" : "2",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Slovakia HMS Select",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 306132
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 5,
+        "pim" : 18,
+        "games" : 44,
+        "penaltyMinutes" : "18",
+        "plusMinus" : 1,
+        "points" : 21
+      },
+      "team" : {
+        "name" : "HK 32 Liptovsky Mikulas U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Slovakia U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 31373
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 25,
+        "goals" : 10,
+        "pim" : 78,
+        "games" : 52,
+        "penaltyMinutes" : "78",
+        "plusMinus" : 2,
+        "points" : 35
+      },
+      "team" : {
+        "name" : "HK 32 Liptovsky Mikulas U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Slovakia U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 31373
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 12,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 2,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "HK Nitra",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Slovakia",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 12338
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 2,
+        "pim" : 18,
+        "games" : 20,
+        "penaltyMinutes" : "18",
+        "plusMinus" : -6,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "HK Levice",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Slovakia2",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 15927
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 3,
+        "pim" : 4,
+        "games" : 13,
+        "penaltyMinutes" : "4",
+        "plusMinus" : -1,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "HK Nitra U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Slovakia U20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 40645
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Slovakia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Hlinka Gretzky Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 158310
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 3,
+        "pim" : 2,
+        "games" : 12,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -2,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Team Slovakia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Slovakia U20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 162365
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 17,
+        "goals" : 2,
+        "pim" : 12,
+        "games" : 37,
+        "penaltyMinutes" : "12",
+        "plusMinus" : -10,
+        "points" : 19
+      },
+      "team" : {
+        "name" : "HK Nitra",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Slovakia",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 12338
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -3,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Slovakia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17315
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -4,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Slovakia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17376
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 25,
+        "goals" : 1,
+        "pim" : 20,
+        "games" : 39,
+        "penaltyMinutes" : "20",
+        "plusMinus" : 13,
+        "points" : 26
+      },
+      "team" : {
+        "name" : "HK Nitra",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Slovakia",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 12338
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -2,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Slovakia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "OG",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17072
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 2,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Slovakia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "OGQ",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17075
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 8,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 2,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Slovakia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17315
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 1,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -1,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Slovakia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18 D1A",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17355
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 0,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Slovakia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Hlinka Gretzky Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 158310
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 1,
+        "pim" : 10,
+        "games" : 5,
+        "penaltyMinutes" : "10",
+        "plusMinus" : -1,
+        "points" : 5
+      },
+      "team" : {
+        "name" : "Slovakia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17376
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 12,
+        "pim" : 20,
+        "games" : 65,
+        "penaltyMinutes" : "20",
+        "plusMinus" : 13,
+        "points" : 34
+      },
+      "team" : {
+        "name" : "Utica Comets",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 152247
+    } ]
+  } ]
+}
