@@ -13,13 +13,15 @@ class Hockey < Thor
 
         Logger.debug "Building and updating data..."
 
-        # @dataService.updatePositions
-        # @dataService.updateTeams
+        @dataService.updatePositions
+        @dataService.updateTeams
 
         rosterPlayerIds = [
             8478402 # Connor McDavid
         ]
-        # @dataService.updatePlayers(rosterPlayerIds)
+        
+        @dataService.updatePlayers(rosterPlayerIds)
+        @dataService.updatePlayerArchiveStats(rosterPlayerIds)
     end
 
     no_tasks do

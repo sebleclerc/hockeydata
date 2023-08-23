@@ -1,5 +1,5 @@
-require_relative "APIService"
-require_relative "DatabaseService"
+require_relative "APIService.rb"
+require_relative "DatabaseService.rb"
 
 class DataService
     def initialize
