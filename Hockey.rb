@@ -49,7 +49,7 @@ class Hockey < Thor
                 8477451, # Ryan Hartman
                 8481093, # RHP
                 8482745, # Mason McTavish
-                8483524, # Share Wrigth
+                8483524, # Share Wright
                 8479410, # Sergachev
                 8474590, # John Carlson
                 8482803, # Olen Zellweger
