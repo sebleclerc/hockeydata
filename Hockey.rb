@@ -10,25 +10,34 @@ require "./services/LocalService"
 class Hockey < Thor
     desc "local", "Fetch and save local data"
     def local()
-        Logger.info "Task Local"
+        Logger.taskTitle "Task Local"
         initTask()
 
         Logger.info "Building local data..."
 
         teams = @dbService.getAllTeams()
         @localService.validateEverything(teams, rosterPlayerIds, false)
+
+        Logger.taskEnd()
     end
 
     desc "import", "Import JSON files in database"
     def import()
-        Logger.info "Task Import"
+        Logger.taskTitle "Task Import"
         initTask()
 
+        Logger.info "Import positions"
         @importService.importPositions
+
+        Logger.info "Import teams + roster"
         @importService.importTeams
         @importService.importTeamsRoster()
+
+        Logger.info "Import pool players + archive stats"
         @importService.importPlayers(rosterPlayerIds)
         @importService.importPlayerArchiveStats(rosterPlayerIds)
+
+        Logger.taskEnd()
     end
 
     no_tasks do
