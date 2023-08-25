@@ -13,9 +13,10 @@ class Hockey < Thor
         Logger.info "Task Local"
         initTask()
 
-        Logger.debug "Building local data..."
+        Logger.info "Building local data..."
 
-        @localService.validateEverything(rosterPlayerIds, false)
+        teams = @dbService.getAllTeams()
+        @localService.validateEverything(teams, rosterPlayerIds, false)
     end
 
     desc "import", "Import JSON files in database"
@@ -25,6 +26,7 @@ class Hockey < Thor
 
         @importService.importPositions
         @importService.importTeams
+        @importService.importTeamsRoster()
         @importService.importPlayers(rosterPlayerIds)
         @importService.importPlayerArchiveStats(rosterPlayerIds)
     end

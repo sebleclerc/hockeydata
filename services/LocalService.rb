@@ -5,10 +5,11 @@ require "http"
 #
 
 class LocalService
-    def validateEverything(playerIds, forceUpdate)
+    def validateEverything(teams, playerIds, forceUpdate)
         Logger.info "Update everything"
         validateAllPositions
         validateAllTeams
+        validateAllTeamsRoster(teams)
 
         playerIds.each do |playerId|
             validatePlayerForId(playerId)
@@ -17,7 +18,7 @@ class LocalService
     end
 
     def validateAllPositions
-        Logger.info "Validating all positions"
+        Logger.debug "Validating all positions"
         @filename = "positions.json"
         @endpoint = "/positions"
 
@@ -25,14 +26,14 @@ class LocalService
     end
 
     def getAllPositions
-        Logger.info "Get all positions"
+        Logger.debug "Get all positions"
         @filename = "positions.json"
 
         return getCachedData()
     end
 #
     def validateAllTeams
-        Logger.info "Validating all teams"
+        Logger.debug "Validating all teams"
         @filename = "teams.json"
         @endpoint = "/teams"
 
@@ -40,14 +41,31 @@ class LocalService
     end
 
     def getAllTeams
-        Logger.info "Get all Teams"
+        Logger.debug "Get all Teams"
         @filename = "teams.json"
 
         return getCachedData()["teams"]
     end
 
+    def validateAllTeamsRoster(teams)
+        Logger.debug "Validating roster for all teams"
+
+        teams.each do |team|
+           @filename = "teams-#{team.id}-roster.json"
+           @endpoint = "/teams/#{team.id}/roster"
+
+           checkCacheAndUpdate()
+        end
+    end
+
+    def getTeamRoster(team)
+        @filename = "teams-#{team.id}-roster.json"
+
+        return getCachedData()["roster"]
+    end
+
     def validatePlayerForId(id)
-        Logger.info "Validate player with ID #{id}"
+        Logger.debug "Validate player with ID #{id}"
         @filename = "#{id}-player.json"
         @endpoint = "/people/#{id}"
 
@@ -55,14 +73,14 @@ class LocalService
     end
 
     def getPlayerForId(id)
-        Logger.info "Get player with ID #{id}"
+        Logger.debug "Get player with ID #{id}"
         @filename = "#{id}-player.json"
 
         return getCachedData()["people"][0]
     end
 
     def validatePlayerArchiveStatsForId(id)
-        Logger.info "Fetching player's archive stats for ID #{id}"
+        Logger.debug "Fetching player's archive stats for ID #{id}"
         @filename = "#{id}-player-stats-archive.json"
         @endpoint = "/people/#{id}/stats?stats=yearByYear"
 
@@ -70,7 +88,7 @@ class LocalService
     end
 
     def getPlayerArchiveStatsForId(id)
-        Logger.info "Fetching player's archive stats for ID #{id}"
+        Logger.debug "Fetching player's archive stats for ID #{id}"
         @filename = "#{id}-player-stats-archive.json"
 
         return getCachedData()["stats"][0]["splits"]

@@ -41,6 +41,31 @@ class DatabaseService
         end
     end
 
+    def getAllTeams()
+        teams = Array.new
+        results = @dbClient.query("SELECT * FROM Teams")
+
+        results.each do |row|
+            team = Team.fromRow(row)
+            teams.push(team)
+        end
+
+        return teams
+    end
+
+    def clearTeamPlayers
+        result = @dbClient.query("TRUNCATE TABLE TeamsPlayers")
+    end
+
+    def insertTeamRoster(team, roster)
+        roster.each do |player|
+            result = @insertTeamPlayers.execute(
+                team.id,
+                player["person"]["id"]
+            )
+        end
+    end
+
     def insertPlayer(jPlayer)
         player = Player.fromJson(jPlayer)
 
@@ -101,6 +126,7 @@ class DatabaseService
 
     def prepareStatements
         @insertTeam = @dbClient.prepare("REPLACE INTO Teams (id,name,venue,abbreviation,firstYearOfPlay,divisionId,conferenceId,franchiseid,active) VALUES (?,?,?,?,?,?,?,?,?)")
+        @insertTeamPlayers = @dbClient.prepare("REPLACE INTO TeamsPlayers (teamId,playerId) VALUES (?,?)")
         @insertPosition = @dbClient.prepare("REPLACE INTO Positions (code,abbrev,fullName,type) VALUES (?,?,?,?)")
         @insertPlayer = @dbClient.prepare("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPlayerStats = @dbClient.prepare("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")

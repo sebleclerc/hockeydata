@@ -18,6 +18,17 @@ class ImportService
         @dbService.insertTeams(teams)
     end
 
+    def importTeamsRoster
+        teams = @dbService.getAllTeams()
+
+        @dbService.clearTeamPlayers()
+
+        teams.each do |team|
+            roster = @localService.getTeamRoster(team)
+            @dbService.insertTeamRoster(team, roster)
+        end
+    end
+
     def importPlayers(playerIds)
         playerIds.each do |playerId|
             player = @localService.getPlayerForId(playerId)

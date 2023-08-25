@@ -16,4 +16,20 @@ class Team
 
         return newTeam
     end
+
+    def self.fromRow(row)
+        team = Team.new
+
+        team.id = row["id"]
+        team.name = row["name"]
+        team.venue = row["venue"]
+        team.abbreviation = row["abbreviation"]
+        team.firstYearOfPlay = row["firstYearOfPlay"]
+        team.divisionId = row["divisionId"]
+        team.conferenceId = row["conferenceId"]
+        team.franchiseId = row["franchiseId"]
+        team.active = row["active"]
+
+        return team
+    end
 end
