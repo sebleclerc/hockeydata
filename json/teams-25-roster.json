@@ -1,0 +1,575 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "roster" : [ {
+    "person" : {
+      "id" : 8470600,
+      "fullName" : "Ryan Suter",
+      "link" : "/api/v1/people/8470600"
+    },
+    "jerseyNumber" : "20",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8470794,
+      "fullName" : "Joe Pavelski",
+      "link" : "/api/v1/people/8470794"
+    },
+    "jerseyNumber" : "16",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8473994,
+      "fullName" : "Jamie Benn",
+      "link" : "/api/v1/people/8473994"
+    },
+    "jerseyNumber" : "14",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8474149,
+      "fullName" : "Evgenii Dadonov",
+      "link" : "/api/v1/people/8474149"
+    },
+    "jerseyNumber" : "63",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8475168,
+      "fullName" : "Matt Duchene",
+      "link" : "/api/v1/people/8475168"
+    },
+    "jerseyNumber" : "95",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8475225,
+      "fullName" : "Craig Smith",
+      "link" : "/api/v1/people/8475225"
+    },
+    "jerseyNumber" : "15",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8475755,
+      "fullName" : "Alexander Petrovic",
+      "link" : "/api/v1/people/8475755"
+    },
+    "jerseyNumber" : "28",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8475794,
+      "fullName" : "Tyler Seguin",
+      "link" : "/api/v1/people/8475794"
+    },
+    "jerseyNumber" : "91",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8475809,
+      "fullName" : "Scott Wedgewood",
+      "link" : "/api/v1/people/8475809"
+    },
+    "jerseyNumber" : "41",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8475825,
+      "fullName" : "Jani Hakanpää",
+      "link" : "/api/v1/people/8475825"
+    },
+    "jerseyNumber" : "2",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8476884,
+      "fullName" : "Derrick Pouliot",
+      "link" : "/api/v1/people/8476884"
+    },
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8476889,
+      "fullName" : "Radek Faksa",
+      "link" : "/api/v1/people/8476889"
+    },
+    "jerseyNumber" : "12",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8476902,
+      "fullName" : "Esa Lindell",
+      "link" : "/api/v1/people/8476902"
+    },
+    "jerseyNumber" : "23",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8477810,
+      "fullName" : "Joel Hanley",
+      "link" : "/api/v1/people/8477810"
+    },
+    "jerseyNumber" : "44",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8478449,
+      "fullName" : "Roope Hintz",
+      "link" : "/api/v1/people/8478449"
+    },
+    "jerseyNumber" : "24",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8478975,
+      "fullName" : "Mason Marchment",
+      "link" : "/api/v1/people/8478975"
+    },
+    "jerseyNumber" : "27",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8479351,
+      "fullName" : "Sam Steel",
+      "link" : "/api/v1/people/8479351"
+    },
+    "jerseyNumber" : "18",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8479381,
+      "fullName" : "Nick Caamano",
+      "link" : "/api/v1/people/8479381"
+    },
+    "jerseyNumber" : "17",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8479518,
+      "fullName" : "Fredrik Karlström",
+      "link" : "/api/v1/people/8479518"
+    },
+    "jerseyNumber" : "51",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8479979,
+      "fullName" : "Jake Oettinger",
+      "link" : "/api/v1/people/8479979"
+    },
+    "jerseyNumber" : "29",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8480027,
+      "fullName" : "Jason Robertson",
+      "link" : "/api/v1/people/8480027"
+    },
+    "jerseyNumber" : "21",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8480036,
+      "fullName" : "Miro Heiskanen",
+      "link" : "/api/v1/people/8480036"
+    },
+    "jerseyNumber" : "4",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8480060,
+      "fullName" : "Scott Reedy",
+      "link" : "/api/v1/people/8480060"
+    },
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8480840,
+      "fullName" : "Oskar Back",
+      "link" : "/api/v1/people/8480840"
+    },
+    "jerseyNumber" : "37",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8480848,
+      "fullName" : "Ty Dellandrea",
+      "link" : "/api/v1/people/8480848"
+    },
+    "jerseyNumber" : "10",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8480878,
+      "fullName" : "Nils Lundkvist",
+      "link" : "/api/v1/people/8480878"
+    },
+    "jerseyNumber" : "5",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8480988,
+      "fullName" : "Riley Damiani",
+      "link" : "/api/v1/people/8480988"
+    },
+    "jerseyNumber" : "13",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8481581,
+      "fullName" : "Thomas Harley",
+      "link" : "/api/v1/people/8481581"
+    },
+    "jerseyNumber" : "55",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8481712,
+      "fullName" : "Matej Blumel",
+      "link" : "/api/v1/people/8481712"
+    },
+    "jerseyNumber" : "22",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8482051,
+      "fullName" : "Jerad Rosburg",
+      "link" : "/api/v1/people/8482051"
+    },
+    "jerseyNumber" : "39",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8482120,
+      "fullName" : "Antonio Stranges",
+      "link" : "/api/v1/people/8482120"
+    },
+    "jerseyNumber" : "71",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8482145,
+      "fullName" : "Mavrik Bourque",
+      "link" : "/api/v1/people/8482145"
+    },
+    "jerseyNumber" : "45",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8482465,
+      "fullName" : "Remi Poirier",
+      "link" : "/api/v1/people/8482465"
+    },
+    "jerseyNumber" : "50",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8482695,
+      "fullName" : "Artem Grushnikov",
+      "link" : "/api/v1/people/8482695"
+    },
+    "jerseyNumber" : "59",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8482702,
+      "fullName" : "Logan Stankoven",
+      "link" : "/api/v1/people/8482702"
+    },
+    "jerseyNumber" : "57",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8482740,
+      "fullName" : "Wyatt Johnston",
+      "link" : "/api/v1/people/8482740"
+    },
+    "jerseyNumber" : "53",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8482891,
+      "fullName" : "Francesco Arcuri",
+      "link" : "/api/v1/people/8482891"
+    },
+    "jerseyNumber" : "54",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8483059,
+      "fullName" : "Gavin White",
+      "link" : "/api/v1/people/8483059"
+    },
+    "jerseyNumber" : "74",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8483425,
+      "fullName" : "Lian Bichsel",
+      "link" : "/api/v1/people/8483425"
+    },
+    "jerseyNumber" : "48",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8483470,
+      "fullName" : "Christian Kyrou",
+      "link" : "/api/v1/people/8483470"
+    },
+    "jerseyNumber" : "61",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8483514,
+      "fullName" : "Matthew Seminoff",
+      "link" : "/api/v1/people/8483514"
+    },
+    "jerseyNumber" : "58",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8483575,
+      "fullName" : "Matt Murray",
+      "link" : "/api/v1/people/8483575"
+    },
+    "jerseyNumber" : "32",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8483799,
+      "fullName" : "Kyle McDonald",
+      "link" : "/api/v1/people/8483799"
+    },
+    "jerseyNumber" : "52",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8484124,
+      "fullName" : "Chase Wheatcroft",
+      "link" : "/api/v1/people/8484124"
+    },
+    "jerseyNumber" : "34",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ],
+  "link" : "/api/v1/teams/25/roster"
+}
