@@ -5,15 +5,15 @@ class Logger
 
     def self.taskTitle(title)
         puts ""
-        puts "###########################################".colorize(:green)
-        puts "###     #{title}     ###".colorize(:green)
-        puts "###########################################".colorize(:green)
+        puts "#####################################################".colorize(:green)
+        puts "########     #{title}     ########".colorize(:green)
+        puts "#####################################################".colorize(:green)
         puts ""
     end
 
     def self.taskEnd
         puts ""
-        puts "###########################################".colorize(:green)
+        puts "#####################################################".colorize(:green)
         puts ""
     end
 
