@@ -2,6 +2,7 @@
 
 require "thor"
 require "http"
+require "./commands/Pool"
 require "./helpers/Logger"
 require "./services/DatabaseService"
 require "./services/ImportService"
@@ -39,6 +40,9 @@ class Hockey < Thor
 
         Logger.taskEnd()
     end
+
+    desc "pool SEASON", "Some Parent Command"
+    subcommand "pool", Pool
 
     no_tasks do
         def initTask()

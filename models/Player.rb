@@ -3,6 +3,10 @@ class Player
     attr_accessor :birthYear, :birthMonth, :birthDay, :birthCity, :birthProvince, :birthCountry
     attr_accessor :height, :weight, :active, :shoot, :rookie, :teamId, :positionCode
 
+    def fullName
+        return "#{firstName} #{lastName}"
+    end
+
     def self.fromJson(item)
         # p item
         newPlayer = Player.new
@@ -30,5 +34,16 @@ class Player
         newPlayer.positionCode = item["primaryPosition"]["code"]
 
         return newPlayer
+    end
+
+    def self.fromPoolRow(row)
+        player = Player.new
+
+        player.id = row["id"]
+        player.firstName = row["firstName"]
+        player.lastName = row["lastName"]
+        player.positionCode = row["positionCode"]
+
+        return player
     end
 end
