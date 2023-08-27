@@ -1,4 +1,5 @@
 class PlayerStatSeason
+  attr_accessor :season
   attr_accessor :games, :goals, :assists, :points
 
   def poolPoints(position)

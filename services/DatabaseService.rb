@@ -142,6 +142,7 @@ class DatabaseService
         results.each do |result|
             stat = PlayerStatSeason.new
 
+            stat.season = result["season"]
             stat.games = result["games"]
             stat.goals = result["goals"]
             stat.assists = result["assists"]
