@@ -35,14 +35,23 @@ https://medium.com/@vtashlikovich/nhl-api-what-data-is-exposed-and-how-to-analys
 ### Règles
 
 Masse salariale à respecter (83,5M)
-7 échanges + 1 pour un gardien
-Attaquants : Buts = 2pts, passe = 1 pts
-Défenseurs : But = 3 pts, passe = 1.5pts
+7 échanges + 1 pour un gardien  
+Attaquants : Buts = 2pts, passe = 1 pts  
+Défenseurs : But = 3 pts, passe = 1.5pts  
 Gardien : Victoire = 3 pts, blanchissages = 3 pts, passe = 2 pts, but = 5 pts, fusillade = 1 pts pour défaite 2 pour victoire
 
 ## Roadmap
 ### LocalService
 Add a `force` flag to force fetching from API
+
+Importer le roster des differentes annees
+
+Outil pour importer le salaire
+
+Trouver l'evolution d'un joueur
+Comparer les statistiques
+dans la AHL, ECHL, CHL
+et autres
 
 ### Generate PDF
 Possiblement générer des fichiers PDFs de différents sujets
