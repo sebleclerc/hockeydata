@@ -91,6 +91,18 @@ class DatabaseService
         )
     end
 
+    def getPlayerForId(playerId)
+        players = Array.new
+        results = @dbClient.query("SELECT * FROM Players WHERE id = #{playerId}")
+
+        results.each do |row|
+            player = Player.fromRow(row)
+            players.append(player)
+        end
+
+        return players.first
+    end
+
     def insertPlayerArchiveStat(playerId, playerStat)
         playerStat.each do |stat|
             @insertPlayerStats.execute(

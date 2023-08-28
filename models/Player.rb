@@ -46,4 +46,22 @@ class Player
 
         return player
     end
+
+    def self.fromRow(row)
+        player = Player.new
+
+        player.id = row["id"]
+
+        player.firstName = row["firstName"]
+        player.lastName = row["lastName"]
+        player.primaryNumber = row["primaryNumber"]
+
+        player.birthYear = row["birthYear"]
+        player.birthMonth = row["birthMonth"]
+        player.birthDay = row["birthDay"]
+
+        player.positionCode = row["positionCode"]
+
+        return player
+    end
 end
