@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8479576,
+    "fullName" : "Vincent Desharnais",
+    "link" : "/api/v1/people/8479576",
+    "firstName" : "Vincent",
+    "lastName" : "Desharnais",
+    "primaryNumber" : "73",
+    "birthDate" : "1996-05-29",
+    "currentAge" : 27,
+    "birthCity" : "Laval",
+    "birthStateProvince" : "QC",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 6\"",
+    "weight" : 215,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 22,
+      "name" : "Edmonton Oilers",
+      "link" : "/api/v1/teams/22"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

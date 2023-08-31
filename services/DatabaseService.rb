@@ -42,6 +42,12 @@ class DatabaseService
         end
     end
 
+    def getTeamForId(teamId)
+        results = @dbClient.query("SELECT * FROM Teams where id = #{teamId}")
+        row = results.each.first
+        return Team.fromRow(row)
+    end
+
     def getAllTeams()
         teams = Array.new
         results = @dbClient.query("SELECT * FROM Teams")
@@ -65,6 +71,17 @@ class DatabaseService
                 player["person"]["id"]
             )
         end
+    end
+
+    def getTeamRoster(team)
+        roster = Array.new
+        results = @dbClient.query("SELECT * FROM TeamsPlayers WHERE teamId = #{team.id}")
+
+        results.each do |row|
+            roster.append(row["playerId"])
+        end
+
+        return roster
     end
 
     def insertPlayer(jPlayer)

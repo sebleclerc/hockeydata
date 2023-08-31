@@ -22,6 +22,25 @@ class Hockey < Thor
         Logger.taskEnd()
     end
 
+    desc "roster", "Fetch, validate and import players for a Team"
+    def roster(teamId)
+        Logger.taskTitle "Task roster #{teamId}"
+        initTask()
+
+        team = @dbService.getTeamForId(teamId)
+        Logger.info "Roster for team #{team.name}"
+
+        roster = @dbService.getTeamRoster(team)
+        roster.each do |playerId|
+            @localService.validatePlayerForId(playerId)
+        end
+
+        Logger.info "Importing players"
+        @importService.importPlayers(roster)
+
+        Logger.taskEnd()
+    end
+
     desc "import", "Import JSON files in database"
     def import()
         Logger.taskTitle "Task Import"

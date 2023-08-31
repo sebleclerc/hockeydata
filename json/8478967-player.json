@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8478967,
+    "fullName" : "Lane Pederson",
+    "link" : "/api/v1/people/8478967",
+    "firstName" : "Lane",
+    "lastName" : "Pederson",
+    "primaryNumber" : "19",
+    "birthDate" : "1997-08-04",
+    "currentAge" : 26,
+    "birthCity" : "Saskatoon",
+    "birthStateProvince" : "SK",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 0\"",
+    "weight" : 192,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 22,
+      "name" : "Edmonton Oilers",
+      "link" : "/api/v1/teams/22"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

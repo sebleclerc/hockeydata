@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8482706,
+    "fullName" : "Jake Chiasson",
+    "link" : "/api/v1/people/8482706",
+    "firstName" : "Jake",
+    "lastName" : "Chiasson",
+    "birthDate" : "2003-05-25",
+    "currentAge" : 20,
+    "birthCity" : "Abbotsford",
+    "birthStateProvince" : "BC",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 2\"",
+    "weight" : 165,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 22,
+      "name" : "Edmonton Oilers",
+      "link" : "/api/v1/teams/22"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

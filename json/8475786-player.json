@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8475786,
+    "fullName" : "Zach Hyman",
+    "link" : "/api/v1/people/8475786",
+    "firstName" : "Zach",
+    "lastName" : "Hyman",
+    "primaryNumber" : "18",
+    "birthDate" : "1992-06-09",
+    "currentAge" : 31,
+    "birthCity" : "Toronto",
+    "birthStateProvince" : "ON",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 1\"",
+    "weight" : 211,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 22,
+      "name" : "Edmonton Oilers",
+      "link" : "/api/v1/teams/22"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}
