@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8481593,
+    "fullName" : "Jayden Struble",
+    "link" : "/api/v1/people/8481593",
+    "firstName" : "Jayden",
+    "lastName" : "Struble",
+    "birthDate" : "2001-09-08",
+    "currentAge" : 21,
+    "birthCity" : "Cumberland",
+    "birthStateProvince" : "RI",
+    "birthCountry" : "USA",
+    "nationality" : "USA",
+    "height" : "6' 0\"",
+    "weight" : 201,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

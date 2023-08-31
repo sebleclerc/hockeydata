@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8480184,
+    "fullName" : "Gustav Lindstrom",
+    "link" : "/api/v1/people/8480184",
+    "firstName" : "Gustav",
+    "lastName" : "Lindstrom",
+    "primaryNumber" : "28",
+    "birthDate" : "1998-10-20",
+    "currentAge" : 24,
+    "birthCity" : "Ostervala",
+    "birthCountry" : "SWE",
+    "nationality" : "SWE",
+    "height" : "6' 2\"",
+    "weight" : 186,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8481594,
+    "fullName" : "Nathan Legare",
+    "link" : "/api/v1/people/8481594",
+    "firstName" : "Nathan",
+    "lastName" : "Legare",
+    "primaryNumber" : "34",
+    "birthDate" : "2001-01-11",
+    "currentAge" : 22,
+    "birthCity" : "Montréal",
+    "birthStateProvince" : "QC",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 0\"",
+    "weight" : 205,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  } ]
+}

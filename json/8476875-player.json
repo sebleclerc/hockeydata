@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8476875,
+    "fullName" : "Mike Matheson",
+    "link" : "/api/v1/people/8476875",
+    "firstName" : "Mike",
+    "lastName" : "Matheson",
+    "primaryNumber" : "8",
+    "birthDate" : "1994-02-27",
+    "currentAge" : 29,
+    "birthCity" : "Pointe-Claire",
+    "birthStateProvince" : "QC",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 2\"",
+    "weight" : 193,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

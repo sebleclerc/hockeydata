@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8477544,
+    "fullName" : "Philippe Maillet",
+    "link" : "/api/v1/people/8477544",
+    "firstName" : "Philippe",
+    "lastName" : "Maillet",
+    "primaryNumber" : "16",
+    "birthDate" : "1992-11-07",
+    "currentAge" : 30,
+    "birthCity" : "Lachenaie",
+    "birthStateProvince" : "QC",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "5' 10\"",
+    "weight" : 174,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

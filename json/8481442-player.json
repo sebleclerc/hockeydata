@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8481442,
+    "fullName" : "Brady Keeper",
+    "link" : "/api/v1/people/8481442",
+    "firstName" : "Brady",
+    "lastName" : "Keeper",
+    "primaryNumber" : "25",
+    "birthDate" : "1996-06-05",
+    "currentAge" : 27,
+    "birthCity" : "Cross Lake",
+    "birthStateProvince" : "MB",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 2\"",
+    "weight" : 197,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

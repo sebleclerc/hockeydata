@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8481058,
+    "fullName" : "Jesse Ylonen",
+    "link" : "/api/v1/people/8481058",
+    "firstName" : "Jesse",
+    "lastName" : "Ylonen",
+    "primaryNumber" : "56",
+    "birthDate" : "1999-10-03",
+    "currentAge" : 23,
+    "birthCity" : "Scottsdale",
+    "birthStateProvince" : "AZ",
+    "birthCountry" : "USA",
+    "nationality" : "FIN",
+    "height" : "6' 1\"",
+    "weight" : 188,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  } ]
+}

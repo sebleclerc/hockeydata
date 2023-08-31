@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8477497,
+    "fullName" : "Sean Monahan",
+    "link" : "/api/v1/people/8477497",
+    "firstName" : "Sean",
+    "lastName" : "Monahan",
+    "primaryNumber" : "91",
+    "birthDate" : "1994-10-12",
+    "currentAge" : 28,
+    "birthCity" : "Brampton",
+    "birthStateProvince" : "ON",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 2\"",
+    "weight" : 196,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "I",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

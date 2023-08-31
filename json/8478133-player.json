@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8478133,
+    "fullName" : "Jake Evans",
+    "link" : "/api/v1/people/8478133",
+    "firstName" : "Jake",
+    "lastName" : "Evans",
+    "primaryNumber" : "71",
+    "birthDate" : "1996-06-02",
+    "currentAge" : 27,
+    "birthCity" : "Toronto",
+    "birthStateProvince" : "ON",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 0\"",
+    "weight" : 186,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

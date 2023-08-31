@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8483515,
+    "fullName" : "Juraj Slafkovsky",
+    "link" : "/api/v1/people/8483515",
+    "firstName" : "Juraj",
+    "lastName" : "Slafkovsky",
+    "primaryNumber" : "20",
+    "birthDate" : "2004-03-30",
+    "currentAge" : 19,
+    "birthCity" : "Kosice",
+    "birthCountry" : "SVK",
+    "nationality" : "SVK",
+    "height" : "6' 3\"",
+    "weight" : 238,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "L",
+    "rosterStatus" : "I",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8482476,
+    "fullName" : "Emil Heineman",
+    "link" : "/api/v1/people/8482476",
+    "firstName" : "Emil",
+    "lastName" : "Heineman",
+    "primaryNumber" : "51",
+    "birthDate" : "2001-11-16",
+    "currentAge" : 21,
+    "birthCity" : "Leksand",
+    "birthCountry" : "SWE",
+    "nationality" : "SWE",
+    "height" : "6' 0\"",
+    "weight" : 194,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 8,
+      "name" : "Montréal Canadiens",
+      "link" : "/api/v1/teams/8"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}
