@@ -5,6 +5,7 @@ require "http"
 require "./commands/Pool"
 require "./commands/Salary"
 require "./helpers/Logger"
+require "./helpers/PoolRoster"
 require "./services/DatabaseService"
 require "./services/ImportService"
 require "./services/LocalService"
@@ -55,7 +56,7 @@ class Hockey < Thor
         @importService.importTeamsRoster()
 
         Logger.info "Import pool players + archive stats"
-        @importService.importPlayers(rosterPlayerIds)
+        @importService.importPlayers(PoolRoster.rosterPlayerIds)
         @importService.importPlayerArchiveStats(rosterPlayerIds)
 
         Logger.taskEnd()
