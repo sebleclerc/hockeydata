@@ -46,7 +46,7 @@ Add a `force` flag to force fetching from API
 
 Importer le roster des differentes annees
 
-Outil pour importer le salaire
+Outil pour importer le salary
 
 Trouver l'evolution d'un joueur
 Comparer les statistiques

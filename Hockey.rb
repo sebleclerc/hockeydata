@@ -3,6 +3,7 @@
 require "thor"
 require "http"
 require "./commands/Pool"
+require "./commands/Salary"
 require "./helpers/Logger"
 require "./services/DatabaseService"
 require "./services/ImportService"
@@ -62,6 +63,9 @@ class Hockey < Thor
 
     desc "pool SEASON", "Some Parent Command"
     subcommand "pool", Pool
+
+    desc "salary season", "Some"
+    subcommand "salary", Salary
 
     no_tasks do
         def initTask()

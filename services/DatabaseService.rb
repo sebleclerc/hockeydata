@@ -1,5 +1,6 @@
 require "mysql2"
 require_relative "../models/Player.rb"
+require_relative "../models/PlayerSalarySeason.rb"
 require_relative "../models/PlayerStatSeason.rb"
 require_relative "../models/Position.rb"
 require_relative "../models/Team.rb"
@@ -183,6 +184,25 @@ class DatabaseService
         return stats.first
     end
 
+    def insertPlayerSalary(playerId, season, salary)
+        result = @insertPlayerSalary.execute(
+            playerId,
+            season,
+            salary
+        )
+    end
+
+    def getPlayerSeasonSalary(playerId, season)
+        result = @dbClient.query("SELECT * FROM PlayersSalaries WHERE playerId = #{playerId} AND season = #{season}")
+        row = result.each.first
+
+        if row != nil
+            return PlayerSalarySeason.fromRow(row)
+        end
+
+        return nil
+    end
+
     private
 
     def prepareStatements
@@ -191,6 +211,7 @@ class DatabaseService
         @insertPosition = @dbClient.prepare("REPLACE INTO Positions (code,abbrev,fullName,type) VALUES (?,?,?,?)")
         @insertPlayer = @dbClient.prepare("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPlayerStats = @dbClient.prepare("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+        @insertPlayerSalary = @dbClient.prepare("INSERT INTO PlayersSalaries (playerId,season,avv) VALUES (?,?,?)")
     end
 
     def convertStringToTime(value)
