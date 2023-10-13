@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8476979,
+    "fullName" : "Erik Gustafsson",
+    "link" : "/api/v1/people/8476979",
+    "firstName" : "Erik",
+    "lastName" : "Gustafsson",
+    "primaryNumber" : "56",
+    "birthDate" : "1992-03-14",
+    "currentAge" : 31,
+    "birthCity" : "Nynashamn",
+    "birthCountry" : "SWE",
+    "nationality" : "SWE",
+    "height" : "6' 1\"",
+    "weight" : 189,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 3,
+      "name" : "New York Rangers",
+      "link" : "/api/v1/teams/3"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}
