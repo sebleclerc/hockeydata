@@ -5,24 +5,33 @@ require "http"
 #
 
 class CacheService
-    def cachePositions
+    def initialize
+        @force = false
+    end
+
+    def cachePositions(force)
         Logger.debug "Cache positions"
+        @force = force
         @filename = "positions.json"
         @endpoint = "/positions"
 
+        deleteCacheIfNeeded()
         checkCacheAndSave()
     end
 
-    def cacheTeams
+    def cacheTeams(force)
         Logger.debug "Cache teams"
+        @force = force
         @filename = "teams.json"
         @endpoint = "/teams"
 
+        deleteCacheIfNeeded()
         checkCacheAndSave()
     end
 
     def cacheTeamsRoster(teams)
         Logger.debug "Cache roster for all teams"
+        # @force = force
 
         teams.each do |team|
            @filename = "teams-#{team.id}-roster.json"
@@ -34,6 +43,7 @@ class CacheService
 
     def cachePlayerForId(id)
         Logger.debug "Cache player with ID #{id}"
+        # @force = force
         @filename = "#{id}-player.json"
         @endpoint = "/people/#{id}"
 
@@ -42,6 +52,7 @@ class CacheService
 
     def cachePlayerArchiveStatsForId(id)
         Logger.debug "Fetching player's archive stats for ID #{id}"
+        # @force = force
         @filename = "#{id}-player-stats-archive.json"
         @endpoint = "/people/#{id}/stats?stats=yearByYear"
 
@@ -61,6 +72,12 @@ class CacheService
 
     def apiEndpoint
         return "https://statsapi.web.nhl.com/api/v1" + @endpoint
+    end
+
+    def deleteCacheIfNeeded
+        if @force && File.exist?(filePath)
+            File.delete(filePath)
+        end
     end
 
     def checkCacheAndSave

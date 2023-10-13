@@ -442,9 +442,8 @@
     "name" : "Florida Panthers",
     "link" : "/api/v1/teams/13",
     "venue" : {
-      "id" : 5027,
-      "name" : "FLA Live Arena",
-      "link" : "/api/v1/venues/5027",
+      "name" : "Amerant Bank Arena",
+      "link" : "/api/v1/venues/null",
       "city" : "Sunrise",
       "timeZone" : {
         "id" : "America/New_York",

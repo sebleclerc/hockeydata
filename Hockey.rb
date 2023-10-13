@@ -13,9 +13,9 @@ require "./services/ImportService"
 
 class Hockey < Thor
     desc "cache", "Fetch and cache files"
-    def cache(type = "all")
+    def cache(type = "all", force = false)
         initTask()
-        CacheCommand.new(@cacheService).run(type)
+        CacheCommand.new(@cacheService).run(type, force)
     end
 
     desc "local", "Fetch and save local data"

@@ -3,13 +3,13 @@ class CacheCommand
     @cacheService = cacheService
   end
 
-  def run(type)
+  def run(type, force)
     Logger.taskTitle "Cache command for type #{type}"
 
     case type
       when "all"
         Logger.info "Caching for all"
-        cacheAll()
+        cacheAll(force)
       else
         Logger.error "Wrong cache type: [#{type}]"
     end
@@ -19,10 +19,10 @@ class CacheCommand
 
   private
 
-  def cacheAll
+  def cacheAll(force)
     Logger.info "Cache everything"
-    @cacheService.cachePositions()
-    @cacheService.cacheTeams()
+    @cacheService.cachePositions(force)
+    @cacheService.cacheTeams(force)
     # Missing teams
     # @cacheService.cacheTeamsRoster(teams)
 
