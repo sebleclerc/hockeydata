@@ -14,13 +14,17 @@ List of players in pool's draft
 - 8477451, # Ryan Hartman
 - 8481093, # RHP
 - 8482745, # Mason McTavish
-- 8483524, # Share Wright
 - 8479410, # Sergachev
 - 8474590, # John Carlson
-- 8482803, # Olen Zellweger
-- 8482730, # Brandt Clark
 - 8483460, # David Jiricek
 - 8483495, # Simon Nemec
+=> Missing Drouin, Guhle et Gustafsson
+
+#### Old
+
+- 8482803, # Olen Zellweger
+- 8482730, # Brandt Clark
+- 8483524, # Share Wright
 
 ## Teams
 
