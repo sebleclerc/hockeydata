@@ -1,6 +1,9 @@
+require_relative("../helpers/PoolRoster.rb")
+
 class CacheCommand
-  def initialize(cacheService)
+  def initialize(cacheService, dbService)
     @cacheService = cacheService
+    @dbService = dbService
   end
 
   def run(type, force)
@@ -23,12 +26,13 @@ class CacheCommand
     Logger.info "Cache everything"
     @cacheService.cachePositions(force)
     @cacheService.cacheTeams(force)
-    # Missing teams
-    # @cacheService.cacheTeamsRoster(teams)
 
-    # playerIds.each do |playerId|
-      # cachePlayerForId(playerId)
-      # cachePlayerArchiveStatsForId(playerId)
-    # end
+    teams = @dbService.getAllTeams()
+    @cacheService.cacheTeamsRoster(teams, force)
+
+    PoolRoster.rosterPlayerIds.each do |playerId|
+      @cacheService.cachePlayerForId(playerId, force)
+      @cacheService.cachePlayerArchiveStatsForId(playerId, force)
+    end
   end
 end

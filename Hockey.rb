@@ -15,7 +15,9 @@ class Hockey < Thor
     desc "cache", "Fetch and cache files"
     def cache(type = "all", force = false)
         initTask()
-        CacheCommand.new(@cacheService).run(type, force)
+        CacheCommand
+          .new(@cacheService, @dbService)
+          .run(type, force)
     end
 
     desc "local", "Fetch and save local data"
@@ -26,7 +28,7 @@ class Hockey < Thor
         Logger.info "Building local data..."
 
         teams = @dbService.getAllTeams()
-        @localService.validateEverything(teams, rosterPlayerIds, false)
+        # @localService.validateEverything(teams, PoolRoster.rosterPlayerIds, false)
 
         Logger.taskEnd()
     end
