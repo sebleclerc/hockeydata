@@ -2,15 +2,22 @@
 
 require "thor"
 require "http"
+require "./commands/CacheCommand"
 require "./commands/Pool"
 require "./commands/Salary"
 require "./helpers/Logger"
 require "./helpers/PoolRoster"
+require "./services/CacheService"
 require "./services/DatabaseService"
 require "./services/ImportService"
-require "./services/LocalService"
 
 class Hockey < Thor
+    desc "cache", "Fetch and cache files"
+    def cache(type = "all")
+        initTask()
+        CacheCommand.new(@cacheService).run(type)
+    end
+
     desc "local", "Fetch and save local data"
     def local()
         Logger.taskTitle "Task Local"
@@ -71,7 +78,7 @@ class Hockey < Thor
     no_tasks do
         def initTask()
             @dbService = DatabaseService.new
-            @localService = LocalService.new
+            @cacheService = CacheService.new
             @importService = ImportService.new(@dbService, @localService)
         end
 
