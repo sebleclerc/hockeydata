@@ -1,4 +1,5 @@
 require "http"
+require_relative "../helpers/Filenames.rb"
 
 #
 # Check local cache, if not present, fetch from web and save to json files
@@ -8,7 +9,7 @@ class CacheService
     def cachePositions(force)
         Logger.debug "Cache positions"
 
-        @filename = "positions.json"
+        @filename = Filenames.positions()
         @endpoint = "/positions"
 
         deleteCacheIfNeeded(force)
@@ -18,7 +19,7 @@ class CacheService
     def cacheTeams(force)
         Logger.debug "Cache teams"
 
-        @filename = "teams.json"
+        @filename = Filenames.teams()
         @endpoint = "/teams"
 
         deleteCacheIfNeeded(force)
@@ -28,7 +29,7 @@ class CacheService
     def cacheTeamRoster(team, force)
         Logger.debug "Cache roster for team #{team.name}"
 
-        @filename = "teams-#{team.id}-roster.json"
+        @filename = Filenames.teamRoster(team)
         @endpoint = "/teams/#{team.id}/roster"
 
         deleteCacheIfNeeded(force)
@@ -38,7 +39,7 @@ class CacheService
     def cachePlayerForId(id, force)
         Logger.debug "Cache player with ID #{id}"
 
-        @filename = "#{id}-player.json"
+        @filename = Filenames.playerForId(id)
         @endpoint = "/people/#{id}"
 
         deleteCacheIfNeeded(force)
@@ -48,7 +49,7 @@ class CacheService
     def cachePlayerArchiveStatsForId(id, force)
         Logger.debug "Fetching player's archive stats for ID #{id}"
 
-        @filename = "#{id}-player-stats-archive.json"
+        @filename = Filenames.playerArchiveStatsForId(id)
         @endpoint = "/people/#{id}/stats?stats=yearByYear"
 
         deleteCacheIfNeeded(force)
