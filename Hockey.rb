@@ -3,6 +3,7 @@
 require "thor"
 require "http"
 require "./commands/CacheCommand"
+require "./commands/ImportCommand"
 require "./commands/Pool"
 require "./commands/Salary"
 require "./helpers/Logger"
@@ -18,6 +19,14 @@ class Hockey < Thor
         CacheCommand
           .new(@cacheService, @dbService)
           .run(type, force)
+    end
+
+    desc "import", "Import JSON files in database"
+    def import()
+        initTask()
+        ImportCommand
+            .new(@importService)
+            .run()
     end
 
     desc "local", "Fetch and save local data"
@@ -52,26 +61,6 @@ class Hockey < Thor
         Logger.taskEnd()
     end
 
-    desc "import", "Import JSON files in database"
-    def import()
-        Logger.taskTitle "Task Import"
-        initTask()
-
-        Logger.info "Import positions"
-        @importService.importPositions
-
-        Logger.info "Import teams + roster"
-        @importService.importTeams
-        @importService.importTeamsRoster()
-
-        Logger.info "Import pool players + archive stats"
-        roster = PoolRoster.rosterPlayerIds
-        @importService.importPlayers(roster)
-        @importService.importPlayerArchiveStats(roster)
-
-        Logger.taskEnd()
-    end
-
     desc "pool SEASON", "Some Parent Command"
     subcommand "pool", Pool
 
@@ -82,7 +71,7 @@ class Hockey < Thor
         def initTask()
             @dbService = DatabaseService.new
             @cacheService = CacheService.new
-            @importService = ImportService.new(@dbService, @localService)
+            @importService = ImportService.new(@dbService)
         end
     end
 end

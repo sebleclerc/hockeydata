@@ -2,44 +2,63 @@
 # Import JSON files in database
 #
 
+require_relative("../helpers/Filenames.rb")
+
 class ImportService
-    def initialize(dbService, localService)
+    def initialize(dbService)
         @dbService = dbService
-        @localService = localService
     end
 
     def importPositions
-        positions = @localService.getAllPositions
+        @filename = Filenames.positions()
+        positions = getCachedData()
         @dbService.insertPositions(positions)
     end
 
     def importTeams
-        teams = @localService.getAllTeams
+        @filename = Filenames.teams()
+        teams = getCachedData()["teams"]
         @dbService.insertTeams(teams)
     end
 
-    def importTeamsRoster
-        teams = @dbService.getAllTeams()
+    def importTeamRosters
+        # Getting all teams
+        @filename = Filenames.teams()
+        teams = getCachedData()["teams"]
 
+        # Flush current data
         @dbService.clearTeamPlayers()
 
-        teams.each do |team|
-            roster = @localService.getTeamRoster(team)
+        # And then import rosters
+        teams.each do |jTeam|
+            team = Team.fromJson(jTeam)
+            @filename = Filenames.teamRoster(team)
+            roster = getCachedData()["roster"]
             @dbService.insertTeamRoster(team, roster)
         end
     end
 
-    def importPlayers(playerIds)
-        playerIds.each do |playerId|
-            player = @localService.getPlayerForId(playerId)
-            @dbService.insertPlayer(player)
-        end
+    def importPlayerForId(id)
+        @filename = Filenames.playerForId(id)
+        player = getCachedData()["people"][0]
+        @dbService.insertPlayer(player)
     end
 
-    def importPlayerArchiveStats(playerIds)
-        playerIds.each do |playerId|
-            stat = @localService.getPlayerArchiveStatsForId(playerId)
-            @dbService.insertPlayerArchiveStat(playerId, stat)
-        end
+    def importPlayerArchiveStatsForId(id)
+        @filename = Filenames.playerArchiveStatsForId(id)
+        stat = getCachedData()["stats"][0]["splits"]
+        @dbService.insertPlayerArchiveStat(id, stat)
+    end
+
+    private
+
+    def filePath
+        return "./json/#{@filename}"
+    end
+
+
+    def getCachedData
+        content = File.read(filePath)
+        return JSON.parse(content)
     end
 end
