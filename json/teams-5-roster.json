@@ -106,32 +106,6 @@
     }
   }, {
     "person" : {
-      "id" : 8476166,
-      "fullName" : "Taylor Fedun",
-      "link" : "/api/v1/people/8476166"
-    },
-    "jerseyNumber" : "4",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8476433,
-      "fullName" : "Magnus Hellberg",
-      "link" : "/api/v1/people/8476433"
-    },
-    "jerseyNumber" : "45",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8476442,
       "fullName" : "Matt Nieto",
       "link" : "/api/v1/people/8476442"
@@ -142,19 +116,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8476443,
-      "fullName" : "Xavier Ouellet",
-      "link" : "/api/v1/people/8476443"
-    },
-    "jerseyNumber" : "61",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -171,50 +132,11 @@
     }
   }, {
     "person" : {
-      "id" : 8476994,
-      "fullName" : "Vinnie Hinostroza",
-      "link" : "/api/v1/people/8476994"
-    },
-    "jerseyNumber" : "13",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8477244,
       "fullName" : "Chad Ruhwedel",
       "link" : "/api/v1/people/8477244"
     },
     "jerseyNumber" : "2",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8477341,
-      "fullName" : "Andreas Johnsson",
-      "link" : "/api/v1/people/8477341"
-    },
-    "jerseyNumber" : "18",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8477355,
-      "fullName" : "Will Butcher",
-      "link" : "/api/v1/people/8477355"
-    },
-    "jerseyNumber" : "8",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -288,6 +210,19 @@
     }
   }, {
     "person" : {
+      "id" : 8478424,
+      "fullName" : "Jansen Harkins",
+      "link" : "/api/v1/people/8478424"
+    },
+    "jerseyNumber" : "43",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8478569,
       "fullName" : "Noel Acciari",
       "link" : "/api/v1/people/8478569"
@@ -314,45 +249,6 @@
     }
   }, {
     "person" : {
-      "id" : 8479423,
-      "fullName" : "Alex Nylander",
-      "link" : "/api/v1/people/8479423"
-    },
-    "jerseyNumber" : "11",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8479514,
-      "fullName" : "Rem Pitlick",
-      "link" : "/api/v1/people/8479514"
-    },
-    "jerseyNumber" : "16",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8479533,
-      "fullName" : "Joona Koppanen",
-      "link" : "/api/v1/people/8479533"
-    },
-    "jerseyNumber" : "15",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
       "id" : 8480058,
       "fullName" : "Pierre-Olivier Joseph",
       "link" : "/api/v1/people/8480058"
@@ -366,55 +262,16 @@
     }
   }, {
     "person" : {
-      "id" : 8480883,
-      "fullName" : "Ty Smith",
-      "link" : "/api/v1/people/8480883"
+      "id" : 8481206,
+      "fullName" : "John Ludvig",
+      "link" : "/api/v1/people/8481206"
     },
-    "jerseyNumber" : "24",
+    "jerseyNumber" : "53",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481030,
-      "fullName" : "Jack St. Ivany",
-      "link" : "/api/v1/people/8481030"
-    },
-    "jerseyNumber" : "3",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481526,
-      "fullName" : "Taylor Gauthier",
-      "link" : "/api/v1/people/8481526"
-    },
-    "jerseyNumber" : "33",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8481549,
-      "fullName" : "Dillon Hamaliuk",
-      "link" : "/api/v1/people/8481549"
-    },
-    "jerseyNumber" : "70",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -428,136 +285,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482241,
-      "fullName" : "Radim Zohorna",
-      "link" : "/api/v1/people/8482241"
-    },
-    "jerseyNumber" : "63",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482446,
-      "fullName" : "Joel Blomqvist",
-      "link" : "/api/v1/people/8482446"
-    },
-    "jerseyNumber" : "30",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8482449,
-      "fullName" : "Lukas Svejkovsky",
-      "link" : "/api/v1/people/8482449"
-    },
-    "jerseyNumber" : "72",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482456,
-      "fullName" : "Raivis Ansons",
-      "link" : "/api/v1/people/8482456"
-    },
-    "jerseyNumber" : "80",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482801,
-      "fullName" : "Isaac Belliveau",
-      "link" : "/api/v1/people/8482801"
-    },
-    "jerseyNumber" : "78",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483000,
-      "fullName" : "Jordan Frasca",
-      "link" : "/api/v1/people/8483000"
-    },
-    "jerseyNumber" : "14",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483394,
-      "fullName" : "Corey Andonovski",
-      "link" : "/api/v1/people/8483394"
-    },
-    "jerseyNumber" : "12",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483401,
-      "fullName" : "Marc Johnstone",
-      "link" : "/api/v1/people/8483401"
-    },
-    "jerseyNumber" : "9",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483503,
-      "fullName" : "Owen Pickering",
-      "link" : "/api/v1/people/8483503"
-    },
-    "jerseyNumber" : "38",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483535,
-      "fullName" : "Ty Glover",
-      "link" : "/api/v1/people/8483535"
-    },
-    "jerseyNumber" : "51",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   } ],
   "link" : "/api/v1/teams/5/roster"

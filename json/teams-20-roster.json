@@ -2,6 +2,32 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8481592,
+      "fullName" : "Jakob Pelletier",
+      "link" : "/api/v1/people/8481592"
+    },
+    "jerseyNumber" : "22",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8478430,
+      "fullName" : "Oliver Kylington",
+      "link" : "/api/v1/people/8478430"
+    },
+    "jerseyNumber" : "58",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8474150,
       "fullName" : "Mikael Backlund",
       "link" : "/api/v1/people/8474150"
@@ -136,7 +162,7 @@
       "fullName" : "Dryden Hunt",
       "link" : "/api/v1/people/8478211"
     },
-    "jerseyNumber" : "20",
+    "jerseyNumber" : "15",
     "position" : {
       "code" : "L",
       "name" : "Left Wing",
@@ -181,6 +207,19 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8478421,
+      "fullName" : "A.J. Greer",
+      "link" : "/api/v1/people/8478421"
+    },
+    "jerseyNumber" : "18",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -236,19 +275,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480404,
-      "fullName" : "Brady Lyle",
-      "link" : "/api/v1/people/8480404"
-    },
-    "jerseyNumber" : "33",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8481068,
       "fullName" : "Yegor Sharangovich",
       "link" : "/api/v1/people/8481068"
@@ -259,45 +285,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8481592,
-      "fullName" : "Jakob Pelletier",
-      "link" : "/api/v1/people/8481592"
-    },
-    "jerseyNumber" : "49",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481692,
-      "fullName" : "Dustin Wolf",
-      "link" : "/api/v1/people/8481692"
-    },
-    "jerseyNumber" : "32",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8482066,
-      "fullName" : "Colton Poolman",
-      "link" : "/api/v1/people/8482066"
-    },
-    "jerseyNumber" : "46",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -318,36 +305,12 @@
       "fullName" : "Matt Coronato",
       "link" : "/api/v1/people/8482679"
     },
-    "jerseyNumber" : "39",
+    "jerseyNumber" : "27",
     "position" : {
       "code" : "R",
       "name" : "Right Wing",
       "type" : "Forward",
       "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482766,
-      "fullName" : "William Stromgren",
-      "link" : "/api/v1/people/8482766"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8484180,
-      "fullName" : "Samuel Honzek",
-      "link" : "/api/v1/people/8484180"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   } ],
   "link" : "/api/v1/teams/20/roster"

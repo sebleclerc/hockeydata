@@ -28,19 +28,6 @@
     }
   }, {
     "person" : {
-      "id" : 8475413,
-      "fullName" : "Justin Dowling",
-      "link" : "/api/v1/people/8475413"
-    },
-    "jerseyNumber" : "73",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8475726,
       "fullName" : "Tyler Toffoli",
       "link" : "/api/v1/people/8475726"
@@ -84,7 +71,7 @@
       "fullName" : "Colin Miller",
       "link" : "/api/v1/people/8476525"
     },
-    "jerseyNumber" : "6",
+    "jerseyNumber" : "24",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -97,7 +84,7 @@
       "fullName" : "Chris Tierney",
       "link" : "/api/v1/people/8476919"
     },
-    "jerseyNumber" : "67",
+    "jerseyNumber" : "11",
     "position" : {
       "code" : "C",
       "name" : "Center",
@@ -162,7 +149,7 @@
       "fullName" : "Timo Meier",
       "link" : "/api/v1/people/8478414"
     },
-    "jerseyNumber" : "96",
+    "jerseyNumber" : "28",
     "position" : {
       "code" : "R",
       "name" : "Right Wing",
@@ -181,32 +168,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8478902,
-      "fullName" : "Erik Kallgren",
-      "link" : "/api/v1/people/8478902"
-    },
-    "jerseyNumber" : "50",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8479304,
-      "fullName" : "Kyle Criscuolo",
-      "link" : "/api/v1/people/8479304"
-    },
-    "jerseyNumber" : "41",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   }, {
     "person" : {
@@ -249,37 +210,11 @@
     }
   }, {
     "person" : {
-      "id" : 8479984,
-      "fullName" : "Cal Foote",
-      "link" : "/api/v1/people/8479984"
-    },
-    "jerseyNumber" : "52",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8480002,
       "fullName" : "Nico Hischier",
       "link" : "/api/v1/people/8480002"
     },
     "jerseyNumber" : "13",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8480032,
-      "fullName" : "Shane Bowers",
-      "link" : "/api/v1/people/8480032"
-    },
-    "jerseyNumber" : "15",
     "position" : {
       "code" : "C",
       "name" : "Center",
@@ -314,31 +249,6 @@
     }
   }, {
     "person" : {
-      "id" : 8481518,
-      "fullName" : "Nolan Foote",
-      "link" : "/api/v1/people/8481518"
-    },
-    "jerseyNumber" : "25",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481536,
-      "fullName" : "Daniil Misyul",
-      "link" : "/api/v1/people/8481536"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8481559,
       "fullName" : "Jack Hughes",
       "link" : "/api/v1/people/8481559"
@@ -349,58 +259,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8481583,
-      "fullName" : "Michael Vukojevic",
-      "link" : "/api/v1/people/8481583"
-    },
-    "jerseyNumber" : "81",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481701,
-      "fullName" : "Santeri Hatakka",
-      "link" : "/api/v1/people/8481701"
-    },
-    "jerseyNumber" : "61",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481740,
-      "fullName" : "Tyce Thompson",
-      "link" : "/api/v1/people/8481740"
-    },
-    "jerseyNumber" : "12",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482076,
-      "fullName" : "Nico Daws",
-      "link" : "/api/v1/people/8482076"
-    },
-    "jerseyNumber" : "50",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
     }
   }, {
     "person" : {
@@ -440,80 +298,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482714,
-      "fullName" : "Chase Stillman",
-      "link" : "/api/v1/people/8482714"
-    },
-    "jerseyNumber" : "61",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482873,
-      "fullName" : "Topias Vilen",
-      "link" : "/api/v1/people/8482873"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483426,
-      "fullName" : "Tyler Brennan",
-      "link" : "/api/v1/people/8483426"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8483439,
-      "fullName" : "Josh Filmon",
-      "link" : "/api/v1/people/8483439"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483495,
-      "fullName" : "Simon Nemec",
-      "link" : "/api/v1/people/8483495"
-    },
-    "jerseyNumber" : "5",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483531,
-      "fullName" : "Brian Halonen",
-      "link" : "/api/v1/people/8483531"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   } ],
   "link" : "/api/v1/teams/1/roster"

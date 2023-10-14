@@ -2,16 +2,16 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8477015,
-      "fullName" : "Connor Brown",
-      "link" : "/api/v1/people/8477015"
+      "id" : 8477454,
+      "fullName" : "Adam Erne",
+      "link" : "/api/v1/people/8477454"
     },
-    "jerseyNumber" : "28",
+    "jerseyNumber" : "21",
     "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
+      "code" : "L",
+      "name" : "Left Wing",
       "type" : "Forward",
-      "abbreviation" : "RW"
+      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -38,19 +38,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8475717,
-      "fullName" : "Calvin Pickard",
-      "link" : "/api/v1/people/8475717"
-    },
-    "jerseyNumber" : "30",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
     }
   }, {
     "person" : {
@@ -116,6 +103,19 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8477015,
+      "fullName" : "Connor Brown",
+      "link" : "/api/v1/people/8477015"
+    },
+    "jerseyNumber" : "28",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
     }
   }, {
     "person" : {
@@ -197,19 +197,6 @@
     }
   }, {
     "person" : {
-      "id" : 8478967,
-      "fullName" : "Lane Pederson",
-      "link" : "/api/v1/people/8478967"
-    },
-    "jerseyNumber" : "19",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8479338,
       "fullName" : "Markus Niemelainen",
       "link" : "/api/v1/people/8479338"
@@ -220,32 +207,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8479416,
-      "fullName" : "Ben Gleason",
-      "link" : "/api/v1/people/8479416"
-    },
-    "jerseyNumber" : "63",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8479465,
-      "fullName" : "Drake Caggiula",
-      "link" : "/api/v1/people/8479465"
-    },
-    "jerseyNumber" : "8",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -272,18 +233,6 @@
       "name" : "Goalie",
       "type" : "Goalie",
       "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8480202,
-      "fullName" : "Noel Hoefenmayer",
-      "link" : "/api/v1/people/8480202"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -336,55 +285,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482704,
-      "fullName" : "Jayden Grubbe",
-      "link" : "/api/v1/people/8482704"
-    },
-    "jerseyNumber" : "96",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482706,
-      "fullName" : "Jake Chiasson",
-      "link" : "/api/v1/people/8482706"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482902,
-      "fullName" : "Maximus Wanner",
-      "link" : "/api/v1/people/8482902"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8484127,
-      "fullName" : "Carl Berglund",
-      "link" : "/api/v1/people/8484127"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   } ],
   "link" : "/api/v1/teams/22/roster"

@@ -2,6 +2,32 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8476883,
+      "fullName" : "Andrei Vasilevskiy",
+      "link" : "/api/v1/people/8476883"
+    },
+    "jerseyNumber" : "88",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8477353,
+      "fullName" : "Tyler Motte",
+      "link" : "/api/v1/people/8477353"
+    },
+    "jerseyNumber" : "64",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8474564,
       "fullName" : "Steven Stamkos",
       "link" : "/api/v1/people/8474564"
@@ -54,16 +80,16 @@
     }
   }, {
     "person" : {
-      "id" : 8476326,
-      "fullName" : "Josh Archibald",
-      "link" : "/api/v1/people/8476326"
+      "id" : 8475766,
+      "fullName" : "Austin Watson",
+      "link" : "/api/v1/people/8475766"
     },
-    "jerseyNumber" : "15",
+    "jerseyNumber" : "51",
     "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
+      "code" : "L",
+      "name" : "Left Wing",
       "type" : "Forward",
-      "abbreviation" : "RW"
+      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -90,19 +116,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8476883,
-      "fullName" : "Andrei Vasilevskiy",
-      "link" : "/api/v1/people/8476883"
-    },
-    "jerseyNumber" : "88",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
     }
   }, {
     "person" : {
@@ -223,50 +236,11 @@
     }
   }, {
     "person" : {
-      "id" : 8479026,
-      "fullName" : "Philippe Myers",
-      "link" : "/api/v1/people/8479026"
-    },
-    "jerseyNumber" : "5",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8479366,
-      "fullName" : "Logan Brown",
-      "link" : "/api/v1/people/8479366"
-    },
-    "jerseyNumber" : "22",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8479410,
       "fullName" : "Mikhail Sergachev",
       "link" : "/api/v1/people/8479410"
     },
     "jerseyNumber" : "98",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8479413,
-      "fullName" : "Sean Day",
-      "link" : "/api/v1/people/8479413"
-    },
-    "jerseyNumber" : "74",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -340,192 +314,11 @@
     }
   }, {
     "person" : {
-      "id" : 8480863,
-      "fullName" : "Gabriel Fortier",
-      "link" : "/api/v1/people/8480863"
-    },
-    "jerseyNumber" : "82",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481719,
-      "fullName" : "Maxwell Crozier",
-      "link" : "/api/v1/people/8481719"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482070,
-      "fullName" : "Mitchell Chaffee",
-      "link" : "/api/v1/people/8482070"
-    },
-    "jerseyNumber" : "63",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482090,
-      "fullName" : "Jack Finley",
-      "link" : "/api/v1/people/8482090"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482144,
-      "fullName" : "Jack Thompson",
-      "link" : "/api/v1/people/8482144"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482168,
-      "fullName" : "Maxim Groshev",
-      "link" : "/api/v1/people/8482168"
-    },
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482201,
-      "fullName" : "Gage Goncalves",
-      "link" : "/api/v1/people/8482201"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482440,
-      "fullName" : "Felix Robert",
-      "link" : "/api/v1/people/8482440"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482454,
-      "fullName" : "Jaydon Dureau",
-      "link" : "/api/v1/people/8482454"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482693,
-      "fullName" : "Roman Schmidt",
-      "link" : "/api/v1/people/8482693"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482929,
-      "fullName" : "Emil Martinsen Lilleberg",
-      "link" : "/api/v1/people/8482929"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483102,
-      "fullName" : "Bennett MacArthur",
-      "link" : "/api/v1/people/8483102"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483398,
-      "fullName" : "Declan Carlile",
-      "link" : "/api/v1/people/8483398"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483408,
-      "fullName" : "Ilya Usau",
-      "link" : "/api/v1/people/8483408"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483437,
-      "fullName" : "Lucas Edmonds",
-      "link" : "/api/v1/people/8483437"
-    },
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
       "id" : 8484325,
       "fullName" : "Waltteri Merela",
       "link" : "/api/v1/people/8484325"
     },
+    "jerseyNumber" : "39",
     "position" : {
       "code" : "C",
       "name" : "Center",

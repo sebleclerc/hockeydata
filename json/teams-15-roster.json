@@ -15,6 +15,19 @@
     }
   }, {
     "person" : {
+      "id" : 8476441,
+      "fullName" : "Joel Edmundson",
+      "link" : "/api/v1/people/8476441"
+    },
+    "jerseyNumber" : "6",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8471214,
       "fullName" : "Alex Ovechkin",
       "link" : "/api/v1/people/8471214"
@@ -119,19 +132,6 @@
     }
   }, {
     "person" : {
-      "id" : 8476441,
-      "fullName" : "Joel Edmundson",
-      "link" : "/api/v1/people/8476441"
-    },
-    "jerseyNumber" : "6",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8476880,
       "fullName" : "Tom Wilson",
       "link" : "/api/v1/people/8476880"
@@ -184,19 +184,6 @@
     }
   }, {
     "person" : {
-      "id" : 8477979,
-      "fullName" : "Nicolas Aube-Kubel",
-      "link" : "/api/v1/people/8477979"
-    },
-    "jerseyNumber" : "96",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
       "id" : 8478440,
       "fullName" : "Dylan Strome",
       "link" : "/api/v1/people/8478440"
@@ -220,6 +207,45 @@
       "name" : "Goalie",
       "type" : "Goalie",
       "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8479321,
+      "fullName" : "Lucas Johansen",
+      "link" : "/api/v1/people/8479321"
+    },
+    "jerseyNumber" : "46",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8479359,
+      "fullName" : "Beck Malenstyn",
+      "link" : "/api/v1/people/8479359"
+    },
+    "jerseyNumber" : "47",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8479547,
+      "fullName" : "Matthew Phillips",
+      "link" : "/api/v1/people/8479547"
+    },
+    "jerseyNumber" : "45",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
     }
   }, {
     "person" : {
@@ -262,11 +288,11 @@
     }
   }, {
     "person" : {
-      "id" : 8481656,
-      "fullName" : "Aliaksei Protas",
-      "link" : "/api/v1/people/8481656"
+      "id" : 8481580,
+      "fullName" : "Connor McMichael",
+      "link" : "/api/v1/people/8481580"
     },
-    "jerseyNumber" : "21",
+    "jerseyNumber" : "24",
     "position" : {
       "code" : "C",
       "name" : "Center",
@@ -275,39 +301,16 @@
     }
   }, {
     "person" : {
-      "id" : 8482639,
-      "fullName" : "Alex Limoges",
-      "link" : "/api/v1/people/8482639"
+      "id" : 8483532,
+      "fullName" : "Clay Stevenson",
+      "link" : "/api/v1/people/8483532"
     },
+    "jerseyNumber" : "33",
     "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483573,
-      "fullName" : "Ethen Frank",
-      "link" : "/api/v1/people/8483573"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483920,
-      "fullName" : "Pierrick Dube",
-      "link" : "/api/v1/people/8483920"
-    },
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
     }
   } ],
   "link" : "/api/v1/teams/15/roster"

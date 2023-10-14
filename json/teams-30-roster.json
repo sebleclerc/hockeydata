@@ -2,19 +2,6 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8480884,
-      "fullName" : "Calen Addison",
-      "link" : "/api/v1/people/8480884"
-    },
-    "jerseyNumber" : "2",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8470594,
       "fullName" : "Marc-Andre Fleury",
       "link" : "/api/v1/people/8470594"
@@ -145,6 +132,19 @@
     }
   }, {
     "person" : {
+      "id" : 8477541,
+      "fullName" : "Dakota Mermis",
+      "link" : "/api/v1/people/8477541"
+    },
+    "jerseyNumber" : "6",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8477919,
       "fullName" : "Frederick Gaudreau",
       "link" : "/api/v1/people/8477919"
@@ -223,16 +223,16 @@
     }
   }, {
     "person" : {
-      "id" : 8479968,
-      "fullName" : "Vinni Lettieri",
-      "link" : "/api/v1/people/8479968"
+      "id" : 8480884,
+      "fullName" : "Calen Addison",
+      "link" : "/api/v1/people/8480884"
     },
-    "jerseyNumber" : "95",
+    "jerseyNumber" : "2",
     "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -249,32 +249,6 @@
     }
   }, {
     "person" : {
-      "id" : 8481422,
-      "fullName" : "Jacob Lucchini",
-      "link" : "/api/v1/people/8481422"
-    },
-    "jerseyNumber" : "36",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8481545,
-      "fullName" : "Hunter Jones",
-      "link" : "/api/v1/people/8481545"
-    },
-    "jerseyNumber" : "95",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8481557,
       "fullName" : "Matt Boldy",
       "link" : "/api/v1/people/8481557"
@@ -288,15 +262,16 @@
     }
   }, {
     "person" : {
-      "id" : 8481738,
-      "fullName" : "Max Cajkovic",
-      "link" : "/api/v1/people/8481738"
+      "id" : 8482079,
+      "fullName" : "Marco Rossi",
+      "link" : "/api/v1/people/8482079"
     },
+    "jerseyNumber" : "23",
     "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
+      "code" : "C",
+      "name" : "Center",
       "type" : "Forward",
-      "abbreviation" : "RW"
+      "abbreviation" : "C"
     }
   }, {
     "person" : {
@@ -310,19 +285,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482661,
-      "fullName" : "Jesper Wallstedt",
-      "link" : "/api/v1/people/8482661"
-    },
-    "jerseyNumber" : "30",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
     }
   } ],
   "link" : "/api/v1/teams/30/roster"

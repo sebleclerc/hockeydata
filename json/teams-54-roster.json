@@ -15,6 +15,19 @@
     }
   }, {
     "person" : {
+      "id" : 8480727,
+      "fullName" : "Zach Whitecloud",
+      "link" : "/api/v1/people/8480727"
+    },
+    "jerseyNumber" : "2",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8474565,
       "fullName" : "Alex Pietrangelo",
       "link" : "/api/v1/people/8474565"
@@ -98,19 +111,6 @@
       "link" : "/api/v1/people/8477018"
     },
     "jerseyNumber" : "17",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8477419,
-      "fullName" : "Mason Geertsen",
-      "link" : "/api/v1/people/8477419"
-    },
-    "jerseyNumber" : "55",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -249,16 +249,16 @@
     }
   }, {
     "person" : {
-      "id" : 8480238,
-      "fullName" : "Jiri Patera",
-      "link" : "/api/v1/people/8480238"
+      "id" : 8480007,
+      "fullName" : "Jonas Rondbjerg",
+      "link" : "/api/v1/people/8480007"
     },
-    "jerseyNumber" : "30",
+    "jerseyNumber" : "46",
     "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
     }
   }, {
     "person" : {
@@ -272,32 +272,6 @@
       "name" : "Goalie",
       "type" : "Goalie",
       "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8480727,
-      "fullName" : "Zach Whitecloud",
-      "link" : "/api/v1/people/8480727"
-    },
-    "jerseyNumber" : "2",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8480776,
-      "fullName" : "Sheldon Rempal",
-      "link" : "/api/v1/people/8480776"
-    },
-    "jerseyNumber" : "56",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
     }
   }, {
     "person" : {
@@ -327,10 +301,11 @@
     }
   }, {
     "person" : {
-      "id" : 8481613,
-      "fullName" : "Layton Ahac",
-      "link" : "/api/v1/people/8481613"
+      "id" : 8481527,
+      "fullName" : "Kaedan Korczak",
+      "link" : "/api/v1/people/8481527"
     },
+    "jerseyNumber" : "6",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -339,101 +314,16 @@
     }
   }, {
     "person" : {
-      "id" : 8481664,
-      "fullName" : "Mason Primeau",
-      "link" : "/api/v1/people/8481664"
+      "id" : 8481604,
+      "fullName" : "Pavel Dorofeyev",
+      "link" : "/api/v1/people/8481604"
     },
-    "jerseyNumber" : "57",
+    "jerseyNumber" : "16",
     "position" : {
-      "code" : "C",
-      "name" : "Center",
+      "code" : "L",
+      "name" : "Left Wing",
       "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482138,
-      "fullName" : "Christoffer Sedoff",
-      "link" : "/api/v1/people/8482138"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482484,
-      "fullName" : "Jesper Vikman",
-      "link" : "/api/v1/people/8482484"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8482624,
-      "fullName" : "Daniil Miromanov",
-      "link" : "/api/v1/people/8482624"
-    },
-    "jerseyNumber" : "42",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482688,
-      "fullName" : "Daniil Chayka",
-      "link" : "/api/v1/people/8482688"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482724,
-      "fullName" : "Jakub Brabenec",
-      "link" : "/api/v1/people/8482724"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483511,
-      "fullName" : "Matyas Sapovaliv",
-      "link" : "/api/v1/people/8483511"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483829,
-      "fullName" : "Joe Fleming",
-      "link" : "/api/v1/people/8483829"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
+      "abbreviation" : "LW"
     }
   } ],
   "link" : "/api/v1/teams/54/roster"

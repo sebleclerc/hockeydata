@@ -45,7 +45,7 @@
       "fullName" : "Dmitry Orlov",
       "link" : "/api/v1/people/8475200"
     },
-    "jerseyNumber" : "81",
+    "jerseyNumber" : "7",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -188,7 +188,7 @@
       "fullName" : "Brendan Lemieux",
       "link" : "/api/v1/people/8477962"
     },
-    "jerseyNumber" : "22",
+    "jerseyNumber" : "28",
     "position" : {
       "code" : "L",
       "name" : "Left Wing",
@@ -223,37 +223,11 @@
     }
   }, {
     "person" : {
-      "id" : 8478452,
-      "fullName" : "Caleb Jones",
-      "link" : "/api/v1/people/8478452"
-    },
-    "jerseyNumber" : "82",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8478970,
       "fullName" : "Jalen Chatfield",
       "link" : "/api/v1/people/8478970"
     },
     "jerseyNumber" : "5",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8479639,
-      "fullName" : "Dylan Coghlan",
-      "link" : "/api/v1/people/8479639"
-    },
-    "jerseyNumber" : "15",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -301,96 +275,6 @@
     }
   }, {
     "person" : {
-      "id" : 8481562,
-      "fullName" : "Domenick Fensore",
-      "link" : "/api/v1/people/8481562"
-    },
-    "jerseyNumber" : "89",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481576,
-      "fullName" : "Ryan Suzuki",
-      "link" : "/api/v1/people/8481576"
-    },
-    "jerseyNumber" : "61",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8481579,
-      "fullName" : "Jamieson Rees",
-      "link" : "/api/v1/people/8481579"
-    },
-    "jerseyNumber" : "81",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8481611,
-      "fullName" : "Pyotr Kochetkov",
-      "link" : "/api/v1/people/8481611"
-    },
-    "jerseyNumber" : "52",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8481615,
-      "fullName" : "Anttoni Honka",
-      "link" : "/api/v1/people/8481615"
-    },
-    "jerseyNumber" : "84",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481677,
-      "fullName" : "Blake Murray",
-      "link" : "/api/v1/people/8481677"
-    },
-    "jerseyNumber" : "85",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482080,
-      "fullName" : "Noel Gunler",
-      "link" : "/api/v1/people/8482080"
-    },
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
       "id" : 8482093,
       "fullName" : "Seth Jarvis",
       "link" : "/api/v1/people/8482093"
@@ -401,69 +285,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482102,
-      "fullName" : "Vasily Ponomarev",
-      "link" : "/api/v1/people/8482102"
-    },
-    "jerseyNumber" : "92",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482187,
-      "fullName" : "Ronan Seeley",
-      "link" : "/api/v1/people/8482187"
-    },
-    "jerseyNumber" : "82",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482785,
-      "fullName" : "Justin Robidas",
-      "link" : "/api/v1/people/8482785"
-    },
-    "jerseyNumber" : "46",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483560,
-      "fullName" : "Griffin Mendel",
-      "link" : "/api/v1/people/8483560"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8484293,
-      "fullName" : "Yaniv Perets",
-      "link" : "/api/v1/people/8484293"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
     }
   } ],
   "link" : "/api/v1/teams/12/roster"

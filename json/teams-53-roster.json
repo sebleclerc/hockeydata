@@ -2,32 +2,6 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8478408,
-      "fullName" : "Travis Dermott",
-      "link" : "/api/v1/people/8478408"
-    },
-    "jerseyNumber" : "33",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8474000,
-      "fullName" : "Steven Kampfer",
-      "link" : "/api/v1/people/8474000"
-    },
-    "jerseyNumber" : "44",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8475722,
       "fullName" : "Jason Zucker",
       "link" : "/api/v1/people/8475722"
@@ -119,19 +93,6 @@
     }
   }, {
     "person" : {
-      "id" : 8477482,
-      "fullName" : "Zach Sanford",
-      "link" : "/api/v1/people/8477482"
-    },
-    "jerseyNumber" : "12",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
       "id" : 8477951,
       "fullName" : "Nick Schmaltz",
       "link" : "/api/v1/people/8477951"
@@ -145,16 +106,16 @@
     }
   }, {
     "person" : {
-      "id" : 8477993,
-      "fullName" : "Justin Kirkland",
-      "link" : "/api/v1/people/8477993"
+      "id" : 8478408,
+      "fullName" : "Travis Dermott",
+      "link" : "/api/v1/people/8478408"
     },
-    "jerseyNumber" : "25",
+    "jerseyNumber" : "33",
     "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -223,19 +184,6 @@
     }
   }, {
     "person" : {
-      "id" : 8479561,
-      "fullName" : "Travis Barron",
-      "link" : "/api/v1/people/8479561"
-    },
-    "jerseyNumber" : "73",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
       "id" : 8479619,
       "fullName" : "Michael Carcone",
       "link" : "/api/v1/people/8479619"
@@ -259,19 +207,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8480191,
-      "fullName" : "Matt Villalta",
-      "link" : "/api/v1/people/8480191"
-    },
-    "jerseyNumber" : "31",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
     }
   }, {
     "person" : {
@@ -314,58 +249,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480876,
-      "fullName" : "Curtis Douglas",
-      "link" : "/api/v1/people/8480876"
-    },
-    "jerseyNumber" : "42",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8481077,
-      "fullName" : "John Leonard",
-      "link" : "/api/v1/people/8481077"
-    },
-    "jerseyNumber" : "43",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481159,
-      "fullName" : "Montana Onyebuchi",
-      "link" : "/api/v1/people/8481159"
-    },
-    "jerseyNumber" : "79",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481699,
-      "fullName" : "Aku Raty",
-      "link" : "/api/v1/people/8481699"
-    },
-    "jerseyNumber" : "85",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
       "id" : 8481711,
       "fullName" : "Matias Maccelli",
       "link" : "/api/v1/people/8481711"
@@ -392,32 +275,6 @@
     }
   }, {
     "person" : {
-      "id" : 8482659,
-      "fullName" : "Josh Doan",
-      "link" : "/api/v1/people/8482659"
-    },
-    "jerseyNumber" : "91",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482699,
-      "fullName" : "Dylan Guenther",
-      "link" : "/api/v1/people/8482699"
-    },
-    "jerseyNumber" : "11",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
       "id" : 8483431,
       "fullName" : "Logan Cooley",
       "link" : "/api/v1/people/8483431"
@@ -428,32 +285,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483763,
-      "fullName" : "Maksymilian Szuber",
-      "link" : "/api/v1/people/8483763"
-    },
-    "jerseyNumber" : "55",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8484326,
-      "fullName" : "Patrik Koch",
-      "link" : "/api/v1/people/8484326"
-    },
-    "jerseyNumber" : "64",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   } ],
   "link" : "/api/v1/teams/53/roster"

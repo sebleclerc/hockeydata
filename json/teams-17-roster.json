@@ -2,19 +2,6 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8479992,
-      "fullName" : "Michael Rasmussen",
-      "link" : "/api/v1/people/8479992"
-    },
-    "jerseyNumber" : "27",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8473503,
       "fullName" : "James Reimer",
       "link" : "/api/v1/people/8473503"
@@ -32,7 +19,7 @@
       "fullName" : "Jeff Petry",
       "link" : "/api/v1/people/8473507"
     },
-    "jerseyNumber" : "26",
+    "jerseyNumber" : "46",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -210,19 +197,6 @@
     }
   }, {
     "person" : {
-      "id" : 8478512,
-      "fullName" : "Austin Czarnik",
-      "link" : "/api/v1/people/8478512"
-    },
-    "jerseyNumber" : "21",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8479312,
       "fullName" : "Alex Lyon",
       "link" : "/api/v1/people/8479312"
@@ -249,41 +223,16 @@
     }
   }, {
     "person" : {
-      "id" : 8479364,
-      "fullName" : "Tim Gettinger",
-      "link" : "/api/v1/people/8479364"
+      "id" : 8479992,
+      "fullName" : "Michael Rasmussen",
+      "link" : "/api/v1/people/8479992"
     },
-    "jerseyNumber" : "39",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8479588,
-      "fullName" : "Nolan Stevens",
-      "link" : "/api/v1/people/8479588"
-    },
+    "jerseyNumber" : "27",
     "position" : {
       "code" : "C",
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8479644,
-      "fullName" : "Matt Luff",
-      "link" : "/api/v1/people/8479644"
-    },
-    "jerseyNumber" : "22",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
     }
   }, {
     "person" : {
@@ -313,32 +262,6 @@
     }
   }, {
     "person" : {
-      "id" : 8481013,
-      "fullName" : "Jonatan Berggren",
-      "link" : "/api/v1/people/8481013"
-    },
-    "jerseyNumber" : "48",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481479,
-      "fullName" : "Brogan Rafferty",
-      "link" : "/api/v1/people/8481479"
-    },
-    "jerseyNumber" : "52",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8481542,
       "fullName" : "Moritz Seider",
       "link" : "/api/v1/people/8481542"
@@ -352,45 +275,6 @@
     }
   }, {
     "person" : {
-      "id" : 8481587,
-      "fullName" : "Antti Tuomisto",
-      "link" : "/api/v1/people/8481587"
-    },
-    "jerseyNumber" : "24",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481607,
-      "fullName" : "Albert Johansson",
-      "link" : "/api/v1/people/8481607"
-    },
-    "jerseyNumber" : "20",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481725,
-      "fullName" : "Elmer Soderblom",
-      "link" : "/api/v1/people/8481725"
-    },
-    "jerseyNumber" : "85",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
       "id" : 8482078,
       "fullName" : "Lucas Raymond",
       "link" : "/api/v1/people/8482078"
@@ -401,119 +285,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482163,
-      "fullName" : "Eemil Viro",
-      "link" : "/api/v1/people/8482163"
-    },
-    "jerseyNumber" : "51",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482171,
-      "fullName" : "William Wallinder",
-      "link" : "/api/v1/people/8482171"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482571,
-      "fullName" : "John Lethemon",
-      "link" : "/api/v1/people/8482571"
-    },
-    "jerseyNumber" : "31",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8482762,
-      "fullName" : "Simon Edvinsson",
-      "link" : "/api/v1/people/8482762"
-    },
-    "jerseyNumber" : "77",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482802,
-      "fullName" : "Carter Mazur",
-      "link" : "/api/v1/people/8482802"
-    },
-    "jerseyNumber" : "32",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483464,
-      "fullName" : "Marco Kasper",
-      "link" : "/api/v1/people/8483464"
-    },
-    "jerseyNumber" : "92",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483695,
-      "fullName" : "Amadeus Lombardi",
-      "link" : "/api/v1/people/8483695"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8484107,
-      "fullName" : "Alexandre Doucet",
-      "link" : "/api/v1/people/8484107"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8484160,
-      "fullName" : "Nate Danielson",
-      "link" : "/api/v1/people/8484160"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   } ],
   "link" : "/api/v1/teams/17/roster"

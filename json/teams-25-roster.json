@@ -80,19 +80,6 @@
     }
   }, {
     "person" : {
-      "id" : 8475755,
-      "fullName" : "Alexander Petrovic",
-      "link" : "/api/v1/people/8475755"
-    },
-    "jerseyNumber" : "28",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8475794,
       "fullName" : "Tyler Seguin",
       "link" : "/api/v1/people/8475794"
@@ -124,18 +111,6 @@
       "link" : "/api/v1/people/8475825"
     },
     "jerseyNumber" : "2",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8476884,
-      "fullName" : "Derrick Pouliot",
-      "link" : "/api/v1/people/8476884"
-    },
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -222,32 +197,6 @@
     }
   }, {
     "person" : {
-      "id" : 8479381,
-      "fullName" : "Nick Caamano",
-      "link" : "/api/v1/people/8479381"
-    },
-    "jerseyNumber" : "17",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8479518,
-      "fullName" : "Fredrik Karlström",
-      "link" : "/api/v1/people/8479518"
-    },
-    "jerseyNumber" : "51",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8479979,
       "fullName" : "Jake Oettinger",
       "link" : "/api/v1/people/8479979"
@@ -287,31 +236,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480060,
-      "fullName" : "Scott Reedy",
-      "link" : "/api/v1/people/8480060"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8480840,
-      "fullName" : "Oskar Back",
-      "link" : "/api/v1/people/8480840"
-    },
-    "jerseyNumber" : "37",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8480848,
       "fullName" : "Ty Dellandrea",
       "link" : "/api/v1/people/8480848"
@@ -338,19 +262,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480988,
-      "fullName" : "Riley Damiani",
-      "link" : "/api/v1/people/8480988"
-    },
-    "jerseyNumber" : "13",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8481581,
       "fullName" : "Thomas Harley",
       "link" : "/api/v1/people/8481581"
@@ -364,206 +275,11 @@
     }
   }, {
     "person" : {
-      "id" : 8481712,
-      "fullName" : "Matej Blumel",
-      "link" : "/api/v1/people/8481712"
-    },
-    "jerseyNumber" : "22",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482051,
-      "fullName" : "Jerad Rosburg",
-      "link" : "/api/v1/people/8482051"
-    },
-    "jerseyNumber" : "39",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482120,
-      "fullName" : "Antonio Stranges",
-      "link" : "/api/v1/people/8482120"
-    },
-    "jerseyNumber" : "71",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482145,
-      "fullName" : "Mavrik Bourque",
-      "link" : "/api/v1/people/8482145"
-    },
-    "jerseyNumber" : "45",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482465,
-      "fullName" : "Remi Poirier",
-      "link" : "/api/v1/people/8482465"
-    },
-    "jerseyNumber" : "50",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8482695,
-      "fullName" : "Artem Grushnikov",
-      "link" : "/api/v1/people/8482695"
-    },
-    "jerseyNumber" : "59",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482702,
-      "fullName" : "Logan Stankoven",
-      "link" : "/api/v1/people/8482702"
-    },
-    "jerseyNumber" : "57",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8482740,
       "fullName" : "Wyatt Johnston",
       "link" : "/api/v1/people/8482740"
     },
     "jerseyNumber" : "53",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482891,
-      "fullName" : "Francesco Arcuri",
-      "link" : "/api/v1/people/8482891"
-    },
-    "jerseyNumber" : "54",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483059,
-      "fullName" : "Gavin White",
-      "link" : "/api/v1/people/8483059"
-    },
-    "jerseyNumber" : "74",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483425,
-      "fullName" : "Lian Bichsel",
-      "link" : "/api/v1/people/8483425"
-    },
-    "jerseyNumber" : "48",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483470,
-      "fullName" : "Christian Kyrou",
-      "link" : "/api/v1/people/8483470"
-    },
-    "jerseyNumber" : "61",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483514,
-      "fullName" : "Matthew Seminoff",
-      "link" : "/api/v1/people/8483514"
-    },
-    "jerseyNumber" : "58",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483575,
-      "fullName" : "Matt Murray",
-      "link" : "/api/v1/people/8483575"
-    },
-    "jerseyNumber" : "32",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8483799,
-      "fullName" : "Kyle McDonald",
-      "link" : "/api/v1/people/8483799"
-    },
-    "jerseyNumber" : "52",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8484124,
-      "fullName" : "Chase Wheatcroft",
-      "link" : "/api/v1/people/8484124"
-    },
-    "jerseyNumber" : "34",
     "position" : {
       "code" : "C",
       "name" : "Center",

@@ -2,19 +2,6 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8482149,
-      "fullName" : "Cole Perfetti",
-      "link" : "/api/v1/people/8482149"
-    },
-    "jerseyNumber" : "91",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8475455,
       "fullName" : "Brenden Dillon",
       "link" : "/api/v1/people/8475455"
@@ -119,18 +106,6 @@
     }
   }, {
     "person" : {
-      "id" : 8477085,
-      "fullName" : "Ashton Sautner",
-      "link" : "/api/v1/people/8477085"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8477220,
       "fullName" : "Nate Schmidt",
       "link" : "/api/v1/people/8477220"
@@ -183,19 +158,6 @@
     }
   }, {
     "person" : {
-      "id" : 8478476,
-      "fullName" : "Kyle Capobianco",
-      "link" : "/api/v1/people/8478476"
-    },
-    "jerseyNumber" : "77",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8478891,
       "fullName" : "Mason Appleton",
       "link" : "/api/v1/people/8478891"
@@ -219,32 +181,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8479536,
-      "fullName" : "Axel Jonsson-Fjallby",
-      "link" : "/api/v1/people/8479536"
-    },
-    "jerseyNumber" : "71",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8479705,
-      "fullName" : "Jeffrey Viel",
-      "link" : "/api/v1/people/8479705"
-    },
-    "jerseyNumber" : "28",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -313,19 +249,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480420,
-      "fullName" : "Collin Delia",
-      "link" : "/api/v1/people/8480420"
-    },
-    "jerseyNumber" : "60",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8480845,
       "fullName" : "Rasmus Kupari",
       "link" : "/api/v1/people/8480845"
@@ -336,6 +259,19 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8480990,
+      "fullName" : "Declan Chisholm",
+      "link" : "/api/v1/people/8480990"
+    },
+    "jerseyNumber" : "47",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -352,182 +288,11 @@
     }
   }, {
     "person" : {
-      "id" : 8481547,
-      "fullName" : "Simon Lundmark",
-      "link" : "/api/v1/people/8481547"
+      "id" : 8482149,
+      "fullName" : "Cole Perfetti",
+      "link" : "/api/v1/people/8482149"
     },
-    "jerseyNumber" : "42",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481552,
-      "fullName" : "Artemi Kniazev",
-      "link" : "/api/v1/people/8481552"
-    },
-    "jerseyNumber" : "25",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481695,
-      "fullName" : "Henri Nikkanen",
-      "link" : "/api/v1/people/8481695"
-    },
-    "jerseyNumber" : "53",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482139,
-      "fullName" : "Daniel Torgersson",
-      "link" : "/api/v1/people/8482139"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482408,
-      "fullName" : "Jeff Malott",
-      "link" : "/api/v1/people/8482408"
-    },
-    "jerseyNumber" : "39",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482459,
-      "fullName" : "Tyrel Bauer",
-      "link" : "/api/v1/people/8482459"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482780,
-      "fullName" : "Chaz Lucius",
-      "link" : "/api/v1/people/8482780"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482787,
-      "fullName" : "Nikita Chibrikov",
-      "link" : "/api/v1/people/8482787"
-    },
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482920,
-      "fullName" : "Dmitry Kuzmin",
-      "link" : "/api/v1/people/8482920"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483471,
-      "fullName" : "Brad Lambert",
-      "link" : "/api/v1/people/8483471"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483510,
-      "fullName" : "Elias Salomonsson",
-      "link" : "/api/v1/people/8483510"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483526,
-      "fullName" : "Danil Zhilkin",
-      "link" : "/api/v1/people/8483526"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483579,
-      "fullName" : "Wyatt Bongiovanni",
-      "link" : "/api/v1/people/8483579"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483711,
-      "fullName" : "Domenic DiVincentiis",
-      "link" : "/api/v1/people/8483711"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8484135,
-      "fullName" : "Parker Ford",
-      "link" : "/api/v1/people/8484135"
-    },
+    "jerseyNumber" : "91",
     "position" : {
       "code" : "C",
       "name" : "Center",

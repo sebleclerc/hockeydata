@@ -15,16 +15,16 @@
     }
   }, {
     "person" : {
-      "id" : 8481582,
-      "fullName" : "Nicholas Robertson",
-      "link" : "/api/v1/people/8481582"
+      "id" : 8479982,
+      "fullName" : "Conor Timmins",
+      "link" : "/api/v1/people/8479982"
     },
-    "jerseyNumber" : "89",
+    "jerseyNumber" : "25",
     "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -64,32 +64,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8474889,
-      "fullName" : "Martin Jones",
-      "link" : "/api/v1/people/8474889"
-    },
-    "jerseyNumber" : "30",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8475160,
-      "fullName" : "Kyle Clifford",
-      "link" : "/api/v1/people/8475160"
-    },
-    "jerseyNumber" : "43",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -145,19 +119,6 @@
     }
   }, {
     "person" : {
-      "id" : 8476899,
-      "fullName" : "Matt Murray",
-      "link" : "/api/v1/people/8476899"
-    },
-    "jerseyNumber" : "30",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8476931,
       "fullName" : "Jake McCabe",
       "link" : "/api/v1/people/8476931"
@@ -210,32 +171,6 @@
     }
   }, {
     "person" : {
-      "id" : 8478021,
-      "fullName" : "William Lagesson",
-      "link" : "/api/v1/people/8478021"
-    },
-    "jerseyNumber" : "84",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8478043,
-      "fullName" : "Sam Lafferty",
-      "link" : "/api/v1/people/8478043"
-    },
-    "jerseyNumber" : "28",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8478483,
       "fullName" : "Mitchell Marner",
       "link" : "/api/v1/people/8478483"
@@ -275,18 +210,6 @@
     }
   }, {
     "person" : {
-      "id" : 8479320,
-      "fullName" : "Max Lajoie",
-      "link" : "/api/v1/people/8479320"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8479361,
       "fullName" : "Joseph Woll",
       "link" : "/api/v1/people/8479361"
@@ -300,42 +223,16 @@
     }
   }, {
     "person" : {
-      "id" : 8479580,
-      "fullName" : "Dylan Gambrell",
-      "link" : "/api/v1/people/8479580"
+      "id" : 8479393,
+      "fullName" : "Noah Gregor",
+      "link" : "/api/v1/people/8479393"
     },
-    "jerseyNumber" : "27",
+    "jerseyNumber" : "18",
     "position" : {
       "code" : "C",
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8479975,
-      "fullName" : "Keith Petruzzelli",
-      "link" : "/api/v1/people/8479975"
-    },
-    "jerseyNumber" : "80",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8479982,
-      "fullName" : "Conor Timmins",
-      "link" : "/api/v1/people/8479982"
-    },
-    "jerseyNumber" : "25",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -365,132 +262,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480995,
-      "fullName" : "Pontus Holmberg",
-      "link" : "/api/v1/people/8480995"
-    },
-    "jerseyNumber" : "29",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481614,
-      "fullName" : "Mikko Kokkonen",
-      "link" : "/api/v1/people/8481614"
-    },
-    "jerseyNumber" : "84",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481720,
-      "fullName" : "Nick Abruzzese",
-      "link" : "/api/v1/people/8481720"
-    },
-    "jerseyNumber" : "26",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482130,
-      "fullName" : "Roni Hirvonen",
-      "link" : "/api/v1/people/8482130"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482158,
-      "fullName" : "Topi Niemela",
-      "link" : "/api/v1/people/8482158"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482174,
-      "fullName" : "William Villeneuve",
-      "link" : "/api/v1/people/8482174"
-    },
-    "jerseyNumber" : "76",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482259,
-      "fullName" : "Bobby McMann",
-      "link" : "/api/v1/people/8482259"
-    },
-    "jerseyNumber" : "74",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482488,
-      "fullName" : "Dmitry Ovchinnikov",
-      "link" : "/api/v1/people/8482488"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482525,
-      "fullName" : "Ryan Tverberg",
-      "link" : "/api/v1/people/8482525"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482634,
-      "fullName" : "Alex Steeves",
-      "link" : "/api/v1/people/8482634"
-    },
-    "jerseyNumber" : "46",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8482720,
       "fullName" : "Matthew Knies",
       "link" : "/api/v1/people/8482720"
@@ -504,89 +275,16 @@
     }
   }, {
     "person" : {
-      "id" : 8482880,
-      "fullName" : "Ty Voit",
-      "link" : "/api/v1/people/8482880"
-    },
-    "jerseyNumber" : "49",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482940,
-      "fullName" : "Vyacheslav Peksa",
-      "link" : "/api/v1/people/8482940"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8483489,
       "fullName" : "Fraser Minten",
       "link" : "/api/v1/people/8483489"
     },
+    "jerseyNumber" : "39",
     "position" : {
       "code" : "C",
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483546,
-      "fullName" : "Marshall Rifai",
-      "link" : "/api/v1/people/8483546"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483566,
-      "fullName" : "Max Ellis",
-      "link" : "/api/v1/people/8483566"
-    },
-    "jerseyNumber" : "22",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483710,
-      "fullName" : "Dennis Hildeby",
-      "link" : "/api/v1/people/8483710"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8484158,
-      "fullName" : "Easton Cowan",
-      "link" : "/api/v1/people/8484158"
-    },
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
     }
   } ],
   "link" : "/api/v1/teams/10/roster"

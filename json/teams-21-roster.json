@@ -2,19 +2,6 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8480846,
-      "fullName" : "Sampo Ranta",
-      "link" : "/api/v1/people/8480846"
-    },
-    "jerseyNumber" : "75",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
       "id" : 8471677,
       "fullName" : "Jack Johnson",
       "link" : "/api/v1/people/8471677"
@@ -41,6 +28,19 @@
     }
   }, {
     "person" : {
+      "id" : 8475193,
+      "fullName" : "Tomas Tatar",
+      "link" : "/api/v1/people/8475193"
+    },
+    "jerseyNumber" : "90",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
       "id" : 8475793,
       "fullName" : "Ryan Johansen",
       "link" : "/api/v1/people/8475793"
@@ -59,19 +59,6 @@
       "link" : "/api/v1/people/8476312"
     },
     "jerseyNumber" : "42",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8476779,
-      "fullName" : "Brad Hunt",
-      "link" : "/api/v1/people/8476779"
-    },
-    "jerseyNumber" : "17",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -162,7 +149,7 @@
       "fullName" : "Fredrik Olofsson",
       "link" : "/api/v1/people/8478028"
     },
-    "jerseyNumber" : "42",
+    "jerseyNumber" : "22",
     "position" : {
       "code" : "L",
       "name" : "Left Wing",
@@ -197,24 +184,11 @@
     }
   }, {
     "person" : {
-      "id" : 8478867,
-      "fullName" : "Spencer Smallman",
-      "link" : "/api/v1/people/8478867"
-    },
-    "jerseyNumber" : "75",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
       "id" : 8479362,
       "fullName" : "Riley Tufte",
       "link" : "/api/v1/people/8479362"
     },
-    "jerseyNumber" : "15",
+    "jerseyNumber" : "10",
     "position" : {
       "code" : "L",
       "name" : "Left Wing",
@@ -262,19 +236,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480244,
-      "fullName" : "Arvid Holm",
-      "link" : "/api/v1/people/8480244"
-    },
-    "jerseyNumber" : "75",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8480382,
       "fullName" : "Alexandar Georgiev",
       "link" : "/api/v1/people/8480382"
@@ -288,11 +249,24 @@
     }
   }, {
     "person" : {
-      "id" : 8480925,
-      "fullName" : "Pavel Francouz",
-      "link" : "/api/v1/people/8480925"
+      "id" : 8481020,
+      "fullName" : "Justus Annunen",
+      "link" : "/api/v1/people/8481020"
     },
-    "jerseyNumber" : "39",
+    "jerseyNumber" : "60",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8481031,
+      "fullName" : "Ivan Prosvetov",
+      "link" : "/api/v1/people/8481031"
+    },
+    "jerseyNumber" : "50",
     "position" : {
       "code" : "G",
       "name" : "Goalie",
@@ -314,19 +288,6 @@
     }
   }, {
     "person" : {
-      "id" : 8481461,
-      "fullName" : "Corey Schueneman",
-      "link" : "/api/v1/people/8481461"
-    },
-    "jerseyNumber" : "64",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8481524,
       "fullName" : "Bowen Byram",
       "link" : "/api/v1/people/8481524"
@@ -337,120 +298,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481654,
-      "fullName" : "Gianni Fairbrother",
-      "link" : "/api/v1/people/8481654"
-    },
-    "jerseyNumber" : "36",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482072,
-      "fullName" : "Jack Ahcan",
-      "link" : "/api/v1/people/8482072"
-    },
-    "jerseyNumber" : "54",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482147,
-      "fullName" : "Jean-Luc Foudy",
-      "link" : "/api/v1/people/8482147"
-    },
-    "jerseyNumber" : "93",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482250,
-      "fullName" : "Callahan Burke",
-      "link" : "/api/v1/people/8482250"
-    },
-    "jerseyNumber" : "68",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483569,
-      "fullName" : "Wyatt Aamodt",
-      "link" : "/api/v1/people/8483569"
-    },
-    "jerseyNumber" : "72",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483570,
-      "fullName" : "Ben Meyers",
-      "link" : "/api/v1/people/8483570"
-    },
-    "jerseyNumber" : "59",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8484255,
-      "fullName" : "Jason Polin",
-      "link" : "/api/v1/people/8484255"
-    },
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8484258,
-      "fullName" : "Sam Malinski",
-      "link" : "/api/v1/people/8484258"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8484259,
-      "fullName" : "Ondrej Pavel",
-      "link" : "/api/v1/people/8484259"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   } ],
   "link" : "/api/v1/teams/21/roster"

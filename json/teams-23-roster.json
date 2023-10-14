@@ -2,19 +2,6 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8476871,
-      "fullName" : "Tanner Pearson",
-      "link" : "/api/v1/people/8476871"
-    },
-    "jerseyNumber" : "70",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
       "id" : 8477359,
       "fullName" : "Tucker Poolman",
       "link" : "/api/v1/people/8477359"
@@ -59,19 +46,6 @@
       "link" : "/api/v1/people/8474574"
     },
     "jerseyNumber" : "57",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8475625,
-      "fullName" : "Matt Irwin",
-      "link" : "/api/v1/people/8475625"
-    },
-    "jerseyNumber" : "52",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -132,19 +106,6 @@
     }
   }, {
     "person" : {
-      "id" : 8477484,
-      "fullName" : "Spencer Martin",
-      "link" : "/api/v1/people/8477484"
-    },
-    "jerseyNumber" : "30",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8477967,
       "fullName" : "Thatcher Demko",
       "link" : "/api/v1/people/8477967"
@@ -155,6 +116,19 @@
       "name" : "Goalie",
       "type" : "Goalie",
       "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8478043,
+      "fullName" : "Sam Lafferty",
+      "link" : "/api/v1/people/8478043"
+    },
+    "jerseyNumber" : "28",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
     }
   }, {
     "person" : {
@@ -223,19 +197,6 @@
     }
   }, {
     "person" : {
-      "id" : 8478846,
-      "fullName" : "Christian Wolanin",
-      "link" : "/api/v1/people/8478846"
-    },
-    "jerseyNumber" : "86",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8478856,
       "fullName" : "Conor Garland",
       "link" : "/api/v1/people/8478856"
@@ -249,11 +210,11 @@
     }
   }, {
     "person" : {
-      "id" : 8479313,
-      "fullName" : "Zach Sawchenko",
-      "link" : "/api/v1/people/8479313"
+      "id" : 8479193,
+      "fullName" : "Casey DeSmith",
+      "link" : "/api/v1/people/8479193"
     },
-    "jerseyNumber" : "36",
+    "jerseyNumber" : "1",
     "position" : {
       "code" : "G",
       "name" : "Goalie",
@@ -301,32 +262,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480056,
-      "fullName" : "Jack Rathbone",
-      "link" : "/api/v1/people/8480056"
-    },
-    "jerseyNumber" : "3",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8480326,
-      "fullName" : "Sheldon Dries",
-      "link" : "/api/v1/people/8480326"
-    },
-    "jerseyNumber" : "15",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8480459,
       "fullName" : "Pius Suter",
       "link" : "/api/v1/people/8480459"
@@ -353,44 +288,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480808,
-      "fullName" : "Jett Woo",
-      "link" : "/api/v1/people/8480808"
-    },
-    "jerseyNumber" : "52",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8480872,
-      "fullName" : "Filip Johansson",
-      "link" : "/api/v1/people/8480872"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481024,
-      "fullName" : "Linus Karlsson",
-      "link" : "/api/v1/people/8481024"
-    },
-    "jerseyNumber" : "94",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8481535,
       "fullName" : "Nils Hoglander",
       "link" : "/api/v1/people/8481535"
@@ -401,134 +298,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481617,
-      "fullName" : "Vasily Podkolzin",
-      "link" : "/api/v1/people/8481617"
-    },
-    "jerseyNumber" : "92",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481668,
-      "fullName" : "Arturs Silovs",
-      "link" : "/api/v1/people/8481668"
-    },
-    "jerseyNumber" : "31",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8481683,
-      "fullName" : "Aidan McDonough",
-      "link" : "/api/v1/people/8481683"
-    },
-    "jerseyNumber" : "25",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482496,
-      "fullName" : "Nils Aman",
-      "link" : "/api/v1/people/8482496"
-    },
-    "jerseyNumber" : "88",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482691,
-      "fullName" : "Aatu Raty",
-      "link" : "/api/v1/people/8482691"
-    },
-    "jerseyNumber" : "27",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482865,
-      "fullName" : "Josh Bloom",
-      "link" : "/api/v1/people/8482865"
-    },
-    "jerseyNumber" : "62",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482918,
-      "fullName" : "Danila Klimovich",
-      "link" : "/api/v1/people/8482918"
-    },
-    "jerseyNumber" : "46",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483039,
-      "fullName" : "Tristen Nielsen",
-      "link" : "/api/v1/people/8483039"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483395,
-      "fullName" : "Arshdeep Bains",
-      "link" : "/api/v1/people/8483395"
-    },
-    "jerseyNumber" : "80",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483467,
-      "fullName" : "Kirill Kudryavtsev",
-      "link" : "/api/v1/people/8483467"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -545,48 +314,11 @@
     }
   }, {
     "person" : {
-      "id" : 8484136,
-      "fullName" : "Max Sasson",
-      "link" : "/api/v1/people/8484136"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8484254,
       "fullName" : "Akito Hirose",
       "link" : "/api/v1/people/8484254"
     },
     "jerseyNumber" : "41",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8484268,
-      "fullName" : "Nikita Tolopilo",
-      "link" : "/api/v1/people/8484268"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8484287,
-      "fullName" : "Cole McWard",
-      "link" : "/api/v1/people/8484287"
-    },
-    "jerseyNumber" : "48",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",

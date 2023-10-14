@@ -2,6 +2,32 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8478042,
+      "fullName" : "Viktor Arvidsson",
+      "link" : "/api/v1/people/8478042"
+    },
+    "jerseyNumber" : "33",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8481732,
+      "fullName" : "Andre Lee",
+      "link" : "/api/v1/people/8481732"
+    },
+    "jerseyNumber" : "47",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
       "id" : 8471685,
       "fullName" : "Anze Kopitar",
       "link" : "/api/v1/people/8471685"
@@ -19,7 +45,7 @@
       "fullName" : "Trevor Lewis",
       "link" : "/api/v1/people/8473453"
     },
-    "jerseyNumber" : "22",
+    "jerseyNumber" : "61",
     "position" : {
       "code" : "C",
       "name" : "Center",
@@ -41,24 +67,11 @@
     }
   }, {
     "person" : {
-      "id" : 8475246,
-      "fullName" : "Kevin Connauton",
-      "link" : "/api/v1/people/8475246"
-    },
-    "jerseyNumber" : "8",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8475660,
       "fullName" : "Cam Talbot",
       "link" : "/api/v1/people/8475660"
     },
-    "jerseyNumber" : "33",
+    "jerseyNumber" : "39",
     "position" : {
       "code" : "G",
       "name" : "Goalie",
@@ -77,19 +90,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8477463,
-      "fullName" : "Steven Santini",
-      "link" : "/api/v1/people/8477463"
-    },
-    "jerseyNumber" : "36",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -136,45 +136,7 @@
       "fullName" : "Andreas Englund",
       "link" : "/api/v1/people/8477971"
     },
-    "jerseyNumber" : "28",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8478042,
-      "fullName" : "Viktor Arvidsson",
-      "link" : "/api/v1/people/8478042"
-    },
-    "jerseyNumber" : "33",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8478173,
-      "fullName" : "Hayden Hodgson",
-      "link" : "/api/v1/people/8478173"
-    },
-    "jerseyNumber" : "42",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8478176,
-      "fullName" : "Joe Hicketts",
-      "link" : "/api/v1/people/8478176"
-    },
+    "jerseyNumber" : "5",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -228,49 +190,10 @@
     },
     "jerseyNumber" : "80",
     "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
+      "code" : "C",
+      "name" : "Center",
       "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8479421,
-      "fullName" : "Jacob Moverare",
-      "link" : "/api/v1/people/8479421"
-    },
-    "jerseyNumber" : "57",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8479496,
-      "fullName" : "David Rittich",
-      "link" : "/api/v1/people/8479496"
-    },
-    "jerseyNumber" : "33",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8479573,
-      "fullName" : "Mikhail Maltsev",
-      "link" : "/api/v1/people/8479573"
-    },
-    "jerseyNumber" : "57",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
+      "abbreviation" : "C"
     }
   }, {
     "person" : {
@@ -305,18 +228,6 @@
       "link" : "/api/v1/people/8479998"
     },
     "jerseyNumber" : "44",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481051,
-      "fullName" : "Cole Krygier",
-      "link" : "/api/v1/people/8481051"
-    },
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -368,36 +279,12 @@
       "fullName" : "Jordan Spence",
       "link" : "/api/v1/people/8481606"
     },
-    "jerseyNumber" : "53",
+    "jerseyNumber" : "21",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8481707,
-      "fullName" : "Erik Portillo",
-      "link" : "/api/v1/people/8481707"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8481732,
-      "fullName" : "Andre Lee",
-      "link" : "/api/v1/people/8481732"
-    },
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -407,10 +294,10 @@
     },
     "jerseyNumber" : "55",
     "position" : {
-      "code" : "C",
-      "name" : "Center",
+      "code" : "R",
+      "name" : "Right Wing",
       "type" : "Forward",
-      "abbreviation" : "C"
+      "abbreviation" : "RW"
     }
   }, {
     "person" : {
@@ -424,42 +311,6 @@
       "name" : "Right Wing",
       "type" : "Forward",
       "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482726,
-      "fullName" : "Samuel Helenius",
-      "link" : "/api/v1/people/8482726"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482748,
-      "fullName" : "Francesco Pinelli",
-      "link" : "/api/v1/people/8482748"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8484163,
-      "fullName" : "Jakub Dvorak",
-      "link" : "/api/v1/people/8484163"
-    },
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   } ],
   "link" : "/api/v1/teams/26/roster"

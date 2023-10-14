@@ -2,6 +2,19 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8482479,
+      "fullName" : "Trevor Kuntar",
+      "link" : "/api/v1/people/8482479"
+    },
+    "jerseyNumber" : "52",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8473419,
       "fullName" : "Brad Marchand",
       "link" : "/api/v1/people/8473419"
@@ -119,19 +132,6 @@
     }
   }, {
     "person" : {
-      "id" : 8477126,
-      "fullName" : "Jayson Megna",
-      "link" : "/api/v1/people/8477126"
-    },
-    "jerseyNumber" : "20",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8477887,
       "fullName" : "Patrick Brown",
       "link" : "/api/v1/people/8477887"
@@ -171,63 +171,11 @@
     }
   }, {
     "person" : {
-      "id" : 8478409,
-      "fullName" : "Anthony Richard",
-      "link" : "/api/v1/people/8478409"
-    },
-    "jerseyNumber" : "90",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8478415,
-      "fullName" : "Jakub Zboril",
-      "link" : "/api/v1/people/8478415"
-    },
-    "jerseyNumber" : "67",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8478421,
-      "fullName" : "A.J. Greer",
-      "link" : "/api/v1/people/8478421"
-    },
-    "jerseyNumber" : "10",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
       "id" : 8478443,
       "fullName" : "Brandon Carlo",
       "link" : "/api/v1/people/8478443"
     },
     "jerseyNumber" : "25",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8478450,
-      "fullName" : "Parker Wotherspoon",
-      "link" : "/api/v1/people/8478450"
-    },
-    "jerseyNumber" : "29",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -246,19 +194,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8479252,
-      "fullName" : "Dan Renouf",
-      "link" : "/api/v1/people/8479252"
-    },
-    "jerseyNumber" : "44",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -288,19 +223,6 @@
     }
   }, {
     "person" : {
-      "id" : 8479546,
-      "fullName" : "Oskar Steen",
-      "link" : "/api/v1/people/8479546"
-    },
-    "jerseyNumber" : "62",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8479987,
       "fullName" : "Morgan Geekie",
       "link" : "/api/v1/people/8479987"
@@ -311,44 +233,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8480003,
-      "fullName" : "Jesper Boqvist",
-      "link" : "/api/v1/people/8480003"
-    },
-    "jerseyNumber" : "70",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8480022,
-      "fullName" : "Michael DiPietro",
-      "link" : "/api/v1/people/8480022"
-    },
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8480054,
-      "fullName" : "Reilly Walsh",
-      "link" : "/api/v1/people/8480054"
-    },
-    "jerseyNumber" : "8",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -378,58 +262,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480356,
-      "fullName" : "Kyle Keyser",
-      "link" : "/api/v1/people/8480356"
-    },
-    "jerseyNumber" : "85",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8480828,
-      "fullName" : "Michael Callahan",
-      "link" : "/api/v1/people/8480828"
-    },
-    "jerseyNumber" : "79",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8480831,
-      "fullName" : "Alec Regula",
-      "link" : "/api/v1/people/8480831"
-    },
-    "jerseyNumber" : "75",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8480838,
-      "fullName" : "Curtis Hall",
-      "link" : "/api/v1/people/8480838"
-    },
-    "jerseyNumber" : "91",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8480880,
       "fullName" : "Jakub Lauko",
       "link" : "/api/v1/people/8480880"
@@ -456,139 +288,11 @@
     }
   }, {
     "person" : {
-      "id" : 8481558,
-      "fullName" : "John Farinacci",
-      "link" : "/api/v1/people/8481558"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8481866,
-      "fullName" : "Luke Toporowski",
-      "link" : "/api/v1/people/8481866"
-    },
-    "jerseyNumber" : "83",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482479,
-      "fullName" : "Trevor Kuntar",
-      "link" : "/api/v1/people/8482479"
-    },
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482511,
-      "fullName" : "Mason Lohrei",
-      "link" : "/api/v1/people/8482511"
-    },
-    "jerseyNumber" : "6",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482739,
-      "fullName" : "Brett Harrison",
-      "link" : "/api/v1/people/8482739"
-    },
-    "jerseyNumber" : "72",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482763,
-      "fullName" : "Fabian Lysell",
-      "link" : "/api/v1/people/8482763"
-    },
-    "jerseyNumber" : "23",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482893,
-      "fullName" : "Ryan Mast",
-      "link" : "/api/v1/people/8482893"
-    },
-    "jerseyNumber" : "87",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8483397,
-      "fullName" : "Marc McLaughlin",
-      "link" : "/api/v1/people/8483397"
-    },
-    "jerseyNumber" : "26",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8483505,
       "fullName" : "Matthew Poitras",
       "link" : "/api/v1/people/8483505"
     },
     "jerseyNumber" : "51",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8483548,
-      "fullName" : "Brandon Bussi",
-      "link" : "/api/v1/people/8483548"
-    },
-    "jerseyNumber" : "70",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8483567,
-      "fullName" : "Georgii Merkulov",
-      "link" : "/api/v1/people/8483567"
-    },
-    "jerseyNumber" : "42",
     "position" : {
       "code" : "C",
       "name" : "Center",
