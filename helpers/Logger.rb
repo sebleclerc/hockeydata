@@ -38,6 +38,6 @@ class Logger
     private
 
     def self.logMessage(prefix, text)
-        puts "#{prefix} [HockeyData] #{text}"
+        puts "#{prefix} [HD] #{text}"
     end
 end
