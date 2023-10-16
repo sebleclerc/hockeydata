@@ -4,6 +4,7 @@ require "thor"
 require "http"
 require "./commands/CacheCommand"
 require "./commands/ImportCommand"
+require "./commands/RosterCommand"
 require "./commands/Pool"
 require "./commands/Salary"
 require "./helpers/Logger"
@@ -29,6 +30,14 @@ class Hockey < Thor
             .run()
     end
 
+    desc "roster teamId", "Show team roster"
+    def roster(teamId=nil)
+        initTask()
+        RosterCommand
+            .new(@dbService)
+            .run(teamId)
+    end
+
     desc "local", "Fetch and save local data"
     def local()
         Logger.taskTitle "Task Local"
@@ -38,25 +47,6 @@ class Hockey < Thor
 
         teams = @dbService.getAllTeams()
         # @localService.validateEverything(teams, PoolRoster.rosterPlayerIds, false)
-
-        Logger.taskEnd()
-    end
-
-    desc "roster", "Fetch, validate and import players for a Team"
-    def roster(teamId)
-        Logger.taskTitle "Task roster #{teamId}"
-        initTask()
-
-        team = @dbService.getTeamForId(teamId)
-        Logger.info "Roster for team #{team.name}"
-
-        roster = @dbService.getTeamRoster(team)
-        roster.each do |playerId|
-            @localService.validatePlayerForId(playerId)
-        end
-
-        Logger.info "Importing players"
-        @importService.importPlayers(roster)
 
         Logger.taskEnd()
     end
