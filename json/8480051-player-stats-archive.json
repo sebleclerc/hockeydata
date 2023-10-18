@@ -1,0 +1,380 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20132014",
+      "stat" : {
+        "savePercentage" : 0.94,
+        "goalAgainstAverage" : 1.69,
+        "games" : 17
+      },
+      "team" : {
+        "name" : "Virtua Hockey 16U",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "T1EHL U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 103898
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "savePercentage" : 0.932,
+        "goalAgainstAverage" : 2.02,
+        "games" : 31
+      },
+      "team" : {
+        "name" : "Philadelphia Revolution 18U AA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "18U AAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 122498
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "savePercentage" : 0.915,
+        "games" : 11
+      },
+      "team" : {
+        "name" : "Bishop Eustace Prep",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHS-NJ",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 163876
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "savePercentage" : 0.951,
+        "goalAgainstAverage" : 1.86,
+        "games" : 21
+      },
+      "team" : {
+        "name" : "Philadelphia Revolution",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 50744
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "1616:00",
+        "shutouts" : 1,
+        "savePercentage" : 0.895,
+        "goalAgainstAverage" : 3.16,
+        "games" : 30,
+        "shotsAgainst" : 810,
+        "goalsAgainst" : 85
+      },
+      "team" : {
+        "name" : "Lincoln Stars",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9366
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "savePercentage" : 1.0,
+        "goalAgainstAverage" : 0.0,
+        "games" : 1
+      },
+      "team" : {
+        "name" : "U.S. National U18 Team",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USDP",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19564
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "savePercentage" : 0.931,
+        "goalAgainstAverage" : 1.92,
+        "games" : 34
+      },
+      "team" : {
+        "name" : "Northeastern Univ.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 15210
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "savePercentage" : 0.933,
+        "goalAgainstAverage" : 2.09,
+        "games" : 36
+      },
+      "team" : {
+        "name" : "Northeastern Univ.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 15210
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "savePercentage" : 0.936,
+        "goalAgainstAverage" : 1.61,
+        "games" : 5
+      },
+      "team" : {
+        "name" : "USA U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17276
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "119:06",
+        "ot" : 0,
+        "shutouts" : 0,
+        "wins" : 1,
+        "losses" : 1,
+        "saves" : 67,
+        "powerPlaySaves" : 13,
+        "shortHandedSaves" : 2,
+        "evenSaves" : 52,
+        "shortHandedShots" : 3,
+        "evenShots" : 55,
+        "powerPlayShots" : 14,
+        "savePercentage" : 0.931,
+        "goalAgainstAverage" : 2.5189,
+        "games" : 2,
+        "gamesStarted" : 2,
+        "shotsAgainst" : 72,
+        "goalsAgainst" : 5,
+        "powerPlaySavePercentage" : 92.85714285714286,
+        "shortHandedSavePercentage" : 66.66666666666666,
+        "evenStrengthSavePercentage" : 94.54545454545455
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1887:00",
+        "shutouts" : 4,
+        "savePercentage" : 0.908,
+        "goalAgainstAverage" : 2.45,
+        "games" : 33,
+        "shotsAgainst" : 834,
+        "goalsAgainst" : 77
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "201:54",
+        "ot" : 1,
+        "shutouts" : 0,
+        "wins" : 1,
+        "losses" : 2,
+        "saves" : 79,
+        "powerPlaySaves" : 10,
+        "shortHandedSaves" : 1,
+        "evenSaves" : 68,
+        "shortHandedShots" : 1,
+        "evenShots" : 80,
+        "powerPlayShots" : 12,
+        "savePercentage" : 0.849,
+        "goalAgainstAverage" : 4.1605,
+        "games" : 4,
+        "gamesStarted" : 4,
+        "shotsAgainst" : 93,
+        "goalsAgainst" : 14,
+        "powerPlaySavePercentage" : 83.33333333333334,
+        "shortHandedSavePercentage" : 100.0,
+        "evenStrengthSavePercentage" : 85.0
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "914:00",
+        "shutouts" : 2,
+        "savePercentage" : 0.909,
+        "goalAgainstAverage" : 2.1,
+        "games" : 16,
+        "shotsAgainst" : 350,
+        "goalsAgainst" : 32
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "519:13",
+        "ot" : 1,
+        "shutouts" : 0,
+        "wins" : 1,
+        "losses" : 7,
+        "saves" : 262,
+        "powerPlaySaves" : 25,
+        "shortHandedSaves" : 10,
+        "evenSaves" : 227,
+        "shortHandedShots" : 10,
+        "evenShots" : 260,
+        "powerPlayShots" : 32,
+        "savePercentage" : 0.868,
+        "goalAgainstAverage" : 4.62235,
+        "games" : 12,
+        "gamesStarted" : 9,
+        "shotsAgainst" : 302,
+        "goalsAgainst" : 40,
+        "powerPlaySavePercentage" : 78.125,
+        "shortHandedSavePercentage" : 100.0,
+        "evenStrengthSavePercentage" : 87.3076923076923
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1915:00",
+        "shutouts" : 2,
+        "savePercentage" : 0.909,
+        "goalAgainstAverage" : 2.94,
+        "games" : 33,
+        "shotsAgainst" : 1038,
+        "goalsAgainst" : 94
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "138:35",
+        "ot" : 0,
+        "shutouts" : 0,
+        "wins" : 0,
+        "losses" : 2,
+        "saves" : 46,
+        "powerPlaySaves" : 9,
+        "shortHandedSaves" : 0,
+        "evenSaves" : 37,
+        "shortHandedShots" : 0,
+        "evenShots" : 44,
+        "powerPlayShots" : 10,
+        "savePercentage" : 0.851852,
+        "goalAgainstAverage" : 3.46362,
+        "games" : 3,
+        "gamesStarted" : 2,
+        "shotsAgainst" : 54,
+        "goalsAgainst" : 8,
+        "powerPlaySavePercentage" : 90.0,
+        "evenStrengthSavePercentage" : 84.0909090909091
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "2409:00",
+        "shutouts" : 3,
+        "savePercentage" : 0.909,
+        "goalAgainstAverage" : 3.04,
+        "games" : 41,
+        "shotsAgainst" : 1345,
+        "goalsAgainst" : 122
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    } ]
+  } ]
+}

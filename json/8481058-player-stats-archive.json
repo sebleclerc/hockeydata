@@ -1,0 +1,555 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 3,
+        "penaltyMinutes" : "2",
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Finland Selects U13",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 207642
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 15,
+        "pim" : 6,
+        "games" : 32,
+        "penaltyMinutes" : "6",
+        "points" : 36
+      },
+      "team" : {
+        "name" : "Blues U16 Akatemia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Jr. C SM-sarja",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 81412
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Blues U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Jr. B SM-sarja",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 24439
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Jokerit U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Jr. B SM-sarja",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 25059
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 28,
+        "goals" : 22,
+        "pim" : 10,
+        "games" : 23,
+        "penaltyMinutes" : "10",
+        "points" : 50
+      },
+      "team" : {
+        "name" : "Blues U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Jr. C SM-sarja",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 80552
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 11,
+        "pim" : 10,
+        "games" : 27,
+        "penaltyMinutes" : "10",
+        "points" : 33
+      },
+      "team" : {
+        "name" : "Jokerit U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U18 SM-sarja",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 25961
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 1,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Jokerit U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U20 SM-sarja",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 25980
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 4,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 6,
+        "points" : 9
+      },
+      "team" : {
+        "name" : "Finland U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17093
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 15,
+        "pim" : 14,
+        "games" : 37,
+        "penaltyMinutes" : "14",
+        "plusMinus" : 3,
+        "points" : 31
+      },
+      "team" : {
+        "name" : "Kiekko-Espoo U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U20 SM-sarja",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 18670
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 3,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -2,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Espoo United",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Mestis",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222607
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 14,
+        "pim" : 20,
+        "games" : 48,
+        "penaltyMinutes" : "20",
+        "plusMinus" : -4,
+        "points" : 27
+      },
+      "team" : {
+        "name" : "Espoo United",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Mestis",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222607
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Espoo United",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Suomen Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222943
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 13,
+        "pim" : 8,
+        "games" : 53,
+        "penaltyMinutes" : "8",
+        "plusMinus" : 10,
+        "points" : 27
+      },
+      "team" : {
+        "name" : "Pelicans",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Liiga",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 929
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 3,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 5,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Finland U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17116
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -2,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Pelicans",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Champions HL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 552
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 12,
+        "pim" : 14,
+        "games" : 53,
+        "penaltyMinutes" : "14",
+        "plusMinus" : -20,
+        "points" : 22
+      },
+      "team" : {
+        "name" : "Pelicans",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Liiga",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 929
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "11:23",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 1,
+        "games" : 1,
+        "hits" : 0,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "01:18",
+        "evenTimeOnIce" : "10:05",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 0,
+        "plusMinus" : 0,
+        "points" : 0,
+        "shifts" : 14
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 5,
+        "pim" : 8,
+        "games" : 21,
+        "penaltyMinutes" : "8",
+        "plusMinus" : -1,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Pelicans",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Liiga",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 929
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 9,
+        "pim" : 6,
+        "games" : 29,
+        "penaltyMinutes" : "6",
+        "plusMinus" : 0,
+        "points" : 17
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "161:55",
+        "assists" : 3,
+        "goals" : 2,
+        "pim" : 2,
+        "shots" : 16,
+        "games" : 14,
+        "hits" : 5,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "17:37",
+        "evenTimeOnIce" : "144:18",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 12.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 4,
+        "plusMinus" : 2,
+        "points" : 5,
+        "shifts" : 231
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 14,
+        "pim" : 12,
+        "games" : 52,
+        "penaltyMinutes" : "12",
+        "plusMinus" : -16,
+        "points" : 36
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "497:32",
+        "assists" : 10,
+        "goals" : 6,
+        "pim" : 0,
+        "shots" : 43,
+        "games" : 37,
+        "hits" : 14,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "41:11",
+        "evenTimeOnIce" : "449:44",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 50.0,
+        "shotPct" : 13.95,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "06:37",
+        "blocked" : 28,
+        "plusMinus" : -11,
+        "points" : 16,
+        "shifts" : 623
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 11,
+        "pim" : 16,
+        "games" : 39,
+        "penaltyMinutes" : "16",
+        "plusMinus" : -2,
+        "points" : 32
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "25:20",
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 2,
+        "shots" : 1,
+        "games" : 2,
+        "hits" : 0,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:44",
+        "evenTimeOnIce" : "18:02",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 100.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "06:34",
+        "blocked" : 3,
+        "plusMinus" : 0,
+        "points" : 1,
+        "shifts" : 38
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

@@ -1,0 +1,763 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20062007",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 10,
+        "pim" : 52,
+        "games" : 44,
+        "penaltyMinutes" : "52",
+        "faceOffPct" : 0.0,
+        "points" : 26
+      },
+      "team" : {
+        "name" : "Sem. St-Francois",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QAAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 1,
+        "pim" : 22,
+        "games" : 35,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "22",
+        "shortHandedGoals" : 0,
+        "plusMinus" : -2,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Baie-Comeau",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 0,
+        "pim" : 18,
+        "games" : 32,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "18",
+        "plusMinus" : -19,
+        "points" : 5
+      },
+      "team" : {
+        "id" : 2916,
+        "name" : "Moncton",
+        "link" : "/api/v1/teams/2916"
+      },
+      "league" : {
+        "id" : 15,
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/15"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 35,
+        "goals" : 9,
+        "pim" : 33,
+        "games" : 68,
+        "powerPlayGoals" : 6,
+        "penaltyMinutes" : "33",
+        "shortHandedGoals" : 0,
+        "plusMinus" : 29,
+        "points" : 44
+      },
+      "team" : {
+        "id" : 2916,
+        "name" : "Moncton",
+        "link" : "/api/v1/teams/2916"
+      },
+      "league" : {
+        "id" : 15,
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/15"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 64,
+        "goals" : 13,
+        "pim" : 36,
+        "games" : 64,
+        "powerPlayGoals" : 7,
+        "penaltyMinutes" : "36",
+        "gameWinningGoals" : 4,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 32,
+        "points" : 77
+      },
+      "team" : {
+        "id" : 2916,
+        "name" : "Moncton",
+        "link" : "/api/v1/teams/2916"
+      },
+      "league" : {
+        "id" : 15,
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/15"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 32,
+        "goals" : 11,
+        "pim" : 18,
+        "shots" : 95,
+        "games" : 72,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "18",
+        "shotPct" : 11.58,
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -6,
+        "points" : 43
+      },
+      "team" : {
+        "id" : 6678,
+        "name" : "Springfield",
+        "link" : "/api/v1/teams/6678"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "timeOnIce" : "513:49",
+        "assists" : 8,
+        "goals" : 2,
+        "pim" : 16,
+        "shots" : 34,
+        "games" : 31,
+        "hits" : 30,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "71:43",
+        "evenTimeOnIce" : "436:26",
+        "penaltyMinutes" : "16",
+        "faceOffPct" : 0.0,
+        "shotPct" : 5.88,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "05:40",
+        "blocked" : 15,
+        "plusMinus" : 0,
+        "points" : 10,
+        "shifts" : 621
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 18,
+        "goals" : 4,
+        "pim" : 72,
+        "shots" : 59,
+        "games" : 44,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "72",
+        "shotPct" : 6.78,
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 6,
+        "points" : 22
+      },
+      "team" : {
+        "id" : 6678,
+        "name" : "Springfield",
+        "link" : "/api/v1/teams/6678"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "52:48",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 1,
+        "games" : 4,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:20",
+        "evenTimeOnIce" : "49:37",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:51",
+        "blocked" : 2,
+        "plusMinus" : -3,
+        "points" : 0,
+        "shifts" : 68
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 26,
+        "goals" : 5,
+        "pim" : 40,
+        "shots" : 104,
+        "games" : 60,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "40",
+        "shotPct" : 4.81,
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 1,
+        "plusMinus" : 12,
+        "points" : 31
+      },
+      "team" : {
+        "id" : 6678,
+        "name" : "Springfield",
+        "link" : "/api/v1/teams/6678"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "1248:01",
+        "assists" : 10,
+        "goals" : 5,
+        "pim" : 28,
+        "shots" : 63,
+        "games" : 70,
+        "hits" : 149,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "40:51",
+        "evenTimeOnIce" : "1113:03",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 100.0,
+        "shotPct" : 7.94,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "94:07",
+        "blocked" : 81,
+        "plusMinus" : 2,
+        "points" : 15,
+        "shifts" : 1401
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "1881:24",
+        "assists" : 25,
+        "goals" : 11,
+        "pim" : 71,
+        "shots" : 112,
+        "games" : 82,
+        "hits" : 195,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 10,
+        "powerPlayTimeOnIce" : "159:57",
+        "evenTimeOnIce" : "1486:10",
+        "penaltyMinutes" : "71",
+        "faceOffPct" : 100.0,
+        "shotPct" : 9.82,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "235:17",
+        "blocked" : 105,
+        "plusMinus" : 0,
+        "points" : 36,
+        "shifts" : 2165
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 6,
+        "shots" : 13,
+        "games" : 10,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "6",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 10,
+        "points" : 4
+      },
+      "team" : {
+        "id" : 60,
+        "name" : "Canada",
+        "link" : "/api/v1/teams/60"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "1506:13",
+        "assists" : 21,
+        "goals" : 4,
+        "pim" : 45,
+        "shots" : 122,
+        "games" : 65,
+        "hits" : 122,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 5,
+        "powerPlayTimeOnIce" : "138:21",
+        "evenTimeOnIce" : "1177:58",
+        "penaltyMinutes" : "45",
+        "faceOffPct" : 0.0,
+        "shotPct" : 3.28,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "189:54",
+        "blocked" : 111,
+        "plusMinus" : -7,
+        "points" : 25,
+        "shifts" : 1753
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "1615:40",
+        "assists" : 17,
+        "goals" : 6,
+        "pim" : 44,
+        "shots" : 135,
+        "games" : 74,
+        "hits" : 127,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "15:26",
+        "evenTimeOnIce" : "1418:34",
+        "penaltyMinutes" : "44",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.44,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "181:40",
+        "blocked" : 126,
+        "plusMinus" : 33,
+        "points" : 23,
+        "shifts" : 2056
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "1569:47",
+        "assists" : 12,
+        "goals" : 4,
+        "pim" : 32,
+        "shots" : 145,
+        "games" : 81,
+        "hits" : 144,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "14:22",
+        "evenTimeOnIce" : "1376:13",
+        "penaltyMinutes" : "32",
+        "faceOffPct" : 0.0,
+        "shotPct" : 2.76,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "179:12",
+        "blocked" : 143,
+        "plusMinus" : 2,
+        "points" : 16,
+        "shifts" : 1984
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1618:59",
+        "assists" : 16,
+        "goals" : 8,
+        "pim" : 36,
+        "shots" : 124,
+        "games" : 82,
+        "hits" : 122,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "06:37",
+        "evenTimeOnIce" : "1472:11",
+        "penaltyMinutes" : "36",
+        "faceOffPct" : 0.0,
+        "shotPct" : 6.45,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "140:11",
+        "blocked" : 123,
+        "plusMinus" : 19,
+        "points" : 24,
+        "shifts" : 2083
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1406:37",
+        "assists" : 11,
+        "goals" : 0,
+        "pim" : 35,
+        "shots" : 97,
+        "games" : 68,
+        "hits" : 129,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 2,
+        "powerPlayTimeOnIce" : "14:28",
+        "evenTimeOnIce" : "1267:25",
+        "penaltyMinutes" : "35",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "124:44",
+        "blocked" : 163,
+        "plusMinus" : -3,
+        "points" : 11,
+        "shifts" : 1760
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "785:38",
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 24,
+        "shots" : 48,
+        "games" : 40,
+        "hits" : 95,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "05:56",
+        "evenTimeOnIce" : "707:58",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 0.0,
+        "shotPct" : 2.1,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "71:44",
+        "blocked" : 89,
+        "plusMinus" : -19,
+        "points" : 6,
+        "shifts" : 981
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "286:03",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 21,
+        "games" : 14,
+        "hits" : 37,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "01:09",
+        "evenTimeOnIce" : "254:09",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "30:45",
+        "blocked" : 20,
+        "plusMinus" : -8,
+        "points" : 0,
+        "shifts" : 340
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1289:01",
+        "assists" : 14,
+        "goals" : 3,
+        "pim" : 36,
+        "shots" : 66,
+        "games" : 62,
+        "hits" : 134,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "03:41",
+        "evenTimeOnIce" : "1111:37",
+        "penaltyMinutes" : "36",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "173:43",
+        "blocked" : 127,
+        "plusMinus" : -22,
+        "points" : 17,
+        "shifts" : 1434
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1388:00",
+        "assists" : 17,
+        "goals" : 3,
+        "pim" : 40,
+        "shots" : 63,
+        "games" : 62,
+        "hits" : 61,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "09:12",
+        "evenTimeOnIce" : "1174:22",
+        "penaltyMinutes" : "40",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.76,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "204:26",
+        "blocked" : 176,
+        "plusMinus" : -14,
+        "points" : 20,
+        "shifts" : 1463
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "46:26",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 1,
+        "games" : 2,
+        "hits" : 0,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:05",
+        "evenTimeOnIce" : "35:13",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "11:08",
+        "blocked" : 6,
+        "plusMinus" : -3,
+        "points" : 0,
+        "shifts" : 43
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

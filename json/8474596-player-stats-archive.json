@@ -1,0 +1,688 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20052006",
+      "stat" : {
+        "savePercentage" : 0.893,
+        "goalAgainstAverage" : 2.69,
+        "games" : 17
+      },
+      "team" : {
+        "name" : "Fredericton Caps Midget AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NBPEIMMHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 88229
+    }, {
+      "season" : "20062007",
+      "stat" : {
+        "savePercentage" : 0.921,
+        "goalAgainstAverage" : 2.11,
+        "games" : 22
+      },
+      "team" : {
+        "name" : "Fredericton Caps Midget AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NBPEIMMHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 88229
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "timeOnIce" : "1507:18",
+        "shutouts" : 2,
+        "wins" : 9,
+        "losses" : 12,
+        "saves" : 721,
+        "savePercentage" : 0.901,
+        "goalAgainstAverage" : 3.14,
+        "games" : 30,
+        "shotsAgainst" : 800,
+        "goalsAgainst" : 79
+      },
+      "team" : {
+        "name" : "St. John's",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "id" : 15,
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/15"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "shutouts" : 2,
+        "ties" : 0,
+        "wins" : 6,
+        "losses" : 1,
+        "goalAgainstAverage" : 1.43,
+        "games" : 7,
+        "goalsAgainst" : 10
+      },
+      "team" : {
+        "id" : 60,
+        "name" : "Canada",
+        "link" : "/api/v1/teams/60"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJ18-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "timeOnIce" : "3023:00",
+        "shutouts" : 3,
+        "wins" : 28,
+        "losses" : 25,
+        "saves" : 1562,
+        "savePercentage" : 0.916,
+        "goalAgainstAverage" : 2.86,
+        "games" : 53,
+        "shotsAgainst" : 1706,
+        "goalsAgainst" : 144
+      },
+      "team" : {
+        "id" : 6910,
+        "name" : "Montreal",
+        "link" : "/api/v1/teams/6910"
+      },
+      "league" : {
+        "id" : 15,
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/15"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "timeOnIce" : "1241:00",
+        "shutouts" : 1,
+        "wins" : 11,
+        "losses" : 11,
+        "savePercentage" : 0.912,
+        "goalAgainstAverage" : 2.66,
+        "games" : 23,
+        "shotsAgainst" : 624,
+        "goalsAgainst" : 55
+      },
+      "team" : {
+        "id" : 6910,
+        "name" : "Montreal",
+        "link" : "/api/v1/teams/6910"
+      },
+      "league" : {
+        "id" : 15,
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/15"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "timeOnIce" : "1271:00",
+        "shutouts" : 3,
+        "wins" : 18,
+        "losses" : 3,
+        "savePercentage" : 0.933,
+        "goalAgainstAverage" : 1.75,
+        "games" : 22,
+        "shotsAgainst" : 550,
+        "goalsAgainst" : 37
+      },
+      "team" : {
+        "id" : 2904,
+        "name" : "Drummondville",
+        "link" : "/api/v1/teams/2904"
+      },
+      "league" : {
+        "id" : 15,
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/15"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "timeOnIce" : "291:00",
+        "shutouts" : 2,
+        "ties" : 0,
+        "wins" : 4,
+        "losses" : 0,
+        "saves" : 92,
+        "savePercentage" : 0.901961,
+        "goalAgainstAverage" : 2.06,
+        "games" : 5,
+        "shotsAgainst" : 102,
+        "goalsAgainst" : 10
+      },
+      "team" : {
+        "id" : 60,
+        "name" : "Canada",
+        "link" : "/api/v1/teams/60"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "timeOnIce" : "2805:00",
+        "shutouts" : 6,
+        "ties" : 3,
+        "wins" : 25,
+        "losses" : 19,
+        "saves" : 1424,
+        "savePercentage" : 0.917,
+        "goalAgainstAverage" : 2.52,
+        "games" : 47,
+        "shotsAgainst" : 1306,
+        "goalsAgainst" : 118
+      },
+      "team" : {
+        "id" : 7103,
+        "name" : "Peoria",
+        "link" : "/api/v1/teams/7103"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "timeOnIce" : "2148:00",
+        "shutouts" : 1,
+        "ties" : 2,
+        "wins" : 13,
+        "losses" : 20,
+        "saves" : 1131,
+        "savePercentage" : 0.915,
+        "goalAgainstAverage" : 2.93,
+        "games" : 38,
+        "shotsAgainst" : 1236,
+        "goalsAgainst" : 105
+      },
+      "team" : {
+        "id" : 7103,
+        "name" : "Peoria",
+        "link" : "/api/v1/teams/7103"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "803:53",
+        "ot" : 0,
+        "shutouts" : 1,
+        "wins" : 9,
+        "losses" : 4,
+        "saves" : 313,
+        "powerPlaySaves" : 40,
+        "shortHandedSaves" : 8,
+        "evenSaves" : 265,
+        "shortHandedShots" : 9,
+        "evenShots" : 291,
+        "powerPlayShots" : 46,
+        "savePercentage" : 0.904624,
+        "goalAgainstAverage" : 2.463044,
+        "games" : 15,
+        "gamesStarted" : 13,
+        "shotsAgainst" : 346,
+        "goalsAgainst" : 33,
+        "powerPlaySavePercentage" : 86.95652173913044,
+        "shortHandedSavePercentage" : 88.88888888888889,
+        "evenStrengthSavePercentage" : 91.06529209621993
+      },
+      "team" : {
+        "id" : 19,
+        "name" : "St. Louis Blues",
+        "link" : "/api/v1/teams/19"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "2054:00",
+        "shutouts" : 2,
+        "ties" : 2,
+        "wins" : 13,
+        "losses" : 19,
+        "saves" : 937,
+        "savePercentage" : 0.904,
+        "goalAgainstAverage" : 2.89,
+        "games" : 35,
+        "shotsAgainst" : 1036,
+        "goalsAgainst" : 99
+      },
+      "team" : {
+        "id" : 7103,
+        "name" : "Peoria",
+        "link" : "/api/v1/teams/7103"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "3138:00",
+        "shutouts" : 7,
+        "ties" : 3,
+        "wins" : 33,
+        "losses" : 16,
+        "saves" : 1361,
+        "savePercentage" : 0.928,
+        "goalAgainstAverage" : 2.03,
+        "games" : 52,
+        "shotsAgainst" : 1467,
+        "goalsAgainst" : 106
+      },
+      "team" : {
+        "id" : 6838,
+        "name" : "Chicago",
+        "link" : "/api/v1/teams/6838"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "2077:02",
+        "ot" : 4,
+        "shutouts" : 4,
+        "wins" : 22,
+        "losses" : 7,
+        "saves" : 830,
+        "powerPlaySaves" : 134,
+        "shortHandedSaves" : 18,
+        "evenSaves" : 678,
+        "shortHandedShots" : 18,
+        "evenShots" : 739,
+        "powerPlayShots" : 152,
+        "savePercentage" : 0.913091,
+        "goalAgainstAverage" : 2.282101,
+        "games" : 37,
+        "gamesStarted" : 32,
+        "shotsAgainst" : 909,
+        "goalsAgainst" : 79,
+        "powerPlaySavePercentage" : 88.1578947368421,
+        "shortHandedSavePercentage" : 100.0,
+        "evenStrengthSavePercentage" : 91.74560216508796
+      },
+      "team" : {
+        "id" : 19,
+        "name" : "St. Louis Blues",
+        "link" : "/api/v1/teams/19"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "2583:22",
+        "ot" : 3,
+        "shutouts" : 6,
+        "wins" : 26,
+        "losses" : 15,
+        "saves" : 1159,
+        "powerPlaySaves" : 174,
+        "shortHandedSaves" : 31,
+        "evenSaves" : 954,
+        "shortHandedShots" : 35,
+        "evenShots" : 1030,
+        "powerPlayShots" : 195,
+        "savePercentage" : 0.919841,
+        "goalAgainstAverage" : 2.345776,
+        "games" : 47,
+        "gamesStarted" : 44,
+        "shotsAgainst" : 1260,
+        "goalsAgainst" : 101,
+        "powerPlaySavePercentage" : 89.23076923076924,
+        "shortHandedSavePercentage" : 88.57142857142857,
+        "evenStrengthSavePercentage" : 92.62135922330097
+      },
+      "team" : {
+        "id" : 19,
+        "name" : "St. Louis Blues",
+        "link" : "/api/v1/teams/19"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "3418:19",
+        "ot" : 5,
+        "shutouts" : 4,
+        "wins" : 33,
+        "losses" : 20,
+        "saves" : 1482,
+        "powerPlaySaves" : 217,
+        "shortHandedSaves" : 25,
+        "evenSaves" : 1240,
+        "shortHandedShots" : 29,
+        "evenShots" : 1350,
+        "powerPlayShots" : 241,
+        "savePercentage" : 0.914815,
+        "goalAgainstAverage" : 2.422245,
+        "games" : 61,
+        "gamesStarted" : 60,
+        "shotsAgainst" : 1620,
+        "goalsAgainst" : 138,
+        "powerPlaySavePercentage" : 90.04149377593362,
+        "shortHandedSavePercentage" : 86.20689655172413,
+        "evenStrengthSavePercentage" : 91.85185185185185
+      },
+      "team" : {
+        "id" : 19,
+        "name" : "St. Louis Blues",
+        "link" : "/api/v1/teams/19"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "3316:58",
+        "ot" : 3,
+        "shutouts" : 1,
+        "wins" : 27,
+        "losses" : 25,
+        "saves" : 1462,
+        "powerPlaySaves" : 181,
+        "shortHandedSaves" : 34,
+        "evenSaves" : 1247,
+        "shortHandedShots" : 40,
+        "evenShots" : 1357,
+        "powerPlayShots" : 217,
+        "savePercentage" : 0.905824,
+        "goalAgainstAverage" : 2.7495,
+        "games" : 59,
+        "gamesStarted" : 56,
+        "shotsAgainst" : 1614,
+        "goalsAgainst" : 152,
+        "powerPlaySavePercentage" : 83.41013824884793,
+        "shortHandedSavePercentage" : 85.0,
+        "evenStrengthSavePercentage" : 91.89388356669123
+      },
+      "team" : {
+        "id" : 19,
+        "name" : "St. Louis Blues",
+        "link" : "/api/v1/teams/19"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "2567:57",
+        "ot" : 8,
+        "shutouts" : 3,
+        "wins" : 19,
+        "losses" : 17,
+        "saves" : 1156,
+        "powerPlaySaves" : 161,
+        "shortHandedSaves" : 28,
+        "evenSaves" : 967,
+        "shortHandedShots" : 32,
+        "evenShots" : 1060,
+        "powerPlayShots" : 185,
+        "savePercentage" : 0.905247,
+        "goalAgainstAverage" : 2.827158,
+        "games" : 46,
+        "gamesStarted" : 45,
+        "shotsAgainst" : 1277,
+        "goalsAgainst" : 121,
+        "powerPlaySavePercentage" : 87.02702702702703,
+        "shortHandedSavePercentage" : 87.5,
+        "evenStrengthSavePercentage" : 91.22641509433961
+      },
+      "team" : {
+        "id" : 19,
+        "name" : "St. Louis Blues",
+        "link" : "/api/v1/teams/19"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1339:04",
+        "ot" : 3,
+        "shutouts" : 2,
+        "wins" : 12,
+        "losses" : 6,
+        "saves" : 607,
+        "powerPlaySaves" : 70,
+        "shortHandedSaves" : 14,
+        "evenSaves" : 523,
+        "shortHandedShots" : 15,
+        "evenShots" : 561,
+        "powerPlayShots" : 79,
+        "savePercentage" : 0.927,
+        "goalAgainstAverage" : 2.1508,
+        "games" : 24,
+        "gamesStarted" : 21,
+        "shotsAgainst" : 655,
+        "goalsAgainst" : 48,
+        "powerPlaySavePercentage" : 88.60759493670885,
+        "shortHandedSavePercentage" : 93.33333333333333,
+        "evenStrengthSavePercentage" : 93.22638146167557
+      },
+      "team" : {
+        "id" : 19,
+        "name" : "St. Louis Blues",
+        "link" : "/api/v1/teams/19"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "1702:36",
+        "ot" : 5,
+        "shutouts" : 0,
+        "wins" : 11,
+        "losses" : 12,
+        "saves" : 741,
+        "powerPlaySaves" : 116,
+        "shortHandedSaves" : 13,
+        "evenSaves" : 612,
+        "shortHandedShots" : 14,
+        "evenShots" : 674,
+        "powerPlayShots" : 129,
+        "savePercentage" : 0.907,
+        "goalAgainstAverage" : 2.6783,
+        "games" : 29,
+        "gamesStarted" : 27,
+        "shotsAgainst" : 817,
+        "goalsAgainst" : 76,
+        "powerPlaySavePercentage" : 89.92248062015504,
+        "shortHandedSavePercentage" : 92.85714285714286,
+        "evenStrengthSavePercentage" : 90.80118694362018
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1947:40",
+        "ot" : 4,
+        "shutouts" : 2,
+        "wins" : 9,
+        "losses" : 20,
+        "saves" : 1016,
+        "powerPlaySaves" : 154,
+        "shortHandedSaves" : 18,
+        "evenSaves" : 844,
+        "shortHandedShots" : 21,
+        "evenShots" : 922,
+        "powerPlayShots" : 180,
+        "savePercentage" : 0.905,
+        "goalAgainstAverage" : 3.29625,
+        "games" : 35,
+        "gamesStarted" : 35,
+        "shotsAgainst" : 1123,
+        "goalsAgainst" : 107,
+        "powerPlaySavePercentage" : 85.55555555555556,
+        "shortHandedSavePercentage" : 85.71428571428571,
+        "evenStrengthSavePercentage" : 91.54013015184381
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "2450:25",
+        "ot" : 3,
+        "shutouts" : 1,
+        "wins" : 15,
+        "losses" : 24,
+        "saves" : 1190,
+        "powerPlaySaves" : 201,
+        "shortHandedSaves" : 36,
+        "evenSaves" : 953,
+        "shortHandedShots" : 37,
+        "evenShots" : 1064,
+        "powerPlayShots" : 234,
+        "savePercentage" : 0.891386,
+        "goalAgainstAverage" : 3.550417,
+        "games" : 42,
+        "gamesStarted" : 41,
+        "shotsAgainst" : 1335,
+        "goalsAgainst" : 145,
+        "powerPlaySavePercentage" : 85.8974358974359,
+        "shortHandedSavePercentage" : 97.2972972972973,
+        "evenStrengthSavePercentage" : 89.56766917293233
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "65:00",
+        "ot" : 1,
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 0,
+        "losses" : 0,
+        "saves" : 37,
+        "powerPlaySaves" : 5,
+        "shortHandedSaves" : 2,
+        "evenSaves" : 30,
+        "shortHandedShots" : 2,
+        "evenShots" : 33,
+        "powerPlayShots" : 7,
+        "savePercentage" : 0.880952,
+        "goalAgainstAverage" : 4.615385,
+        "games" : 1,
+        "gamesStarted" : 1,
+        "shotsAgainst" : 42,
+        "goalsAgainst" : 5,
+        "powerPlaySavePercentage" : 71.42857142857143,
+        "shortHandedSavePercentage" : 100.0,
+        "evenStrengthSavePercentage" : 90.9090909090909
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

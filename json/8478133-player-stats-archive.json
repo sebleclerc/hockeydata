@@ -1,0 +1,471 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Mississauga Rebels Bantam AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "GTBHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 138525
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 55,
+        "goals" : 34,
+        "pim" : 38,
+        "games" : 77,
+        "penaltyMinutes" : "38",
+        "points" : 89
+      },
+      "team" : {
+        "name" : "Miss. Rebels",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "GTHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 5,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "0",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "St. Michael's",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ON-Jr.A",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 32,
+        "goals" : 12,
+        "pim" : 45,
+        "games" : 50,
+        "powerPlayGoals" : 3,
+        "penaltyMinutes" : "45",
+        "gameWinningGoals" : 3,
+        "shortHandedGoals" : 0,
+        "points" : 44
+      },
+      "team" : {
+        "name" : "St. Michael's",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ON-Jr.A",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 47,
+        "goals" : 16,
+        "pim" : 79,
+        "games" : 49,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "79",
+        "gameWinningGoals" : 3,
+        "shortHandedGoals" : 1,
+        "points" : 63
+      },
+      "team" : {
+        "name" : "St. Michael's",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ON-Jr.A",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 7,
+        "pim" : 22,
+        "games" : 41,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "22",
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "points" : 17
+      },
+      "team" : {
+        "name" : "U. of Notre Dame",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "H-East",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 25,
+        "goals" : 8,
+        "pim" : 29,
+        "shots" : 55,
+        "games" : 37,
+        "powerPlayGoals" : 4,
+        "penaltyMinutes" : "29",
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 15,
+        "points" : 33
+      },
+      "team" : {
+        "name" : "U. of Notre Dame",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "H-East",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 25,
+        "goals" : 8,
+        "pim" : 29,
+        "games" : 37,
+        "penaltyMinutes" : "29",
+        "plusMinus" : 15,
+        "points" : 33
+      },
+      "team" : {
+        "name" : "Univ. of Notre Dame",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16100
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 29,
+        "goals" : 13,
+        "pim" : 47,
+        "games" : 40,
+        "penaltyMinutes" : "47",
+        "plusMinus" : 11,
+        "points" : 42
+      },
+      "team" : {
+        "name" : "Univ. of Notre Dame",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16100
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 33,
+        "goals" : 13,
+        "pim" : 18,
+        "games" : 40,
+        "penaltyMinutes" : "18",
+        "plusMinus" : 9,
+        "points" : 46
+      },
+      "team" : {
+        "name" : "Univ. of Notre Dame",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16100
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Team Canada",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Spengler Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 250335
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 32,
+        "goals" : 13,
+        "pim" : 26,
+        "games" : 67,
+        "penaltyMinutes" : "26",
+        "plusMinus" : -11,
+        "points" : 45
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "134:35",
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 0,
+        "shots" : 14,
+        "games" : 13,
+        "hits" : 16,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "06:22",
+        "evenTimeOnIce" : "120:52",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 51.79,
+        "shotPct" : 14.3,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "07:21",
+        "blocked" : 5,
+        "plusMinus" : 1,
+        "points" : 3,
+        "shifts" : 195
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 24,
+        "goals" : 14,
+        "pim" : 26,
+        "games" : 51,
+        "penaltyMinutes" : "26",
+        "plusMinus" : -5,
+        "points" : 38
+      },
+      "team" : {
+        "name" : "Laval Rocket",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 222817
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "556:15",
+        "assists" : 10,
+        "goals" : 3,
+        "pim" : 29,
+        "shots" : 55,
+        "games" : 47,
+        "hits" : 79,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "03:24",
+        "evenTimeOnIce" : "467:12",
+        "penaltyMinutes" : "29",
+        "faceOffPct" : 50.12,
+        "shotPct" : 5.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "85:39",
+        "blocked" : 26,
+        "plusMinus" : 2,
+        "points" : 13,
+        "shifts" : 832
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1122:58",
+        "assists" : 16,
+        "goals" : 13,
+        "pim" : 22,
+        "shots" : 124,
+        "games" : 72,
+        "hits" : 88,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "22:50",
+        "evenTimeOnIce" : "961:18",
+        "penaltyMinutes" : "22",
+        "faceOffPct" : 49.78,
+        "shotPct" : 10.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "138:50",
+        "blocked" : 37,
+        "plusMinus" : -5,
+        "points" : 29,
+        "shifts" : 1581
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "782:28",
+        "assists" : 17,
+        "goals" : 2,
+        "pim" : 28,
+        "shots" : 55,
+        "games" : 54,
+        "hits" : 27,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "05:25",
+        "evenTimeOnIce" : "625:30",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 52.0,
+        "shotPct" : 3.64,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "151:33",
+        "blocked" : 41,
+        "plusMinus" : -5,
+        "points" : 19,
+        "shifts" : 1006
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "27:51",
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 2,
+        "shots" : 3,
+        "games" : 2,
+        "hits" : 5,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:12",
+        "evenTimeOnIce" : "19:30",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 67.86,
+        "shotPct" : 33.33,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "08:09",
+        "blocked" : 2,
+        "plusMinus" : 0,
+        "points" : 1,
+        "shifts" : 40
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

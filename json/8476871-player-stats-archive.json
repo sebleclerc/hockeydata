@@ -1,0 +1,699 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 1,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "2",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Kitchener",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ON-Jr.B",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 33,
+        "goals" : 15,
+        "pim" : 28,
+        "games" : 52,
+        "powerPlayGoals" : 6,
+        "penaltyMinutes" : "28",
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "points" : 48
+      },
+      "team" : {
+        "name" : "Waterloo",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ON-Jr.B",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 41,
+        "goals" : 29,
+        "pim" : 78,
+        "games" : 51,
+        "powerPlayGoals" : 7,
+        "penaltyMinutes" : "78",
+        "gameWinningGoals" : 6,
+        "shortHandedGoals" : 1,
+        "points" : 70
+      },
+      "team" : {
+        "name" : "Waterloo",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ON-Jr.B",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 27,
+        "goals" : 15,
+        "pim" : 35,
+        "games" : 66,
+        "powerPlayGoals" : 4,
+        "penaltyMinutes" : "35",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -12,
+        "points" : 42
+      },
+      "team" : {
+        "id" : 1858,
+        "name" : "Barrie",
+        "link" : "/api/v1/teams/1858"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 54,
+        "goals" : 37,
+        "pim" : 37,
+        "games" : 60,
+        "powerPlayGoals" : 10,
+        "penaltyMinutes" : "37",
+        "gameWinningGoals" : 6,
+        "shortHandedGoals" : 2,
+        "plusMinus" : 21,
+        "points" : 91
+      },
+      "team" : {
+        "id" : 1858,
+        "name" : "Barrie",
+        "link" : "/api/v1/teams/1858"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 6,
+        "games" : 6,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "6",
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 1,
+        "points" : 6
+      },
+      "team" : {
+        "id" : 60,
+        "name" : "Canada",
+        "link" : "/api/v1/teams/60"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 28,
+        "goals" : 19,
+        "pim" : 14,
+        "shots" : 137,
+        "games" : 64,
+        "powerPlayGoals" : 5,
+        "penaltyMinutes" : "14",
+        "shotPct" : 13.87,
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 17,
+        "points" : 47
+      },
+      "team" : {
+        "id" : 6836,
+        "name" : "Manchester",
+        "link" : "/api/v1/teams/6836"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "270:13",
+        "assists" : 4,
+        "goals" : 3,
+        "pim" : 8,
+        "shots" : 31,
+        "games" : 25,
+        "hits" : 35,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "15:52",
+        "evenTimeOnIce" : "251:22",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 50.0,
+        "shotPct" : 9.68,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:59",
+        "blocked" : 9,
+        "plusMinus" : 2,
+        "points" : 7,
+        "shifts" : 388
+      },
+      "team" : {
+        "id" : 26,
+        "name" : "Los Angeles Kings",
+        "link" : "/api/v1/teams/26"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 17,
+        "pim" : 18,
+        "shots" : 126,
+        "games" : 41,
+        "powerPlayGoals" : 6,
+        "penaltyMinutes" : "18",
+        "shotPct" : 13.5,
+        "gameWinningGoals" : 2,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 11,
+        "points" : 32
+      },
+      "team" : {
+        "id" : 6836,
+        "name" : "Manchester",
+        "link" : "/api/v1/teams/6836"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "558:16",
+        "assists" : 4,
+        "goals" : 12,
+        "pim" : 14,
+        "shots" : 68,
+        "games" : 42,
+        "hits" : 46,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "63:37",
+        "evenTimeOnIce" : "475:34",
+        "penaltyMinutes" : "14",
+        "faceOffPct" : 62.5,
+        "shotPct" : 17.65,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "19:05",
+        "blocked" : 9,
+        "plusMinus" : 14,
+        "points" : 16,
+        "shifts" : 753
+      },
+      "team" : {
+        "id" : 26,
+        "name" : "Los Angeles Kings",
+        "link" : "/api/v1/teams/26"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "1142:23",
+        "assists" : 21,
+        "goals" : 15,
+        "pim" : 18,
+        "shots" : 137,
+        "games" : 79,
+        "hits" : 104,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "76:47",
+        "evenTimeOnIce" : "971:38",
+        "penaltyMinutes" : "18",
+        "faceOffPct" : 32.0,
+        "shotPct" : 10.95,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "93:58",
+        "blocked" : 34,
+        "plusMinus" : 11,
+        "points" : 36,
+        "shifts" : 1625
+      },
+      "team" : {
+        "id" : 26,
+        "name" : "Los Angeles Kings",
+        "link" : "/api/v1/teams/26"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "1305:36",
+        "assists" : 20,
+        "goals" : 24,
+        "pim" : 13,
+        "shots" : 187,
+        "games" : 80,
+        "hits" : 124,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 8,
+        "powerPlayTimeOnIce" : "192:37",
+        "evenTimeOnIce" : "1025:50",
+        "penaltyMinutes" : "13",
+        "faceOffPct" : 41.67,
+        "shotPct" : 12.83,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "87:09",
+        "blocked" : 31,
+        "plusMinus" : 5,
+        "points" : 44,
+        "shifts" : 1784
+      },
+      "team" : {
+        "id" : 26,
+        "name" : "Los Angeles Kings",
+        "link" : "/api/v1/teams/26"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "1309:21",
+        "assists" : 25,
+        "goals" : 15,
+        "pim" : 27,
+        "shots" : 180,
+        "games" : 82,
+        "hits" : 116,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 5,
+        "powerPlayTimeOnIce" : "147:50",
+        "evenTimeOnIce" : "1077:24",
+        "penaltyMinutes" : "27",
+        "faceOffPct" : 49.32,
+        "shotPct" : 8.33,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "84:07",
+        "blocked" : 36,
+        "plusMinus" : 11,
+        "points" : 40,
+        "shifts" : 1858
+      },
+      "team" : {
+        "id" : 26,
+        "name" : "Los Angeles Kings",
+        "link" : "/api/v1/teams/26"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "229:36",
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 8,
+        "shots" : 24,
+        "games" : 17,
+        "hits" : 18,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "30:34",
+        "evenTimeOnIce" : "198:19",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 20.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:43",
+        "blocked" : 3,
+        "plusMinus" : -9,
+        "points" : 1,
+        "shifts" : 342
+      },
+      "team" : {
+        "id" : 26,
+        "name" : "Los Angeles Kings",
+        "link" : "/api/v1/teams/26"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "581:41",
+        "assists" : 5,
+        "goals" : 9,
+        "pim" : 13,
+        "shots" : 81,
+        "games" : 44,
+        "hits" : 82,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 2,
+        "powerPlayTimeOnIce" : "37:04",
+        "evenTimeOnIce" : "543:25",
+        "penaltyMinutes" : "13",
+        "faceOffPct" : 33.33,
+        "shotPct" : 11.11,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:12",
+        "blocked" : 25,
+        "plusMinus" : -6,
+        "points" : 14,
+        "shifts" : 829
+      },
+      "team" : {
+        "id" : 5,
+        "name" : "Pittsburgh Penguins",
+        "link" : "/api/v1/teams/5"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "312:48",
+        "assists" : 3,
+        "goals" : 9,
+        "pim" : 4,
+        "shots" : 42,
+        "games" : 19,
+        "hits" : 28,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "31:27",
+        "evenTimeOnIce" : "261:51",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 33.33,
+        "shotPct" : 21.43,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "19:30",
+        "blocked" : 13,
+        "plusMinus" : 0,
+        "points" : 12,
+        "shifts" : 454
+      },
+      "team" : {
+        "id" : 23,
+        "name" : "Vancouver Canucks",
+        "link" : "/api/v1/teams/23"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1139:21",
+        "assists" : 24,
+        "goals" : 21,
+        "pim" : 27,
+        "shots" : 164,
+        "games" : 69,
+        "hits" : 96,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 10,
+        "powerPlayTimeOnIce" : "109:40",
+        "evenTimeOnIce" : "956:31",
+        "penaltyMinutes" : "27",
+        "faceOffPct" : 17.65,
+        "shotPct" : 12.8,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 2,
+        "shortHandedPoints" : 3,
+        "shortHandedTimeOnIce" : "73:10",
+        "blocked" : 40,
+        "plusMinus" : -4,
+        "points" : 45,
+        "shifts" : 1634
+      },
+      "team" : {
+        "id" : 23,
+        "name" : "Vancouver Canucks",
+        "link" : "/api/v1/teams/23"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "870:40",
+        "assists" : 8,
+        "goals" : 10,
+        "pim" : 26,
+        "shots" : 110,
+        "games" : 51,
+        "hits" : 54,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "95:24",
+        "evenTimeOnIce" : "721:53",
+        "penaltyMinutes" : "26",
+        "faceOffPct" : 37.5,
+        "shotPct" : 9.1,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "53:23",
+        "blocked" : 28,
+        "plusMinus" : -15,
+        "points" : 18,
+        "shifts" : 1225
+      },
+      "team" : {
+        "id" : 23,
+        "name" : "Vancouver Canucks",
+        "link" : "/api/v1/teams/23"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1091:44",
+        "assists" : 20,
+        "goals" : 14,
+        "pim" : 30,
+        "shots" : 159,
+        "games" : 68,
+        "hits" : 84,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "109:41",
+        "evenTimeOnIce" : "935:58",
+        "penaltyMinutes" : "30",
+        "faceOffPct" : 35.09,
+        "shotPct" : 8.8,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "46:05",
+        "blocked" : 41,
+        "plusMinus" : 9,
+        "points" : 34,
+        "shifts" : 1521
+      },
+      "team" : {
+        "id" : 23,
+        "name" : "Vancouver Canucks",
+        "link" : "/api/v1/teams/23"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "188:55",
+        "assists" : 4,
+        "goals" : 1,
+        "pim" : 21,
+        "shots" : 17,
+        "games" : 14,
+        "hits" : 20,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "20:53",
+        "evenTimeOnIce" : "160:29",
+        "penaltyMinutes" : "21",
+        "faceOffPct" : 38.89,
+        "shotPct" : 5.88,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "07:33",
+        "blocked" : 3,
+        "plusMinus" : -9,
+        "points" : 5,
+        "shifts" : 287
+      },
+      "team" : {
+        "id" : 23,
+        "name" : "Vancouver Canucks",
+        "link" : "/api/v1/teams/23"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "25:20",
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 0,
+        "shots" : 1,
+        "games" : 2,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "21:02",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 100.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "04:18",
+        "blocked" : 0,
+        "plusMinus" : 1,
+        "points" : 1,
+        "shifts" : 37
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

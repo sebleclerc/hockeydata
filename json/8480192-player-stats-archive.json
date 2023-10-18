@@ -1,0 +1,362 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 2,
+        "pim" : 22,
+        "games" : 40,
+        "penaltyMinutes" : "22",
+        "plusMinus" : 0,
+        "points" : 13
+      },
+      "team" : {
+        "name" : "Niagara Falls Rivermen Mn Mdgt",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "SCTAMM",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 146924
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 23,
+        "goals" : 5,
+        "pim" : 0,
+        "games" : 66,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 12,
+        "points" : 28
+      },
+      "team" : {
+        "name" : "The Hill Academy U16 Prep",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Midget",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 132551
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 5,
+        "pim" : 20,
+        "games" : 52,
+        "penaltyMinutes" : "20",
+        "plusMinus" : 0,
+        "points" : 19
+      },
+      "team" : {
+        "name" : "Ottawa Jr. Senators",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "CCHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 31993
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 2,
+        "pim" : 6,
+        "games" : 21,
+        "penaltyMinutes" : "6",
+        "points" : 10
+      },
+      "team" : {
+        "name" : "Ottawa Jr. Senators",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "CCHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 31996
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 20,
+        "goals" : 6,
+        "pim" : 21,
+        "games" : 30,
+        "penaltyMinutes" : "21",
+        "points" : 26
+      },
+      "team" : {
+        "name" : "Hawkesbury Hawks",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "CCHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 34336
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 3,
+        "pim" : 30,
+        "games" : 36,
+        "penaltyMinutes" : "30",
+        "plusMinus" : 7,
+        "points" : 19
+      },
+      "team" : {
+        "name" : "Merrimack College",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19270
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 2,
+        "pim" : 14,
+        "games" : 34,
+        "penaltyMinutes" : "14",
+        "plusMinus" : -2,
+        "points" : 17
+      },
+      "team" : {
+        "name" : "Merrimack College",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19270
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 1,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 2,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Manitoba Moose",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 877
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 4,
+        "pim" : 14,
+        "games" : 31,
+        "penaltyMinutes" : "14",
+        "plusMinus" : -10,
+        "points" : 18
+      },
+      "team" : {
+        "name" : "Merrimack College",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19270
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 4,
+        "pim" : 33,
+        "games" : 45,
+        "penaltyMinutes" : "33",
+        "plusMinus" : 10,
+        "points" : 12
+      },
+      "team" : {
+        "name" : "Manitoba Moose",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 877
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 2,
+        "pim" : 23,
+        "games" : 29,
+        "penaltyMinutes" : "23",
+        "plusMinus" : 10,
+        "points" : 14
+      },
+      "team" : {
+        "name" : "Manitoba Moose",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 877
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "43:15",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 7,
+        "games" : 4,
+        "hits" : 0,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "41:47",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:28",
+        "blocked" : 3,
+        "plusMinus" : 1,
+        "points" : 0,
+        "shifts" : 59
+      },
+      "team" : {
+        "id" : 52,
+        "name" : "Winnipeg Jets",
+        "link" : "/api/v1/teams/52"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 19,
+        "goals" : 11,
+        "pim" : 45,
+        "games" : 62,
+        "penaltyMinutes" : "45",
+        "plusMinus" : 23,
+        "points" : 30
+      },
+      "team" : {
+        "name" : "Manitoba Moose",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 877
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1341:18",
+        "assists" : 12,
+        "goals" : 3,
+        "pim" : 39,
+        "shots" : 92,
+        "games" : 77,
+        "hits" : 93,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "01:54",
+        "evenTimeOnIce" : "1186:00",
+        "penaltyMinutes" : "39",
+        "faceOffPct" : 0.0,
+        "shotPct" : 3.26,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "153:24",
+        "blocked" : 86,
+        "plusMinus" : 3,
+        "points" : 15,
+        "shifts" : 1546
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "37:43",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 0,
+        "games" : 2,
+        "hits" : 2,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:27",
+        "evenTimeOnIce" : "32:14",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "05:02",
+        "blocked" : 1,
+        "plusMinus" : 5,
+        "points" : 0,
+        "shifts" : 42
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}
