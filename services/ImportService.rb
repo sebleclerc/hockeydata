@@ -40,14 +40,20 @@ class ImportService
 
     def importPlayerForId(id)
         @filename = Filenames.playerForId(id)
-        player = getCachedData()["people"][0]
-        @dbService.insertPlayer(player)
+
+        if File.exist?(filePath)
+            player = getCachedData()["people"][0]
+            @dbService.insertPlayer(player)
+        end
     end
 
     def importPlayerArchiveStatsForId(id)
         @filename = Filenames.playerArchiveStatsForId(id)
-        stat = getCachedData()["stats"][0]["splits"]
-        @dbService.insertPlayerArchiveStat(id, stat)
+
+        if File.exist?(filePath)
+            stat = getCachedData()["stats"][0]["splits"]
+            @dbService.insertPlayerArchiveStat(id, stat)
+        end
     end
 
     private

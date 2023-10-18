@@ -74,6 +74,18 @@ class DatabaseService
         end
     end
 
+    def getAllRosters()
+        roster = Array.new
+
+        results = @dbClient.query("SELECT * FROM TeamsPlayers")
+
+        results.each do |row|
+            roster.append(row["playerId"])
+        end
+
+        return roster
+    end
+
     def getTeamRoster(team)
         roster = Array.new
         results = @dbClient.query("SELECT * FROM TeamsPlayers WHERE teamId = #{team.id}")

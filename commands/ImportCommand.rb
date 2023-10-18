@@ -1,6 +1,7 @@
 class ImportCommand
-  def initialize(importService)
+  def initialize(importService, dbService)
     @importService = importService
+    @dbService = dbService
   end
 
   def run
@@ -14,9 +15,9 @@ class ImportCommand
     @importService.importTeamRosters()
 
     Logger.info "Import pool players + archive stats"
-    poolRoster = PoolRoster.rosterPlayerIds
+    players = @dbService.getAllRosters()
 
-    poolRoster.each do |playerId|
+    players.each do |playerId|
       @importService.importPlayerForId(playerId)
       @importService.importPlayerArchiveStatsForId(playerId)
     end

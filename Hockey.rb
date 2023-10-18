@@ -26,7 +26,7 @@ class Hockey < Thor
     def import()
         initTask()
         ImportCommand
-            .new(@importService)
+            .new(@importService, @dbService)
             .run()
     end
 
