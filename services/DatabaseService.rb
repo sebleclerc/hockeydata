@@ -1,7 +1,7 @@
 require "mysql2"
 require_relative "../models/Player.rb"
+require_relative "../models/PlayerSeasonStats.rb"
 require_relative "../models/PlayerSalarySeason.rb"
-require_relative "../models/PlayerStatSeason.rb"
 require_relative "../models/Position.rb"
 require_relative "../models/Team.rb"
 
@@ -165,6 +165,38 @@ class DatabaseService
         end
     end
 
+    def getPlayerSeasonStatsForPlayerIdAndSeason(playerId, season=nil)
+        stats = Array.new
+
+        query = "SELECT * FROM PlayersStatsArchive WHERE playerId = #{playerId}"
+
+        if !season.nil?
+            query += " AND season = \"#{season}\""
+        end
+
+        query += " AND teamId IS NOT NULL"
+
+        results = @dbClient.query(query)
+
+        results.each do |result|
+            stat = PlayerSeasonStats.new
+
+            stat.season = result["season"]
+
+            stat.games = result["games"]
+            stat.goals = result["goals"]
+            stat.assists = result["assists"]
+            stat.points = result["points"]
+
+            stat.leagueName = result["leagueName"]
+            stat.teamName = result["teamName"]
+
+            stats.append(stat)
+        end
+
+        return stats
+    end
+
     def getPoolPlayersForSeason(season)
         players = Array.new
         results = @dbClient.query("SELECT p.id, p.firstName, p.lastName, positionCode FROM Players p, PoolDraft pd WHERE p.id = pd.playerId AND season = \"#{season}\"")
@@ -175,25 +207,6 @@ class DatabaseService
         end
 
         return players
-    end
-
-    def getPoolPlayerStatsForSeason(playerId, season)
-        results = @dbClient.query("SELECT * FROM PlayersStatsArchive WHERE playerId = #{playerId} AND season = \"#{season}\" AND teamId IS NOT NULL")
-        stats = Array.new
-
-        results.each do |result|
-            stat = PlayerStatSeason.new
-
-            stat.season = result["season"]
-            stat.games = result["games"]
-            stat.goals = result["goals"]
-            stat.assists = result["assists"]
-            stat.points = result["points"]
-
-            stats.append(stat)
-        end
-
-        return stats.first
     end
 
     def insertPlayerSalary(playerId, season, salary)

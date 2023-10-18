@@ -4,6 +4,7 @@ require "thor"
 require "http"
 require "./commands/CacheCommand"
 require "./commands/ImportCommand"
+require "./commands/PlayerCommand"
 require "./commands/RosterCommand"
 require "./commands/Pool"
 require "./commands/Salary"
@@ -38,17 +39,12 @@ class Hockey < Thor
             .run(teamId)
     end
 
-    desc "local", "Fetch and save local data"
-    def local()
-        Logger.taskTitle "Task Local"
+    desc "player playerId", "Show informations about a specific player"
+    def player(playerId)
         initTask()
-
-        Logger.info "Building local data..."
-
-        teams = @dbService.getAllTeams()
-        # @localService.validateEverything(teams, PoolRoster.rosterPlayerIds, false)
-
-        Logger.taskEnd()
+        PlayerCommand
+            .new(@dbService)
+            .run(playerId)
     end
 
     desc "pool SEASON", "Some Parent Command"

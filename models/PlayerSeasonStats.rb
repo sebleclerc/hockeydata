@@ -1,6 +1,34 @@
-class PlayerStatSeason
+require_relative('../helpers/Integer+Extensions.rb')
+require_relative('../helpers/String+Extensions.rb')
+
+class PlayerSeasonStats
   attr_accessor :season
   attr_accessor :games, :goals, :assists, :points
+  attr_accessor :leagueName, :teamName
+
+  def self.formattedHeaderString
+    header = "Season".ljust(10)
+    header += "Games".intHeader()
+    header += "Goals".intHeader()
+    header += "Assists".intHeader()
+    header += "Points".intHeader()
+    header += "Team Name".showHeader()
+    header += "League Name".showHeader()
+
+    return header
+  end
+
+  def formattedString
+    formatted = season.to_s.ljust(10)
+    formatted += games.show()
+    formatted += goals.show()
+    formatted += assists.show()
+    formatted += points.show()
+    formatted += teamName.show()
+    formatted += leagueName.show()
+
+    return formatted
+  end
 
   def poolPoints(position)
     case position

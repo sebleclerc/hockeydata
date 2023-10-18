@@ -7,6 +7,20 @@ class Player
         return "#{firstName} #{lastName}"
     end
 
+    def birthDate
+        return "#{birthYear}-#{birthMonth}-#{birthDay}"
+    end
+
+    def birthLocation
+        location = birthCity
+
+        if birthProvince |= nil
+            location += ", #{birthProvince}"
+        end
+
+        location += ", #{birthCountry}"
+    end
+
     def self.fromJson(item)
         # p item
         newPlayer = Player.new
@@ -59,6 +73,10 @@ class Player
         player.birthYear = row["birthYear"]
         player.birthMonth = row["birthMonth"]
         player.birthDay = row["birthDay"]
+
+        player.birthCity = row["birthCity"]
+        player.birthProvince = row["birthStateProvince"]
+        player.birthCountry = row["birthCountry"]
 
         player.positionCode = row["positionCode"]
 
