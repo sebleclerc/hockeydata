@@ -1,0 +1,863 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20052006",
+      "stat" : {
+        "assists" : 30,
+        "goals" : 3,
+        "pim" : 24,
+        "games" : 25,
+        "penaltyMinutes" : "24",
+        "plusMinus" : 0,
+        "points" : 33
+      },
+      "team" : {
+        "name" : "Little Caesars Bantam Major AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "T1EBHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 142479
+    }, {
+      "season" : "20062007",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 3,
+        "pim" : 30,
+        "games" : 25,
+        "penaltyMinutes" : "30",
+        "plusMinus" : 0,
+        "points" : 17
+      },
+      "team" : {
+        "name" : "Little Caesars U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "T1EHL U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 93518
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 2,
+        "pim" : 26,
+        "games" : 25,
+        "penaltyMinutes" : "26",
+        "faceOffPct" : 0.0,
+        "points" : 11
+      },
+      "team" : {
+        "name" : "Det. Caesars",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MWEHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 14,
+        "games" : 26,
+        "penaltyMinutes" : "14",
+        "faceOffPct" : 0.0,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "USNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NAHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 6,
+        "games" : 8,
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 0.0,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "USNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 4,
+        "games" : 9,
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 0.0,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "USNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 4,
+        "games" : 7,
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 0.0,
+        "points" : 2
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "United States",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJ18-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 4
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 1,
+        "pim" : 12,
+        "games" : 22,
+        "penaltyMinutes" : "12",
+        "faceOffPct" : 0.0,
+        "points" : 9
+      },
+      "team" : {
+        "name" : "USNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 19,
+        "goals" : 4,
+        "pim" : 6,
+        "games" : 34,
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 0.0,
+        "points" : 23
+      },
+      "team" : {
+        "name" : "USNTDP",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "points" : 1
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJ18-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 18,
+        "goals" : 7,
+        "pim" : 16,
+        "games" : 42,
+        "penaltyMinutes" : "16",
+        "points" : 25
+      },
+      "team" : {
+        "id" : 1338,
+        "name" : "U. of Michigan",
+        "link" : "/api/v1/teams/1338"
+      },
+      "league" : {
+        "id" : 131,
+        "name" : "CCHA",
+        "link" : "/api/v1/league/131"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 6,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "0",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -2,
+        "points" : 5
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 2,
+        "pim" : 15,
+        "games" : 19,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "15",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "points" : 11
+      },
+      "team" : {
+        "id" : 1338,
+        "name" : "U. of Michigan",
+        "link" : "/api/v1/teams/1338"
+      },
+      "league" : {
+        "id" : 131,
+        "name" : "CCHA",
+        "link" : "/api/v1/league/131"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 6,
+        "games" : 6,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "6",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 5,
+        "points" : 4
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 2,
+        "pim" : 14,
+        "games" : 21,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "14",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "points" : 11
+      },
+      "team" : {
+        "id" : 1338,
+        "name" : "U. of Michigan",
+        "link" : "/api/v1/teams/1338"
+      },
+      "league" : {
+        "id" : 131,
+        "name" : "CCHA",
+        "link" : "/api/v1/league/131"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 1,
+        "pim" : 4,
+        "shots" : 20,
+        "games" : 12,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "4",
+        "shotPct" : 5.0,
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -8,
+        "points" : 8
+      },
+      "team" : {
+        "id" : 7252,
+        "name" : "Albany",
+        "link" : "/api/v1/teams/7252"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "999:46",
+        "assists" : 9,
+        "goals" : 2,
+        "pim" : 12,
+        "shots" : 45,
+        "games" : 52,
+        "hits" : 27,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 2,
+        "powerPlayTimeOnIce" : "77:02",
+        "evenTimeOnIce" : "888:01",
+        "penaltyMinutes" : "12",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.44,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "34:43",
+        "blocked" : 41,
+        "plusMinus" : -3,
+        "points" : 11,
+        "shifts" : 1296
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 2,
+        "pim" : 0,
+        "shots" : 21,
+        "games" : 15,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "0",
+        "shotPct" : 9.5,
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -1,
+        "points" : 10
+      },
+      "team" : {
+        "id" : 7252,
+        "name" : "Albany",
+        "link" : "/api/v1/teams/7252"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "1356:35",
+        "assists" : 12,
+        "goals" : 2,
+        "pim" : 24,
+        "shots" : 47,
+        "games" : 66,
+        "hits" : 59,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "65:34",
+        "evenTimeOnIce" : "1175:03",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.26,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "115:58",
+        "blocked" : 89,
+        "plusMinus" : -14,
+        "points" : 14,
+        "shifts" : 1701
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "794:08",
+        "assists" : 4,
+        "goals" : 1,
+        "pim" : 28,
+        "shots" : 30,
+        "games" : 47,
+        "hits" : 48,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "05:24",
+        "evenTimeOnIce" : "729:18",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 0.0,
+        "shotPct" : 3.33,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "59:26",
+        "blocked" : 54,
+        "plusMinus" : -15,
+        "points" : 5,
+        "shifts" : 1067
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "946:53",
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 24,
+        "shots" : 48,
+        "games" : 51,
+        "hits" : 39,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "15:21",
+        "evenTimeOnIce" : "855:11",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 0.0,
+        "shotPct" : 2.08,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "76:21",
+        "blocked" : 68,
+        "plusMinus" : -9,
+        "points" : 6,
+        "shifts" : 1273
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "546:55",
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 22,
+        "shots" : 30,
+        "games" : 34,
+        "hits" : 35,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "02:46",
+        "evenTimeOnIce" : "530:23",
+        "penaltyMinutes" : "22",
+        "faceOffPct" : 0.0,
+        "shotPct" : 3.33,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "13:46",
+        "blocked" : 42,
+        "plusMinus" : 7,
+        "points" : 3,
+        "shifts" : 693
+      },
+      "team" : {
+        "id" : 54,
+        "name" : "Vegas Golden Knights",
+        "link" : "/api/v1/teams/54"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1019:04",
+        "assists" : 12,
+        "goals" : 3,
+        "pim" : 53,
+        "shots" : 72,
+        "games" : 57,
+        "hits" : 71,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "10:25",
+        "evenTimeOnIce" : "938:58",
+        "penaltyMinutes" : "53",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.17,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "69:41",
+        "blocked" : 72,
+        "plusMinus" : 16,
+        "points" : 15,
+        "shifts" : 1269
+      },
+      "team" : {
+        "id" : 54,
+        "name" : "Vegas Golden Knights",
+        "link" : "/api/v1/teams/54"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "889:33",
+        "assists" : 5,
+        "goals" : 2,
+        "pim" : 32,
+        "shots" : 37,
+        "games" : 49,
+        "hits" : 51,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "10:12",
+        "evenTimeOnIce" : "811:23",
+        "penaltyMinutes" : "32",
+        "faceOffPct" : 0.0,
+        "shotPct" : 5.4,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "67:58",
+        "blocked" : 71,
+        "plusMinus" : 9,
+        "points" : 7,
+        "shifts" : 1105
+      },
+      "team" : {
+        "id" : 54,
+        "name" : "Vegas Golden Knights",
+        "link" : "/api/v1/teams/54"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "708:37",
+        "assists" : 5,
+        "goals" : 0,
+        "pim" : 12,
+        "shots" : 35,
+        "games" : 36,
+        "hits" : 24,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "18:17",
+        "evenTimeOnIce" : "634:28",
+        "penaltyMinutes" : "12",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "55:52",
+        "blocked" : 58,
+        "plusMinus" : 2,
+        "points" : 5,
+        "shifts" : 840
+      },
+      "team" : {
+        "id" : 17,
+        "name" : "Detroit Red Wings",
+        "link" : "/api/v1/teams/17"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "185:57",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 4,
+        "shots" : 6,
+        "games" : 13,
+        "hits" : 10,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "180:57",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "05:00",
+        "blocked" : 12,
+        "plusMinus" : -11,
+        "points" : 0,
+        "shifts" : 224
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1180:47",
+        "assists" : 16,
+        "goals" : 4,
+        "pim" : 22,
+        "shots" : 59,
+        "games" : 69,
+        "hits" : 46,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "02:02",
+        "evenTimeOnIce" : "1043:57",
+        "penaltyMinutes" : "22",
+        "faceOffPct" : 0.0,
+        "shotPct" : 6.8,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "134:48",
+        "blocked" : 112,
+        "plusMinus" : 15,
+        "points" : 20,
+        "shifts" : 1410
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 1,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1105:37",
+        "assists" : 10,
+        "goals" : 2,
+        "pim" : 38,
+        "shots" : 43,
+        "games" : 73,
+        "hits" : 47,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "05:07",
+        "evenTimeOnIce" : "1023:54",
+        "penaltyMinutes" : "38",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.65,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "76:36",
+        "blocked" : 107,
+        "plusMinus" : -2,
+        "points" : 12,
+        "shifts" : 1342
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "49:57",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 0,
+        "games" : 3,
+        "hits" : 0,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:35",
+        "evenTimeOnIce" : "40:37",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "08:45",
+        "blocked" : 3,
+        "plusMinus" : -1,
+        "points" : 0,
+        "shifts" : 59
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

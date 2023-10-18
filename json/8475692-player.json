@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8475692,
+    "fullName" : "Mats Zuccarello",
+    "link" : "/api/v1/people/8475692",
+    "firstName" : "Mats",
+    "lastName" : "Zuccarello",
+    "primaryNumber" : "36",
+    "birthDate" : "1987-09-01",
+    "currentAge" : 36,
+    "birthCity" : "Oslo",
+    "birthCountry" : "NOR",
+    "nationality" : "NOR",
+    "height" : "5' 8\"",
+    "weight" : 181,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 30,
+      "name" : "Minnesota Wild",
+      "link" : "/api/v1/teams/30"
+    },
+    "primaryPosition" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  } ]
+}

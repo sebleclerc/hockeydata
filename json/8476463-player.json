@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8476463,
+    "fullName" : "Jonas Brodin",
+    "link" : "/api/v1/people/8476463",
+    "firstName" : "Jonas",
+    "lastName" : "Brodin",
+    "primaryNumber" : "25",
+    "birthDate" : "1993-07-12",
+    "currentAge" : 30,
+    "birthCity" : "Karlstad",
+    "birthCountry" : "SWE",
+    "nationality" : "SWE",
+    "height" : "6' 2\"",
+    "weight" : 196,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 30,
+      "name" : "Minnesota Wild",
+      "link" : "/api/v1/teams/30"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

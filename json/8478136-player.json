@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8478136,
+    "fullName" : "Jake Middleton",
+    "link" : "/api/v1/people/8478136",
+    "firstName" : "Jake",
+    "lastName" : "Middleton",
+    "primaryNumber" : "5",
+    "birthDate" : "1996-01-02",
+    "currentAge" : 27,
+    "birthCity" : "Wainwright",
+    "birthStateProvince" : "AB",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 3\"",
+    "weight" : 219,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 30,
+      "name" : "Minnesota Wild",
+      "link" : "/api/v1/teams/30"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

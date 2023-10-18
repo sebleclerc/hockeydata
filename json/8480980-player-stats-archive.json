@@ -1,0 +1,302 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 31,
+        "goals" : 35,
+        "pim" : 48,
+        "games" : 32,
+        "penaltyMinutes" : "48",
+        "points" : 66
+      },
+      "team" : {
+        "name" : "Parkland Rangers Bantam AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WBAAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 150919
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 15,
+        "pim" : 60,
+        "games" : 43,
+        "penaltyMinutes" : "60",
+        "points" : 37
+      },
+      "team" : {
+        "name" : "Parkland Rangers Midget AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MMHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 54523
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 11,
+        "pim" : 24,
+        "games" : 72,
+        "penaltyMinutes" : "24",
+        "plusMinus" : -1,
+        "points" : 18
+      },
+      "team" : {
+        "name" : "Everett Silvertips",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16391
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 14,
+        "pim" : 37,
+        "games" : 71,
+        "penaltyMinutes" : "37",
+        "plusMinus" : -3,
+        "points" : 30
+      },
+      "team" : {
+        "name" : "Everett Silvertips",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16391
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 30,
+        "goals" : 38,
+        "pim" : 47,
+        "games" : 68,
+        "penaltyMinutes" : "47",
+        "plusMinus" : 23,
+        "points" : 68
+      },
+      "team" : {
+        "name" : "Everett Silvertips",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16391
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 45,
+        "goals" : 36,
+        "pim" : 60,
+        "games" : 59,
+        "penaltyMinutes" : "60",
+        "plusMinus" : 27,
+        "points" : 81
+      },
+      "team" : {
+        "name" : "Everett Silvertips",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16391
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 6,
+        "pim" : 22,
+        "games" : 52,
+        "penaltyMinutes" : "22",
+        "plusMinus" : 10,
+        "points" : 19
+      },
+      "team" : {
+        "name" : "Iowa Wild",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149087
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 12,
+        "pim" : 13,
+        "games" : 32,
+        "penaltyMinutes" : "13",
+        "plusMinus" : 6,
+        "points" : 23
+      },
+      "team" : {
+        "name" : "Iowa Wild",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149087
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "346:22",
+        "assists" : 4,
+        "goals" : 2,
+        "pim" : 25,
+        "shots" : 44,
+        "games" : 35,
+        "hits" : 48,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "01:28",
+        "evenTimeOnIce" : "319:09",
+        "penaltyMinutes" : "25",
+        "faceOffPct" : 46.62,
+        "shotPct" : 4.5,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "25:45",
+        "blocked" : 22,
+        "plusMinus" : -4,
+        "points" : 6,
+        "shifts" : 478
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 8,
+        "pim" : 17,
+        "games" : 19,
+        "penaltyMinutes" : "17",
+        "plusMinus" : 9,
+        "points" : 17
+      },
+      "team" : {
+        "name" : "Iowa Wild",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149087
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "887:55",
+        "assists" : 12,
+        "goals" : 6,
+        "pim" : 50,
+        "shots" : 87,
+        "games" : 81,
+        "hits" : 124,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "05:50",
+        "evenTimeOnIce" : "750:07",
+        "penaltyMinutes" : "50",
+        "faceOffPct" : 44.14,
+        "shotPct" : 6.9,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 3,
+        "shortHandedPoints" : 4,
+        "shortHandedTimeOnIce" : "131:58",
+        "blocked" : 50,
+        "plusMinus" : -5,
+        "points" : 18,
+        "shifts" : 1196
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "37:42",
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 2,
+        "shots" : 2,
+        "games" : 3,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "30:26",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 50.0,
+        "shotPct" : 50.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "07:16",
+        "blocked" : 0,
+        "plusMinus" : 1,
+        "points" : 2,
+        "shifts" : 50
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

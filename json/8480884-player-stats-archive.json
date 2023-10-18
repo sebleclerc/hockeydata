@@ -1,0 +1,437 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 30,
+        "goals" : 26,
+        "pim" : 50,
+        "games" : 27,
+        "penaltyMinutes" : "50",
+        "points" : 56
+      },
+      "team" : {
+        "name" : "Brandon Wheat Kings Bantam AAA 2",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WBAAA2",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 140450
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 31,
+        "goals" : 45,
+        "pim" : 46,
+        "games" : 31,
+        "penaltyMinutes" : "46",
+        "points" : 76
+      },
+      "team" : {
+        "name" : "Brandon Wheat Kings Bantam AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WBAAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 136999
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 3,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Lethbridge Hurricanes",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8951
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 8,
+        "pim" : 42,
+        "games" : 15,
+        "penaltyMinutes" : "42",
+        "points" : 15
+      },
+      "team" : {
+        "name" : "Brandon Wheat Kings U18 AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MU18HL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 55480
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 24,
+        "goals" : 9,
+        "pim" : 52,
+        "games" : 63,
+        "penaltyMinutes" : "52",
+        "plusMinus" : 6,
+        "points" : 33
+      },
+      "team" : {
+        "name" : "Lethbridge Hurricanes",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8951
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Canada Black U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHC-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 163780
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 54,
+        "goals" : 11,
+        "pim" : 53,
+        "games" : 68,
+        "penaltyMinutes" : "53",
+        "plusMinus" : -18,
+        "points" : 65
+      },
+      "team" : {
+        "name" : "Lethbridge Hurricanes",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8951
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 2,
+        "pim" : 4,
+        "games" : 5,
+        "penaltyMinutes" : "4",
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Canada U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Hlinka Gretzky Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 144760
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Wilkes-Barre/Scranton Penguins",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1077
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 54,
+        "goals" : 11,
+        "pim" : 52,
+        "games" : 67,
+        "penaltyMinutes" : "52",
+        "plusMinus" : 2,
+        "points" : 65
+      },
+      "team" : {
+        "name" : "Lethbridge Hurricanes",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8951
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 42,
+        "goals" : 10,
+        "pim" : 51,
+        "games" : 50,
+        "penaltyMinutes" : "51",
+        "plusMinus" : 7,
+        "points" : 52
+      },
+      "team" : {
+        "name" : "Lethbridge Hurricanes",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8951
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 4,
+        "points" : 9
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "55:33",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 4,
+        "games" : 3,
+        "hits" : 2,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "08:14",
+        "evenTimeOnIce" : "47:19",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 1,
+        "plusMinus" : 0,
+        "points" : 0,
+        "shifts" : 62
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 6,
+        "pim" : 33,
+        "games" : 31,
+        "penaltyMinutes" : "33",
+        "plusMinus" : 7,
+        "points" : 22
+      },
+      "team" : {
+        "name" : "Iowa Wild",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149087
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "206:50",
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 2,
+        "shots" : 17,
+        "games" : 15,
+        "hits" : 12,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "22:52",
+        "evenTimeOnIce" : "183:58",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 11.8,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 6,
+        "plusMinus" : -4,
+        "points" : 4,
+        "shifts" : 258
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 27,
+        "goals" : 7,
+        "pim" : 70,
+        "games" : 43,
+        "penaltyMinutes" : "70",
+        "plusMinus" : -6,
+        "points" : 34
+      },
+      "team" : {
+        "name" : "Iowa Wild",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149087
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "999:26",
+        "assists" : 26,
+        "goals" : 3,
+        "pim" : 22,
+        "shots" : 77,
+        "games" : 62,
+        "hits" : 19,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 18,
+        "powerPlayTimeOnIce" : "215:36",
+        "evenTimeOnIce" : "779:33",
+        "penaltyMinutes" : "22",
+        "faceOffPct" : 0.0,
+        "shotPct" : 3.9,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "04:17",
+        "blocked" : 38,
+        "plusMinus" : -17,
+        "points" : 29,
+        "shifts" : 1130
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "52:21",
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 5,
+        "games" : 3,
+        "hits" : 1,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "15:09",
+        "evenTimeOnIce" : "37:12",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 2,
+        "plusMinus" : -1,
+        "points" : 2,
+        "shifts" : 56
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

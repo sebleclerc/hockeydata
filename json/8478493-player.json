@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8478493,
+    "fullName" : "Joel Eriksson Ek",
+    "link" : "/api/v1/people/8478493",
+    "firstName" : "Joel",
+    "lastName" : "Eriksson Ek",
+    "primaryNumber" : "14",
+    "birthDate" : "1997-01-29",
+    "currentAge" : 26,
+    "birthCity" : "Karlstad",
+    "birthCountry" : "SWE",
+    "nationality" : "SWE",
+    "height" : "6' 3\"",
+    "weight" : 207,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 30,
+      "name" : "Minnesota Wild",
+      "link" : "/api/v1/teams/30"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

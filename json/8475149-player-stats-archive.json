@@ -1,0 +1,1000 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20042005",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 4,
+        "games" : 3,
+        "penaltyMinutes" : "4",
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Malmö Redhawks U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U16 SM",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 44057
+    }, {
+      "season" : "20052006",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 12,
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Malmo U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20062007",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 5,
+        "pim" : 8,
+        "games" : 12,
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 0.0,
+        "points" : 14
+      },
+      "team" : {
+        "name" : "Farjestad U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20062007",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "points" : 4
+      },
+      "team" : {
+        "id" : 66,
+        "name" : "Sweden",
+        "link" : "/api/v1/teams/66"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJ18-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 5
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 26,
+        "goals" : 12,
+        "pim" : 16,
+        "games" : 24,
+        "penaltyMinutes" : "16",
+        "faceOffPct" : 0.0,
+        "points" : 38
+      },
+      "team" : {
+        "name" : "Farjestad U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 2,
+        "pim" : 10,
+        "games" : 19,
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 0.0,
+        "points" : 12
+      },
+      "team" : {
+        "name" : "Skare ",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Sweden-3",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 3,
+        "pim" : 14,
+        "games" : 6,
+        "penaltyMinutes" : "14",
+        "faceOffPct" : 0.0,
+        "points" : 5
+      },
+      "team" : {
+        "id" : 66,
+        "name" : "Sweden",
+        "link" : "/api/v1/teams/66"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJ18-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 4
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Farjestad U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 5,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "points" : 10
+      },
+      "team" : {
+        "name" : "Skare",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Sweden-3",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 5,
+        "pim" : 10,
+        "games" : 45,
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 0.0,
+        "points" : 10
+      },
+      "team" : {
+        "id" : 3220,
+        "name" : "Farjestad",
+        "link" : "/api/v1/teams/3220"
+      },
+      "league" : {
+        "id" : 315,
+        "name" : "Sweden",
+        "link" : "/api/v1/league/315"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "points" : 2
+      },
+      "team" : {
+        "id" : 66,
+        "name" : "Sweden",
+        "link" : "/api/v1/teams/66"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 4
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 10,
+        "pim" : 10,
+        "games" : 42,
+        "penaltyMinutes" : "10",
+        "points" : 20
+      },
+      "team" : {
+        "id" : 3220,
+        "name" : "Farjestad",
+        "link" : "/api/v1/teams/3220"
+      },
+      "league" : {
+        "id" : 315,
+        "name" : "Sweden",
+        "link" : "/api/v1/league/315"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 29,
+        "games" : 5,
+        "penaltyMinutes" : "29",
+        "faceOffPct" : 0.0,
+        "points" : 6
+      },
+      "team" : {
+        "id" : 66,
+        "name" : "Sweden",
+        "link" : "/api/v1/teams/66"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "timeOnIce" : "1015:54",
+        "assists" : 14,
+        "goals" : 13,
+        "pim" : 10,
+        "shots" : 102,
+        "games" : 69,
+        "hits" : 47,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "65:53",
+        "evenTimeOnIce" : "868:30",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 40.51,
+        "shotPct" : 12.75,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "81:31",
+        "blocked" : 22,
+        "plusMinus" : 2,
+        "points" : 27,
+        "shifts" : 1301
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 3,
+        "games" : 2,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "0",
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 1,
+        "points" : 0
+      },
+      "team" : {
+        "id" : 6660,
+        "name" : "Hershey",
+        "link" : "/api/v1/teams/6660"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "timeOnIce" : "1344:17",
+        "assists" : 32,
+        "goals" : 14,
+        "pim" : 8,
+        "shots" : 90,
+        "games" : 80,
+        "hits" : 61,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 8,
+        "powerPlayTimeOnIce" : "183:11",
+        "evenTimeOnIce" : "1117:50",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 43.24,
+        "shotPct" : 15.56,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "43:16",
+        "blocked" : 28,
+        "plusMinus" : -5,
+        "points" : 46,
+        "shifts" : 1584
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "563:55",
+        "assists" : 16,
+        "goals" : 6,
+        "pim" : 4,
+        "shots" : 40,
+        "games" : 34,
+        "hits" : 14,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "56:15",
+        "evenTimeOnIce" : "475:02",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 45.98,
+        "shotPct" : 15.0,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "32:38",
+        "blocked" : 6,
+        "plusMinus" : 3,
+        "points" : 22,
+        "shifts" : 705
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 8,
+        "pim" : 8,
+        "games" : 16,
+        "penaltyMinutes" : "8",
+        "points" : 18
+      },
+      "team" : {
+        "id" : 3200,
+        "name" : "Bofors",
+        "link" : "/api/v1/teams/3200"
+      },
+      "league" : {
+        "id" : 315,
+        "name" : "Sweden-2",
+        "link" : "/api/v1/league/315"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "1403:04",
+        "assists" : 36,
+        "goals" : 8,
+        "pim" : 4,
+        "shots" : 107,
+        "games" : 80,
+        "hits" : 49,
+        "powerPlayGoals" : 6,
+        "powerPlayPoints" : 21,
+        "powerPlayTimeOnIce" : "240:10",
+        "evenTimeOnIce" : "1136:36",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 34.67,
+        "shotPct" : 7.48,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "26:18",
+        "blocked" : 27,
+        "plusMinus" : -21,
+        "points" : 44,
+        "shifts" : 1722
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 4,
+        "shots" : 5,
+        "games" : 5,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "4",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 1,
+        "points" : 1
+      },
+      "team" : {
+        "id" : 66,
+        "name" : "Sweden",
+        "link" : "/api/v1/teams/66"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "Olympics",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "1350:57",
+        "assists" : 27,
+        "goals" : 20,
+        "pim" : 10,
+        "shots" : 138,
+        "games" : 82,
+        "hits" : 69,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 15,
+        "powerPlayTimeOnIce" : "239:40",
+        "evenTimeOnIce" : "1108:15",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 43.75,
+        "shotPct" : 14.49,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "03:02",
+        "blocked" : 18,
+        "plusMinus" : 6,
+        "points" : 47,
+        "shifts" : 1614
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "1231:20",
+        "assists" : 29,
+        "goals" : 17,
+        "pim" : 16,
+        "shots" : 132,
+        "games" : 74,
+        "hits" : 38,
+        "powerPlayGoals" : 6,
+        "powerPlayPoints" : 14,
+        "powerPlayTimeOnIce" : "202:38",
+        "evenTimeOnIce" : "1025:03",
+        "penaltyMinutes" : "16",
+        "faceOffPct" : 46.04,
+        "shotPct" : 12.88,
+        "gameWinningGoals" : 7,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "03:39",
+        "blocked" : 24,
+        "plusMinus" : 12,
+        "points" : 46,
+        "shifts" : 1460
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "1393:30",
+        "assists" : 34,
+        "goals" : 24,
+        "pim" : 10,
+        "shots" : 129,
+        "games" : 82,
+        "hits" : 32,
+        "powerPlayGoals" : 5,
+        "powerPlayPoints" : 19,
+        "powerPlayTimeOnIce" : "231:22",
+        "evenTimeOnIce" : "1159:31",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 46.43,
+        "shotPct" : 18.6,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:37",
+        "blocked" : 22,
+        "plusMinus" : 25,
+        "points" : 58,
+        "shifts" : 1613
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "463:45",
+        "assists" : 9,
+        "goals" : 5,
+        "pim" : 14,
+        "shots" : 42,
+        "games" : 29,
+        "hits" : 8,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "83:51",
+        "evenTimeOnIce" : "377:13",
+        "penaltyMinutes" : "14",
+        "faceOffPct" : 48.65,
+        "shotPct" : 11.9,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:41",
+        "blocked" : 9,
+        "plusMinus" : -11,
+        "points" : 14,
+        "shifts" : 533
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "789:27",
+        "assists" : 15,
+        "goals" : 12,
+        "pim" : 8,
+        "shots" : 103,
+        "games" : 48,
+        "hits" : 23,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 9,
+        "powerPlayTimeOnIce" : "128:58",
+        "evenTimeOnIce" : "658:37",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 31.82,
+        "shotPct" : 11.65,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:52",
+        "blocked" : 18,
+        "plusMinus" : -15,
+        "points" : 27,
+        "shifts" : 944
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "134:07",
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 0,
+        "shots" : 12,
+        "games" : 10,
+        "hits" : 5,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "15:07",
+        "evenTimeOnIce" : "119:00",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 33.33,
+        "shotPct" : 8.33,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 6,
+        "plusMinus" : -1,
+        "points" : 3,
+        "shifts" : 162
+      },
+      "team" : {
+        "id" : 6,
+        "name" : "Boston Bruins",
+        "link" : "/api/v1/teams/6"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1028:50",
+        "assists" : 21,
+        "goals" : 9,
+        "pim" : 20,
+        "shots" : 87,
+        "games" : 60,
+        "hits" : 39,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 6,
+        "powerPlayTimeOnIce" : "147:52",
+        "evenTimeOnIce" : "861:33",
+        "penaltyMinutes" : "20",
+        "faceOffPct" : 40.0,
+        "shotPct" : 10.3,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "19:25",
+        "blocked" : 22,
+        "plusMinus" : -12,
+        "points" : 30,
+        "shifts" : 1259
+      },
+      "team" : {
+        "id" : 7,
+        "name" : "Buffalo Sabres",
+        "link" : "/api/v1/teams/7"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "573:42",
+        "assists" : 8,
+        "goals" : 6,
+        "pim" : 4,
+        "shots" : 46,
+        "games" : 36,
+        "hits" : 12,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 6,
+        "powerPlayTimeOnIce" : "65:06",
+        "evenTimeOnIce" : "463:05",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 37.65,
+        "shotPct" : 13.0,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "45:31",
+        "blocked" : 12,
+        "plusMinus" : -10,
+        "points" : 14,
+        "shifts" : 698
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "845:39",
+        "assists" : 17,
+        "goals" : 6,
+        "pim" : 4,
+        "shots" : 81,
+        "games" : 51,
+        "hits" : 17,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 9,
+        "powerPlayTimeOnIce" : "133:43",
+        "evenTimeOnIce" : "711:05",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 38.75,
+        "shotPct" : 7.4,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:51",
+        "blocked" : 18,
+        "plusMinus" : -22,
+        "points" : 23,
+        "shifts" : 1057
+      },
+      "team" : {
+        "id" : 55,
+        "name" : "Seattle Kraken",
+        "link" : "/api/v1/teams/55"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "267:13",
+        "assists" : 3,
+        "goals" : 3,
+        "pim" : 0,
+        "shots" : 30,
+        "games" : 18,
+        "hits" : 14,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "37:11",
+        "evenTimeOnIce" : "230:01",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 55.56,
+        "shotPct" : 10.0,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:01",
+        "blocked" : 8,
+        "plusMinus" : -4,
+        "points" : 6,
+        "shifts" : 322
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "965:02",
+        "assists" : 15,
+        "goals" : 13,
+        "pim" : 8,
+        "shots" : 95,
+        "games" : 60,
+        "hits" : 25,
+        "powerPlayGoals" : 4,
+        "powerPlayPoints" : 13,
+        "powerPlayTimeOnIce" : "172:02",
+        "evenTimeOnIce" : "753:58",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 40.91,
+        "shotPct" : 13.68,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "39:02",
+        "blocked" : 16,
+        "plusMinus" : -3,
+        "points" : 28,
+        "shifts" : 1141
+      },
+      "team" : {
+        "id" : 15,
+        "name" : "Washington Capitals",
+        "link" : "/api/v1/teams/15"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "354:10",
+        "assists" : 12,
+        "goals" : 6,
+        "pim" : 0,
+        "shots" : 42,
+        "games" : 20,
+        "hits" : 1,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 5,
+        "powerPlayTimeOnIce" : "50:40",
+        "evenTimeOnIce" : "283:10",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 62.5,
+        "shotPct" : 14.29,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "20:20",
+        "blocked" : 7,
+        "plusMinus" : 6,
+        "points" : 18,
+        "shifts" : 401
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "46:21",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 2,
+        "games" : 3,
+        "hits" : 1,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "10:14",
+        "evenTimeOnIce" : "34:47",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:20",
+        "blocked" : 1,
+        "plusMinus" : 0,
+        "points" : 0,
+        "shifts" : 56
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

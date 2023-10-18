@@ -1,0 +1,719 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20052006",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 16,
+        "pim" : 133,
+        "games" : 31,
+        "penaltyMinutes" : "133",
+        "plusMinus" : 0,
+        "points" : 31
+      },
+      "team" : {
+        "name" : "Sudbury Wolves Bantam AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NOBHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 110042
+    }, {
+      "season" : "20062007",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 21,
+        "pim" : 70,
+        "games" : 30,
+        "penaltyMinutes" : "70",
+        "faceOffPct" : 0.0,
+        "points" : 36
+      },
+      "team" : {
+        "name" : "Sudbury",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Minor-ON",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 5,
+        "pim" : 38,
+        "games" : 66,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "38",
+        "shortHandedGoals" : 0,
+        "plusMinus" : -28,
+        "points" : 11
+      },
+      "team" : {
+        "id" : 2766,
+        "name" : "Sudbury",
+        "link" : "/api/v1/teams/2766"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 18,
+        "goals" : 12,
+        "pim" : 96,
+        "games" : 65,
+        "powerPlayGoals" : 5,
+        "penaltyMinutes" : "96",
+        "shortHandedGoals" : 0,
+        "plusMinus" : -21,
+        "points" : 30
+      },
+      "team" : {
+        "id" : 2766,
+        "name" : "Sudbury",
+        "link" : "/api/v1/teams/2766"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 25,
+        "goals" : 14,
+        "pim" : 156,
+        "games" : 67,
+        "powerPlayGoals" : 3,
+        "penaltyMinutes" : "156",
+        "shortHandedGoals" : 1,
+        "plusMinus" : -3,
+        "points" : 39
+      },
+      "team" : {
+        "id" : 2766,
+        "name" : "Sudbury",
+        "link" : "/api/v1/teams/2766"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 36,
+        "goals" : 23,
+        "pim" : 92,
+        "games" : 47,
+        "powerPlayGoals" : 11,
+        "penaltyMinutes" : "92",
+        "shortHandedGoals" : 5,
+        "plusMinus" : 5,
+        "points" : 59
+      },
+      "team" : {
+        "id" : 2766,
+        "name" : "Sudbury",
+        "link" : "/api/v1/teams/2766"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 7,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "2",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 2,
+        "points" : 4
+      },
+      "team" : {
+        "id" : 60,
+        "name" : "Canada",
+        "link" : "/api/v1/teams/60"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "timeOnIce" : "221:25",
+        "assists" : 7,
+        "goals" : 6,
+        "pim" : 9,
+        "shots" : 23,
+        "games" : 14,
+        "hits" : 44,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "17:56",
+        "evenTimeOnIce" : "203:01",
+        "penaltyMinutes" : "9",
+        "faceOffPct" : 0.0,
+        "shotPct" : 26.09,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:28",
+        "blocked" : 11,
+        "plusMinus" : 6,
+        "points" : 13,
+        "shifts" : 280
+      },
+      "team" : {
+        "id" : 7,
+        "name" : "Buffalo Sabres",
+        "link" : "/api/v1/teams/7"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 23,
+        "goals" : 16,
+        "pim" : 78,
+        "shots" : 110,
+        "games" : 60,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "78",
+        "shotPct" : 14.55,
+        "gameWinningGoals" : 5,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 19,
+        "points" : 39
+      },
+      "team" : {
+        "id" : 6674,
+        "name" : "Rochester",
+        "link" : "/api/v1/teams/6674"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "640:29",
+        "assists" : 13,
+        "goals" : 5,
+        "pim" : 41,
+        "shots" : 55,
+        "games" : 47,
+        "hits" : 108,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "72:25",
+        "evenTimeOnIce" : "561:30",
+        "penaltyMinutes" : "41",
+        "faceOffPct" : 60.0,
+        "shotPct" : 9.09,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "06:34",
+        "blocked" : 16,
+        "plusMinus" : -4,
+        "points" : 18,
+        "shifts" : 789
+      },
+      "team" : {
+        "id" : 7,
+        "name" : "Buffalo Sabres",
+        "link" : "/api/v1/teams/7"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 17,
+        "goals" : 10,
+        "pim" : 38,
+        "shots" : 77,
+        "games" : 33,
+        "powerPlayGoals" : 3,
+        "penaltyMinutes" : "38",
+        "shotPct" : 12.99,
+        "gameWinningGoals" : 3,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 7,
+        "points" : 27
+      },
+      "team" : {
+        "id" : 6674,
+        "name" : "Rochester",
+        "link" : "/api/v1/teams/6674"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "1114:37",
+        "assists" : 12,
+        "goals" : 7,
+        "pim" : 82,
+        "shots" : 79,
+        "games" : 74,
+        "hits" : 206,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "81:52",
+        "evenTimeOnIce" : "949:52",
+        "penaltyMinutes" : "82",
+        "faceOffPct" : 48.5,
+        "shotPct" : 8.86,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "82:53",
+        "blocked" : 43,
+        "plusMinus" : -17,
+        "points" : 19,
+        "shifts" : 1441
+      },
+      "team" : {
+        "id" : 7,
+        "name" : "Buffalo Sabres",
+        "link" : "/api/v1/teams/7"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "924:50",
+        "assists" : 12,
+        "goals" : 8,
+        "pim" : 50,
+        "shots" : 66,
+        "games" : 57,
+        "hits" : 193,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "52:13",
+        "evenTimeOnIce" : "793:52",
+        "penaltyMinutes" : "50",
+        "faceOffPct" : 43.18,
+        "shotPct" : 12.12,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "78:45",
+        "blocked" : 48,
+        "plusMinus" : -5,
+        "points" : 20,
+        "shifts" : 1166
+      },
+      "team" : {
+        "id" : 7,
+        "name" : "Buffalo Sabres",
+        "link" : "/api/v1/teams/7"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "988:50",
+        "assists" : 13,
+        "goals" : 10,
+        "pim" : 79,
+        "shots" : 81,
+        "games" : 75,
+        "hits" : 193,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 2,
+        "powerPlayTimeOnIce" : "16:03",
+        "evenTimeOnIce" : "942:32",
+        "penaltyMinutes" : "79",
+        "faceOffPct" : 25.0,
+        "shotPct" : 12.35,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 2,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "30:15",
+        "blocked" : 44,
+        "plusMinus" : 4,
+        "points" : 23,
+        "shifts" : 1385
+      },
+      "team" : {
+        "id" : 7,
+        "name" : "Buffalo Sabres",
+        "link" : "/api/v1/teams/7"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "1237:44",
+        "assists" : 10,
+        "goals" : 13,
+        "pim" : 73,
+        "shots" : 97,
+        "games" : 80,
+        "hits" : 279,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "12:23",
+        "evenTimeOnIce" : "1132:36",
+        "penaltyMinutes" : "73",
+        "faceOffPct" : 20.0,
+        "shotPct" : 13.4,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "92:45",
+        "blocked" : 57,
+        "plusMinus" : -1,
+        "points" : 23,
+        "shifts" : 1592
+      },
+      "team" : {
+        "id" : 7,
+        "name" : "Buffalo Sabres",
+        "link" : "/api/v1/teams/7"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "836:27",
+        "assists" : 15,
+        "goals" : 8,
+        "pim" : 72,
+        "shots" : 79,
+        "games" : 77,
+        "hits" : 185,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 2,
+        "powerPlayTimeOnIce" : "20:28",
+        "evenTimeOnIce" : "815:40",
+        "penaltyMinutes" : "72",
+        "faceOffPct" : 47.37,
+        "shotPct" : 10.13,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:19",
+        "blocked" : 44,
+        "plusMinus" : 2,
+        "points" : 23,
+        "shifts" : 1129
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "981:33",
+        "assists" : 12,
+        "goals" : 7,
+        "pim" : 55,
+        "shots" : 91,
+        "games" : 82,
+        "hits" : 206,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "03:41",
+        "evenTimeOnIce" : "830:13",
+        "penaltyMinutes" : "55",
+        "faceOffPct" : 46.43,
+        "shotPct" : 7.69,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "147:39",
+        "blocked" : 43,
+        "plusMinus" : -1,
+        "points" : 19,
+        "shifts" : 1336
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "860:36",
+        "assists" : 14,
+        "goals" : 11,
+        "pim" : 30,
+        "shots" : 86,
+        "games" : 59,
+        "hits" : 184,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "01:55",
+        "evenTimeOnIce" : "751:27",
+        "penaltyMinutes" : "30",
+        "faceOffPct" : 37.5,
+        "shotPct" : 12.8,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "107:14",
+        "blocked" : 36,
+        "plusMinus" : 8,
+        "points" : 25,
+        "shifts" : 1116
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "583:32",
+        "assists" : 15,
+        "goals" : 11,
+        "pim" : 49,
+        "shots" : 40,
+        "games" : 39,
+        "hits" : 109,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "09:57",
+        "evenTimeOnIce" : "516:43",
+        "penaltyMinutes" : "49",
+        "faceOffPct" : 18.18,
+        "shotPct" : 27.5,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "56:52",
+        "blocked" : 17,
+        "plusMinus" : 19,
+        "points" : 26,
+        "shifts" : 727
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1214:11",
+        "assists" : 19,
+        "goals" : 23,
+        "pim" : 112,
+        "shots" : 98,
+        "games" : 74,
+        "hits" : 238,
+        "powerPlayGoals" : 5,
+        "powerPlayPoints" : 7,
+        "powerPlayTimeOnIce" : "127:09",
+        "evenTimeOnIce" : "949:29",
+        "penaltyMinutes" : "112",
+        "faceOffPct" : 60.0,
+        "shotPct" : 23.5,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "137:33",
+        "blocked" : 42,
+        "plusMinus" : 25,
+        "points" : 42,
+        "shifts" : 1481
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "974:24",
+        "assists" : 14,
+        "goals" : 7,
+        "pim" : 97,
+        "shots" : 83,
+        "games" : 65,
+        "hits" : 237,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "76:16",
+        "evenTimeOnIce" : "830:07",
+        "penaltyMinutes" : "97",
+        "faceOffPct" : 50.0,
+        "shotPct" : 8.43,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "68:01",
+        "blocked" : 40,
+        "plusMinus" : -6,
+        "points" : 21,
+        "shifts" : 1234
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "43:10",
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 9,
+        "shots" : 3,
+        "games" : 3,
+        "hits" : 15,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "05:04",
+        "evenTimeOnIce" : "35:13",
+        "penaltyMinutes" : "9",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:53",
+        "blocked" : 2,
+        "plusMinus" : 1,
+        "points" : 1,
+        "shifts" : 54
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

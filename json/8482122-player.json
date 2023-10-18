@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8482122,
+    "fullName" : "Brock Faber",
+    "link" : "/api/v1/people/8482122",
+    "firstName" : "Brock",
+    "lastName" : "Faber",
+    "primaryNumber" : "7",
+    "birthDate" : "2002-08-22",
+    "currentAge" : 21,
+    "birthCity" : "Maple Grove",
+    "birthStateProvince" : "MN",
+    "birthCountry" : "USA",
+    "nationality" : "USA",
+    "height" : "6' 1\"",
+    "weight" : 200,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 30,
+      "name" : "Minnesota Wild",
+      "link" : "/api/v1/teams/30"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

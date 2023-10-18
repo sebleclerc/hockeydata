@@ -1,0 +1,636 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 1,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Lincoln Stars",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8518
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 4,
+        "pim" : 53,
+        "games" : 36,
+        "penaltyMinutes" : "53",
+        "plusMinus" : -2,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "USNTDP Juniors",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 51638
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 5,
+        "pim" : 98,
+        "shots" : 120,
+        "games" : 60,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "98",
+        "shotPct" : 4.2,
+        "gameWinningGoals" : 2,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 22,
+        "points" : 27
+      },
+      "team" : {
+        "id" : 3564,
+        "name" : "Green Bay",
+        "link" : "/api/v1/teams/3564"
+      },
+      "league" : {
+        "id" : 83,
+        "name" : "USHL",
+        "link" : "/api/v1/league/83"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 14,
+        "games" : 19,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "14",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "points" : 4
+      },
+      "team" : {
+        "id" : 4734,
+        "name" : "U. of Denver",
+        "link" : "/api/v1/teams/4734"
+      },
+      "league" : {
+        "id" : 221,
+        "name" : "WCHA",
+        "link" : "/api/v1/league/221"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 2,
+        "pim" : 34,
+        "games" : 27,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "34",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 15,
+        "points" : 11
+      },
+      "team" : {
+        "id" : 1876,
+        "name" : "London",
+        "link" : "/api/v1/teams/1876"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 20,
+        "goals" : 5,
+        "pim" : 76,
+        "games" : 66,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "76",
+        "gameWinningGoals" : 2,
+        "shortHandedGoals" : 2,
+        "plusMinus" : 40,
+        "points" : 25
+      },
+      "team" : {
+        "id" : 1876,
+        "name" : "London",
+        "link" : "/api/v1/teams/1876"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 1,
+        "pim" : 36,
+        "games" : 36,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "36",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 22,
+        "points" : 11
+      },
+      "team" : {
+        "id" : 1876,
+        "name" : "London",
+        "link" : "/api/v1/teams/1876"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 5,
+        "pim" : 50,
+        "games" : 30,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "50",
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 26,
+        "points" : 19
+      },
+      "team" : {
+        "id" : 1888,
+        "name" : "Oshawa",
+        "link" : "/api/v1/teams/1888"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 3,
+        "pim" : 58,
+        "shots" : 68,
+        "games" : 63,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "58",
+        "shotPct" : 4.4,
+        "gameWinningGoals" : 2,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -12,
+        "points" : 13
+      },
+      "team" : {
+        "id" : 6678,
+        "name" : "Springfield",
+        "link" : "/api/v1/teams/6678"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 6,
+        "games" : 5,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "6",
+        "shortHandedGoals" : 0,
+        "plusMinus" : 1,
+        "points" : 3
+      },
+      "team" : {
+        "id" : 7291,
+        "name" : "Rapid City",
+        "link" : "/api/v1/teams/7291"
+      },
+      "league" : {
+        "name" : "ECHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 2,
+        "pim" : 75,
+        "games" : 67,
+        "penaltyMinutes" : "75",
+        "plusMinus" : -17,
+        "points" : 12
+      },
+      "team" : {
+        "name" : "Tucson Roadrunners",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 218897
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "98:52",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 7,
+        "games" : 9,
+        "hits" : 5,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:55",
+        "evenTimeOnIce" : "97:54",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:03",
+        "blocked" : 6,
+        "plusMinus" : -2,
+        "points" : 0,
+        "shifts" : 141
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 17,
+        "goals" : 2,
+        "pim" : 45,
+        "games" : 59,
+        "penaltyMinutes" : "45",
+        "plusMinus" : 5,
+        "points" : 19
+      },
+      "team" : {
+        "name" : "Tucson Roadrunners",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 218897
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "11:20",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 0,
+        "games" : 1,
+        "hits" : 0,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "11:20",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 0,
+        "plusMinus" : 1,
+        "points" : 0,
+        "shifts" : 17
+      },
+      "team" : {
+        "id" : 53,
+        "name" : "Arizona Coyotes",
+        "link" : "/api/v1/teams/53"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 3,
+        "pim" : 49,
+        "games" : 62,
+        "penaltyMinutes" : "49",
+        "plusMinus" : -2,
+        "points" : 24
+      },
+      "team" : {
+        "name" : "Tucson Roadrunners",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 218897
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "192:10",
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 4,
+        "shots" : 17,
+        "games" : 10,
+        "hits" : 20,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:16",
+        "evenTimeOnIce" : "171:52",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 0.0,
+        "shotPct" : 5.9,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "20:02",
+        "blocked" : 21,
+        "plusMinus" : 7,
+        "points" : 4,
+        "shifts" : 252
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 3,
+        "pim" : 23,
+        "games" : 53,
+        "penaltyMinutes" : "23",
+        "plusMinus" : 6,
+        "points" : 19
+      },
+      "team" : {
+        "name" : "Binghamton Devils",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 233827
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "49:12",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 2,
+        "games" : 3,
+        "hits" : 10,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:33",
+        "evenTimeOnIce" : "47:45",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:54",
+        "blocked" : 4,
+        "plusMinus" : 0,
+        "points" : 0,
+        "shifts" : 59
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "27:48",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 1,
+        "games" : 2,
+        "hits" : 3,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "27:48",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 1,
+        "plusMinus" : 2,
+        "points" : 0,
+        "shifts" : 36
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 3,
+        "pim" : 86,
+        "games" : 59,
+        "penaltyMinutes" : "86",
+        "plusMinus" : -9,
+        "points" : 24
+      },
+      "team" : {
+        "name" : "Iowa Wild",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149087
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "28:55",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 1,
+        "games" : 2,
+        "hits" : 2,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "27:05",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:50",
+        "blocked" : 3,
+        "plusMinus" : -1,
+        "points" : 0,
+        "shifts" : 36
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 5,
+        "pim" : 73,
+        "games" : 63,
+        "penaltyMinutes" : "73",
+        "plusMinus" : 9,
+        "points" : 26
+      },
+      "team" : {
+        "name" : "Iowa Wild",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149087
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "10:27",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 17,
+        "shots" : 0,
+        "games" : 1,
+        "hits" : 1,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "10:27",
+        "penaltyMinutes" : "17",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 0,
+        "plusMinus" : -1,
+        "points" : 0,
+        "shifts" : 13
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

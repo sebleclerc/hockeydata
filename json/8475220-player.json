@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8475220,
+    "fullName" : "Marcus Foligno",
+    "link" : "/api/v1/people/8475220",
+    "firstName" : "Marcus",
+    "lastName" : "Foligno",
+    "primaryNumber" : "17",
+    "birthDate" : "1991-08-10",
+    "currentAge" : 32,
+    "birthCity" : "Buffalo",
+    "birthStateProvince" : "NY",
+    "birthCountry" : "USA",
+    "nationality" : "CAN",
+    "height" : "6' 3\"",
+    "weight" : 226,
+    "active" : true,
+    "alternateCaptain" : true,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 30,
+      "name" : "Minnesota Wild",
+      "link" : "/api/v1/teams/30"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

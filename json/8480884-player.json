@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8480884,
+    "fullName" : "Calen Addison",
+    "link" : "/api/v1/people/8480884",
+    "firstName" : "Calen",
+    "lastName" : "Addison",
+    "primaryNumber" : "2",
+    "birthDate" : "2000-04-11",
+    "currentAge" : 23,
+    "birthCity" : "Brandon",
+    "birthStateProvince" : "MB",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "5' 11\"",
+    "weight" : 173,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 30,
+      "name" : "Minnesota Wild",
+      "link" : "/api/v1/teams/30"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

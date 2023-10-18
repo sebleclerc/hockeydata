@@ -1,0 +1,662 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "60:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 1,
+        "losses" : 0,
+        "goalAgainstAverage" : 3.0,
+        "games" : 1,
+        "goalsAgainst" : 3
+      },
+      "team" : {
+        "name" : "Skelleftea U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "1082:00",
+        "shutouts" : 4,
+        "ties" : 0,
+        "wins" : 15,
+        "losses" : 3,
+        "goalAgainstAverage" : 1.55,
+        "games" : 18,
+        "goalsAgainst" : 28
+      },
+      "team" : {
+        "name" : "Skelleftea U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "1092:00",
+        "shutouts" : 2,
+        "ties" : 0,
+        "wins" : 9,
+        "losses" : 9,
+        "goalAgainstAverage" : 2.2,
+        "games" : 18,
+        "goalsAgainst" : 40
+      },
+      "team" : {
+        "name" : "Lulea U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "424:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 1,
+        "losses" : 6,
+        "goalAgainstAverage" : 3.96,
+        "games" : 7,
+        "goalsAgainst" : 28
+      },
+      "team" : {
+        "name" : "Lulea Jr.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-Jr.",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "424:00",
+        "shutouts" : 0,
+        "savePercentage" : 0.881,
+        "goalAgainstAverage" : 3.96,
+        "games" : 7,
+        "shotsAgainst" : 235,
+        "goalsAgainst" : 28
+      },
+      "team" : {
+        "name" : "Luleå HF J20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "J20 Nationell",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5849
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "550:00",
+        "shutouts" : 1,
+        "savePercentage" : 0.908,
+        "goalAgainstAverage" : 2.18,
+        "games" : 9,
+        "shotsAgainst" : 217,
+        "goalsAgainst" : 20
+      },
+      "team" : {
+        "name" : "Luleå HF J18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "J18 Allsvenskan",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 6289
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "savePercentage" : 0.942,
+        "goalAgainstAverage" : 1.61,
+        "games" : 5
+      },
+      "team" : {
+        "name" : "Sweden U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHC-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 61300
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "1154:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 8,
+        "losses" : 11,
+        "goalAgainstAverage" : 3.22,
+        "games" : 20,
+        "goalsAgainst" : 62
+      },
+      "team" : {
+        "name" : "Lulea Jr.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-Jr.",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "359:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 4,
+        "losses" : 2,
+        "goalAgainstAverage" : 2.17,
+        "games" : 6,
+        "goalsAgainst" : 13
+      },
+      "team" : {
+        "id" : 3256,
+        "name" : "Lulea",
+        "link" : "/api/v1/teams/3256"
+      },
+      "league" : {
+        "name" : "Sweden",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "289:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 3,
+        "losses" : 1,
+        "goalAgainstAverage" : 2.7,
+        "games" : 5,
+        "shotsAgainst" : 138,
+        "goalsAgainst" : 13
+      },
+      "team" : {
+        "id" : 66,
+        "name" : "Sweden",
+        "link" : "/api/v1/teams/66"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJ18-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "359:00",
+        "shutouts" : 0,
+        "savePercentage" : 0.91,
+        "goalAgainstAverage" : 2.17,
+        "games" : 6,
+        "shotsAgainst" : 145,
+        "goalsAgainst" : 13
+      },
+      "team" : {
+        "name" : "Luleå HF",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "SHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 869
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "1154:00",
+        "shutouts" : 0,
+        "savePercentage" : 0.893,
+        "goalAgainstAverage" : 3.22,
+        "games" : 20,
+        "shotsAgainst" : 579,
+        "goalsAgainst" : 62
+      },
+      "team" : {
+        "name" : "Luleå HF J20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "J20 Nationell",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5849
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "savePercentage" : 0.906,
+        "goalAgainstAverage" : 2.7,
+        "games" : 5
+      },
+      "team" : {
+        "name" : "Sweden U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8573
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "845:00",
+        "shutouts" : 0,
+        "savePercentage" : 0.912,
+        "goalAgainstAverage" : 2.7,
+        "games" : 15,
+        "shotsAgainst" : 431,
+        "goalsAgainst" : 38
+      },
+      "team" : {
+        "name" : "Luleå HF",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "SHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 869
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "373:00",
+        "shutouts" : 0,
+        "savePercentage" : 0.928,
+        "goalAgainstAverage" : 2.09,
+        "games" : 6,
+        "shotsAgainst" : 181,
+        "goalsAgainst" : 13
+      },
+      "team" : {
+        "name" : "Luleå HF J20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "J20 Nationell",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5849
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "savePercentage" : 0.947,
+        "goalAgainstAverage" : 2.0,
+        "games" : 1
+      },
+      "team" : {
+        "name" : "Sweden U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8596
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "1189:00",
+        "shutouts" : 3,
+        "savePercentage" : 0.918,
+        "goalAgainstAverage" : 2.07,
+        "games" : 22,
+        "shotsAgainst" : 501,
+        "goalsAgainst" : 41
+      },
+      "team" : {
+        "name" : "Luleå HF",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "SHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 869
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "421:00",
+        "shutouts" : 2,
+        "savePercentage" : 0.925,
+        "goalAgainstAverage" : 1.71,
+        "games" : 7,
+        "shotsAgainst" : 160,
+        "goalsAgainst" : 12
+      },
+      "team" : {
+        "name" : "Luleå HF J20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "J20 Nationell",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5849
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "savePercentage" : 0.924,
+        "goalAgainstAverage" : 1.81,
+        "games" : 6
+      },
+      "team" : {
+        "name" : "Sweden U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 8596
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "savePercentage" : 0.912,
+        "goalAgainstAverage" : 3.01,
+        "games" : 7
+      },
+      "team" : {
+        "name" : "Belleville Senators",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 227817
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "savePercentage" : 0.827,
+        "goalAgainstAverage" : 5.38,
+        "games" : 2
+      },
+      "team" : {
+        "name" : "Brampton Beast",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ECHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 150795
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1739:00",
+        "shutouts" : 0,
+        "savePercentage" : 0.887,
+        "goalAgainstAverage" : 3.38,
+        "games" : 31,
+        "shotsAgainst" : 867,
+        "goalsAgainst" : 98
+      },
+      "team" : {
+        "name" : "Belleville Senators",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 227817
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1394:00",
+        "shutouts" : 1,
+        "savePercentage" : 0.889,
+        "goalAgainstAverage" : 3.23,
+        "games" : 24,
+        "shotsAgainst" : 676,
+        "goalsAgainst" : 75
+      },
+      "team" : {
+        "name" : "Belleville Senators",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 227817
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "471:34",
+        "ot" : 2,
+        "shutouts" : 0,
+        "wins" : 5,
+        "losses" : 1,
+        "saves" : 237,
+        "powerPlaySaves" : 26,
+        "shortHandedSaves" : 11,
+        "evenSaves" : 200,
+        "shortHandedShots" : 12,
+        "evenShots" : 213,
+        "powerPlayShots" : 29,
+        "savePercentage" : 0.933,
+        "goalAgainstAverage" : 2.163003,
+        "games" : 9,
+        "gamesStarted" : 7,
+        "shotsAgainst" : 254,
+        "goalsAgainst" : 17,
+        "powerPlaySavePercentage" : 89.65517241379311,
+        "shortHandedSavePercentage" : 91.66666666666666,
+        "evenStrengthSavePercentage" : 93.89671361502347
+      },
+      "team" : {
+        "id" : 9,
+        "name" : "Ottawa Senators",
+        "link" : "/api/v1/teams/9"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "1123:00",
+        "shutouts" : 1,
+        "savePercentage" : 0.919,
+        "goalAgainstAverage" : 2.3,
+        "games" : 19,
+        "shotsAgainst" : 531,
+        "goalsAgainst" : 43
+      },
+      "team" : {
+        "name" : "S\u001A\u001Adert\u001A§lje SK",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "HockeyAllsvenskan",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1330
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "775:00",
+        "shutouts" : 1,
+        "savePercentage" : 0.91,
+        "goalAgainstAverage" : 2.86,
+        "games" : 13,
+        "shotsAgainst" : 410,
+        "goalsAgainst" : 37
+      },
+      "team" : {
+        "name" : "Belleville Senators",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 227817
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1047:33",
+        "ot" : 1,
+        "shutouts" : 0,
+        "wins" : 5,
+        "losses" : 12,
+        "saves" : 512,
+        "powerPlaySaves" : 69,
+        "shortHandedSaves" : 15,
+        "evenSaves" : 428,
+        "shortHandedShots" : 16,
+        "evenShots" : 476,
+        "powerPlayShots" : 82,
+        "savePercentage" : 0.892,
+        "goalAgainstAverage" : 3.551143,
+        "games" : 18,
+        "gamesStarted" : 16,
+        "shotsAgainst" : 574,
+        "goalsAgainst" : 62,
+        "powerPlaySavePercentage" : 84.14634146341463,
+        "shortHandedSavePercentage" : 93.75,
+        "evenStrengthSavePercentage" : 89.91596638655463
+      },
+      "team" : {
+        "id" : 9,
+        "name" : "Ottawa Senators",
+        "link" : "/api/v1/teams/9"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1081:00",
+        "shutouts" : 2,
+        "savePercentage" : 0.915,
+        "goalAgainstAverage" : 2.5,
+        "games" : 20,
+        "shotsAgainst" : 530,
+        "goalsAgainst" : 45
+      },
+      "team" : {
+        "name" : "Belleville Senators",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 227817
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "2310:56",
+        "ot" : 7,
+        "shutouts" : 3,
+        "wins" : 22,
+        "losses" : 9,
+        "saves" : 1092,
+        "powerPlaySaves" : 145,
+        "shortHandedSaves" : 28,
+        "evenSaves" : 919,
+        "shortHandedShots" : 29,
+        "evenShots" : 986,
+        "powerPlayShots" : 158,
+        "savePercentage" : 0.930946,
+        "goalAgainstAverage" : 2.103046,
+        "games" : 39,
+        "gamesStarted" : 37,
+        "shotsAgainst" : 1173,
+        "goalsAgainst" : 81,
+        "powerPlaySavePercentage" : 91.77215189873418,
+        "shortHandedSavePercentage" : 96.55172413793103,
+        "evenStrengthSavePercentage" : 93.20486815415822
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "120:00",
+        "ot" : 0,
+        "shutouts" : 1,
+        "ties" : 0,
+        "wins" : 1,
+        "losses" : 1,
+        "saves" : 67,
+        "powerPlaySaves" : 9,
+        "shortHandedSaves" : 2,
+        "evenSaves" : 56,
+        "shortHandedShots" : 2,
+        "evenShots" : 61,
+        "powerPlayShots" : 11,
+        "savePercentage" : 0.905405,
+        "goalAgainstAverage" : 3.5,
+        "games" : 2,
+        "gamesStarted" : 2,
+        "shotsAgainst" : 74,
+        "goalsAgainst" : 7,
+        "powerPlaySavePercentage" : 81.81818181818183,
+        "shortHandedSavePercentage" : 100.0,
+        "evenStrengthSavePercentage" : 91.80327868852459
+      },
+      "team" : {
+        "id" : 30,
+        "name" : "Minnesota Wild",
+        "link" : "/api/v1/teams/30"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}
