@@ -39,8 +39,13 @@ class Hockey < Thor
             .run(playerId)
     end
 
-    desc "pool SEASON", "Some Parent Command"
-    subcommand "pool", Pool
+    desc "pool", "Show season information about pool data"
+    def pool(season="20232024")
+        initTask()
+        PoolCommand
+            .new(@dbService)
+            .run(season)
+    end
 
     desc "salary season", "Some"
     subcommand "salary", Salary

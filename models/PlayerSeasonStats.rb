@@ -4,7 +4,7 @@ class PlayerSeasonStats
   attr_accessor :leagueName, :teamName
 
   def self.formattedHeaderString
-    header = "Season".ljust(10)
+    header = "Season".rjust(10)
     header += "Games".intHeader()
     header += "Goals".intHeader()
     header += "Assists".intHeader()
@@ -19,7 +19,7 @@ class PlayerSeasonStats
   end
 
   def formattedString(position)
-    formatted = season.to_s.ljust(10)
+    formatted = season.to_s.rjust(10)
     formatted += games.show()
     formatted += goals.show()
     formatted += assists.show()
