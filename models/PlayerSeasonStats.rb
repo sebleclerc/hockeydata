@@ -1,7 +1,3 @@
-require_relative('../helpers/Float+Extensions.rb')
-require_relative('../helpers/Integer+Extensions.rb')
-require_relative('../helpers/String+Extensions.rb')
-
 class PlayerSeasonStats
   attr_accessor :season
   attr_accessor :games, :goals, :assists, :points

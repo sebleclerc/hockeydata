@@ -2,17 +2,9 @@
 
 require "thor"
 require "http"
-require "./commands/CacheCommand"
-require "./commands/ImportCommand"
-require "./commands/PlayerCommand"
-require "./commands/RosterCommand"
-require "./commands/Pool"
-require "./commands/Salary"
-require "./helpers/Logger"
-require "./helpers/PoolRoster"
-require "./services/CacheService"
-require "./services/DatabaseService"
-require "./services/ImportService"
+Dir["./commands/*.rb"].each {|file| require file }
+Dir["./helpers/*.rb"].each {|file| require file }
+Dir["./services/*.rb"].each {|file| require file }
 
 class Hockey < Thor
     desc "cache", "Fetch and cache files"

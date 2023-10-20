@@ -2,8 +2,6 @@
 # Import JSON files in database
 #
 
-require_relative("../helpers/Filenames.rb")
-
 class ImportService
     def initialize(dbService)
         @dbService = dbService

@@ -1,4 +1,6 @@
-require_relative "../helpers/Logger"
+#
+# Salary
+#
 
 class Salary < Thor
   desc "missing SEASON PLAYERID", "Add missing salary for a season and playerId"

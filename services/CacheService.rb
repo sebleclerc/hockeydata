@@ -1,9 +1,8 @@
-require "http"
-require_relative "../helpers/Filenames.rb"
-
 #
 # Check local cache, if not present, fetch from web and save to json files
 #
+
+require "http"
 
 class CacheService
     def cachePositions(force)

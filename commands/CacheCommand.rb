@@ -1,4 +1,6 @@
-require_relative("../helpers/PoolRoster.rb")
+#
+# CacheCommand
+#
 
 class CacheCommand
   def initialize(cacheService, dbService)
