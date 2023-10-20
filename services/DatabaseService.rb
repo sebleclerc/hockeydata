@@ -197,9 +197,15 @@ class DatabaseService
         return stats
     end
 
-    def getPoolPlayersForSeason(season)
+    def getPoolPlayersForSeason(season,all=false)
         players = Array.new
-        results = @dbClient.query("SELECT p.id, p.firstName, p.lastName, positionCode FROM Players p, PoolDraft pd WHERE p.id = pd.playerId AND season = \"#{season}\"")
+        query = "SELECT p.id, p.firstName, p.lastName, positionCode FROM Players p, PoolDraft pd WHERE p.id = pd.playerId AND season = \"#{season}\""
+
+        if !all
+            query += " AND pd.active = 1"
+        end
+
+        results = @dbClient.query(query)
 
         results.each do |row|
             player = Player.fromPoolRow(row)

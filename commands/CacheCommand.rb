@@ -36,9 +36,11 @@ class CacheCommand
 
     cacheTeamRosters(force)
 
-    PoolRoster.rosterPlayerIds.each do |playerId|
-      @cacheService.cachePlayerForId(playerId, force)
-      @cacheService.cachePlayerArchiveStatsForId(playerId, force)
+    roster = @dbService.getPoolPlayersForSeason(Constants.currentSeason)
+
+    roster.each do |player|
+      @cacheService.cachePlayerForId(player.id, force)
+      @cacheService.cachePlayerArchiveStatsForId(player.id, force)
     end
   end
 
@@ -67,8 +69,8 @@ class CacheCommand
 
   def cachePool()
     Logger.info "Refresh caching for pool"
-    PoolRoster.rosterPlayerIds.each do |playerId|
-      @cacheService.cachePlayerArchiveStatsForId(playerId, true)
+    @dbService.getPoolPlayersForSeason(Constants.currentSeason) do |player|
+      @cacheService.cachePlayerArchiveStatsForId(player.id, true)
     end
   end
 end

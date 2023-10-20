@@ -40,7 +40,7 @@ class Hockey < Thor
     end
 
     desc "pool", "Show season information about pool data"
-    def pool(season="20232024")
+    def pool(season=Constants.currentSeason)
         initTask()
         PoolCommand
             .new(@dbService)
