@@ -11,14 +11,13 @@ class CacheCommand
 
     case type
       when "all"
-        Logger.info "Caching for all"
         cacheAll(force)
       when "roster"
-        Logger.info "Caching team's rosters"
         cacheTeamRosters(force)
       when "team"
-        Logger.info "Caching team's players"
         cacheTeamPlayers(force)
+      when "pool"
+        cachePool()
       else
         Logger.error "Wrong cache type: [#{type}]"
     end
@@ -29,7 +28,7 @@ class CacheCommand
   private
 
   def cacheAll(force)
-    Logger.info "Cache everything"
+    Logger.info "Caching for all"
     @cacheService.cachePositions(force)
     @cacheService.cacheTeams(force)
 
@@ -42,6 +41,8 @@ class CacheCommand
   end
 
   def cacheTeamRosters(force)
+    Logger.info "Caching team's rosters"
+
     teams = @dbService.getAllTeams()
     teams.each do |team|
       @cacheService.cacheTeamRoster(team, force)
@@ -49,6 +50,8 @@ class CacheCommand
   end
 
   def cacheTeamPlayers(force)
+    Logger.info "Caching team's players"
+
     Logger.info "What team ID?"
     teamId = STDIN.gets.chomp
     team = @dbService.getTeamForId(teamId)
@@ -57,6 +60,13 @@ class CacheCommand
     roster.each do |playerId|
       @cacheService.cachePlayerForId(playerId, force)
       @cacheService.cachePlayerArchiveStatsForId(playerId, force)
+    end
+  end
+
+  def cachePool()
+    Logger.info "Refresh caching for pool"
+    PoolRoster.rosterPlayerIds.each do |playerId|
+      @cacheService.cachePlayerArchiveStatsForId(playerId, true)
     end
   end
 end

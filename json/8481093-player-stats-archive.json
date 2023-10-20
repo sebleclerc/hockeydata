@@ -214,7 +214,7 @@
         "points" : 78
       },
       "team" : {
-        "name" : "Chicoutimi Saguen\u001A©ens",
+        "name" : "Chicoutimi Saguenéens",
         "link" : "/api/v1/teams/null"
       },
       "league" : {
@@ -358,6 +358,44 @@
         "link" : "/api/v1/league/null"
       },
       "sequenceNumber" : 222817
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "40:30",
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 3,
+        "games" : 3,
+        "hits" : 7,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:11",
+        "evenTimeOnIce" : "28:37",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "11:42",
+        "blocked" : 3,
+        "plusMinus" : 0,
+        "points" : 2,
+        "shifts" : 54
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
     } ]
   } ]
 }

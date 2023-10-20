@@ -575,6 +575,44 @@
         "link" : "/api/v1/league/133"
       },
       "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "81:40",
+        "assists" : 4,
+        "goals" : 2,
+        "pim" : 6,
+        "shots" : 12,
+        "games" : 4,
+        "hits" : 8,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "16:32",
+        "evenTimeOnIce" : "61:29",
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 53.66,
+        "shotPct" : 16.67,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "03:39",
+        "blocked" : 0,
+        "plusMinus" : -4,
+        "points" : 6,
+        "shifts" : 87
+      },
+      "team" : {
+        "id" : 22,
+        "name" : "Edmonton Oilers",
+        "link" : "/api/v1/teams/22"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
     } ]
   } ]
 }

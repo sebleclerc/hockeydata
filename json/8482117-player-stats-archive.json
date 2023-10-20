@@ -113,7 +113,7 @@
         "points" : 42
       },
       "team" : {
-        "name" : "Eisb\u001A§ren Juniors Berlin U20",
+        "name" : "Eisbären Juniors Berlin U20",
         "link" : "/api/v1/teams/null"
       },
       "league" : {
@@ -132,7 +132,7 @@
         "points" : 6
       },
       "team" : {
-        "name" : "Eisb\u001A§ren Juniors Berlin U17",
+        "name" : "Eisbären Juniors Berlin U17",
         "link" : "/api/v1/teams/null"
       },
       "league" : {
@@ -152,7 +152,7 @@
         "points" : 24
       },
       "team" : {
-        "name" : "Eisb\u001A§ren Berlin",
+        "name" : "Eisbären Berlin",
         "link" : "/api/v1/teams/null"
       },
       "league" : {
@@ -192,7 +192,7 @@
         "points" : 27
       },
       "team" : {
-        "name" : "Eisb\u001A§ren Berlin",
+        "name" : "Eisbären Berlin",
         "link" : "/api/v1/teams/null"
       },
       "league" : {
@@ -356,6 +356,44 @@
         "link" : "/api/v1/league/null"
       },
       "sequenceNumber" : 8267
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "57:36",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 11,
+        "games" : 4,
+        "hits" : 1,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "11:12",
+        "evenTimeOnIce" : "46:24",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 32.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 2,
+        "plusMinus" : -3,
+        "points" : 0,
+        "shifts" : 68
+      },
+      "team" : {
+        "id" : 16,
+        "name" : "Chicago Blackhawks",
+        "link" : "/api/v1/teams/16"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
     } ]
   } ]
 }

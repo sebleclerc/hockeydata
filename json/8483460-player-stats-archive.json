@@ -420,6 +420,44 @@
         "link" : "/api/v1/league/null"
       },
       "sequenceNumber" : 68526
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "35:35",
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 2,
+        "shots" : 2,
+        "games" : 2,
+        "hits" : 1,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "34:23",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 50.0,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:12",
+        "blocked" : 1,
+        "plusMinus" : -1,
+        "points" : 1,
+        "shifts" : 43
+      },
+      "team" : {
+        "id" : 29,
+        "name" : "Columbus Blue Jackets",
+        "link" : "/api/v1/teams/29"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
     } ]
   } ]
 }
