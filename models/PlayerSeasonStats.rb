@@ -1,3 +1,4 @@
+require_relative('../helpers/Float+Extensions.rb')
 require_relative('../helpers/Integer+Extensions.rb')
 require_relative('../helpers/String+Extensions.rb')
 
@@ -14,11 +15,14 @@ class PlayerSeasonStats
     header += "Points".intHeader()
     header += "Team Name".showHeader()
     header += "League Name".showHeader()
+    header += "     "
+    header += "Pool".intHeader()
+    header += "Projected".floatHeader()
 
     return header
   end
 
-  def formattedString
+  def formattedString(position)
     formatted = season.to_s.ljust(10)
     formatted += games.show()
     formatted += goals.show()
@@ -26,6 +30,9 @@ class PlayerSeasonStats
     formatted += points.show()
     formatted += teamName.show()
     formatted += leagueName.show()
+    formatted += "     "
+    formatted += poolPoints(position).show()
+    formatted += projectedPoolPoints(position).show()
 
     return formatted
   end

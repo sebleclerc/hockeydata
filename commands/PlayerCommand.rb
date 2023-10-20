@@ -17,7 +17,7 @@ class PlayerCommand
     stats = @dbService.getPlayerSeasonStatsForPlayerIdAndSeason(playerId)
 
     stats.each do |stat|
-      Logger.info stat.formattedString()
+      Logger.info stat.formattedString(player.positionCode)
     end
 
     Logger.info ""
