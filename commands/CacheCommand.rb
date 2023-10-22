@@ -69,8 +69,9 @@ class CacheCommand
 
   def cachePool()
     Logger.info "Refresh caching for pool"
-    @dbService.getPoolPlayersForSeason(Constants.currentSeason) do |player|
-      @cacheService.cachePlayerArchiveStatsForId(player.id, true)
+    @dbService.getPoolRosterForSeason(Constants.currentSeason).each do |playerId|
+      @cacheService.cachePlayerForId(playerId, false)
+      @cacheService.cachePlayerArchiveStatsForId(playerId, true)
     end
   end
 end

@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8480382,
+    "fullName" : "Alexandar Georgiev",
+    "link" : "/api/v1/people/8480382",
+    "firstName" : "Alexandar",
+    "lastName" : "Georgiev",
+    "primaryNumber" : "40",
+    "birthDate" : "1996-02-10",
+    "currentAge" : 27,
+    "birthCity" : "Ruse",
+    "birthCountry" : "BGR",
+    "nationality" : "RUS",
+    "height" : "6' 1\"",
+    "weight" : 178,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 21,
+      "name" : "Colorado Avalanche",
+      "link" : "/api/v1/teams/21"
+    },
+    "primaryPosition" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  } ]
+}

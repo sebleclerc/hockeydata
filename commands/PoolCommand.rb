@@ -8,13 +8,14 @@ class PoolCommand
     Logger.info ""
 
     totalPoints = 0.0
-    players = @dbService.getPoolPlayersForSeason(season)
+    roster = @dbService.getPoolRosterForSeason(season)
 
     header = "Name".showHeader()
     header += PlayerSeasonStats.formattedHeaderString()
     Logger.info header
 
-    players.each do |player|
+    roster.each do |playerId|
+      player = @dbService.getPlayerForId(playerId)
       statLine = player.fullName.show()
 
       stat = @dbService.getPlayerSeasonStatsForPlayerIdAndSeason(player.id, season).first

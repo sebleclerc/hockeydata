@@ -197,22 +197,21 @@ class DatabaseService
         return stats
     end
 
-    def getPoolPlayersForSeason(season,all=false)
-        players = Array.new
-        query = "SELECT p.id, p.firstName, p.lastName, positionCode FROM Players p, PoolDraft pd WHERE p.id = pd.playerId AND season = \"#{season}\""
+    def getPoolRosterForSeason(season,all=false)
+        roster = Array.new
+        query = "SELECT * FROM PoolDraft WHERE season = \"#{season}\""
 
         if !all
-            query += " AND pd.active = 1"
+            query += " AND active = 1"
         end
 
         results = @dbClient.query(query)
 
         results.each do |row|
-            player = Player.fromPoolRow(row)
-            players.append(player)
+            roster.append(row["playerId"])
         end
 
-        return players
+        return roster
     end
 
     def insertPlayerSalary(playerId, season, salary)
