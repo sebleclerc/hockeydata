@@ -8,13 +8,14 @@ class PoolCommand
     Logger.info ""
 
     totalPoints = 0.0
-    roster = @dbService.getPoolRosterForSeason(season)
 
     header = "Name".showHeader()
     header += PlayerSeasonStats.formattedHeaderString()
     Logger.info header
 
-    roster.each do |playerId|
+    forwards = @dbService.getPoolRosterPositionForSeason(season, 'F')
+
+    forwards.each do |playerId|
       player = @dbService.getPlayerForId(playerId)
       statLine = player.fullName.show()
 
@@ -30,6 +31,28 @@ class PoolCommand
 
     Logger.info ""
 
+    header = "Name".showHeader()
+    header += PlayerSeasonStatsGoaler.formattedHeaderString()
+
+    Logger.info header
+
+    goalers = @dbService.getPoolRosterPositionForSeason(season, 'G')
+
+    goalers.each do |playerId|
+      player = @dbService.getPlayerForId(playerId)
+      stat = @dbService.getPlayerSeasonStatsGoalerForPlayerIdAndSeason(player.id, season).first
+
+      statLine = player.fullName.show()
+
+      if stat != nil
+        totalPoints += stat.poolPoints()
+        statLine += stat.formattedString()
+      end
+
+      Logger.info statLine
+    end
+
+    Logger.info ""
     Logger.info "Total points: #{totalPoints}"
 
     Logger.info ""

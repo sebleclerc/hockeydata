@@ -49,8 +49,14 @@ class ImportService
         @filename = Filenames.playerArchiveStatsForId(id)
 
         if File.exist?(filePath)
+            player = @dbService.getPlayerForId(id)
             stat = getCachedData()["stats"][0]["splits"]
-            @dbService.insertPlayerArchiveStat(id, stat)
+
+            if player.positionCode == 'G'
+                @dbService.insertPlayerArchiveStatGoaler(id, stat)
+            else
+                @dbService.insertPlayerArchiveStat(id, stat)
+            end
         end
     end
 

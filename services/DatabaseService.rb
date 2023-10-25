@@ -1,6 +1,7 @@
 require "mysql2"
 require_relative "../models/Player.rb"
 require_relative "../models/PlayerSeasonStats.rb"
+require_relative "../models/PlayerSeasonStatsGoaler.rb"
 require_relative "../models/PlayerSalarySeason.rb"
 require_relative "../models/Position.rb"
 require_relative "../models/Team.rb"
@@ -165,6 +166,27 @@ class DatabaseService
         end
     end
 
+    def insertPlayerArchiveStatGoaler(playerId, playerStat)
+        playerStat.each do |stat|
+            @insertPLayerStatsGoaler.execute(
+                playerId,
+                stat["season"],
+                stat["stat"]["games"],
+                stat["stat"]["gamesStarted"],
+                stat["stat"]["ot"],
+                stat["stat"]["shutouts"],
+                stat["stat"]["wins"],
+                stat["stat"]["losses"],
+                convertStringToTime(stat["stat"]["timeOnIce"]),
+                stat["stat"]["savePercentage"],
+                stat["league"]["id"],
+                stat["league"]["name"],
+                stat["team"]["id"],
+                stat["team"]["name"]
+            )
+        end
+    end
+
     def getPlayerSeasonStatsForPlayerIdAndSeason(playerId, season=nil)
         stats = Array.new
 
@@ -197,12 +219,70 @@ class DatabaseService
         return stats
     end
 
+    def getPlayerSeasonStatsGoalerForPlayerIdAndSeason(playerId, season=nil)
+        stats = Array.new
+
+        query = "SELECT * FROM PlayersStatsArchiveGoaler WHERE playerId = #{playerId}"
+
+        if !season.nil?
+            query += " AND season = \"#{season}\""
+        end
+
+        query += " AND teamId IS NOT NULL"
+
+        results = @dbClient.query(query)
+
+        results.each do |result|
+            stat = PlayerSeasonStatsGoaler.new
+
+            stat.season = result["season"]
+
+            stat.games = result["games"]
+            stat.gamesStarted = result["gamesStarted"]
+
+            stat.ot = result["ot"]
+            stat.shutouts = result["shutouts"]
+            stat.wins = result["wins"]
+            stat.losses = result["losses"]
+
+            stat.leagueName = result["leagueName"]
+            stat.teamName = result["teamName"]
+
+            stats.append(stat)
+        end
+
+        return stats
+    end
+
     def getPoolRosterForSeason(season,all=false)
         roster = Array.new
         query = "SELECT * FROM PoolDraft WHERE season = \"#{season}\""
 
         if !all
             query += " AND active = 1"
+        end
+
+        results = @dbClient.query(query)
+
+        results.each do |row|
+            roster.append(row["playerId"])
+        end
+
+        return roster
+    end
+
+    def getPoolRosterPositionForSeason(season, position, all=false)
+        roster = Array.new
+        query = "SELECT pd.playerId FROM PoolDraft pd, Players p WHERE pd.playerId = p.id AND season = \"#{season}\""
+
+        if position == 'G'
+            query += " AND p.positionCode = \"G\""
+        else
+            query += " AND p.positionCode != \"G\""
+        end
+
+        if !all
+            query += " AND pd.active = 1"
         end
 
         results = @dbClient.query(query)
@@ -241,6 +321,7 @@ class DatabaseService
         @insertPosition = @dbClient.prepare("REPLACE INTO Positions (code,abbrev,fullName,type) VALUES (?,?,?,?)")
         @insertPlayer = @dbClient.prepare("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPlayerStats = @dbClient.prepare("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+        @insertPLayerStatsGoaler = @dbClient.prepare("REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPlayerSalary = @dbClient.prepare("INSERT INTO PlayersSalaries (playerId,season,avv) VALUES (?,?,?)")
     end
 
