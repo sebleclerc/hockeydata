@@ -3,6 +3,7 @@ class PlayerSeasonStatsGoaler
   attr_accessor :games, :gamesStarted
   attr_accessor :wins, :losses, :ot, :shutouts
   attr_accessor :leagueName, :teamName
+  attr_accessor :victoiresProlongation, :victoiresFusillade
 
   def self.formattedHeaderString
     header = "Season".rjust(10)
@@ -41,7 +42,9 @@ class PlayerSeasonStatsGoaler
   def poolPoints()
     points = 0
 
-    points += wins*3
+    realWins = wins - victoiresProlongation - victoiresFusillade
+    points += realWins*3
+    points += victoiresFusillade*2
     points += shutouts*3
 
     return points

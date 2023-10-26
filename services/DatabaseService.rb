@@ -248,6 +248,9 @@ class DatabaseService
             stat.leagueName = result["leagueName"]
             stat.teamName = result["teamName"]
 
+            stat.victoiresProlongation = result["victoiresProlongation"]
+            stat.victoiresFusillade = result["victoiresFusillade"]
+
             stats.append(stat)
         end
 
