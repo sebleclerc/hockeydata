@@ -1,0 +1,437 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 4,
+        "pim" : 18,
+        "games" : 26,
+        "penaltyMinutes" : "18",
+        "points" : 15
+      },
+      "team" : {
+        "name" : "Krylia Sovetov Moskva U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 190787
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 15,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -2,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "MHK Krylia Sovetov Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 45862
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 4,
+        "pim" : 28,
+        "games" : 22,
+        "penaltyMinutes" : "28",
+        "points" : 9
+      },
+      "team" : {
+        "name" : "Krylia Sovetov Moskva U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia U17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 180418
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 16,
+        "games" : 11,
+        "penaltyMinutes" : "16",
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Krylia Sovetov Moskva U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 241819
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 5,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Russia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17523
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Krasnaya Armiya Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "JCWC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 49600
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 7,
+        "pim" : 37,
+        "games" : 37,
+        "penaltyMinutes" : "37",
+        "plusMinus" : 17,
+        "points" : 14
+      },
+      "team" : {
+        "name" : "Krasnaya Armiya Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 49712
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Russia U18 |WJAC-19|",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJAC-19",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 87382
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 4,
+        "games" : 3,
+        "penaltyMinutes" : "4",
+        "points" : 3
+      },
+      "team" : {
+        "name" : "CSKA Moskva U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 259189
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 12,
+        "games" : 43,
+        "penaltyMinutes" : "12",
+        "plusMinus" : 16,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "CSKA Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2314
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 12,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "Russia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17546
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 0,
+        "pim" : 14,
+        "games" : 43,
+        "penaltyMinutes" : "14",
+        "plusMinus" : 21,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "CSKA Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2314
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 6,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Russia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17546
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 3,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Russia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EHT",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 64546
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "931:50",
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 21,
+        "shots" : 71,
+        "games" : 54,
+        "hits" : 138,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "40:08",
+        "evenTimeOnIce" : "845:49",
+        "penaltyMinutes" : "21",
+        "faceOffPct" : 0.0,
+        "shotPct" : 1.4,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "45:53",
+        "blocked" : 60,
+        "plusMinus" : 1,
+        "points" : 6,
+        "shifts" : 1075
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1611:09",
+        "assists" : 10,
+        "goals" : 3,
+        "pim" : 53,
+        "shots" : 107,
+        "games" : 79,
+        "hits" : 227,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "08:23",
+        "evenTimeOnIce" : "1399:20",
+        "penaltyMinutes" : "53",
+        "faceOffPct" : 0.0,
+        "shotPct" : 2.8,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "203:26",
+        "blocked" : 144,
+        "plusMinus" : -9,
+        "points" : 13,
+        "shifts" : 1780
+      },
+      "team" : {
+        "id" : 8,
+        "name" : "Montréal Canadiens",
+        "link" : "/api/v1/teams/8"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1478:10",
+        "assists" : 20,
+        "goals" : 2,
+        "pim" : 43,
+        "shots" : 100,
+        "games" : 76,
+        "hits" : 198,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "02:19",
+        "evenTimeOnIce" : "1322:35",
+        "penaltyMinutes" : "43",
+        "faceOffPct" : 0.0,
+        "shotPct" : 2.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "153:16",
+        "blocked" : 129,
+        "plusMinus" : 13,
+        "points" : 22,
+        "shifts" : 1782
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "166:17",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 8,
+        "shots" : 13,
+        "games" : 8,
+        "hits" : 10,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:16",
+        "evenTimeOnIce" : "151:55",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "14:06",
+        "blocked" : 19,
+        "plusMinus" : 2,
+        "points" : 0,
+        "shifts" : 214
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

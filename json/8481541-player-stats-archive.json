@@ -1,0 +1,361 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Laval Sénateurs",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 280362
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Laval Patriotes Bantam AAA R",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QBAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 154141
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Monteuil Éclairs Midgets AA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 106006
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 20,
+        "goals" : 15,
+        "pim" : 14,
+        "games" : 30,
+        "penaltyMinutes" : "14",
+        "points" : 35
+      },
+      "team" : {
+        "name" : "École Georges-Vanier M17 Min",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "LHPS M17 Mineur",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 264829
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 15,
+        "pim" : 4,
+        "games" : 18,
+        "penaltyMinutes" : "4",
+        "points" : 29
+      },
+      "team" : {
+        "name" : "École Georges-Vanier M15 Min",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "LHPS M15 Mineur",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 265205
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 3,
+        "pim" : 6,
+        "games" : 37,
+        "penaltyMinutes" : "6",
+        "plusMinus" : -6,
+        "points" : 15
+      },
+      "team" : {
+        "name" : "Laval-Montréal Rousseau Royal",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QM18AAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 62674
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Blainville-Boisbriand Armada",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 102710
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 2,
+        "pim" : 8,
+        "games" : 57,
+        "penaltyMinutes" : "8",
+        "plusMinus" : 16,
+        "points" : 14
+      },
+      "team" : {
+        "name" : "Blainville-Boisbriand Armada",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 102710
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 28,
+        "goals" : 9,
+        "pim" : 27,
+        "games" : 65,
+        "penaltyMinutes" : "27",
+        "plusMinus" : -32,
+        "points" : 37
+      },
+      "team" : {
+        "name" : "Blainville-Boisbriand Armada",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 102710
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 7,
+        "pim" : 14,
+        "games" : 32,
+        "penaltyMinutes" : "14",
+        "plusMinus" : 7,
+        "points" : 16
+      },
+      "team" : {
+        "name" : "Blainville-Boisbriand Armada",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 102710
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 23,
+        "goals" : 4,
+        "pim" : 12,
+        "games" : 29,
+        "penaltyMinutes" : "12",
+        "plusMinus" : 6,
+        "points" : 27
+      },
+      "team" : {
+        "name" : "Sherbrooke Phoenix",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 114420
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 6,
+        "pim" : 10,
+        "games" : 24,
+        "penaltyMinutes" : "10",
+        "plusMinus" : 5,
+        "points" : 14
+      },
+      "team" : {
+        "name" : "Bridgeport Islanders",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 827
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 2,
+        "pim" : 16,
+        "games" : 57,
+        "penaltyMinutes" : "16",
+        "plusMinus" : -10,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Bridgeport Islanders",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 827
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "244:50",
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 2,
+        "shots" : 20,
+        "games" : 17,
+        "hits" : 26,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "23:07",
+        "evenTimeOnIce" : "221:23",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 10.0,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:20",
+        "blocked" : 16,
+        "plusMinus" : 5,
+        "points" : 3,
+        "shifts" : 312
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 25,
+        "goals" : 10,
+        "pim" : 31,
+        "games" : 56,
+        "penaltyMinutes" : "31",
+        "plusMinus" : -13,
+        "points" : 35
+      },
+      "team" : {
+        "name" : "Bridgeport Islanders",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 827
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "58:54",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 7,
+        "games" : 7,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "58:52",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:02",
+        "blocked" : 4,
+        "plusMinus" : -1,
+        "points" : 0,
+        "shifts" : 85
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8475231,
+    "fullName" : "Casey Cizikas",
+    "link" : "/api/v1/people/8475231",
+    "firstName" : "Casey",
+    "lastName" : "Cizikas",
+    "primaryNumber" : "53",
+    "birthDate" : "1991-02-27",
+    "currentAge" : 32,
+    "birthCity" : "Toronto",
+    "birthStateProvince" : "ON",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "5' 11\"",
+    "weight" : 194,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 2,
+      "name" : "New York Islanders",
+      "link" : "/api/v1/teams/2"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

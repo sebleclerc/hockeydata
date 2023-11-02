@@ -1,0 +1,569 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 20,
+        "pim" : 20,
+        "games" : 25,
+        "penaltyMinutes" : "20",
+        "plusMinus" : 0,
+        "points" : 33
+      },
+      "team" : {
+        "name" : "Montréal Royal Bantam AA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MMBAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 10153905
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 20,
+        "goals" : 12,
+        "pim" : 30,
+        "games" : 42,
+        "penaltyMinutes" : "30",
+        "plusMinus" : 0,
+        "points" : 32
+      },
+      "team" : {
+        "name" : "Laval-Montréal Rousseau Royal",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMAAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 61163
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 9,
+        "pim" : 19,
+        "shots" : 91,
+        "games" : 62,
+        "powerPlayGoals" : 3,
+        "penaltyMinutes" : "19",
+        "shotPct" : 9.9,
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 9,
+        "points" : 30
+      },
+      "team" : {
+        "name" : "Val-d'Or",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 35,
+        "goals" : 38,
+        "pim" : 46,
+        "shots" : 236,
+        "games" : 68,
+        "powerPlayGoals" : 15,
+        "penaltyMinutes" : "46",
+        "shotPct" : 16.1,
+        "gameWinningGoals" : 7,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 6,
+        "points" : 73
+      },
+      "team" : {
+        "name" : "Val-d'Or",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 41,
+        "pim" : 24,
+        "games" : 54,
+        "powerPlayGoals" : 11,
+        "penaltyMinutes" : "24",
+        "gameWinningGoals" : 5,
+        "shortHandedGoals" : 1,
+        "plusMinus" : 24,
+        "points" : 57
+      },
+      "team" : {
+        "name" : "Val-d'Or",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 20,
+        "goals" : 7,
+        "pim" : 22,
+        "games" : 23,
+        "penaltyMinutes" : "22",
+        "plusMinus" : 1,
+        "points" : 27
+      },
+      "team" : {
+        "name" : "Val-d'Or Foreurs",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9680
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 5,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 2,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 3,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Saint John Sea Dogs",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "M-Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 21151
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 10,
+        "pim" : 18,
+        "games" : 20,
+        "penaltyMinutes" : "18",
+        "plusMinus" : 11,
+        "points" : 24
+      },
+      "team" : {
+        "name" : "Saint John Sea Dogs",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 21410
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 16,
+        "pim" : 24,
+        "games" : 65,
+        "penaltyMinutes" : "24",
+        "plusMinus" : 0,
+        "points" : 25
+      },
+      "team" : {
+        "name" : "Charlotte Checkers",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2357
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 27,
+        "pim" : 57,
+        "games" : 75,
+        "penaltyMinutes" : "57",
+        "plusMinus" : -6,
+        "points" : 41
+      },
+      "team" : {
+        "name" : "Charlotte Checkers",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2357
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "36:58",
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 6,
+        "shots" : 1,
+        "games" : 5,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:19",
+        "evenTimeOnIce" : "36:36",
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 50.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:03",
+        "blocked" : 0,
+        "plusMinus" : 2,
+        "points" : 1,
+        "shifts" : 61
+      },
+      "team" : {
+        "id" : 12,
+        "name" : "Carolina Hurricanes",
+        "link" : "/api/v1/teams/12"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "103:48",
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 9,
+        "games" : 12,
+        "hits" : 11,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:55",
+        "evenTimeOnIce" : "102:53",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 7,
+        "plusMinus" : -1,
+        "points" : 2,
+        "shifts" : 157
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 26,
+        "pim" : 34,
+        "games" : 44,
+        "penaltyMinutes" : "34",
+        "plusMinus" : -5,
+        "points" : 37
+      },
+      "team" : {
+        "name" : "Charlotte Checkers",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2357
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "289:17",
+        "assists" : 6,
+        "goals" : 2,
+        "pim" : 14,
+        "shots" : 38,
+        "games" : 30,
+        "hits" : 56,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "07:15",
+        "evenTimeOnIce" : "281:59",
+        "penaltyMinutes" : "14",
+        "faceOffPct" : 50.0,
+        "shotPct" : 5.3,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:03",
+        "blocked" : 9,
+        "plusMinus" : -6,
+        "points" : 8,
+        "shifts" : 440
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "505:03",
+        "assists" : 4,
+        "goals" : 3,
+        "pim" : 8,
+        "shots" : 69,
+        "games" : 49,
+        "hits" : 98,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "20:31",
+        "evenTimeOnIce" : "484:32",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 33.33,
+        "shotPct" : 4.3,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 14,
+        "plusMinus" : -9,
+        "points" : 7,
+        "shifts" : 671
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "333:53",
+        "assists" : 3,
+        "goals" : 6,
+        "pim" : 4,
+        "shots" : 36,
+        "games" : 40,
+        "hits" : 70,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:27",
+        "evenTimeOnIce" : "333:19",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 37.5,
+        "shotPct" : 16.67,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:07",
+        "blocked" : 7,
+        "plusMinus" : -5,
+        "points" : 9,
+        "shifts" : 454
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "158:17",
+        "assists" : 2,
+        "goals" : 3,
+        "pim" : 2,
+        "shots" : 17,
+        "games" : 17,
+        "hits" : 35,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "03:43",
+        "evenTimeOnIce" : "154:34",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 17.65,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 6,
+        "plusMinus" : -1,
+        "points" : 5,
+        "shifts" : 248
+      },
+      "team" : {
+        "id" : 9,
+        "name" : "Ottawa Senators",
+        "link" : "/api/v1/teams/9"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 1,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Hartford Wolf Pack",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 847
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "12:58",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 1,
+        "games" : 1,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "12:58",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 1,
+        "plusMinus" : -1,
+        "points" : 0,
+        "shifts" : 17
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

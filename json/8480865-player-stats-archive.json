@@ -1,0 +1,492 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 4,
+        "pim" : 4,
+        "games" : 6,
+        "penaltyMinutes" : "4",
+        "points" : 10
+      },
+      "team" : {
+        "name" : "PEI Rocket (Peewee)",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 83112
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Team PEI U14 (ACC)",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ACC-U14",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 163940
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 17,
+        "goals" : 14,
+        "pim" : 6,
+        "games" : 29,
+        "penaltyMinutes" : "6",
+        "points" : 31
+      },
+      "team" : {
+        "name" : "Summerside Capitals Bantam AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "PEIBAAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 165561
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 4,
+        "pim" : 6,
+        "games" : 6,
+        "penaltyMinutes" : "6",
+        "points" : 8
+      },
+      "team" : {
+        "name" : "Team PEI",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "CWG",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 91765
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 10,
+        "games" : 5,
+        "penaltyMinutes" : "10",
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Team PEI U15 (ACC)",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ACC-U15",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 163901
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Team Prince Edward Island",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QGC-16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 154205
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 19,
+        "goals" : 7,
+        "pim" : 40,
+        "games" : 63,
+        "penaltyMinutes" : "40",
+        "plusMinus" : 34,
+        "points" : 26
+      },
+      "team" : {
+        "name" : "Acadie-Bathurst Titan",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9570
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Canada Red U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHC-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 163770
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 2,
+        "pim" : 4,
+        "games" : 4,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 5,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Acadie-Bathurst Titan",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "M-Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9311
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 52,
+        "goals" : 17,
+        "pim" : 52,
+        "games" : 67,
+        "penaltyMinutes" : "52",
+        "plusMinus" : 33,
+        "points" : 69
+      },
+      "team" : {
+        "name" : "Acadie-Bathurst Titan",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9570
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Canada U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Hlinka Gretzky Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 144760
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 4,
+        "games" : 5,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 4,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Rouyn-Noranda Huskies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "M-Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9401
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 9,
+        "pim" : 36,
+        "games" : 28,
+        "penaltyMinutes" : "36",
+        "plusMinus" : -30,
+        "points" : 16
+      },
+      "team" : {
+        "name" : "Acadie-Bathurst Titan",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9570
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 30,
+        "goals" : 6,
+        "pim" : 24,
+        "games" : 28,
+        "penaltyMinutes" : "24",
+        "plusMinus" : 40,
+        "points" : 36
+      },
+      "team" : {
+        "name" : "Rouyn-Noranda Huskies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9660
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 4,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "451:25",
+        "assists" : 6,
+        "goals" : 1,
+        "pim" : 8,
+        "shots" : 37,
+        "games" : 34,
+        "hits" : 25,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "30:27",
+        "evenTimeOnIce" : "419:01",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 0.0,
+        "shotPct" : 2.7,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:57",
+        "blocked" : 31,
+        "plusMinus" : -1,
+        "points" : 7,
+        "shifts" : 589
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "754:07",
+        "assists" : 11,
+        "goals" : 3,
+        "pim" : 8,
+        "shots" : 69,
+        "games" : 46,
+        "hits" : 40,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 5,
+        "powerPlayTimeOnIce" : "85:11",
+        "evenTimeOnIce" : "666:01",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.3,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:55",
+        "blocked" : 59,
+        "plusMinus" : 1,
+        "points" : 14,
+        "shifts" : 954
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1716:52",
+        "assists" : 38,
+        "goals" : 13,
+        "pim" : 18,
+        "shots" : 190,
+        "games" : 80,
+        "hits" : 78,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 22,
+        "powerPlayTimeOnIce" : "209:26",
+        "evenTimeOnIce" : "1453:18",
+        "penaltyMinutes" : "18",
+        "faceOffPct" : 0.0,
+        "shotPct" : 6.8,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "54:08",
+        "blocked" : 154,
+        "plusMinus" : -3,
+        "points" : 51,
+        "shifts" : 1980
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1589:49",
+        "assists" : 36,
+        "goals" : 13,
+        "pim" : 20,
+        "shots" : 206,
+        "games" : 78,
+        "hits" : 60,
+        "powerPlayGoals" : 5,
+        "powerPlayPoints" : 19,
+        "powerPlayTimeOnIce" : "257:29",
+        "evenTimeOnIce" : "1296:12",
+        "penaltyMinutes" : "20",
+        "faceOffPct" : 0.0,
+        "shotPct" : 6.31,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "36:08",
+        "blocked" : 104,
+        "plusMinus" : 4,
+        "points" : 49,
+        "shifts" : 1739
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "200:15",
+        "assists" : 7,
+        "goals" : 2,
+        "pim" : 6,
+        "shots" : 21,
+        "games" : 8,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "25:10",
+        "evenTimeOnIce" : "161:15",
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 0.0,
+        "shotPct" : 9.52,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "13:50",
+        "blocked" : 25,
+        "plusMinus" : 2,
+        "points" : 9,
+        "shifts" : 242
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8478445,
+    "fullName" : "Mathew Barzal",
+    "link" : "/api/v1/people/8478445",
+    "firstName" : "Mathew",
+    "lastName" : "Barzal",
+    "primaryNumber" : "13",
+    "birthDate" : "1997-05-26",
+    "currentAge" : 26,
+    "birthCity" : "Coquitlam",
+    "birthStateProvince" : "BC",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 1\"",
+    "weight" : 190,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 2,
+      "name" : "New York Islanders",
+      "link" : "/api/v1/teams/2"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

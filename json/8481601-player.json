@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8481601,
+    "fullName" : "Simon Holmstrom",
+    "link" : "/api/v1/people/8481601",
+    "firstName" : "Simon",
+    "lastName" : "Holmstrom",
+    "primaryNumber" : "10",
+    "birthDate" : "2001-05-24",
+    "currentAge" : 22,
+    "birthCity" : "Tranas",
+    "birthCountry" : "SWE",
+    "nationality" : "SWE",
+    "height" : "6' 2\"",
+    "weight" : 215,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 2,
+      "name" : "New York Islanders",
+      "link" : "/api/v1/teams/2"
+    },
+    "primaryPosition" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  } ]
+}

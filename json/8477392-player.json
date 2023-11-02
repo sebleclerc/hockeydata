@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8477392,
+    "fullName" : "Hudson Fasching",
+    "link" : "/api/v1/people/8477392",
+    "firstName" : "Hudson",
+    "lastName" : "Fasching",
+    "primaryNumber" : "20",
+    "birthDate" : "1995-07-28",
+    "currentAge" : 28,
+    "birthCity" : "Apple Valley",
+    "birthStateProvince" : "MN",
+    "birthCountry" : "USA",
+    "nationality" : "USA",
+    "height" : "6' 3\"",
+    "weight" : 209,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 2,
+      "name" : "New York Islanders",
+      "link" : "/api/v1/teams/2"
+    },
+    "primaryPosition" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  } ]
+}

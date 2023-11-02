@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8478009,
+    "fullName" : "Ilya Sorokin",
+    "link" : "/api/v1/people/8478009",
+    "firstName" : "Ilya",
+    "lastName" : "Sorokin",
+    "primaryNumber" : "30",
+    "birthDate" : "1995-08-04",
+    "currentAge" : 28,
+    "birthCity" : "Mezhdurechensk",
+    "birthCountry" : "RUS",
+    "nationality" : "RUS",
+    "height" : "6' 3\"",
+    "weight" : 195,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 2,
+      "name" : "New York Islanders",
+      "link" : "/api/v1/teams/2"
+    },
+    "primaryPosition" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  } ]
+}

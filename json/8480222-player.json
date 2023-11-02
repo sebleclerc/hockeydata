@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8480222,
+    "fullName" : "Sebastian Aho",
+    "link" : "/api/v1/people/8480222",
+    "firstName" : "Sebastian",
+    "lastName" : "Aho",
+    "primaryNumber" : "25",
+    "birthDate" : "1996-02-17",
+    "currentAge" : 27,
+    "birthCity" : "Umea",
+    "birthCountry" : "SWE",
+    "nationality" : "SWE",
+    "height" : "5' 10\"",
+    "weight" : 180,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 2,
+      "name" : "New York Islanders",
+      "link" : "/api/v1/teams/2"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

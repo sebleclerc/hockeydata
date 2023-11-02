@@ -1,0 +1,659 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "1423:00",
+        "shutouts" : 1,
+        "ties" : 3,
+        "wins" : 11,
+        "losses" : 8,
+        "goalAgainstAverage" : 2.57,
+        "games" : 27,
+        "goalsAgainst" : 61
+      },
+      "team" : {
+        "name" : "Novokuznetsk Jr.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia-Jr.",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "151:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 1,
+        "losses" : 1,
+        "goalAgainstAverage" : 2.77,
+        "games" : 5,
+        "goalsAgainst" : 7
+      },
+      "team" : {
+        "id" : 3036,
+        "name" : "Novokuznetsk",
+        "link" : "/api/v1/teams/3036"
+      },
+      "league" : {
+        "id" : 392,
+        "name" : "KHL",
+        "link" : "/api/v1/league/392"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "245:00",
+        "shutouts" : 0,
+        "ties" : 1,
+        "wins" : 2,
+        "losses" : 1,
+        "goalAgainstAverage" : 2.69,
+        "games" : 4,
+        "goalsAgainst" : 11
+      },
+      "team" : {
+        "name" : "Novokuznetsk Jr.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia-Jr.",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "1346:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 5,
+        "losses" : 12,
+        "goalAgainstAverage" : 2.9,
+        "games" : 27,
+        "goalsAgainst" : 65
+      },
+      "team" : {
+        "id" : 3036,
+        "name" : "Novokuznetsk",
+        "link" : "/api/v1/teams/3036"
+      },
+      "league" : {
+        "id" : 392,
+        "name" : "KHL",
+        "link" : "/api/v1/league/392"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "978:00",
+        "shutouts" : 1,
+        "ties" : 0,
+        "wins" : 4,
+        "losses" : 11,
+        "goalAgainstAverage" : 3.25,
+        "games" : 22,
+        "goalsAgainst" : 53
+      },
+      "team" : {
+        "id" : 3036,
+        "name" : "Novokuznetsk",
+        "link" : "/api/v1/teams/3036"
+      },
+      "league" : {
+        "id" : 392,
+        "name" : "KHL",
+        "link" : "/api/v1/league/392"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "180:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 0,
+        "losses" : 2,
+        "saves" : 62,
+        "savePercentage" : 0.885714,
+        "goalAgainstAverage" : 2.66,
+        "games" : 3,
+        "shotsAgainst" : 70,
+        "goalsAgainst" : 8
+      },
+      "team" : {
+        "id" : 64,
+        "name" : "Russia",
+        "link" : "/api/v1/teams/64"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "275:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 3,
+        "losses" : 2,
+        "goalAgainstAverage" : 1.31,
+        "games" : 6,
+        "goalsAgainst" : 6
+      },
+      "team" : {
+        "id" : 2978,
+        "name" : "CSKA",
+        "link" : "/api/v1/teams/2978"
+      },
+      "league" : {
+        "id" : 392,
+        "name" : "KHL",
+        "link" : "/api/v1/league/392"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "184:00",
+        "shutouts" : 1,
+        "ties" : 0,
+        "wins" : 1,
+        "losses" : 1,
+        "goalAgainstAverage" : 1.31,
+        "games" : 3,
+        "goalsAgainst" : 4
+      },
+      "team" : {
+        "name" : "CSKA Jr.",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia-Jr.",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 4
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "275:00",
+        "shutouts" : 0,
+        "savePercentage" : 0.937,
+        "goalAgainstAverage" : 1.31,
+        "games" : 6,
+        "shotsAgainst" : 95,
+        "goalsAgainst" : 6
+      },
+      "team" : {
+        "name" : "CSKA Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2314
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "978:00",
+        "shutouts" : 1,
+        "savePercentage" : 0.906,
+        "goalAgainstAverage" : 3.25,
+        "games" : 22,
+        "shotsAgainst" : 564,
+        "goalsAgainst" : 53
+      },
+      "team" : {
+        "name" : "Metallurg Novokuznetsk",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2384
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "savePercentage" : 0.886,
+        "goalAgainstAverage" : 2.66,
+        "games" : 3
+      },
+      "team" : {
+        "name" : "Russia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17546
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "savePercentage" : 0.8,
+        "goalAgainstAverage" : 4.0,
+        "games" : 1
+      },
+      "team" : {
+        "name" : "Kuznetskie Medvedi",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 49652
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "184:00",
+        "shutouts" : 1,
+        "savePercentage" : 0.949,
+        "goalAgainstAverage" : 1.31,
+        "games" : 3,
+        "shotsAgainst" : 78,
+        "goalsAgainst" : 8
+      },
+      "team" : {
+        "name" : "Krasnaya Armiya Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 49712
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "60:00",
+        "shutouts" : 0,
+        "ties" : 0,
+        "wins" : 0,
+        "losses" : 1,
+        "goalAgainstAverage" : 2.01,
+        "games" : 1,
+        "goalsAgainst" : 2
+      },
+      "team" : {
+        "name" : "Zvezda Chekhov",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Russia-2",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "1639:00",
+        "shutouts" : 10,
+        "ties" : 0,
+        "wins" : 17,
+        "losses" : 7,
+        "goalAgainstAverage" : 1.06,
+        "games" : 28,
+        "goalsAgainst" : 29
+      },
+      "team" : {
+        "id" : 2978,
+        "name" : "CSKA",
+        "link" : "/api/v1/teams/2978"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "76:00",
+        "shutouts" : 1,
+        "ties" : 0,
+        "wins" : 1,
+        "losses" : 0,
+        "goalAgainstAverage" : 0.0,
+        "games" : 2,
+        "shotsAgainst" : 36,
+        "goalsAgainst" : 0
+      },
+      "team" : {
+        "id" : 64,
+        "name" : "Russia",
+        "link" : "/api/v1/teams/64"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "savePercentage" : 0.953,
+        "goalAgainstAverage" : 1.06,
+        "games" : 28
+      },
+      "team" : {
+        "name" : "CSKA Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2314
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "savePercentage" : 1.0,
+        "goalAgainstAverage" : 0.0,
+        "games" : 3
+      },
+      "team" : {
+        "name" : "Russia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17485
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "60:00",
+        "shutouts" : 0,
+        "savePercentage" : 0.917,
+        "goalAgainstAverage" : 2.01,
+        "games" : 1,
+        "shotsAgainst" : 24,
+        "goalsAgainst" : 2
+      },
+      "team" : {
+        "name" : "Zvezda Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "VHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 77127
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "2276:00",
+        "shutouts" : 5,
+        "savePercentage" : 0.929,
+        "goalAgainstAverage" : 1.61,
+        "games" : 39,
+        "shotsAgainst" : 859,
+        "goalsAgainst" : 61
+      },
+      "team" : {
+        "name" : "CSKA Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2314
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "savePercentage" : 1.0,
+        "goalAgainstAverage" : 0.0,
+        "games" : 2
+      },
+      "team" : {
+        "name" : "Russia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17485
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "2182:00",
+        "shutouts" : 8,
+        "savePercentage" : 0.931,
+        "goalAgainstAverage" : 1.59,
+        "games" : 37,
+        "shotsAgainst" : 841,
+        "goalsAgainst" : 58
+      },
+      "team" : {
+        "name" : "CSKA Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2314
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "savePercentage" : 0.857,
+        "goalAgainstAverage" : 3.0,
+        "games" : 1
+      },
+      "team" : {
+        "name" : "Russia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "OG",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17252
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "2327:00",
+        "shutouts" : 11,
+        "savePercentage" : 0.94,
+        "goalAgainstAverage" : 1.16,
+        "games" : 40,
+        "shotsAgainst" : 750,
+        "goalsAgainst" : 45
+      },
+      "team" : {
+        "name" : "CSKA Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2314
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "2364:00",
+        "shutouts" : 9,
+        "savePercentage" : 0.935,
+        "goalAgainstAverage" : 1.5,
+        "games" : 40,
+        "shotsAgainst" : 908,
+        "goalsAgainst" : 59
+      },
+      "team" : {
+        "name" : "CSKA Moskva",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "KHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2314
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "1271:47",
+        "ot" : 3,
+        "shutouts" : 3,
+        "wins" : 13,
+        "losses" : 6,
+        "saves" : 517,
+        "powerPlaySaves" : 52,
+        "shortHandedSaves" : 16,
+        "evenSaves" : 449,
+        "shortHandedShots" : 16,
+        "evenShots" : 489,
+        "powerPlayShots" : 58,
+        "savePercentage" : 0.918,
+        "goalAgainstAverage" : 2.170181,
+        "games" : 22,
+        "gamesStarted" : 21,
+        "shotsAgainst" : 563,
+        "goalsAgainst" : 46,
+        "powerPlaySavePercentage" : 89.65517241379311,
+        "shortHandedSavePercentage" : 100.0,
+        "evenStrengthSavePercentage" : 91.8200408997955
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "3072:17",
+        "ot" : 8,
+        "shutouts" : 7,
+        "wins" : 26,
+        "losses" : 18,
+        "saves" : 1520,
+        "powerPlaySaves" : 174,
+        "shortHandedSaves" : 35,
+        "evenSaves" : 1311,
+        "shortHandedShots" : 40,
+        "evenShots" : 1407,
+        "powerPlayShots" : 196,
+        "savePercentage" : 0.925,
+        "goalAgainstAverage" : 2.402122,
+        "games" : 52,
+        "gamesStarted" : 52,
+        "shotsAgainst" : 1643,
+        "goalsAgainst" : 123,
+        "powerPlaySavePercentage" : 88.77551020408163,
+        "shortHandedSavePercentage" : 87.5,
+        "evenStrengthSavePercentage" : 93.17697228144989
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "3587:04",
+        "ot" : 7,
+        "shutouts" : 6,
+        "wins" : 31,
+        "losses" : 22,
+        "saves" : 1699,
+        "powerPlaySaves" : 219,
+        "shortHandedSaves" : 49,
+        "evenSaves" : 1431,
+        "shortHandedShots" : 55,
+        "evenShots" : 1538,
+        "powerPlayShots" : 245,
+        "savePercentage" : 0.924374,
+        "goalAgainstAverage" : 2.341746,
+        "games" : 62,
+        "gamesStarted" : 60,
+        "shotsAgainst" : 1838,
+        "goalsAgainst" : 140,
+        "powerPlaySavePercentage" : 89.38775510204081,
+        "shortHandedSavePercentage" : 89.0909090909091,
+        "evenStrengthSavePercentage" : 93.04291287386216
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "361:31",
+        "ot" : 2,
+        "shutouts" : 1,
+        "ties" : 0,
+        "wins" : 3,
+        "losses" : 1,
+        "saves" : 183,
+        "powerPlaySaves" : 28,
+        "shortHandedSaves" : 5,
+        "evenSaves" : 150,
+        "shortHandedShots" : 5,
+        "evenShots" : 162,
+        "powerPlayShots" : 34,
+        "savePercentage" : 0.910448,
+        "goalAgainstAverage" : 2.987414,
+        "games" : 6,
+        "gamesStarted" : 6,
+        "shotsAgainst" : 201,
+        "goalsAgainst" : 18,
+        "powerPlaySavePercentage" : 82.35294117647058,
+        "shortHandedSavePercentage" : 100.0,
+        "evenStrengthSavePercentage" : 92.5925925925926
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

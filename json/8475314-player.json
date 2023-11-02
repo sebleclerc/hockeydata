@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8475314,
+    "fullName" : "Anders Lee",
+    "link" : "/api/v1/people/8475314",
+    "firstName" : "Anders",
+    "lastName" : "Lee",
+    "primaryNumber" : "27",
+    "birthDate" : "1990-07-03",
+    "currentAge" : 33,
+    "birthCity" : "Edina",
+    "birthStateProvince" : "MN",
+    "birthCountry" : "USA",
+    "nationality" : "USA",
+    "height" : "6' 3\"",
+    "weight" : 227,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : true,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 2,
+      "name" : "New York Islanders",
+      "link" : "/api/v1/teams/2"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

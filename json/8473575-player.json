@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8473575,
+    "fullName" : "Semyon Varlamov",
+    "link" : "/api/v1/people/8473575",
+    "firstName" : "Semyon",
+    "lastName" : "Varlamov",
+    "primaryNumber" : "40",
+    "birthDate" : "1988-04-27",
+    "currentAge" : 35,
+    "birthCity" : "Samara",
+    "birthCountry" : "RUS",
+    "nationality" : "RUS",
+    "height" : "6' 2\"",
+    "weight" : 205,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 2,
+      "name" : "New York Islanders",
+      "link" : "/api/v1/teams/2"
+    },
+    "primaryPosition" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  } ]
+}

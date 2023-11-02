@@ -1,0 +1,577 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 9,
+        "pim" : 10,
+        "games" : 25,
+        "penaltyMinutes" : "10",
+        "points" : 13
+      },
+      "team" : {
+        "name" : "Troja U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 16,
+        "goals" : 18,
+        "pim" : 22,
+        "games" : 30,
+        "penaltyMinutes" : "22",
+        "points" : 34
+      },
+      "team" : {
+        "name" : "Frolunda U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "points" : 2
+      },
+      "team" : {
+        "id" : 3224,
+        "name" : "Frolunda Jr.",
+        "link" : "/api/v1/teams/3224"
+      },
+      "league" : {
+        "id" : 315,
+        "name" : "Swe-Jr.",
+        "link" : "/api/v1/league/315"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 25,
+        "goals" : 11,
+        "pim" : 8,
+        "games" : 16,
+        "penaltyMinutes" : "8",
+        "points" : 36
+      },
+      "team" : {
+        "name" : "Frolunda U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Swe-U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 1,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "id" : 3318,
+        "name" : "Troja",
+        "link" : "/api/v1/teams/3318"
+      },
+      "league" : {
+        "id" : 315,
+        "name" : "Sweden-2",
+        "link" : "/api/v1/league/315"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 18,
+        "goals" : 17,
+        "pim" : 42,
+        "games" : 39,
+        "penaltyMinutes" : "42",
+        "points" : 35
+      },
+      "team" : {
+        "id" : 3224,
+        "name" : "Frolunda Jr.",
+        "link" : "/api/v1/teams/3224"
+      },
+      "league" : {
+        "id" : 315,
+        "name" : "Swe-Jr.",
+        "link" : "/api/v1/league/315"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 34,
+        "goals" : 17,
+        "pim" : 50,
+        "games" : 38,
+        "penaltyMinutes" : "50",
+        "points" : 51
+      },
+      "team" : {
+        "id" : 3224,
+        "name" : "Frolunda Jr.",
+        "link" : "/api/v1/teams/3224"
+      },
+      "league" : {
+        "id" : 315,
+        "name" : "Swe-Jr.",
+        "link" : "/api/v1/league/315"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 10,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Oskarshamn",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Sweden-2",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Frolunda",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Sweden",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 13,
+        "pim" : 14,
+        "games" : 55,
+        "penaltyMinutes" : "14",
+        "points" : 25
+      },
+      "team" : {
+        "id" : 3270,
+        "name" : "Mora",
+        "link" : "/api/v1/teams/3270"
+      },
+      "league" : {
+        "name" : "Sweden-2",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 12,
+        "pim" : 12,
+        "games" : 50,
+        "penaltyMinutes" : "12",
+        "plusMinus" : 4,
+        "points" : 24
+      },
+      "team" : {
+        "name" : "Mora IK",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "HockeyAllsvenskan",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1520
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 19,
+        "goals" : 21,
+        "pim" : 20,
+        "games" : 50,
+        "penaltyMinutes" : "20",
+        "plusMinus" : 4,
+        "points" : 40
+      },
+      "team" : {
+        "name" : "Mora IK",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "HockeyAllsvenskan",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1520
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 4,
+        "games" : 5,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 5,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "HV71",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Champions HL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 162
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 7,
+        "pim" : 12,
+        "games" : 31,
+        "penaltyMinutes" : "12",
+        "plusMinus" : 12,
+        "points" : 20
+      },
+      "team" : {
+        "name" : "HV71",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "SHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 849
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 9,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -2,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "Toronto Marlies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 13377
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 19,
+        "pim" : 57,
+        "games" : 70,
+        "penaltyMinutes" : "57",
+        "plusMinus" : 0,
+        "points" : 32
+      },
+      "team" : {
+        "name" : "Toronto Marlies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 13377
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "572:49",
+        "assists" : 7,
+        "goals" : 8,
+        "pim" : 6,
+        "shots" : 72,
+        "games" : 48,
+        "hits" : 29,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:16",
+        "evenTimeOnIce" : "510:11",
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 39.05,
+        "shotPct" : 11.1,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "62:22",
+        "blocked" : 10,
+        "plusMinus" : 4,
+        "points" : 15,
+        "shifts" : 805
+      },
+      "team" : {
+        "id" : 10,
+        "name" : "Toronto Maple Leafs",
+        "link" : "/api/v1/teams/10"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 7,
+        "pim" : 6,
+        "games" : 15,
+        "penaltyMinutes" : "6",
+        "plusMinus" : 11,
+        "points" : 16
+      },
+      "team" : {
+        "name" : "Toronto Marlies",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 13377
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "501:02",
+        "assists" : 5,
+        "goals" : 7,
+        "pim" : 16,
+        "shots" : 61,
+        "games" : 42,
+        "hits" : 43,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "03:42",
+        "evenTimeOnIce" : "474:30",
+        "penaltyMinutes" : "16",
+        "faceOffPct" : 43.04,
+        "shotPct" : 11.5,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "22:50",
+        "blocked" : 12,
+        "plusMinus" : 2,
+        "points" : 12,
+        "shifts" : 696
+      },
+      "team" : {
+        "id" : 10,
+        "name" : "Toronto Maple Leafs",
+        "link" : "/api/v1/teams/10"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1035:46",
+        "assists" : 20,
+        "goals" : 15,
+        "pim" : 30,
+        "shots" : 154,
+        "games" : 78,
+        "hits" : 66,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "44:39",
+        "evenTimeOnIce" : "916:32",
+        "penaltyMinutes" : "30",
+        "faceOffPct" : 42.03,
+        "shotPct" : 9.7,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 2,
+        "shortHandedPoints" : 3,
+        "shortHandedTimeOnIce" : "74:35",
+        "blocked" : 12,
+        "plusMinus" : 13,
+        "points" : 35,
+        "shifts" : 1475
+      },
+      "team" : {
+        "id" : 10,
+        "name" : "Toronto Maple Leafs",
+        "link" : "/api/v1/teams/10"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "761:43",
+        "assists" : 9,
+        "goals" : 12,
+        "pim" : 25,
+        "shots" : 100,
+        "games" : 58,
+        "hits" : 39,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 2,
+        "powerPlayTimeOnIce" : "52:15",
+        "evenTimeOnIce" : "678:19",
+        "penaltyMinutes" : "25",
+        "faceOffPct" : 51.72,
+        "shotPct" : 12.0,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "31:09",
+        "blocked" : 6,
+        "plusMinus" : 1,
+        "points" : 21,
+        "shifts" : 999
+      },
+      "team" : {
+        "id" : 10,
+        "name" : "Toronto Maple Leafs",
+        "link" : "/api/v1/teams/10"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "274:41",
+        "assists" : 4,
+        "goals" : 5,
+        "pim" : 6,
+        "shots" : 31,
+        "games" : 18,
+        "hits" : 8,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "21:59",
+        "evenTimeOnIce" : "251:12",
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 50.0,
+        "shotPct" : 16.13,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:30",
+        "blocked" : 0,
+        "plusMinus" : 7,
+        "points" : 9,
+        "shifts" : 372
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "117:01",
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 4,
+        "shots" : 6,
+        "games" : 8,
+        "hits" : 1,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "14:05",
+        "evenTimeOnIce" : "102:46",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 50.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:10",
+        "blocked" : 1,
+        "plusMinus" : 1,
+        "points" : 4,
+        "shifts" : 148
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

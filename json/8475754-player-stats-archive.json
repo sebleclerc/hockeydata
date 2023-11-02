@@ -1,0 +1,780 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 14,
+        "games" : 31,
+        "faceOffPct" : 0.0,
+        "points" : 23
+      },
+      "team" : {
+        "id" : 4600,
+        "name" : "Warroad",
+        "link" : "/api/v1/teams/4600"
+      },
+      "league" : {
+        "id" : 23,
+        "name" : "High-MN",
+        "link" : "/api/v1/league/23"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 36,
+        "goals" : 45,
+        "games" : 31,
+        "faceOffPct" : 0.0,
+        "points" : 81
+      },
+      "team" : {
+        "id" : 4600,
+        "name" : "Warroad",
+        "link" : "/api/v1/teams/4600"
+      },
+      "league" : {
+        "id" : 23,
+        "name" : "High-MN",
+        "link" : "/api/v1/league/23"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 5,
+        "games" : 24,
+        "faceOffPct" : 0.0,
+        "points" : 15
+      },
+      "team" : {
+        "name" : "Great Plains",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "UMHSEL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 34,
+        "goals" : 39,
+        "pim" : 38,
+        "games" : 25,
+        "penaltyMinutes" : "38",
+        "faceOffPct" : 0.0,
+        "points" : 73
+      },
+      "team" : {
+        "id" : 4600,
+        "name" : "Warroad",
+        "link" : "/api/v1/teams/4600"
+      },
+      "league" : {
+        "id" : 23,
+        "name" : "High-MN",
+        "link" : "/api/v1/league/23"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 8,
+        "pim" : 27,
+        "games" : 42,
+        "powerPlayGoals" : 4,
+        "penaltyMinutes" : "27",
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "points" : 21
+      },
+      "team" : {
+        "id" : 4742,
+        "name" : "North Dakota",
+        "link" : "/api/v1/teams/4742"
+      },
+      "league" : {
+        "id" : 221,
+        "name" : "WCHA",
+        "link" : "/api/v1/league/221"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 5,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "0",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -1,
+        "points" : 1
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 19,
+        "goals" : 28,
+        "pim" : 4,
+        "games" : 42,
+        "powerPlayGoals" : 10,
+        "penaltyMinutes" : "4",
+        "gameWinningGoals" : 6,
+        "shortHandedGoals" : 1,
+        "points" : 47
+      },
+      "team" : {
+        "id" : 4742,
+        "name" : "North Dakota",
+        "link" : "/api/v1/teams/4742"
+      },
+      "league" : {
+        "id" : 221,
+        "name" : "WCHA",
+        "link" : "/api/v1/league/221"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 5,
+        "games" : 4,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "0",
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "id" : 5606,
+        "name" : "Bridgeport",
+        "link" : "/api/v1/teams/5606"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 27,
+        "goals" : 25,
+        "pim" : 34,
+        "shots" : 187,
+        "games" : 66,
+        "powerPlayGoals" : 11,
+        "penaltyMinutes" : "34",
+        "shotPct" : 13.37,
+        "gameWinningGoals" : 6,
+        "shortHandedGoals" : 2,
+        "plusMinus" : 0,
+        "points" : 52
+      },
+      "team" : {
+        "id" : 5606,
+        "name" : "Bridgeport",
+        "link" : "/api/v1/teams/5606"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "1026:53",
+        "assists" : 12,
+        "goals" : 14,
+        "pim" : 12,
+        "shots" : 132,
+        "games" : 72,
+        "hits" : 74,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 7,
+        "powerPlayTimeOnIce" : "133:30",
+        "evenTimeOnIce" : "832:38",
+        "penaltyMinutes" : "12",
+        "faceOffPct" : 42.35,
+        "shotPct" : 10.61,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "60:45",
+        "blocked" : 38,
+        "plusMinus" : -10,
+        "points" : 26,
+        "shifts" : 1454
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 6,
+        "games" : 1,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "2",
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 2,
+        "points" : 1
+      },
+      "team" : {
+        "id" : 5606,
+        "name" : "Bridgeport",
+        "link" : "/api/v1/teams/5606"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 4,
+        "pim" : 8,
+        "shots" : 19,
+        "games" : 7,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "8",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 3,
+        "points" : 6
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "1302:25",
+        "assists" : 22,
+        "goals" : 20,
+        "pim" : 24,
+        "shots" : 190,
+        "games" : 82,
+        "hits" : 99,
+        "powerPlayGoals" : 10,
+        "powerPlayPoints" : 15,
+        "powerPlayTimeOnIce" : "222:21",
+        "evenTimeOnIce" : "1002:24",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 44.31,
+        "shotPct" : 10.53,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "77:40",
+        "blocked" : 52,
+        "plusMinus" : 6,
+        "points" : 42,
+        "shifts" : 1714
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 6,
+        "pim" : 8,
+        "shots" : 20,
+        "games" : 10,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "8",
+        "gameWinningGoals" : 3,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 7,
+        "points" : 10
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "1280:04",
+        "assists" : 14,
+        "goals" : 26,
+        "pim" : 30,
+        "shots" : 165,
+        "games" : 81,
+        "hits" : 59,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 5,
+        "powerPlayTimeOnIce" : "143:38",
+        "evenTimeOnIce" : "1098:14",
+        "penaltyMinutes" : "30",
+        "faceOffPct" : 47.94,
+        "shotPct" : 15.76,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "38:12",
+        "blocked" : 50,
+        "plusMinus" : -3,
+        "points" : 40,
+        "shifts" : 1676
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 2,
+        "shots" : 16,
+        "games" : 6,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "2",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 0,
+        "points" : 4
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 6,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 0,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "1267:30",
+        "assists" : 25,
+        "goals" : 20,
+        "pim" : 36,
+        "shots" : 173,
+        "games" : 81,
+        "hits" : 50,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 6,
+        "powerPlayTimeOnIce" : "151:30",
+        "evenTimeOnIce" : "1066:58",
+        "penaltyMinutes" : "36",
+        "faceOffPct" : 43.74,
+        "shotPct" : 11.56,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "49:02",
+        "blocked" : 48,
+        "plusMinus" : -6,
+        "points" : 45,
+        "shifts" : 1730
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 8,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 5,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "1207:44",
+        "assists" : 16,
+        "goals" : 19,
+        "pim" : 43,
+        "shots" : 138,
+        "games" : 82,
+        "hits" : 50,
+        "powerPlayGoals" : 4,
+        "powerPlayPoints" : 8,
+        "powerPlayTimeOnIce" : "147:57",
+        "evenTimeOnIce" : "1005:13",
+        "penaltyMinutes" : "43",
+        "faceOffPct" : 48.32,
+        "shotPct" : 13.77,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "54:34",
+        "blocked" : 52,
+        "plusMinus" : -4,
+        "points" : 35,
+        "shifts" : 1502
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1473:43",
+        "assists" : 28,
+        "goals" : 25,
+        "pim" : 28,
+        "shots" : 181,
+        "games" : 82,
+        "hits" : 51,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 8,
+        "powerPlayTimeOnIce" : "197:03",
+        "evenTimeOnIce" : "1210:55",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 47.67,
+        "shotPct" : 13.81,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "65:45",
+        "blocked" : 55,
+        "plusMinus" : 20,
+        "points" : 53,
+        "shifts" : 1828
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1282:28",
+        "assists" : 28,
+        "goals" : 26,
+        "pim" : 32,
+        "shots" : 175,
+        "games" : 68,
+        "hits" : 49,
+        "powerPlayGoals" : 4,
+        "powerPlayPoints" : 7,
+        "powerPlayTimeOnIce" : "138:04",
+        "evenTimeOnIce" : "1037:12",
+        "penaltyMinutes" : "32",
+        "faceOffPct" : 51.77,
+        "shotPct" : 14.9,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 3,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "107:12",
+        "blocked" : 44,
+        "plusMinus" : 6,
+        "points" : 54,
+        "shifts" : 1649
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "998:35",
+        "assists" : 15,
+        "goals" : 18,
+        "pim" : 14,
+        "shots" : 121,
+        "games" : 56,
+        "hits" : 36,
+        "powerPlayGoals" : 7,
+        "powerPlayPoints" : 9,
+        "powerPlayTimeOnIce" : "118:41",
+        "evenTimeOnIce" : "823:33",
+        "penaltyMinutes" : "14",
+        "faceOffPct" : 49.36,
+        "shotPct" : 14.9,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "56:21",
+        "blocked" : 26,
+        "plusMinus" : -5,
+        "points" : 33,
+        "shifts" : 1263
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1272:52",
+        "assists" : 22,
+        "goals" : 37,
+        "pim" : 33,
+        "shots" : 171,
+        "games" : 72,
+        "hits" : 31,
+        "powerPlayGoals" : 11,
+        "powerPlayPoints" : 14,
+        "powerPlayTimeOnIce" : "161:55",
+        "evenTimeOnIce" : "1058:23",
+        "penaltyMinutes" : "33",
+        "faceOffPct" : 49.38,
+        "shotPct" : 21.6,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "52:34",
+        "blocked" : 43,
+        "plusMinus" : -5,
+        "points" : 59,
+        "shifts" : 1615
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1511:42",
+        "assists" : 39,
+        "goals" : 36,
+        "pim" : 24,
+        "shots" : 222,
+        "games" : 82,
+        "hits" : 50,
+        "powerPlayGoals" : 6,
+        "powerPlayPoints" : 17,
+        "powerPlayTimeOnIce" : "243:57",
+        "evenTimeOnIce" : "1215:12",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 47.25,
+        "shotPct" : 16.22,
+        "gameWinningGoals" : 8,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "52:33",
+        "blocked" : 43,
+        "plusMinus" : 13,
+        "points" : 75,
+        "shifts" : 1870
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "139:43",
+        "assists" : 1,
+        "goals" : 4,
+        "pim" : 4,
+        "shots" : 31,
+        "games" : 8,
+        "hits" : 6,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "23:13",
+        "evenTimeOnIce" : "113:42",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 48.89,
+        "shotPct" : 12.9,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:48",
+        "blocked" : 4,
+        "plusMinus" : 3,
+        "points" : 5,
+        "shifts" : 172
+      },
+      "team" : {
+        "id" : 2,
+        "name" : "New York Islanders",
+        "link" : "/api/v1/teams/2"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}
