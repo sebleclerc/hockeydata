@@ -2,7 +2,7 @@
 # SalaryCommand
 #
 
-class SalaryCommand < Thor
+class SalaryCommand < BaseCommand
   desc "missing SEASON PLAYERID", "Add missing salary for a season and playerId"
   def missing(season, type, entityId = nil)
     Logger.taskTitle "Task salary missing for #{type}"
@@ -21,10 +21,6 @@ class SalaryCommand < Thor
   end
 
   no_tasks do
-    def initTask
-      @dbService = DatabaseService.new
-    end
-
     def askMissingTeamSalary(season, teamId)
       # Get team info
       team = @dbService.getTeamForId(teamId)

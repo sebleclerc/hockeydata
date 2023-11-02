@@ -1,7 +1,6 @@
 #!/Users/sleclerc/.rvm/rubies/ruby-2.7.2/bin/ruby
 
 require "thor"
-require "http"
 Dir["./commands/*.rb"].each {|file| require file }
 Dir["./helpers/*.rb"].each {|file| require file }
 Dir["./services/*.rb"].each {|file| require file }
@@ -47,7 +46,7 @@ class Hockey < Thor
             .run(season)
     end
 
-    desc "salary season", "Some"
+    desc "hockey salary", "All salary related tasks."
     subcommand "salary", SalaryCommand
 
     no_tasks do
