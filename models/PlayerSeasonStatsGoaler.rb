@@ -42,9 +42,11 @@ class PlayerSeasonStatsGoaler
   def poolPoints()
     points = 0
 
-    realWins = wins - victoiresProlongation - victoiresFusillade
-    points += realWins*3
-    points += victoiresFusillade*2
+    # Should be getting back this soon soon soon
+    # realWins = wins - victoiresProlongation - victoiresFusillade
+    # points += realWins*3
+    # points += victoiresFusillade*2
+    points += wins*3
     points += shutouts*3
 
     return points
