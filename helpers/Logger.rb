@@ -5,9 +5,9 @@ class Logger
 
     def self.taskTitle(title)
         info ""
-        info "#####################################################".colorize(:green)
+        info "###########################################################".colorize(:green)
         info "########     #{title}     ########".colorize(:green)
-        info "#####################################################".colorize(:green)
+        info "###########################################################".colorize(:green)
         info ""
         info ""
     end
@@ -15,7 +15,7 @@ class Logger
     def self.taskEnd
         info ""
         info ""
-        info "#####################################################".colorize(:green)
+        info "###########################################################".colorize(:green)
         info ""
     end
 

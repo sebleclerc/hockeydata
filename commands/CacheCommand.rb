@@ -18,6 +18,8 @@ class CacheCommand
         cacheTeamRosters(force)
       when "team"
         cacheTeamPlayers(force)
+      when "salary"
+        cacheSalaryPlayers()
       when "pool"
         cachePool()
       else
@@ -64,6 +66,15 @@ class CacheCommand
     roster.each do |playerId|
       @cacheService.cachePlayerForId(playerId, force)
       @cacheService.cachePlayerArchiveStatsForId(playerId, force)
+    end
+  end
+
+  def cacheSalaryPlayers()
+    Logger.info "Caching players stats with salary"
+    roster = @dbService.getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+
+    roster.each do |poolPlayer|
+      @cacheService.cachePlayerArchiveStatsForId(poolPlayer.player.id, true)
     end
   end
 
