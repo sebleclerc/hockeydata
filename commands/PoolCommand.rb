@@ -4,7 +4,6 @@ class PoolCommand < BaseCommand
     initTask()
 
     Logger.taskTitle "Stats #{season}"
-    Logger.info ""
 
     totalPoints = 0.0
 
@@ -54,7 +53,35 @@ class PoolCommand < BaseCommand
     Logger.info ""
     Logger.info "Total points: #{totalPoints}"
 
-    Logger.info ""
+    Logger.taskEnd
+  end
+
+  desc "preview", "Trying to find interesting pool choices."
+  def preview()
+    initTask()
+
+    Logger.taskTitle "Preview stats for season #{Constants.currentSeason}"
+
+    poolPlayers = @dbService.getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+
+    header = Player.showFullNameHeader
+    header += PlayerSalarySeason.showAVVHeader
+    header += "P".intHeader()
+    header += "Pool".intHeader()
+    header += "Value".floatHeader()
+    Logger.info header
+
+    poolPlayers.each do |player|
+      statLine = player.player.showFullName
+      statLine += player.salary.showAVV
+      statLine += player.stat.points.show()
+      statLine += player.poolPoints().show()
+
+      statLine += player.value.show()
+
+      Logger.info statLine
+    end
+
     Logger.taskEnd
   end
 end

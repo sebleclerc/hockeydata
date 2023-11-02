@@ -6,6 +6,6 @@ end
 
 class String
   def floatHeader()
-    return self.rjust(10)
+    return self.rjust(10).colorize(:yellow)
   end
 end

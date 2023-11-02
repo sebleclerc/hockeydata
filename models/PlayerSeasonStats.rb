@@ -3,6 +3,26 @@ class PlayerSeasonStats
   attr_accessor :games, :goals, :assists, :points
   attr_accessor :leagueName, :teamName
 
+  ## Loading
+
+  def self.fromRow(row)
+    stat = PlayerSeasonStats.new
+
+    stat.season = row["season"]
+
+    stat.games = row["games"]
+    stat.goals = row["goals"]
+    stat.assists = row["assists"]
+    stat.points = row["points"]
+
+    stat.leagueName = row["leagueName"]
+    stat.teamName = row["teamName"]
+
+    return stat
+  end
+
+  ## Showing
+
   def self.formattedHeaderString
     header = "Season".rjust(10)
     header += "Games".intHeader()

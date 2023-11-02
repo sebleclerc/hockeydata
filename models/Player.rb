@@ -3,6 +3,14 @@ class Player
     attr_accessor :birthYear, :birthMonth, :birthDay, :birthCity, :birthProvince, :birthCountry
     attr_accessor :height, :weight, :active, :shoot, :rookie, :teamId, :positionCode
 
+    def self.showFullNameHeader
+        return "Name".rjust(Constants.fullNamePadding).colorize(:yellow)
+    end
+
+    def showFullName
+        return fullName.rjust(Constants.fullNamePadding)
+    end
+
     def fullName
         return "#{firstName} #{lastName}"
     end

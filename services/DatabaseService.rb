@@ -3,6 +3,7 @@ require_relative "../models/Player.rb"
 require_relative "../models/PlayerSeasonStats.rb"
 require_relative "../models/PlayerSeasonStatsGoaler.rb"
 require_relative "../models/PlayerSalarySeason.rb"
+require_relative "../models/PoolPlayerValues.rb"
 require_relative "../models/Position.rb"
 require_relative "../models/Team.rb"
 
@@ -200,18 +201,7 @@ class DatabaseService
         results = @dbClient.query(query)
 
         results.each do |result|
-            stat = PlayerSeasonStats.new
-
-            stat.season = result["season"]
-
-            stat.games = result["games"]
-            stat.goals = result["goals"]
-            stat.assists = result["assists"]
-            stat.points = result["points"]
-
-            stat.leagueName = result["leagueName"]
-            stat.teamName = result["teamName"]
-
+            stat = PlayerSeasonStats.fromRow(row)
             stats.append(stat)
         end
 
@@ -294,6 +284,23 @@ class DatabaseService
         end
 
         return roster
+    end
+
+    def getAvailablePlayerStatsSalaryForSeason(season)
+        results = @dbClient.query("SELECT * from Players p INNER JOIN PlayersStatsArchive psa ON p.id = psa.playerId INNER JOIN PlayersSalaries sal ON p.id = sal.playerId WHERE p.positionCode != 'G' AND psa.season = \"#{season}\" AND sal.season = \"#{season}\" ORDER BY lastName, firstName")
+        players = Array.new
+
+        results.each do |row|
+            player = Player.fromRow(row)
+            stat = PlayerSeasonStats.fromRow(row)
+            salary = PlayerSalarySeason.fromRow(row)
+
+            poolPlayer = PoolPlayerValues.new(player, stat, salary)
+            players.append(poolPlayer)
+        end
+
+        # Returning a large number will make them at the end of the list
+        return players.sort_by { |player| player.value == 0 ? 999999999999 : player.value }
     end
 
     def insertPlayerSalary(playerId, season, salary)

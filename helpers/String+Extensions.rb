@@ -1,6 +1,6 @@
 class String
   def showHeader
-    return self.rjust(25)
+    return self.rjust(25).colorize(:yellow)
   end
 
   def show

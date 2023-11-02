@@ -4,17 +4,19 @@ class Logger
     @@moreLogging = false
 
     def self.taskTitle(title)
-        puts ""
-        puts "#####################################################".colorize(:green)
-        puts "########     #{title}     ########".colorize(:green)
-        puts "#####################################################".colorize(:green)
-        puts ""
+        info ""
+        info "#####################################################".colorize(:green)
+        info "########     #{title}     ########".colorize(:green)
+        info "#####################################################".colorize(:green)
+        info ""
+        info ""
     end
 
     def self.taskEnd
-        puts ""
-        puts "#####################################################".colorize(:green)
-        puts ""
+        info ""
+        info ""
+        info "#####################################################".colorize(:green)
+        info ""
     end
 
     def self.debug(text)
