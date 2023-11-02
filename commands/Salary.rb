@@ -66,6 +66,29 @@ class Salary < Thor
       if !(salary.nil? || salary.empty?)
         @dbService.insertPlayerSalary(player.id, season, salary)
       end
+
+      Logger.info "Pour combien d'année encore?"
+      nbYears = STDIN.gets.chomp.to_i
+
+      if !nbYears.nil? && nbYears > 0
+        currentSeason = season
+
+        nbYears.times do |i|
+          nextSeason = calculateNextSeason(currentSeason)
+          Logger.debug "Next season #{nextSeason}"
+          @dbService.insertPlayerSalary(player.id, nextSeason, salary)
+
+          currentSeason = nextSeason
+        end
+      end
+    end
+
+    def calculateNextSeason(season)
+      firstHalf = season[4,4].to_i
+      secondHalf = firstHalf + 1
+      nextSeason = "#{firstHalf}#{secondHalf}"
+
+      return nextSeason
     end
   end
 end
