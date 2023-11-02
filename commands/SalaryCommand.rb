@@ -42,9 +42,9 @@ class SalaryCommand < BaseCommand
         teamSalaries[playerId] = salary
       end
 
-      Logger.info "#{"ID".ljust(8)}#{"Name".rjust(30)}   #{"Salary".rjust(8)}"
+      Logger.info "#{"ID".ljust(8)}#{"Name".rjust(30)}   #{"Salary".rjust(12)}"
       teamSalaries.each do |playerId, salary|
-        Logger.info "#{playerId.to_s.ljust(8)}#{salary.fullName.rjust(30)}   #{salary.avv.rjust(8)}"
+        Logger.info "#{playerId.to_s.ljust(8)}#{salary.fullName.rjust(30)}   #{salary.avv()}"
       end
 
       # Ask salary and insert
@@ -100,7 +100,7 @@ class TaskPlayerSeasonSalary
     if salary.nil?
       return ""
     else
-      return salary.avv.to_s
+      return salary.avv.showSalary()
     end
   end
 end
