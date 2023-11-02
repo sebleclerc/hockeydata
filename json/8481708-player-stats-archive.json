@@ -1,0 +1,467 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 23,
+        "goals" : 5,
+        "pim" : 4,
+        "games" : 19,
+        "penaltyMinutes" : "4",
+        "points" : 28
+      },
+      "team" : {
+        "name" : "Richmond Generals 16U",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EJEPL 16U",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 190030
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 4,
+        "games" : 22,
+        "penaltyMinutes" : "4",
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Selects Academy 16U AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USPHL 16U",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 112846
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "games" : 5,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Team Red",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USA-S15",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 178013
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 6,
+        "penaltyMinutes" : "2",
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Selects Academy 16U AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USPHL 16U",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 112846
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "games" : 5,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Team Grey",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USA-S16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 177914
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "points" : 9
+      },
+      "team" : {
+        "name" : "Selects Academy 18U AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USPHL 18U",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149378
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 37,
+        "goals" : 8,
+        "pim" : 28,
+        "games" : 54,
+        "penaltyMinutes" : "28",
+        "points" : 45
+      },
+      "team" : {
+        "name" : "Selects Academy 18U AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "18U AAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 149588
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "games" : 5,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Team Gold",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USA-S17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 177415
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 45,
+        "goals" : 7,
+        "pim" : 38,
+        "games" : 56,
+        "penaltyMinutes" : "38",
+        "plusMinus" : 38,
+        "points" : 52
+      },
+      "team" : {
+        "name" : "Tri-City Storm",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 28026
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 6,
+        "penaltyMinutes" : "2",
+        "points" : 4
+      },
+      "team" : {
+        "name" : "USA U19",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJAC-19",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 87412
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 20,
+        "goals" : 3,
+        "pim" : 24,
+        "games" : 32,
+        "penaltyMinutes" : "24",
+        "plusMinus" : 12,
+        "points" : 23
+      },
+      "team" : {
+        "name" : "Univ. of Massachusetts",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 11300
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 1,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "USA U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17276
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "149:50",
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 12,
+        "games" : 10,
+        "hits" : 8,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "08:02",
+        "evenTimeOnIce" : "140:10",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:38",
+        "blocked" : 8,
+        "plusMinus" : -2,
+        "points" : 4,
+        "shifts" : 202
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 9,
+        "pim" : 8,
+        "games" : 29,
+        "penaltyMinutes" : "8",
+        "plusMinus" : 17,
+        "points" : 24
+      },
+      "team" : {
+        "name" : "Univ. of Massachusetts",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 11300
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 0,
+        "pim" : 4,
+        "games" : 10,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 5,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "182:05",
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 8,
+        "games" : 12,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "10:58",
+        "evenTimeOnIce" : "170:58",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:09",
+        "blocked" : 13,
+        "plusMinus" : -7,
+        "points" : 2,
+        "shifts" : 213
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 26,
+        "goals" : 9,
+        "pim" : 25,
+        "games" : 52,
+        "penaltyMinutes" : "25",
+        "plusMinus" : -4,
+        "points" : 35
+      },
+      "team" : {
+        "name" : "Hartford Wolf Pack",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 847
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "249:46",
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 4,
+        "shots" : 15,
+        "games" : 16,
+        "hits" : 5,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "14:23",
+        "evenTimeOnIce" : "234:01",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 0.0,
+        "shotPct" : 6.67,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:22",
+        "blocked" : 16,
+        "plusMinus" : -2,
+        "points" : 2,
+        "shifts" : 283
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "assists" : 23,
+        "goals" : 8,
+        "pim" : 34,
+        "games" : 54,
+        "penaltyMinutes" : "34",
+        "plusMinus" : 16,
+        "points" : 31
+      },
+      "team" : {
+        "name" : "Hartford Wolf Pack",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 847
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "12:30",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "shots" : 4,
+        "games" : 1,
+        "hits" : 1,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:00",
+        "evenTimeOnIce" : "12:30",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 1,
+        "plusMinus" : -2,
+        "points" : 0,
+        "shifts" : 17
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8471734,
+    "fullName" : "Jonathan Quick",
+    "link" : "/api/v1/people/8471734",
+    "firstName" : "Jonathan",
+    "lastName" : "Quick",
+    "primaryNumber" : "32",
+    "birthDate" : "1986-01-21",
+    "currentAge" : 37,
+    "birthCity" : "Milford",
+    "birthStateProvince" : "CT",
+    "birthCountry" : "USA",
+    "nationality" : "USA",
+    "height" : "6' 1\"",
+    "weight" : 215,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 3,
+      "name" : "New York Rangers",
+      "link" : "/api/v1/teams/3"
+    },
+    "primaryPosition" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  } ]
+}

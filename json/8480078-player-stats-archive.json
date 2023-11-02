@@ -1,0 +1,635 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 1,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Berani Zlin U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czech U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 83657
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 11,
+        "pim" : 8,
+        "games" : 24,
+        "penaltyMinutes" : "8",
+        "plusMinus" : 11,
+        "points" : 21
+      },
+      "team" : {
+        "name" : "Berani Zlin U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czech U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 83657
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 6,
+        "pim" : 10,
+        "games" : 19,
+        "penaltyMinutes" : "10",
+        "plusMinus" : 2,
+        "points" : 9
+      },
+      "team" : {
+        "name" : "Berani Zlin U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czech U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 40702
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 18,
+        "goals" : 30,
+        "pim" : 16,
+        "games" : 25,
+        "penaltyMinutes" : "16",
+        "plusMinus" : 36,
+        "points" : 48
+      },
+      "team" : {
+        "name" : "Berani Zlin U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czech U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 83657
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 28,
+        "pim" : 8,
+        "games" : 30,
+        "penaltyMinutes" : "8",
+        "plusMinus" : 23,
+        "points" : 50
+      },
+      "team" : {
+        "name" : "Berani Zlin U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czech U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 40692
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Czechia U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHC-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 61320
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 4,
+        "pim" : 16,
+        "games" : 38,
+        "penaltyMinutes" : "16",
+        "plusMinus" : -5,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "Berani Zlin",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czech",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1706
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -1,
+        "points" : 5
+      },
+      "team" : {
+        "name" : "Czechia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17013
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Berani Zlin U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Czech U20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 29835
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 3,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 1,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Czechia U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Hlinka Gretzky Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 158320
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "122:29",
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 4,
+        "shots" : 21,
+        "games" : 9,
+        "hits" : 3,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "03:20",
+        "evenTimeOnIce" : "118:50",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 36.84,
+        "shotPct" : 4.76,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:19",
+        "blocked" : 1,
+        "plusMinus" : -5,
+        "points" : 3,
+        "shifts" : 151
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 20,
+        "goals" : 11,
+        "pim" : 6,
+        "games" : 46,
+        "penaltyMinutes" : "6",
+        "plusMinus" : 1,
+        "points" : 31
+      },
+      "team" : {
+        "name" : "Hartford Wolf Pack",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 847
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -3,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17015
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Czechia U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17046
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 6,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -1,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EHT",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 68526
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1033:57",
+        "assists" : 12,
+        "goals" : 11,
+        "pim" : 8,
+        "shots" : 133,
+        "games" : 75,
+        "hits" : 29,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 7,
+        "powerPlayTimeOnIce" : "109:54",
+        "evenTimeOnIce" : "923:51",
+        "penaltyMinutes" : "8",
+        "faceOffPct" : 38.86,
+        "shotPct" : 8.27,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:12",
+        "blocked" : 21,
+        "plusMinus" : -22,
+        "points" : 23,
+        "shifts" : 1300
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 4,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17015
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "EHT",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 68526
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "890:27",
+        "assists" : 9,
+        "goals" : 14,
+        "pim" : 10,
+        "shots" : 114,
+        "games" : 60,
+        "hits" : 13,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "76:50",
+        "evenTimeOnIce" : "811:58",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 38.45,
+        "shotPct" : 12.3,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:39",
+        "blocked" : 31,
+        "plusMinus" : -7,
+        "points" : 23,
+        "shifts" : 1109
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 3,
+        "pim" : 2,
+        "games" : 9,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 9,
+        "points" : 9
+      },
+      "team" : {
+        "name" : "Hartford Wolf Pack",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 847
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "555:27",
+        "assists" : 14,
+        "goals" : 8,
+        "pim" : 10,
+        "shots" : 76,
+        "games" : 42,
+        "hits" : 15,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "26:50",
+        "evenTimeOnIce" : "527:47",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 42.76,
+        "shotPct" : 10.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:50",
+        "blocked" : 19,
+        "plusMinus" : 9,
+        "points" : 22,
+        "shifts" : 746
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 8,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 1,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Czechia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17015
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "882:44",
+        "assists" : 14,
+        "goals" : 8,
+        "pim" : 14,
+        "shots" : 135,
+        "games" : 67,
+        "hits" : 24,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "71:14",
+        "evenTimeOnIce" : "810:21",
+        "penaltyMinutes" : "14",
+        "faceOffPct" : 43.41,
+        "shotPct" : 5.9,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:09",
+        "blocked" : 27,
+        "plusMinus" : -1,
+        "points" : 22,
+        "shifts" : 1093
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1086:36",
+        "assists" : 23,
+        "goals" : 22,
+        "pim" : 30,
+        "shots" : 177,
+        "games" : 74,
+        "hits" : 36,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 5,
+        "powerPlayTimeOnIce" : "101:40",
+        "evenTimeOnIce" : "981:55",
+        "penaltyMinutes" : "30",
+        "faceOffPct" : 39.78,
+        "shotPct" : 12.43,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "03:01",
+        "blocked" : 38,
+        "plusMinus" : 15,
+        "points" : 45,
+        "shifts" : 1229
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "148:55",
+        "assists" : 6,
+        "goals" : 0,
+        "pim" : 4,
+        "shots" : 20,
+        "games" : 9,
+        "hits" : 4,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "13:42",
+        "evenTimeOnIce" : "134:33",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 45.76,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:40",
+        "blocked" : 4,
+        "plusMinus" : 0,
+        "points" : 6,
+        "shifts" : 188
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

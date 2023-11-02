@@ -1,0 +1,469 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 25,
+        "penaltyMinutes" : "2",
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Minnetonka High",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHS-MN",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 28132
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 7,
+        "games" : 16,
+        "points" : 16
+      },
+      "team" : {
+        "name" : "MNBEL Canadiens",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Bantam",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 258885
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 5,
+        "pim" : 12,
+        "games" : 25,
+        "penaltyMinutes" : "12",
+        "points" : 16
+      },
+      "team" : {
+        "name" : "Minnetonka High",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHS-MN",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 28148
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Team TDS Transportation",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "UMHSEHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 63768
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 0,
+        "games" : 5,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Team Kelly",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USA-S15",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 178073
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 1,
+        "penaltyMinutes" : "0",
+        "points" : 1
+      },
+      "team" : {
+        "name" : "U.S. National U18 Team",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USDP",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19564
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 3,
+        "pim" : 16,
+        "games" : 54,
+        "penaltyMinutes" : "16",
+        "points" : 17
+      },
+      "team" : {
+        "name" : "U.S. National U17 Team",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USDP",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19734
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 0,
+        "pim" : 12,
+        "games" : 34,
+        "penaltyMinutes" : "12",
+        "plusMinus" : -29,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "USNTDP Juniors",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 52486
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "points" : 1
+      },
+      "team" : {
+        "name" : "USA U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHC-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 61270
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 4,
+        "games" : 7,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 4,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "USA U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17253
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 20,
+        "goals" : 9,
+        "pim" : 26,
+        "games" : 58,
+        "penaltyMinutes" : "26",
+        "points" : 29
+      },
+      "team" : {
+        "name" : "U.S. National U18 Team",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USDP",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19564
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 4,
+        "pim" : 6,
+        "games" : 22,
+        "penaltyMinutes" : "6",
+        "plusMinus" : 13,
+        "points" : 16
+      },
+      "team" : {
+        "name" : "USNTDP Juniors",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 52486
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 17,
+        "goals" : 5,
+        "pim" : 18,
+        "games" : 26,
+        "penaltyMinutes" : "18",
+        "plusMinus" : 7,
+        "points" : 22
+      },
+      "team" : {
+        "name" : "Univ. of Wisconsin",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5080
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 1,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "USA U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17276
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 7,
+        "pim" : 24,
+        "games" : 36,
+        "penaltyMinutes" : "24",
+        "plusMinus" : -7,
+        "points" : 18
+      },
+      "team" : {
+        "name" : "Univ. of Wisconsin",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NCAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5080
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 1,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "USA U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17276
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "1118:49",
+        "assists" : 7,
+        "goals" : 5,
+        "pim" : 20,
+        "shots" : 62,
+        "games" : 53,
+        "hits" : 93,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "53:53",
+        "evenTimeOnIce" : "976:28",
+        "penaltyMinutes" : "20",
+        "faceOffPct" : 0.0,
+        "shotPct" : 8.1,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "88:28",
+        "blocked" : 77,
+        "plusMinus" : 9,
+        "points" : 12,
+        "shifts" : 1398
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1689:51",
+        "assists" : 13,
+        "goals" : 7,
+        "pim" : 24,
+        "shots" : 102,
+        "games" : 82,
+        "hits" : 151,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "34:12",
+        "evenTimeOnIce" : "1534:14",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 0.0,
+        "shotPct" : 6.9,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "121:25",
+        "blocked" : 95,
+        "plusMinus" : 23,
+        "points" : 20,
+        "shifts" : 2096
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1734:13",
+        "assists" : 34,
+        "goals" : 9,
+        "pim" : 47,
+        "shots" : 113,
+        "games" : 79,
+        "hits" : 162,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 3,
+        "powerPlayTimeOnIce" : "41:59",
+        "evenTimeOnIce" : "1543:05",
+        "penaltyMinutes" : "47",
+        "faceOffPct" : 0.0,
+        "shotPct" : 7.96,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "149:09",
+        "blocked" : 105,
+        "plusMinus" : 12,
+        "points" : 43,
+        "shifts" : 1967
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "189:55",
+        "assists" : 6,
+        "goals" : 1,
+        "pim" : 2,
+        "shots" : 6,
+        "games" : 9,
+        "hits" : 5,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "07:01",
+        "evenTimeOnIce" : "161:44",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "shotPct" : 16.67,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "21:10",
+        "blocked" : 13,
+        "plusMinus" : 6,
+        "points" : 7,
+        "shifts" : 237
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

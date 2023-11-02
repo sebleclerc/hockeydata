@@ -1,0 +1,818 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20052006",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 5,
+        "games" : 19,
+        "faceOffPct" : 0.0,
+        "points" : 15
+      },
+      "team" : {
+        "name" : "Masconomet",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "High-MA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20062007",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 28,
+        "games" : 20,
+        "faceOffPct" : 0.0,
+        "points" : 41
+      },
+      "team" : {
+        "name" : "Masconomet",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "High-MA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20072008",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 26,
+        "games" : 24,
+        "faceOffPct" : 0.0,
+        "points" : 41
+      },
+      "team" : {
+        "id" : 3988,
+        "name" : "Andover",
+        "link" : "/api/v1/teams/3988"
+      },
+      "league" : {
+        "id" : 75,
+        "name" : "High-MA",
+        "link" : "/api/v1/league/75"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 23,
+        "goals" : 33,
+        "pim" : 10,
+        "games" : 26,
+        "penaltyMinutes" : "10",
+        "points" : 56
+      },
+      "team" : {
+        "id" : 3988,
+        "name" : "Andover",
+        "link" : "/api/v1/teams/3988"
+      },
+      "league" : {
+        "id" : 75,
+        "name" : "High-MA",
+        "link" : "/api/v1/league/75"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20082009",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 4,
+        "games" : 5,
+        "faceOffPct" : 0.0,
+        "points" : 6
+      },
+      "team" : {
+        "id" : 2276,
+        "name" : "Valley",
+        "link" : "/api/v1/teams/2276"
+      },
+      "league" : {
+        "id" : 143,
+        "name" : "Minor-MA",
+        "link" : "/api/v1/league/143"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 15,
+        "pim" : 26,
+        "games" : 38,
+        "penaltyMinutes" : "26",
+        "points" : 23
+      },
+      "team" : {
+        "id" : 2600,
+        "name" : "Boston College",
+        "link" : "/api/v1/teams/2600"
+      },
+      "league" : {
+        "id" : 135,
+        "name" : "H-East",
+        "link" : "/api/v1/league/135"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 6,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 0.0,
+        "points" : 7
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 0.0,
+        "points" : 2
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 5
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 11,
+        "pim" : 37,
+        "games" : 32,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "37",
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 1,
+        "points" : 24
+      },
+      "team" : {
+        "id" : 2600,
+        "name" : "Boston College",
+        "link" : "/api/v1/teams/2600"
+      },
+      "league" : {
+        "id" : 135,
+        "name" : "H-East",
+        "link" : "/api/v1/league/135"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 4,
+        "pim" : 0,
+        "games" : 6,
+        "powerPlayGoals" : 3,
+        "penaltyMinutes" : "0",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 0,
+        "points" : 6
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WJC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 6,
+        "games" : 7,
+        "powerPlayGoals" : 1,
+        "penaltyMinutes" : "6",
+        "gameWinningGoals" : 1,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 1,
+        "points" : 3
+      },
+      "team" : {
+        "id" : 67,
+        "name" : "U.S.A.",
+        "link" : "/api/v1/teams/67"
+      },
+      "league" : {
+        "id" : 147,
+        "name" : "WC-A",
+        "link" : "/api/v1/league/147"
+      },
+      "sequenceNumber" : 3
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 23,
+        "pim" : 66,
+        "games" : 44,
+        "powerPlayGoals" : 7,
+        "penaltyMinutes" : "66",
+        "gameWinningGoals" : 5,
+        "shortHandedGoals" : 3,
+        "points" : 45
+      },
+      "team" : {
+        "id" : 2600,
+        "name" : "Boston College",
+        "link" : "/api/v1/teams/2600"
+      },
+      "league" : {
+        "id" : 135,
+        "name" : "H-East",
+        "link" : "/api/v1/league/135"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "timeOnIce" : "232:34",
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 6,
+        "shots" : 19,
+        "games" : 23,
+        "hits" : 36,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "15:59",
+        "evenTimeOnIce" : "216:35",
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 0.0,
+        "shotPct" : 10.53,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 6,
+        "plusMinus" : -1,
+        "points" : 3,
+        "shifts" : 311
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 12,
+        "pim" : 73,
+        "shots" : 105,
+        "games" : 48,
+        "powerPlayGoals" : 6,
+        "penaltyMinutes" : "73",
+        "shotPct" : 11.43,
+        "gameWinningGoals" : 2,
+        "shortHandedGoals" : 1,
+        "plusMinus" : -11,
+        "points" : 23
+      },
+      "team" : {
+        "name" : "Connecticut",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 99
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "timeOnIce" : "1038:06",
+        "assists" : 20,
+        "goals" : 17,
+        "pim" : 72,
+        "shots" : 136,
+        "games" : 66,
+        "hits" : 146,
+        "powerPlayGoals" : 6,
+        "powerPlayPoints" : 12,
+        "powerPlayTimeOnIce" : "143:48",
+        "evenTimeOnIce" : "892:36",
+        "penaltyMinutes" : "72",
+        "faceOffPct" : 42.11,
+        "shotPct" : 12.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:42",
+        "blocked" : 18,
+        "plusMinus" : 14,
+        "points" : 37,
+        "shifts" : 1424
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 16,
+        "shots" : 16,
+        "games" : 6,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "16",
+        "shotPct" : 12.5,
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : 0,
+        "points" : 4
+      },
+      "team" : {
+        "id" : 6658,
+        "name" : "Hartford",
+        "link" : "/api/v1/teams/6658"
+      },
+      "league" : {
+        "id" : 153,
+        "name" : "AHL",
+        "link" : "/api/v1/league/153"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "timeOnIce" : "1256:55",
+        "assists" : 25,
+        "goals" : 21,
+        "pim" : 88,
+        "shots" : 180,
+        "games" : 80,
+        "hits" : 162,
+        "powerPlayGoals" : 7,
+        "powerPlayPoints" : 8,
+        "powerPlayTimeOnIce" : "150:28",
+        "evenTimeOnIce" : "1106:23",
+        "penaltyMinutes" : "88",
+        "faceOffPct" : 42.86,
+        "shotPct" : 11.67,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:04",
+        "blocked" : 17,
+        "plusMinus" : 24,
+        "points" : 46,
+        "shifts" : 1749
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "timeOnIce" : "1260:36",
+        "assists" : 22,
+        "goals" : 21,
+        "pim" : 58,
+        "shots" : 158,
+        "games" : 79,
+        "hits" : 177,
+        "powerPlayGoals" : 5,
+        "powerPlayPoints" : 8,
+        "powerPlayTimeOnIce" : "189:10",
+        "evenTimeOnIce" : "1070:56",
+        "penaltyMinutes" : "58",
+        "faceOffPct" : 83.33,
+        "shotPct" : 13.29,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:30",
+        "blocked" : 33,
+        "plusMinus" : 10,
+        "points" : 43,
+        "shifts" : 1677
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "timeOnIce" : "1275:22",
+        "assists" : 25,
+        "goals" : 28,
+        "pim" : 58,
+        "shots" : 186,
+        "games" : 75,
+        "hits" : 132,
+        "powerPlayGoals" : 6,
+        "powerPlayPoints" : 13,
+        "powerPlayTimeOnIce" : "194:45",
+        "evenTimeOnIce" : "1078:40",
+        "penaltyMinutes" : "58",
+        "faceOffPct" : 55.56,
+        "shotPct" : 15.05,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:57",
+        "blocked" : 30,
+        "plusMinus" : 6,
+        "points" : 53,
+        "shifts" : 1685
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "905:52",
+        "assists" : 21,
+        "goals" : 16,
+        "pim" : 44,
+        "shots" : 137,
+        "games" : 58,
+        "hits" : 103,
+        "powerPlayGoals" : 7,
+        "powerPlayPoints" : 12,
+        "powerPlayTimeOnIce" : "149:49",
+        "evenTimeOnIce" : "754:39",
+        "penaltyMinutes" : "44",
+        "faceOffPct" : 41.67,
+        "shotPct" : 11.68,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:24",
+        "blocked" : 24,
+        "plusMinus" : -2,
+        "points" : 37,
+        "shifts" : 1261
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 10,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 7,
+        "points" : 10
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1375:04",
+        "assists" : 24,
+        "goals" : 28,
+        "pim" : 57,
+        "shots" : 201,
+        "games" : 79,
+        "hits" : 159,
+        "powerPlayGoals" : 7,
+        "powerPlayPoints" : 12,
+        "powerPlayTimeOnIce" : "205:57",
+        "evenTimeOnIce" : "1164:13",
+        "penaltyMinutes" : "57",
+        "faceOffPct" : 37.5,
+        "shotPct" : 13.93,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "04:54",
+        "blocked" : 49,
+        "plusMinus" : 4,
+        "points" : 52,
+        "shifts" : 1783
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 3,
+        "pim" : 2,
+        "games" : 8,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 4,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1086:44",
+        "assists" : 21,
+        "goals" : 24,
+        "pim" : 58,
+        "shots" : 156,
+        "games" : 63,
+        "hits" : 116,
+        "powerPlayGoals" : 9,
+        "powerPlayPoints" : 13,
+        "powerPlayTimeOnIce" : "218:33",
+        "evenTimeOnIce" : "866:17",
+        "penaltyMinutes" : "58",
+        "faceOffPct" : 43.09,
+        "shotPct" : 15.4,
+        "gameWinningGoals" : 5,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:54",
+        "blocked" : 42,
+        "plusMinus" : 13,
+        "points" : 45,
+        "shifts" : 1334
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "869:52",
+        "assists" : 10,
+        "goals" : 20,
+        "pim" : 34,
+        "shots" : 102,
+        "games" : 50,
+        "hits" : 115,
+        "powerPlayGoals" : 11,
+        "powerPlayPoints" : 14,
+        "powerPlayTimeOnIce" : "179:29",
+        "evenTimeOnIce" : "664:57",
+        "penaltyMinutes" : "34",
+        "faceOffPct" : 40.0,
+        "shotPct" : 19.6,
+        "gameWinningGoals" : 4,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "25:26",
+        "blocked" : 35,
+        "plusMinus" : -1,
+        "points" : 30,
+        "shifts" : 1109
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1517:08",
+        "assists" : 25,
+        "goals" : 52,
+        "pim" : 24,
+        "shots" : 258,
+        "games" : 81,
+        "hits" : 141,
+        "powerPlayGoals" : 26,
+        "powerPlayPoints" : 35,
+        "powerPlayTimeOnIce" : "240:14",
+        "evenTimeOnIce" : "1156:07",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 48.91,
+        "shotPct" : 20.2,
+        "gameWinningGoals" : 11,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 3,
+        "shortHandedPoints" : 3,
+        "shortHandedTimeOnIce" : "120:47",
+        "blocked" : 39,
+        "plusMinus" : 19,
+        "points" : 77,
+        "shifts" : 1856
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1454:38",
+        "assists" : 18,
+        "goals" : 36,
+        "pim" : 26,
+        "shots" : 229,
+        "games" : 79,
+        "hits" : 128,
+        "powerPlayGoals" : 8,
+        "powerPlayPoints" : 17,
+        "powerPlayTimeOnIce" : "272:00",
+        "evenTimeOnIce" : "1052:19",
+        "penaltyMinutes" : "26",
+        "faceOffPct" : 45.24,
+        "shotPct" : 15.72,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 4,
+        "shortHandedPoints" : 4,
+        "shortHandedTimeOnIce" : "130:19",
+        "blocked" : 24,
+        "plusMinus" : 21,
+        "points" : 54,
+        "shifts" : 1670
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "168:16",
+        "assists" : 2,
+        "goals" : 6,
+        "pim" : 6,
+        "shots" : 25,
+        "games" : 9,
+        "hits" : 11,
+        "powerPlayGoals" : 4,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "34:07",
+        "evenTimeOnIce" : "120:20",
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 35.71,
+        "shotPct" : 24.0,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "13:49",
+        "blocked" : 2,
+        "plusMinus" : 3,
+        "points" : 8,
+        "shifts" : 212
+      },
+      "team" : {
+        "id" : 3,
+        "name" : "New York Rangers",
+        "link" : "/api/v1/teams/3"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

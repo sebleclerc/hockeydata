@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8480078,
+    "fullName" : "Filip Chytil",
+    "link" : "/api/v1/people/8480078",
+    "firstName" : "Filip",
+    "lastName" : "Chytil",
+    "primaryNumber" : "72",
+    "birthDate" : "1999-09-05",
+    "currentAge" : 24,
+    "birthCity" : "Kromeriz",
+    "birthCountry" : "CZE",
+    "nationality" : "CZE",
+    "height" : "6' 2\"",
+    "weight" : 208,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 3,
+      "name" : "New York Rangers",
+      "link" : "/api/v1/teams/3"
+    },
+    "primaryPosition" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  } ]
+}

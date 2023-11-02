@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8480817,
+    "fullName" : "K'Andre Miller",
+    "link" : "/api/v1/people/8480817",
+    "firstName" : "K'Andre",
+    "lastName" : "Miller",
+    "primaryNumber" : "79",
+    "birthDate" : "2000-01-21",
+    "currentAge" : 23,
+    "birthCity" : "St. Paul",
+    "birthStateProvince" : "MN",
+    "birthCountry" : "USA",
+    "nationality" : "USA",
+    "height" : "6' 5\"",
+    "weight" : 210,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 3,
+      "name" : "New York Rangers",
+      "link" : "/api/v1/teams/3"
+    },
+    "primaryPosition" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  } ]
+}

@@ -100,7 +100,7 @@ class TaskPlayerSeasonSalary
     if salary.nil?
       return ""
     else
-      return salary.avv.showSalary()
+      return salary.showAVV()
     end
   end
 end

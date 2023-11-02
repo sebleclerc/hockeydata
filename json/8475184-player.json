@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8475184,
+    "fullName" : "Chris Kreider",
+    "link" : "/api/v1/people/8475184",
+    "firstName" : "Chris",
+    "lastName" : "Kreider",
+    "primaryNumber" : "20",
+    "birthDate" : "1991-04-30",
+    "currentAge" : 32,
+    "birthCity" : "Boxford",
+    "birthStateProvince" : "MA",
+    "birthCountry" : "USA",
+    "nationality" : "USA",
+    "height" : "6' 3\"",
+    "weight" : 233,
+    "active" : true,
+    "alternateCaptain" : true,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 3,
+      "name" : "New York Rangers",
+      "link" : "/api/v1/teams/3"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

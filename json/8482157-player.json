@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8482157,
+    "fullName" : "Will Cuylle",
+    "link" : "/api/v1/people/8482157",
+    "firstName" : "Will",
+    "lastName" : "Cuylle",
+    "primaryNumber" : "50",
+    "birthDate" : "2002-02-05",
+    "currentAge" : 21,
+    "birthCity" : "Toronto",
+    "birthStateProvince" : "ON",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 3\"",
+    "weight" : 210,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : true,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 3,
+      "name" : "New York Rangers",
+      "link" : "/api/v1/teams/3"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}
