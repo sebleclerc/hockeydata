@@ -184,6 +184,19 @@
     }
   }, {
     "person" : {
+      "id" : 8478452,
+      "fullName" : "Caleb Jones",
+      "link" : "/api/v1/people/8478452"
+    },
+    "jerseyNumber" : "82",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8479362,
       "fullName" : "Riley Tufte",
       "link" : "/api/v1/people/8479362"
@@ -241,19 +254,6 @@
       "link" : "/api/v1/people/8480382"
     },
     "jerseyNumber" : "40",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8481020,
-      "fullName" : "Justus Annunen",
-      "link" : "/api/v1/people/8481020"
-    },
-    "jerseyNumber" : "60",
     "position" : {
       "code" : "G",
       "name" : "Goalie",

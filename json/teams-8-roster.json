@@ -2,19 +2,6 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8474596,
-      "fullName" : "Jake Allen",
-      "link" : "/api/v1/people/8474596"
-    },
-    "jerseyNumber" : "34",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8475233,
       "fullName" : "David Savard",
       "link" : "/api/v1/people/8475233"
@@ -28,11 +15,50 @@
     }
   }, {
     "person" : {
+      "id" : 8481523,
+      "fullName" : "Kirby Dach",
+      "link" : "/api/v1/people/8481523"
+    },
+    "jerseyNumber" : "77",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8474596,
+      "fullName" : "Jake Allen",
+      "link" : "/api/v1/people/8474596"
+    },
+    "jerseyNumber" : "34",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
       "id" : 8475848,
       "fullName" : "Brendan Gallagher",
       "link" : "/api/v1/people/8475848"
     },
     "jerseyNumber" : "11",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8476469,
+      "fullName" : "Joel Armia",
+      "link" : "/api/v1/people/8476469"
+    },
+    "jerseyNumber" : "40",
     "position" : {
       "code" : "R",
       "name" : "Right Wing",
@@ -158,6 +184,19 @@
     }
   }, {
     "person" : {
+      "id" : 8480184,
+      "fullName" : "Gustav Lindström",
+      "link" : "/api/v1/people/8480184"
+    },
+    "jerseyNumber" : "27",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8480192,
       "fullName" : "Johnathan Kovacevic",
       "link" : "/api/v1/people/8480192"
@@ -207,19 +246,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8481523,
-      "fullName" : "Kirby Dach",
-      "link" : "/api/v1/people/8481523"
-    },
-    "jerseyNumber" : "77",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   }, {
     "person" : {

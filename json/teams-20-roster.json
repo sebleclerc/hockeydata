@@ -288,6 +288,19 @@
     }
   }, {
     "person" : {
+      "id" : 8482074,
+      "fullName" : "Connor Zary",
+      "link" : "/api/v1/people/8482074"
+    },
+    "jerseyNumber" : "47",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8482652,
       "fullName" : "Walker Duehr",
       "link" : "/api/v1/people/8482652"

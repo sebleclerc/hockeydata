@@ -2,6 +2,19 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8471686,
+      "fullName" : "Marc Staal",
+      "link" : "/api/v1/people/8471686"
+    },
+    "jerseyNumber" : "18",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8475176,
       "fullName" : "Ryan Ellis",
       "link" : "/api/v1/people/8475176"
@@ -20,19 +33,6 @@
       "link" : "/api/v1/people/8477499"
     },
     "jerseyNumber" : "55",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8471686,
-      "fullName" : "Marc Staal",
-      "link" : "/api/v1/people/8471686"
-    },
-    "jerseyNumber" : "18",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -132,6 +132,19 @@
     }
   }, {
     "person" : {
+      "id" : 8478011,
+      "fullName" : "Louie Belpedio",
+      "link" : "/api/v1/people/8478011"
+    },
+    "jerseyNumber" : "37",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8478433,
       "fullName" : "Felix Sandstrom",
       "link" : "/api/v1/people/8478433"
@@ -155,6 +168,19 @@
       "name" : "Right Wing",
       "type" : "Forward",
       "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8479376,
+      "fullName" : "Victor Mete",
+      "link" : "/api/v1/people/8479376"
+    },
+    "jerseyNumber" : "98",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -298,19 +324,6 @@
       "name" : "Right Wing",
       "type" : "Forward",
       "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482126,
-      "fullName" : "Emil Andrae",
-      "link" : "/api/v1/people/8482126"
-    },
-    "jerseyNumber" : "36",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {

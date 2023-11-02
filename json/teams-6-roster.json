@@ -2,11 +2,37 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8482479,
-      "fullName" : "Trevor Kuntar",
-      "link" : "/api/v1/people/8482479"
+      "id" : 8473473,
+      "fullName" : "Milan Lucic",
+      "link" : "/api/v1/people/8473473"
     },
-    "jerseyNumber" : "52",
+    "jerseyNumber" : "17",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8476891,
+      "fullName" : "Matt Grzelcyk",
+      "link" : "/api/v1/people/8476891"
+    },
+    "jerseyNumber" : "48",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8480880,
+      "fullName" : "Jakub Lauko",
+      "link" : "/api/v1/people/8480880"
+    },
+    "jerseyNumber" : "94",
     "position" : {
       "code" : "C",
       "name" : "Center",
@@ -20,19 +46,6 @@
       "link" : "/api/v1/people/8473419"
     },
     "jerseyNumber" : "63",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8473473,
-      "fullName" : "Milan Lucic",
-      "link" : "/api/v1/people/8473473"
-    },
-    "jerseyNumber" : "17",
     "position" : {
       "code" : "L",
       "name" : "Left Wing",
@@ -106,19 +119,6 @@
     }
   }, {
     "person" : {
-      "id" : 8476891,
-      "fullName" : "Matt Grzelcyk",
-      "link" : "/api/v1/people/8476891"
-    },
-    "jerseyNumber" : "48",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8476999,
       "fullName" : "Linus Ullmark",
       "link" : "/api/v1/people/8476999"
@@ -158,6 +158,19 @@
     }
   }, {
     "person" : {
+      "id" : 8478046,
+      "fullName" : "Danton Heinen",
+      "link" : "/api/v1/people/8478046"
+    },
+    "jerseyNumber" : "43",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
       "id" : 8478401,
       "fullName" : "Pavel Zacha",
       "link" : "/api/v1/people/8478401"
@@ -176,6 +189,19 @@
       "link" : "/api/v1/people/8478443"
     },
     "jerseyNumber" : "25",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8478450,
+      "fullName" : "Parker Wotherspoon",
+      "link" : "/api/v1/people/8478450"
+    },
+    "jerseyNumber" : "29",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -223,6 +249,19 @@
     }
   }, {
     "person" : {
+      "id" : 8479546,
+      "fullName" : "Oskar Steen",
+      "link" : "/api/v1/people/8479546"
+    },
+    "jerseyNumber" : "62",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8479987,
       "fullName" : "Morgan Geekie",
       "link" : "/api/v1/people/8479987"
@@ -262,19 +301,6 @@
     }
   }, {
     "person" : {
-      "id" : 8480880,
-      "fullName" : "Jakub Lauko",
-      "link" : "/api/v1/people/8480880"
-    },
-    "jerseyNumber" : "94",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8481556,
       "fullName" : "John Beecher",
       "link" : "/api/v1/people/8481556"
@@ -285,6 +311,19 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8482511,
+      "fullName" : "Mason Lohrei",
+      "link" : "/api/v1/people/8482511"
+    },
+    "jerseyNumber" : "6",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {

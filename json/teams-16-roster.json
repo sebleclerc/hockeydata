@@ -2,16 +2,16 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8480798,
-      "fullName" : "Philipp Kurashev",
-      "link" : "/api/v1/people/8480798"
+      "id" : 8475791,
+      "fullName" : "Taylor Hall",
+      "link" : "/api/v1/people/8475791"
     },
-    "jerseyNumber" : "23",
+    "jerseyNumber" : "71",
     "position" : {
-      "code" : "C",
-      "name" : "Center",
+      "code" : "L",
+      "name" : "Left Wing",
       "type" : "Forward",
-      "abbreviation" : "C"
+      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -51,19 +51,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8475791,
-      "fullName" : "Taylor Hall",
-      "link" : "/api/v1/people/8475791"
-    },
-    "jerseyNumber" : "71",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -210,11 +197,11 @@
     }
   }, {
     "person" : {
-      "id" : 8480252,
-      "fullName" : "Cole Guttman",
-      "link" : "/api/v1/people/8480252"
+      "id" : 8480798,
+      "fullName" : "Philipp Kurashev",
+      "link" : "/api/v1/people/8480798"
     },
-    "jerseyNumber" : "70",
+    "jerseyNumber" : "23",
     "position" : {
       "code" : "C",
       "name" : "Center",

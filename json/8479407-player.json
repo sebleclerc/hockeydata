@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8479407,
+    "fullName" : "Jesper Bratt",
+    "link" : "/api/v1/people/8479407",
+    "firstName" : "Jesper",
+    "lastName" : "Bratt",
+    "primaryNumber" : "63",
+    "birthDate" : "1998-07-30",
+    "currentAge" : 25,
+    "birthCity" : "Stockholm",
+    "birthCountry" : "SWE",
+    "nationality" : "SWE",
+    "height" : "5' 10\"",
+    "weight" : 175,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 1,
+      "name" : "New Jersey Devils",
+      "link" : "/api/v1/teams/1"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

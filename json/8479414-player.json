@@ -1,0 +1,36 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8479414,
+    "fullName" : "Nathan Bastian",
+    "link" : "/api/v1/people/8479414",
+    "firstName" : "Nathan",
+    "lastName" : "Bastian",
+    "primaryNumber" : "14",
+    "birthDate" : "1997-12-06",
+    "currentAge" : 25,
+    "birthCity" : "Kitchener",
+    "birthStateProvince" : "ON",
+    "birthCountry" : "CAN",
+    "nationality" : "CAN",
+    "height" : "6' 4\"",
+    "weight" : 205,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "R",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 1,
+      "name" : "New Jersey Devils",
+      "link" : "/api/v1/teams/1"
+    },
+    "primaryPosition" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  } ]
+}

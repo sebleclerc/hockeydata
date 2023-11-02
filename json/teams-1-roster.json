@@ -2,6 +2,32 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8476525,
+      "fullName" : "Colin Miller",
+      "link" : "/api/v1/people/8476525"
+    },
+    "jerseyNumber" : "24",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8477931,
+      "fullName" : "Tomas Nosek",
+      "link" : "/api/v1/people/8477931"
+    },
+    "jerseyNumber" : "92",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
       "id" : 8474090,
       "fullName" : "Brendan Smith",
       "link" : "/api/v1/people/8474090"
@@ -67,19 +93,6 @@
     }
   }, {
     "person" : {
-      "id" : 8476525,
-      "fullName" : "Colin Miller",
-      "link" : "/api/v1/people/8476525"
-    },
-    "jerseyNumber" : "24",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8476919,
       "fullName" : "Chris Tierney",
       "link" : "/api/v1/people/8476919"
@@ -103,19 +116,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8477931,
-      "fullName" : "Tomas Nosek",
-      "link" : "/api/v1/people/8477931"
-    },
-    "jerseyNumber" : "92",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -207,6 +207,19 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8479984,
+      "fullName" : "Cal Foote",
+      "link" : "/api/v1/people/8479984"
+    },
+    "jerseyNumber" : "52",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {

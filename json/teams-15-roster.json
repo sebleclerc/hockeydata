@@ -2,6 +2,19 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8473563,
+      "fullName" : "Nicklas Backstrom",
+      "link" : "/api/v1/people/8473563"
+    },
+    "jerseyNumber" : "19",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8474157,
       "fullName" : "Max Pacioretty",
       "link" : "/api/v1/people/8474157"
@@ -12,6 +25,19 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8475343,
+      "fullName" : "Nic Dowd",
+      "link" : "/api/v1/people/8475343"
+    },
+    "jerseyNumber" : "26",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
     }
   }, {
     "person" : {
@@ -54,19 +80,6 @@
     }
   }, {
     "person" : {
-      "id" : 8473563,
-      "fullName" : "Nicklas Backstrom",
-      "link" : "/api/v1/people/8473563"
-    },
-    "jerseyNumber" : "19",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
       "id" : 8474590,
       "fullName" : "John Carlson",
       "link" : "/api/v1/people/8474590"
@@ -103,19 +116,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8475343,
-      "fullName" : "Nic Dowd",
-      "link" : "/api/v1/people/8475343"
-    },
-    "jerseyNumber" : "26",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   }, {
     "person" : {
@@ -236,6 +236,19 @@
     }
   }, {
     "person" : {
+      "id" : 8479522,
+      "fullName" : "Hardy Haman Aktell",
+      "link" : "/api/v1/people/8479522"
+    },
+    "jerseyNumber" : "4",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8479547,
       "fullName" : "Matthew Phillips",
       "link" : "/api/v1/people/8479547"
@@ -301,16 +314,29 @@
     }
   }, {
     "person" : {
-      "id" : 8483532,
-      "fullName" : "Clay Stevenson",
-      "link" : "/api/v1/people/8483532"
+      "id" : 8481656,
+      "fullName" : "Aliaksei Protas",
+      "link" : "/api/v1/people/8481656"
     },
-    "jerseyNumber" : "33",
+    "jerseyNumber" : "21",
     "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8482148,
+      "fullName" : "Hendrix Lapierre",
+      "link" : "/api/v1/people/8482148"
+    },
+    "jerseyNumber" : "29",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
     }
   } ],
   "link" : "/api/v1/teams/15/roster"

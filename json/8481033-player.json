@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8481033,
+    "fullName" : "Akira Schmid",
+    "link" : "/api/v1/people/8481033",
+    "firstName" : "Akira",
+    "lastName" : "Schmid",
+    "primaryNumber" : "40",
+    "birthDate" : "2000-05-12",
+    "currentAge" : 23,
+    "birthCity" : "Bern",
+    "birthCountry" : "CHE",
+    "nationality" : "CHE",
+    "height" : "6' 5\"",
+    "weight" : 205,
+    "active" : true,
+    "alternateCaptain" : false,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 1,
+      "name" : "New Jersey Devils",
+      "link" : "/api/v1/teams/1"
+    },
+    "primaryPosition" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  } ]
+}

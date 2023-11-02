@@ -2,19 +2,6 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8480830,
-      "fullName" : "Andrei Svechnikov",
-      "link" : "/api/v1/people/8480830"
-    },
-    "jerseyNumber" : "37",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
       "id" : 8470613,
       "fullName" : "Brent Burns",
       "link" : "/api/v1/people/8470613"
@@ -259,6 +246,19 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8480830,
+      "fullName" : "Andrei Svechnikov",
+      "link" : "/api/v1/people/8480830"
+    },
+    "jerseyNumber" : "37",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
     }
   }, {
     "person" : {

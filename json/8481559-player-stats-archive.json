@@ -1,0 +1,453 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 4,
+        "pim" : 6,
+        "games" : 6,
+        "penaltyMinutes" : "6",
+        "points" : 11
+      },
+      "team" : {
+        "name" : "Toronto Bulldogs",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Brick Invitational",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 128766
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 101,
+        "goals" : 58,
+        "pim" : 36,
+        "games" : 80,
+        "penaltyMinutes" : "36",
+        "points" : 159
+      },
+      "team" : {
+        "name" : "Toronto Marlboros U16 AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U16 AAA",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 82673
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 50,
+        "goals" : 23,
+        "pim" : 4,
+        "games" : 33,
+        "penaltyMinutes" : "4",
+        "points" : 73
+      },
+      "team" : {
+        "name" : "Toronto Marlboros U16 AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "GTHL U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 82870
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 7,
+        "goals" : 5,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 3,
+        "points" : 12
+      },
+      "team" : {
+        "name" : "USA U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17253
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 41,
+        "goals" : 27,
+        "pim" : 6,
+        "games" : 36,
+        "penaltyMinutes" : "6",
+        "points" : 68
+      },
+      "team" : {
+        "name" : "U.S. National U18 Team",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USDP",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19564
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 35,
+        "goals" : 13,
+        "pim" : 10,
+        "games" : 24,
+        "penaltyMinutes" : "10",
+        "points" : 48
+      },
+      "team" : {
+        "name" : "U.S. National U17 Team",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USDP",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19734
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 33,
+        "goals" : 21,
+        "pim" : 10,
+        "games" : 27,
+        "penaltyMinutes" : "10",
+        "plusMinus" : 26,
+        "points" : 54
+      },
+      "team" : {
+        "name" : "USNTDP Juniors",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 52486
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 10,
+        "goals" : 5,
+        "pim" : 2,
+        "games" : 6,
+        "penaltyMinutes" : "2",
+        "points" : 15
+      },
+      "team" : {
+        "name" : "USA U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHC-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 61270
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 2,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "USA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17215
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 9,
+        "pim" : 8,
+        "games" : 7,
+        "penaltyMinutes" : "8",
+        "plusMinus" : 10,
+        "points" : 20
+      },
+      "team" : {
+        "name" : "USA U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17253
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 2,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "USA U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17276
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 78,
+        "goals" : 34,
+        "pim" : 28,
+        "games" : 50,
+        "penaltyMinutes" : "28",
+        "points" : 112
+      },
+      "team" : {
+        "name" : "U.S. National U18 Team",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USDP",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19564
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 36,
+        "goals" : 12,
+        "pim" : 4,
+        "games" : 24,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 17,
+        "points" : 48
+      },
+      "team" : {
+        "name" : "USNTDP Juniors",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "USHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 52486
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "967:47",
+        "assists" : 14,
+        "goals" : 7,
+        "pim" : 10,
+        "shots" : 123,
+        "games" : 61,
+        "hits" : 12,
+        "powerPlayGoals" : 4,
+        "powerPlayPoints" : 9,
+        "powerPlayTimeOnIce" : "193:42",
+        "evenTimeOnIce" : "772:59",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 36.15,
+        "shotPct" : 5.7,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "01:06",
+        "blocked" : 21,
+        "plusMinus" : -26,
+        "points" : 21,
+        "shifts" : 1104
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "1067:32",
+        "assists" : 20,
+        "goals" : 11,
+        "pim" : 16,
+        "shots" : 142,
+        "games" : 56,
+        "hits" : 15,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 7,
+        "powerPlayTimeOnIce" : "165:41",
+        "evenTimeOnIce" : "899:08",
+        "penaltyMinutes" : "16",
+        "faceOffPct" : 35.35,
+        "shotPct" : 7.7,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "02:43",
+        "blocked" : 15,
+        "plusMinus" : -3,
+        "points" : 31,
+        "shifts" : 1265
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "958:44",
+        "assists" : 30,
+        "goals" : 26,
+        "pim" : 0,
+        "shots" : 165,
+        "games" : 49,
+        "hits" : 6,
+        "powerPlayGoals" : 6,
+        "powerPlayPoints" : 14,
+        "powerPlayTimeOnIce" : "141:02",
+        "evenTimeOnIce" : "814:10",
+        "penaltyMinutes" : "0",
+        "faceOffPct" : 34.56,
+        "shotPct" : 15.8,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "03:32",
+        "blocked" : 15,
+        "plusMinus" : -16,
+        "points" : 56,
+        "shifts" : 1088
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1557:21",
+        "assists" : 56,
+        "goals" : 43,
+        "pim" : 6,
+        "shots" : 336,
+        "games" : 78,
+        "hits" : 12,
+        "powerPlayGoals" : 9,
+        "powerPlayPoints" : 31,
+        "powerPlayTimeOnIce" : "246:24",
+        "evenTimeOnIce" : "1305:58",
+        "penaltyMinutes" : "6",
+        "faceOffPct" : 35.34,
+        "shotPct" : 12.8,
+        "gameWinningGoals" : 6,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "04:59",
+        "blocked" : 30,
+        "plusMinus" : 10,
+        "points" : 99,
+        "shifts" : 1740
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "174:25",
+        "assists" : 13,
+        "goals" : 5,
+        "pim" : 4,
+        "shots" : 31,
+        "games" : 8,
+        "hits" : 2,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 10,
+        "powerPlayTimeOnIce" : "32:47",
+        "evenTimeOnIce" : "141:01",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 33.33,
+        "shotPct" : 16.13,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:37",
+        "blocked" : 3,
+        "plusMinus" : 0,
+        "points" : 18,
+        "shifts" : 200
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

@@ -171,6 +171,19 @@
     }
   }, {
     "person" : {
+      "id" : 8478021,
+      "fullName" : "William Lagesson",
+      "link" : "/api/v1/people/8478021"
+    },
+    "jerseyNumber" : "85",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8478483,
       "fullName" : "Mitchell Marner",
       "link" : "/api/v1/people/8478483"
@@ -262,6 +275,19 @@
     }
   }, {
     "person" : {
+      "id" : 8480995,
+      "fullName" : "Pontus Holmberg",
+      "link" : "/api/v1/people/8480995"
+    },
+    "jerseyNumber" : "29",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
       "id" : 8482720,
       "fullName" : "Matthew Knies",
       "link" : "/api/v1/people/8482720"
@@ -272,19 +298,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8483489,
-      "fullName" : "Fraser Minten",
-      "link" : "/api/v1/people/8483489"
-    },
-    "jerseyNumber" : "39",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   } ],
   "link" : "/api/v1/teams/10/roster"

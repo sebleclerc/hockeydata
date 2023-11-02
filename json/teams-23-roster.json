@@ -15,16 +15,16 @@
     }
   }, {
     "person" : {
-      "id" : 8481624,
-      "fullName" : "Ilya Mikheyev",
-      "link" : "/api/v1/people/8481624"
+      "id" : 8478465,
+      "fullName" : "Guillaume Brisebois",
+      "link" : "/api/v1/people/8478465"
     },
-    "jerseyNumber" : "65",
+    "jerseyNumber" : "55",
     "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -119,11 +119,24 @@
     }
   }, {
     "person" : {
+      "id" : 8478017,
+      "fullName" : "Mark Friedman",
+      "link" : "/api/v1/people/8478017"
+    },
+    "jerseyNumber" : "51",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8478043,
       "fullName" : "Sam Lafferty",
       "link" : "/api/v1/people/8478043"
     },
-    "jerseyNumber" : "28",
+    "jerseyNumber" : "18",
     "position" : {
       "code" : "C",
       "name" : "Center",
@@ -184,19 +197,6 @@
     }
   }, {
     "person" : {
-      "id" : 8478465,
-      "fullName" : "Guillaume Brisebois",
-      "link" : "/api/v1/people/8478465"
-    },
-    "jerseyNumber" : "55",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8478856,
       "fullName" : "Conor Garland",
       "link" : "/api/v1/people/8478856"
@@ -214,7 +214,7 @@
       "fullName" : "Casey DeSmith",
       "link" : "/api/v1/people/8479193"
     },
-    "jerseyNumber" : "1",
+    "jerseyNumber" : "29",
     "position" : {
       "code" : "G",
       "name" : "Goalie",
@@ -301,6 +301,19 @@
     }
   }, {
     "person" : {
+      "id" : 8481624,
+      "fullName" : "Ilya Mikheyev",
+      "link" : "/api/v1/people/8481624"
+    },
+    "jerseyNumber" : "65",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
       "id" : 8483808,
       "fullName" : "Andrei Kuzmenko",
       "link" : "/api/v1/people/8483808"
@@ -311,19 +324,6 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
-      "id" : 8484254,
-      "fullName" : "Akito Hirose",
-      "link" : "/api/v1/people/8484254"
-    },
-    "jerseyNumber" : "41",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   } ],
   "link" : "/api/v1/teams/23/roster"

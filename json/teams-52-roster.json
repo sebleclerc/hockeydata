@@ -2,6 +2,19 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8480014,
+      "fullName" : "Gabriel Vilardi",
+      "link" : "/api/v1/people/8480014"
+    },
+    "jerseyNumber" : "13",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8475455,
       "fullName" : "Brenden Dillon",
       "link" : "/api/v1/people/8475455"
@@ -106,6 +119,19 @@
     }
   }, {
     "person" : {
+      "id" : 8476952,
+      "fullName" : "Dominic Toninato",
+      "link" : "/api/v1/people/8476952"
+    },
+    "jerseyNumber" : "21",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8477220,
       "fullName" : "Nate Schmidt",
       "link" : "/api/v1/people/8477220"
@@ -181,19 +207,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8480014,
-      "fullName" : "Gabriel Vilardi",
-      "link" : "/api/v1/people/8480014"
-    },
-    "jerseyNumber" : "13",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   }, {
     "person" : {

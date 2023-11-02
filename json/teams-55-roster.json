@@ -2,6 +2,32 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8477444,
+      "fullName" : "Andre Burakovsky",
+      "link" : "/api/v1/people/8477444"
+    },
+    "jerseyNumber" : "95",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8479293,
+      "fullName" : "Brandon Tanev",
+      "link" : "/api/v1/people/8479293"
+    },
+    "jerseyNumber" : "13",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
       "id" : 8474586,
       "fullName" : "Jordan Eberle",
       "link" : "/api/v1/people/8474586"
@@ -106,6 +132,19 @@
     }
   }, {
     "person" : {
+      "id" : 8476913,
+      "fullName" : "Devin Shore",
+      "link" : "/api/v1/people/8476913"
+    },
+    "jerseyNumber" : "94",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8477034,
       "fullName" : "Jaycob Megna",
       "link" : "/api/v1/people/8477034"
@@ -129,19 +168,6 @@
       "name" : "Right Wing",
       "type" : "Forward",
       "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8477444,
-      "fullName" : "Andre Burakovsky",
-      "link" : "/api/v1/people/8477444"
-    },
-    "jerseyNumber" : "95",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -220,19 +246,6 @@
       "name" : "Goalie",
       "type" : "Goalie",
       "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
-      "id" : 8479293,
-      "fullName" : "Brandon Tanev",
-      "link" : "/api/v1/people/8479293"
-    },
-    "jerseyNumber" : "13",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {

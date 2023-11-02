@@ -93,6 +93,19 @@
     }
   }, {
     "person" : {
+      "id" : 8477482,
+      "fullName" : "Zach Sanford",
+      "link" : "/api/v1/people/8477482"
+    },
+    "jerseyNumber" : "12",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
       "id" : 8477951,
       "fullName" : "Nick Schmaltz",
       "link" : "/api/v1/people/8477951"

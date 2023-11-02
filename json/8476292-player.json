@@ -1,0 +1,35 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "people" : [ {
+    "id" : 8476292,
+    "fullName" : "Ondrej Palat",
+    "link" : "/api/v1/people/8476292",
+    "firstName" : "Ondrej",
+    "lastName" : "Palat",
+    "primaryNumber" : "18",
+    "birthDate" : "1991-03-28",
+    "currentAge" : 32,
+    "birthCity" : "Frydek-Mistek",
+    "birthCountry" : "CZE",
+    "nationality" : "CZE",
+    "height" : "6' 0\"",
+    "weight" : 194,
+    "active" : true,
+    "alternateCaptain" : true,
+    "captain" : false,
+    "rookie" : false,
+    "shootsCatches" : "L",
+    "rosterStatus" : "Y",
+    "currentTeam" : {
+      "id" : 1,
+      "name" : "New Jersey Devils",
+      "link" : "/api/v1/teams/1"
+    },
+    "primaryPosition" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  } ]
+}

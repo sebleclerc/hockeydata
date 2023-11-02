@@ -2,42 +2,29 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8475798,
-      "fullName" : "Mikael Granlund",
-      "link" : "/api/v1/people/8475798"
+      "id" : 8476988,
+      "fullName" : "Matt Benning",
+      "link" : "/api/v1/people/8476988"
     },
-    "jerseyNumber" : "64",
+    "jerseyNumber" : "5",
     "position" : {
-      "code" : "C",
-      "name" : "Center",
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8482222,
+      "fullName" : "Alexander Barabanov",
+      "link" : "/api/v1/people/8482222"
+    },
+    "jerseyNumber" : "94",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
       "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8479439,
-      "fullName" : "Jacob MacDonald",
-      "link" : "/api/v1/people/8479439"
-    },
-    "jerseyNumber" : "9",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8480160,
-      "fullName" : "Radim Simek",
-      "link" : "/api/v1/people/8480160"
-    },
-    "jerseyNumber" : "51",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
+      "abbreviation" : "LW"
     }
   }, {
     "person" : {
@@ -67,6 +54,19 @@
     }
   }, {
     "person" : {
+      "id" : 8475798,
+      "fullName" : "Mikael Granlund",
+      "link" : "/api/v1/people/8475798"
+    },
+    "jerseyNumber" : "64",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8476881,
       "fullName" : "Tomas Hertl",
       "link" : "/api/v1/people/8476881"
@@ -77,19 +77,6 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8476988,
-      "fullName" : "Matt Benning",
-      "link" : "/api/v1/people/8476988"
-    },
-    "jerseyNumber" : "5",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -116,6 +103,19 @@
       "name" : "Left Wing",
       "type" : "Forward",
       "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8477846,
+      "fullName" : "Ryan Carpenter",
+      "link" : "/api/v1/people/8477846"
+    },
+    "jerseyNumber" : "22",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
     }
   }, {
     "person" : {
@@ -181,6 +181,19 @@
       "name" : "Right Wing",
       "type" : "Forward",
       "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
+      "id" : 8479439,
+      "fullName" : "Jacob MacDonald",
+      "link" : "/api/v1/people/8479439"
+    },
+    "jerseyNumber" : "9",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -262,11 +275,11 @@
     }
   }, {
     "person" : {
-      "id" : 8481567,
-      "fullName" : "Henry Thrun",
-      "link" : "/api/v1/people/8481567"
+      "id" : 8481537,
+      "fullName" : "Nikita Okhotiuk",
+      "link" : "/api/v1/people/8481537"
     },
-    "jerseyNumber" : "3",
+    "jerseyNumber" : "83",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",
@@ -285,32 +298,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8482133,
-      "fullName" : "Thomas Bordeleau",
-      "link" : "/api/v1/people/8482133"
-    },
-    "jerseyNumber" : "17",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482222,
-      "fullName" : "Alexander Barabanov",
-      "link" : "/api/v1/people/8482222"
-    },
-    "jerseyNumber" : "94",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   }, {
     "person" : {

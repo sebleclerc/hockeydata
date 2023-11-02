@@ -2,6 +2,45 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8477968,
+      "fullName" : "Alex Nedeljkovic",
+      "link" : "/api/v1/people/8477968"
+    },
+    "jerseyNumber" : "39",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
+      "id" : 8476994,
+      "fullName" : "Vinnie Hinostroza",
+      "link" : "/api/v1/people/8476994"
+    },
+    "jerseyNumber" : "13",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8482241,
+      "fullName" : "Radim Zohorna",
+      "link" : "/api/v1/people/8482241"
+    },
+    "jerseyNumber" : "63",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
       "id" : 8470604,
       "fullName" : "Jeff Carter",
       "link" : "/api/v1/people/8470604"
@@ -106,6 +145,19 @@
     }
   }, {
     "person" : {
+      "id" : 8476433,
+      "fullName" : "Magnus Hellberg",
+      "link" : "/api/v1/people/8476433"
+    },
+    "jerseyNumber" : "45",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
       "id" : 8476442,
       "fullName" : "Matt Nieto",
       "link" : "/api/v1/people/8476442"
@@ -184,19 +236,6 @@
     }
   }, {
     "person" : {
-      "id" : 8477968,
-      "fullName" : "Alex Nedeljkovic",
-      "link" : "/api/v1/people/8477968"
-    },
-    "jerseyNumber" : "39",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8477969,
       "fullName" : "Marcus Pettersson",
       "link" : "/api/v1/people/8477969"
@@ -207,19 +246,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8478424,
-      "fullName" : "Jansen Harkins",
-      "link" : "/api/v1/people/8478424"
-    },
-    "jerseyNumber" : "43",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
     }
   }, {
     "person" : {

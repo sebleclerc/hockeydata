@@ -1,0 +1,474 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Team Newfoundland U14 (ACC)",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ACC-U14",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 163930
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 23,
+        "goals" : 20,
+        "pim" : 30,
+        "games" : 28,
+        "penaltyMinutes" : "30",
+        "points" : 43
+      },
+      "team" : {
+        "name" : "Tri Pen Ice",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NLBAAAHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 183456
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "points" : 5
+      },
+      "team" : {
+        "name" : "Team Newfoundland U15 (ACC)",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ACC-U15",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 163871
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 26,
+        "goals" : 42,
+        "pim" : 41,
+        "games" : 24,
+        "penaltyMinutes" : "41",
+        "points" : 68
+      },
+      "team" : {
+        "name" : "Tri Pen Ice U15 AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NLAAAHL U15",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 184774
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 14,
+        "goals" : 8,
+        "pim" : 8,
+        "games" : 18,
+        "penaltyMinutes" : "8",
+        "points" : 22
+      },
+      "team" : {
+        "name" : "Bishop's College School Varsity",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "MPHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 85526
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 6,
+        "pim" : 0,
+        "games" : 11,
+        "penaltyMinutes" : "0",
+        "points" : 12
+      },
+      "team" : {
+        "name" : "Bishop's College School Varsity",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "PSHF U18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 85744
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 9,
+        "goals" : 4,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "points" : 13
+      },
+      "team" : {
+        "name" : "Team Newfoundland",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QGC-16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 154245
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Bishop's College School Prep U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "PSHF U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 224303
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 15,
+        "goals" : 11,
+        "pim" : 25,
+        "games" : 61,
+        "penaltyMinutes" : "25",
+        "plusMinus" : 8,
+        "points" : 26
+      },
+      "team" : {
+        "name" : "Drummondville Voltigeurs",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9590
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 2,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Canada Black U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHC-17",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 163780
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Team Blue",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U17-Dev",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 178219
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 34,
+        "goals" : 30,
+        "pim" : 50,
+        "games" : 68,
+        "penaltyMinutes" : "50",
+        "plusMinus" : 31,
+        "points" : 64
+      },
+      "team" : {
+        "name" : "Drummondville Voltigeurs",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9590
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 6,
+        "pim" : 4,
+        "games" : 16,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 2,
+        "points" : 18
+      },
+      "team" : {
+        "name" : "Chicoutimi Saguenéens",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 6090
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 24,
+        "goals" : 18,
+        "pim" : 21,
+        "games" : 26,
+        "penaltyMinutes" : "21",
+        "plusMinus" : 3,
+        "points" : 42
+      },
+      "team" : {
+        "name" : "Drummondville Voltigeurs",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9590
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -1,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 17,
+        "goals" : 19,
+        "pim" : 6,
+        "games" : 23,
+        "penaltyMinutes" : "6",
+        "plusMinus" : 15,
+        "points" : 36
+      },
+      "team" : {
+        "name" : "Chicoutimi Saguenéens",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 6090
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 7,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 7,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1356:23",
+        "assists" : 25,
+        "goals" : 17,
+        "pim" : 28,
+        "shots" : 154,
+        "games" : 82,
+        "hits" : 26,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 5,
+        "powerPlayTimeOnIce" : "154:32",
+        "evenTimeOnIce" : "1177:12",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 35.42,
+        "shotPct" : 11.0,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "24:39",
+        "blocked" : 35,
+        "plusMinus" : -25,
+        "points" : 42,
+        "shifts" : 1766
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 10,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 5,
+        "points" : 5
+      },
+      "team" : {
+        "name" : "Canada",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17155
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1357:57",
+        "assists" : 29,
+        "goals" : 27,
+        "pim" : 14,
+        "shots" : 161,
+        "games" : 82,
+        "hits" : 36,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 10,
+        "powerPlayTimeOnIce" : "108:06",
+        "evenTimeOnIce" : "1143:12",
+        "penaltyMinutes" : "14",
+        "faceOffPct" : 42.42,
+        "shotPct" : 16.77,
+        "gameWinningGoals" : 6,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "106:39",
+        "blocked" : 63,
+        "plusMinus" : 22,
+        "points" : 56,
+        "shifts" : 1741
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "134:13",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 6,
+        "games" : 8,
+        "hits" : 1,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "12:22",
+        "evenTimeOnIce" : "107:18",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 72.73,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "14:33",
+        "blocked" : 4,
+        "plusMinus" : 1,
+        "points" : 0,
+        "shifts" : 173
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

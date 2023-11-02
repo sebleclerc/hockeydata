@@ -1,0 +1,775 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20092010",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 15,
+        "pim" : 4,
+        "games" : 9,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 0,
+        "points" : 26
+      },
+      "team" : {
+        "name" : "Visp II U15",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Mini A",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 10085581
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 11,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 0,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Valais-Wallis Future U15",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U15-Elit",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 79962
+    }, {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 4,
+        "pim" : 0,
+        "games" : 3,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 10
+      },
+      "team" : {
+        "name" : "Visp U15",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U15-Top",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 84691
+    }, {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 18,
+        "goals" : 11,
+        "pim" : 4,
+        "games" : 27,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 0,
+        "points" : 29
+      },
+      "team" : {
+        "name" : "Valais-Wallis Future U15",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U15-Elit",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 79962
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 12,
+        "pim" : 0,
+        "games" : 14,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 23
+      },
+      "team" : {
+        "name" : "Valais-Wallis Future U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U17-Top",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 79636
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 38,
+        "goals" : 43,
+        "pim" : 4,
+        "games" : 27,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 0,
+        "points" : 81
+      },
+      "team" : {
+        "name" : "Valais-Wallis Future U15",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U15-Elit",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 79962
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 2,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Bern U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U17-Elit",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 45075
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 45,
+        "goals" : 32,
+        "pim" : 4,
+        "games" : 22,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 0,
+        "points" : 77
+      },
+      "team" : {
+        "name" : "Valais-Wallis Future U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U17-Top",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 79636
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 40,
+        "goals" : 57,
+        "pim" : 10,
+        "games" : 20,
+        "penaltyMinutes" : "10",
+        "plusMinus" : 0,
+        "points" : 97
+      },
+      "team" : {
+        "name" : "Valais-Wallis Future U15",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U15-Elit",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 79962
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 4,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Switzerland U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16773
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 11,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 0,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Bern U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U20-Elit",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19043
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 33,
+        "goals" : 28,
+        "pim" : 2,
+        "games" : 22,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 0,
+        "points" : 61
+      },
+      "team" : {
+        "name" : "Bern U17",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U17-Elit",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 45075
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 15,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -3,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Bern",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "NL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 2336
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 2,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Visp",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "SL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 3927
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -1,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Switzerland U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17733
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 2,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 6,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -2,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Switzerland U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17756
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 17,
+        "goals" : 11,
+        "pim" : 6,
+        "games" : 18,
+        "penaltyMinutes" : "6",
+        "points" : 28
+      },
+      "team" : {
+        "name" : "Bern U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "U20-Elit",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 19516
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 3,
+        "pim" : 0,
+        "games" : 4,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -2,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Switzerland U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Hlinka Gretzky Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 158270
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 48,
+        "goals" : 38,
+        "pim" : 24,
+        "games" : 57,
+        "penaltyMinutes" : "24",
+        "plusMinus" : 20,
+        "points" : 86
+      },
+      "team" : {
+        "name" : "Halifax Mooseheads",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QMJHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 9610
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 1,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Switzerland U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-18",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17733
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 4,
+        "pim" : 2,
+        "games" : 5,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -1,
+        "points" : 7
+      },
+      "team" : {
+        "name" : "Switzerland U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17756
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 2,
+        "games" : 3,
+        "penaltyMinutes" : "2",
+        "plusMinus" : -4,
+        "points" : 2
+      },
+      "team" : {
+        "name" : "Switzerland U18",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "Hlinka Gretzky Cup",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 158270
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "timeOnIce" : "1337:22",
+        "assists" : 32,
+        "goals" : 20,
+        "pim" : 26,
+        "shots" : 180,
+        "games" : 82,
+        "hits" : 56,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 6,
+        "powerPlayTimeOnIce" : "168:05",
+        "evenTimeOnIce" : "1126:34",
+        "penaltyMinutes" : "26",
+        "faceOffPct" : 42.93,
+        "shotPct" : 11.11,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "42:43",
+        "blocked" : 39,
+        "plusMinus" : 10,
+        "points" : 52,
+        "shifts" : 1778
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "1249:10",
+        "assists" : 30,
+        "goals" : 17,
+        "pim" : 24,
+        "shots" : 160,
+        "games" : 69,
+        "hits" : 53,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 11,
+        "powerPlayTimeOnIce" : "200:29",
+        "evenTimeOnIce" : "1003:12",
+        "penaltyMinutes" : "24",
+        "faceOffPct" : 45.24,
+        "shotPct" : 10.63,
+        "gameWinningGoals" : 3,
+        "overTimeGoals" : 3,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "45:29",
+        "blocked" : 44,
+        "plusMinus" : 0,
+        "points" : 47,
+        "shifts" : 1485
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 5,
+        "goals" : 4,
+        "pim" : 4,
+        "games" : 8,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 3,
+        "points" : 9
+      },
+      "team" : {
+        "name" : "Switzerland",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16145
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "timeOnIce" : "1047:32",
+        "assists" : 22,
+        "goals" : 14,
+        "pim" : 12,
+        "shots" : 123,
+        "games" : 58,
+        "hits" : 48,
+        "powerPlayGoals" : 2,
+        "powerPlayPoints" : 10,
+        "powerPlayTimeOnIce" : "155:56",
+        "evenTimeOnIce" : "838:15",
+        "penaltyMinutes" : "12",
+        "faceOffPct" : 51.73,
+        "shotPct" : 11.4,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "53:21",
+        "blocked" : 37,
+        "plusMinus" : -16,
+        "points" : 36,
+        "shifts" : 1278
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "388:52",
+        "assists" : 5,
+        "goals" : 6,
+        "pim" : 4,
+        "shots" : 44,
+        "games" : 21,
+        "hits" : 11,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "61:39",
+        "evenTimeOnIce" : "293:46",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 56.23,
+        "shotPct" : 13.6,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 1,
+        "shortHandedPoints" : 1,
+        "shortHandedTimeOnIce" : "33:27",
+        "blocked" : 20,
+        "plusMinus" : -9,
+        "points" : 11,
+        "shifts" : 516
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 4,
+        "goals" : 2,
+        "pim" : 2,
+        "games" : 8,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 1,
+        "points" : 6
+      },
+      "team" : {
+        "name" : "Switzerland",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16145
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "1354:05",
+        "assists" : 39,
+        "goals" : 21,
+        "pim" : 17,
+        "shots" : 153,
+        "games" : 70,
+        "hits" : 50,
+        "powerPlayGoals" : 4,
+        "powerPlayPoints" : 12,
+        "powerPlayTimeOnIce" : "197:33",
+        "evenTimeOnIce" : "1036:53",
+        "penaltyMinutes" : "17",
+        "faceOffPct" : 52.07,
+        "shotPct" : 13.7,
+        "gameWinningGoals" : 2,
+        "overTimeGoals" : 1,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 2,
+        "shortHandedTimeOnIce" : "119:39",
+        "blocked" : 48,
+        "plusMinus" : -1,
+        "points" : 60,
+        "shifts" : 1830
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 5,
+        "pim" : 2,
+        "games" : 8,
+        "penaltyMinutes" : "2",
+        "plusMinus" : 1,
+        "points" : 8
+      },
+      "team" : {
+        "name" : "Switzerland",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 16145
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "1562:26",
+        "assists" : 49,
+        "goals" : 31,
+        "pim" : 10,
+        "shots" : 256,
+        "games" : 81,
+        "hits" : 34,
+        "powerPlayGoals" : 7,
+        "powerPlayPoints" : 19,
+        "powerPlayTimeOnIce" : "240:40",
+        "evenTimeOnIce" : "1151:50",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 53.87,
+        "shotPct" : 12.11,
+        "gameWinningGoals" : 9,
+        "overTimeGoals" : 2,
+        "shortHandedGoals" : 3,
+        "shortHandedPoints" : 4,
+        "shortHandedTimeOnIce" : "169:56",
+        "blocked" : 61,
+        "plusMinus" : 33,
+        "points" : 80,
+        "shifts" : 2042
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "117:47",
+        "assists" : 0,
+        "goals" : 2,
+        "pim" : 4,
+        "shots" : 14,
+        "games" : 7,
+        "hits" : 5,
+        "powerPlayGoals" : 1,
+        "powerPlayPoints" : 1,
+        "powerPlayTimeOnIce" : "22:16",
+        "evenTimeOnIce" : "85:38",
+        "penaltyMinutes" : "4",
+        "faceOffPct" : 55.17,
+        "shotPct" : 14.29,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "09:53",
+        "blocked" : 1,
+        "plusMinus" : -2,
+        "points" : 2,
+        "shifts" : 159
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}

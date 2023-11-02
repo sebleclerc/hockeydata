@@ -2,6 +2,19 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
+      "id" : 8477480,
+      "fullName" : "Eric Comrie",
+      "link" : "/api/v1/people/8477480"
+    },
+    "jerseyNumber" : "31",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
       "id" : 8473446,
       "fullName" : "Erik Johnson",
       "link" : "/api/v1/people/8473446"
@@ -64,19 +77,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8477480,
-      "fullName" : "Eric Comrie",
-      "link" : "/api/v1/people/8477480"
-    },
-    "jerseyNumber" : "31",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
     }
   }, {
     "person" : {
@@ -246,6 +246,19 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8482061,
+      "fullName" : "Brandon Biro",
+      "link" : "/api/v1/people/8482061"
+    },
+    "jerseyNumber" : "15",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
     }
   }, {
     "person" : {

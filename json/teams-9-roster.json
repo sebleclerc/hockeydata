@@ -2,16 +2,16 @@
   "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
   "roster" : [ {
     "person" : {
-      "id" : 8480064,
-      "fullName" : "Josh Norris",
-      "link" : "/api/v1/people/8480064"
+      "id" : 8478469,
+      "fullName" : "Thomas Chabot",
+      "link" : "/api/v1/people/8478469"
     },
-    "jerseyNumber" : "9",
+    "jerseyNumber" : "72",
     "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -106,19 +106,6 @@
     }
   }, {
     "person" : {
-      "id" : 8478469,
-      "fullName" : "Thomas Chabot",
-      "link" : "/api/v1/people/8478469"
-    },
-    "jerseyNumber" : "72",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
       "id" : 8478472,
       "fullName" : "Mathieu Joseph",
       "link" : "/api/v1/people/8478472"
@@ -145,16 +132,16 @@
     }
   }, {
     "person" : {
-      "id" : 8479772,
-      "fullName" : "Zack MacEwen",
-      "link" : "/api/v1/people/8479772"
+      "id" : 8480064,
+      "fullName" : "Josh Norris",
+      "link" : "/api/v1/people/8480064"
     },
-    "jerseyNumber" : "17",
+    "jerseyNumber" : "9",
     "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
+      "code" : "C",
+      "name" : "Center",
       "type" : "Forward",
-      "abbreviation" : "RW"
+      "abbreviation" : "C"
     }
   }, {
     "person" : {
@@ -223,6 +210,19 @@
     }
   }, {
     "person" : {
+      "id" : 8480879,
+      "fullName" : "Jacob Bernard-Docker",
+      "link" : "/api/v1/people/8480879"
+    },
+    "jerseyNumber" : "24",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8482092,
       "fullName" : "Ridly Greig",
       "link" : "/api/v1/people/8482092"
@@ -233,6 +233,19 @@
       "name" : "Center",
       "type" : "Forward",
       "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
+      "id" : 8482095,
+      "fullName" : "Tyler Kleven",
+      "link" : "/api/v1/people/8482095"
+    },
+    "jerseyNumber" : "43",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
     }
   }, {
     "person" : {
@@ -267,6 +280,19 @@
       "link" : "/api/v1/people/8482245"
     },
     "jerseyNumber" : "2",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
+      "id" : 8484321,
+      "fullName" : "Nikolas Matinpalo",
+      "link" : "/api/v1/people/8484321"
+    },
+    "jerseyNumber" : "33",
     "position" : {
       "code" : "D",
       "name" : "Defenseman",

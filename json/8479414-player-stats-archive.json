@@ -1,0 +1,453 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20112012",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 0,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Cambridge Hawks Minor Midget AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHMMPL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 76538
+    }, {
+      "season" : "20122013",
+      "stat" : {
+        "assists" : 13,
+        "goals" : 11,
+        "pim" : 8,
+        "games" : 30,
+        "penaltyMinutes" : "8",
+        "plusMinus" : 0,
+        "points" : 24
+      },
+      "team" : {
+        "name" : "Kitchener Jr. Rangers Mn Mgt AAA",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHMMPL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 76528
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 29,
+        "goals" : 17,
+        "pim" : 24,
+        "games" : 48,
+        "penaltyMinutes" : "24",
+        "points" : 46
+      },
+      "team" : {
+        "name" : "Brantford",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "ON-Jr.B",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 2,
+        "pim" : 6,
+        "games" : 21,
+        "powerPlayGoals" : 0,
+        "penaltyMinutes" : "6",
+        "gameWinningGoals" : 0,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -5,
+        "points" : 3
+      },
+      "team" : {
+        "id" : 1878,
+        "name" : "Mississauga",
+        "link" : "/api/v1/teams/1878"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 17,
+        "pim" : 22,
+        "games" : 68,
+        "powerPlayGoals" : 2,
+        "penaltyMinutes" : "22",
+        "gameWinningGoals" : 2,
+        "shortHandedGoals" : 1,
+        "plusMinus" : -29,
+        "points" : 29
+      },
+      "team" : {
+        "id" : 1878,
+        "name" : "Mississauga",
+        "link" : "/api/v1/teams/1878"
+      },
+      "league" : {
+        "id" : 141,
+        "name" : "OHL",
+        "link" : "/api/v1/league/141"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 40,
+        "goals" : 19,
+        "pim" : 50,
+        "shots" : 162,
+        "games" : 64,
+        "powerPlayGoals" : 5,
+        "penaltyMinutes" : "50",
+        "shotPct" : 11.7,
+        "gameWinningGoals" : 2,
+        "shortHandedGoals" : 0,
+        "plusMinus" : -3,
+        "points" : 59
+      },
+      "team" : {
+        "id" : 1878,
+        "name" : "Mississauga",
+        "link" : "/api/v1/teams/1878"
+      },
+      "league" : {
+        "name" : "OHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 29,
+        "goals" : 16,
+        "pim" : 43,
+        "games" : 58,
+        "penaltyMinutes" : "43",
+        "plusMinus" : 13,
+        "points" : 45
+      },
+      "team" : {
+        "name" : "Mississauga Steelheads",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "OHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 126668
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 8,
+        "goals" : 10,
+        "pim" : 45,
+        "games" : 68,
+        "penaltyMinutes" : "45",
+        "plusMinus" : -23,
+        "points" : 18
+      },
+      "team" : {
+        "name" : "Binghamton Devils",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 233827
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "timeOnIce" : "88:46",
+        "assists" : 0,
+        "goals" : 3,
+        "pim" : 10,
+        "shots" : 13,
+        "games" : 7,
+        "hits" : 24,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "11:21",
+        "evenTimeOnIce" : "77:25",
+        "penaltyMinutes" : "10",
+        "faceOffPct" : 100.0,
+        "shotPct" : 23.08,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:00",
+        "blocked" : 1,
+        "plusMinus" : 0,
+        "points" : 3,
+        "shifts" : 119
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 6,
+        "goals" : 18,
+        "pim" : 63,
+        "games" : 58,
+        "penaltyMinutes" : "63",
+        "plusMinus" : 9,
+        "points" : 24
+      },
+      "team" : {
+        "name" : "Binghamton Devils",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 233827
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 16,
+        "pim" : 55,
+        "games" : 62,
+        "penaltyMinutes" : "55",
+        "plusMinus" : -2,
+        "points" : 38
+      },
+      "team" : {
+        "name" : "Binghamton Devils",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 233827
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "517:27",
+        "assists" : 7,
+        "goals" : 3,
+        "pim" : 21,
+        "shots" : 46,
+        "games" : 41,
+        "hits" : 136,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "05:52",
+        "evenTimeOnIce" : "460:32",
+        "penaltyMinutes" : "21",
+        "faceOffPct" : 36.36,
+        "shotPct" : 6.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "51:03",
+        "blocked" : 25,
+        "plusMinus" : 0,
+        "points" : 10,
+        "shifts" : 795
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "110:50",
+        "assists" : 1,
+        "goals" : 1,
+        "pim" : 31,
+        "shots" : 10,
+        "games" : 12,
+        "hits" : 16,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:16",
+        "evenTimeOnIce" : "109:46",
+        "penaltyMinutes" : "31",
+        "faceOffPct" : 50.0,
+        "shotPct" : 10.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "00:48",
+        "blocked" : 6,
+        "plusMinus" : -1,
+        "points" : 2,
+        "shifts" : 165
+      },
+      "team" : {
+        "id" : 55,
+        "name" : "Seattle Kraken",
+        "link" : "/api/v1/teams/55"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "746:20",
+        "assists" : 5,
+        "goals" : 11,
+        "pim" : 34,
+        "shots" : 87,
+        "games" : 60,
+        "hits" : 194,
+        "powerPlayGoals" : 3,
+        "powerPlayPoints" : 4,
+        "powerPlayTimeOnIce" : "115:53",
+        "evenTimeOnIce" : "614:38",
+        "penaltyMinutes" : "34",
+        "faceOffPct" : 47.73,
+        "shotPct" : 12.6,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "15:49",
+        "blocked" : 34,
+        "plusMinus" : -11,
+        "points" : 16,
+        "shifts" : 1031
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "534:44",
+        "assists" : 9,
+        "goals" : 6,
+        "pim" : 31,
+        "shots" : 62,
+        "games" : 43,
+        "hits" : 99,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "41:00",
+        "evenTimeOnIce" : "440:55",
+        "penaltyMinutes" : "31",
+        "faceOffPct" : 29.73,
+        "shotPct" : 9.68,
+        "gameWinningGoals" : 1,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "52:49",
+        "blocked" : 38,
+        "plusMinus" : 7,
+        "points" : 15,
+        "shifts" : 751
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "timeOnIce" : "72:16",
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "shots" : 12,
+        "games" : 7,
+        "hits" : 14,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:32",
+        "evenTimeOnIce" : "60:26",
+        "penaltyMinutes" : "2",
+        "faceOffPct" : 33.33,
+        "shotPct" : 0.0,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "11:18",
+        "blocked" : 6,
+        "plusMinus" : -4,
+        "points" : 0,
+        "shifts" : 106
+      },
+      "team" : {
+        "id" : 1,
+        "name" : "New Jersey Devils",
+        "link" : "/api/v1/teams/1"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    } ]
+  } ]
+}
