@@ -347,6 +347,26 @@
     }, {
       "season" : "20222023",
       "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 4,
+        "games" : 5,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 2,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Slovakia",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WC",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17315
+    }, {
+      "season" : "20222023",
+      "stat" : {
         "assists" : 4,
         "goals" : 1,
         "pim" : 10,
@@ -374,6 +394,26 @@
         "penaltyMinutes" : "20",
         "plusMinus" : 13,
         "points" : 34
+      },
+      "team" : {
+        "name" : "Utica Comets",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 152247
+    }, {
+      "season" : "20232024",
+      "stat" : {
+        "assists" : 1,
+        "goals" : 0,
+        "pim" : 4,
+        "games" : 3,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 0,
+        "points" : 1
       },
       "team" : {
         "name" : "Utica Comets",
