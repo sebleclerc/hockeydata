@@ -1,8 +1,8 @@
 #
-# Salary
+# SalaryCommand
 #
 
-class Salary < Thor
+class SalaryCommand < Thor
   desc "missing SEASON PLAYERID", "Add missing salary for a season and playerId"
   def missing(season, type, entityId = nil)
     Logger.taskTitle "Task salary missing for #{type}"

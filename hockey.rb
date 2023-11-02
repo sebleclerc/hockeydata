@@ -48,7 +48,7 @@ class Hockey < Thor
     end
 
     desc "salary season", "Some"
-    subcommand "salary", Salary
+    subcommand "salary", SalaryCommand
 
     no_tasks do
         def initTask()
