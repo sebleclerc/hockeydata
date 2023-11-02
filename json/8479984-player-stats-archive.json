@@ -1,0 +1,401 @@
+{
+  "copyright" : "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2023. All Rights Reserved.",
+  "stats" : [ {
+    "type" : {
+      "displayName" : "yearByYear",
+      "gameType" : null
+    },
+    "splits" : [ {
+      "season" : "20102011",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 2,
+        "games" : 4,
+        "penaltyMinutes" : "2",
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Colorado Thunderbirds",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "QC Int PW",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 113942
+    }, {
+      "season" : "20132014",
+      "stat" : {
+        "assists" : 12,
+        "goals" : 2,
+        "pim" : 19,
+        "games" : 33,
+        "penaltyMinutes" : "19",
+        "plusMinus" : 0,
+        "points" : 14
+      },
+      "team" : {
+        "name" : "Colorado Thunderbirds  U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "T1EHL U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 96518
+    }, {
+      "season" : "20142015",
+      "stat" : {
+        "assists" : 11,
+        "goals" : 4,
+        "pim" : 42,
+        "games" : 23,
+        "penaltyMinutes" : "42",
+        "plusMinus" : 0,
+        "points" : 15
+      },
+      "team" : {
+        "name" : "Colorado Thunderbirds  U16",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "T1EHL U16",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 96518
+    }, {
+      "season" : "20152016",
+      "stat" : {
+        "assists" : 28,
+        "goals" : 8,
+        "pim" : 36,
+        "games" : 71,
+        "penaltyMinutes" : "36",
+        "plusMinus" : 16,
+        "points" : 36
+      },
+      "team" : {
+        "name" : "Kelowna Rockets",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5531
+    }, {
+      "season" : "20162017",
+      "stat" : {
+        "assists" : 51,
+        "goals" : 6,
+        "pim" : 41,
+        "games" : 71,
+        "penaltyMinutes" : "41",
+        "plusMinus" : 39,
+        "points" : 57
+      },
+      "team" : {
+        "name" : "Kelowna Rockets",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5531
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 1,
+        "pim" : 4,
+        "games" : 6,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 0,
+        "points" : 1
+      },
+      "team" : {
+        "name" : "Syracuse Crunch",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1057
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 51,
+        "goals" : 19,
+        "pim" : 46,
+        "games" : 60,
+        "penaltyMinutes" : "46",
+        "plusMinus" : 31,
+        "points" : 70
+      },
+      "team" : {
+        "name" : "Kelowna Rockets",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 5531
+    }, {
+      "season" : "20172018",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 7,
+        "penaltyMinutes" : "0",
+        "plusMinus" : 5,
+        "points" : 3
+      },
+      "team" : {
+        "name" : "Canada U20",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "WJC-20",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 17216
+    }, {
+      "season" : "20182019",
+      "stat" : {
+        "assists" : 21,
+        "goals" : 10,
+        "pim" : 53,
+        "games" : 76,
+        "penaltyMinutes" : "53",
+        "plusMinus" : 16,
+        "points" : 31
+      },
+      "team" : {
+        "name" : "Syracuse Crunch",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1057
+    }, {
+      "season" : "20192020",
+      "stat" : {
+        "assists" : 22,
+        "goals" : 6,
+        "pim" : 38,
+        "games" : 62,
+        "penaltyMinutes" : "38",
+        "plusMinus" : -5,
+        "points" : 28
+      },
+      "team" : {
+        "name" : "Syracuse Crunch",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1057
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "timeOnIce" : "451:07",
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 29,
+        "shots" : 40,
+        "games" : 35,
+        "hits" : 39,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:59",
+        "evenTimeOnIce" : "433:42",
+        "penaltyMinutes" : "29",
+        "faceOffPct" : 0.0,
+        "shotPct" : 2.5,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "16:26",
+        "blocked" : 29,
+        "plusMinus" : 9,
+        "points" : 3,
+        "shifts" : 595
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20202021",
+      "stat" : {
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 4,
+        "games" : 6,
+        "penaltyMinutes" : "4",
+        "plusMinus" : 1,
+        "points" : 4
+      },
+      "team" : {
+        "name" : "Syracuse Crunch",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1057
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "timeOnIce" : "735:03",
+        "assists" : 7,
+        "goals" : 2,
+        "pim" : 29,
+        "shots" : 49,
+        "games" : 56,
+        "hits" : 83,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "01:02",
+        "evenTimeOnIce" : "722:31",
+        "penaltyMinutes" : "29",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.1,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "11:30",
+        "blocked" : 57,
+        "plusMinus" : 6,
+        "points" : 9,
+        "shifts" : 938
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20212022",
+      "stat" : {
+        "assists" : 0,
+        "goals" : 0,
+        "pim" : 0,
+        "games" : 5,
+        "penaltyMinutes" : "0",
+        "plusMinus" : -5,
+        "points" : 0
+      },
+      "team" : {
+        "name" : "Syracuse Crunch",
+        "link" : "/api/v1/teams/null"
+      },
+      "league" : {
+        "name" : "AHL",
+        "link" : "/api/v1/league/null"
+      },
+      "sequenceNumber" : 1057
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "369:12",
+        "assists" : 2,
+        "goals" : 1,
+        "pim" : 28,
+        "shots" : 21,
+        "games" : 26,
+        "hits" : 40,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "07:06",
+        "evenTimeOnIce" : "349:09",
+        "penaltyMinutes" : "28",
+        "faceOffPct" : 0.0,
+        "shotPct" : 4.76,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "12:57",
+        "blocked" : 20,
+        "plusMinus" : 3,
+        "points" : 3,
+        "shifts" : 451
+      },
+      "team" : {
+        "id" : 14,
+        "name" : "Tampa Bay Lightning",
+        "link" : "/api/v1/teams/14"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 1
+    }, {
+      "season" : "20222023",
+      "stat" : {
+        "timeOnIce" : "386:55",
+        "assists" : 3,
+        "goals" : 1,
+        "pim" : 35,
+        "shots" : 18,
+        "games" : 24,
+        "hits" : 18,
+        "powerPlayGoals" : 0,
+        "powerPlayPoints" : 0,
+        "powerPlayTimeOnIce" : "00:20",
+        "evenTimeOnIce" : "346:38",
+        "penaltyMinutes" : "35",
+        "faceOffPct" : 0.0,
+        "shotPct" : 5.56,
+        "gameWinningGoals" : 0,
+        "overTimeGoals" : 0,
+        "shortHandedGoals" : 0,
+        "shortHandedPoints" : 0,
+        "shortHandedTimeOnIce" : "39:57",
+        "blocked" : 32,
+        "plusMinus" : 3,
+        "points" : 4,
+        "shifts" : 460
+      },
+      "team" : {
+        "id" : 18,
+        "name" : "Nashville Predators",
+        "link" : "/api/v1/teams/18"
+      },
+      "league" : {
+        "id" : 133,
+        "name" : "National Hockey League",
+        "link" : "/api/v1/league/133"
+      },
+      "sequenceNumber" : 2
+    } ]
+  } ]
+}

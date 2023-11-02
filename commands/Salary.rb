@@ -35,6 +35,7 @@ class Salary < Thor
       teamSalaries = Hash.new
 
       roster.each do |playerId|
+        Logger.debug "PlayerID : #{playerId}"
         salary = TaskPlayerSeasonSalary.new
 
         player = @dbService.getPlayerForId(playerId)
