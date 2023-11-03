@@ -34,13 +34,8 @@ class Hockey < Thor
         Logger.taskEnd()
     end
 
-    desc "roster teamId", "Show team roster"
-    def roster(teamId=nil)
-        initTask()
-        RosterCommand
-            .new(@dbService)
-            .run(teamId)
-    end
+    desc "roster [teamId]", "Team related commands."
+    subcommand "roster", RosterCommand
 
     desc "player playerId", "Show informations about a specific player."
     def player(playerId)
