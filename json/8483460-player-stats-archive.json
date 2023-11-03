@@ -423,17 +423,17 @@
     }, {
       "season" : "20232024",
       "stat" : {
-        "timeOnIce" : "109:06",
+        "timeOnIce" : "123:35",
         "assists" : 1,
         "goals" : 1,
         "pim" : 6,
         "shots" : 5,
-        "games" : 8,
-        "hits" : 4,
+        "games" : 9,
+        "hits" : 6,
         "powerPlayGoals" : 0,
         "powerPlayPoints" : 0,
         "powerPlayTimeOnIce" : "00:05",
-        "evenTimeOnIce" : "107:36",
+        "evenTimeOnIce" : "122:05",
         "penaltyMinutes" : "6",
         "faceOffPct" : 0.0,
         "shotPct" : 20.0,
@@ -442,10 +442,10 @@
         "shortHandedGoals" : 0,
         "shortHandedPoints" : 0,
         "shortHandedTimeOnIce" : "01:25",
-        "blocked" : 6,
-        "plusMinus" : 1,
+        "blocked" : 10,
+        "plusMinus" : 0,
         "points" : 2,
-        "shifts" : 142
+        "shifts" : 159
       },
       "team" : {
         "id" : 29,

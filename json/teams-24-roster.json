@@ -41,19 +41,6 @@
     }
   }, {
     "person" : {
-      "id" : 8471774,
-      "fullName" : "Alex Stalock",
-      "link" : "/api/v1/people/8471774"
-    },
-    "jerseyNumber" : "32",
-    "position" : {
-      "code" : "G",
-      "name" : "Goalie",
-      "type" : "Goalie",
-      "abbreviation" : "G"
-    }
-  }, {
-    "person" : {
       "id" : 8474641,
       "fullName" : "Adam Henrique",
       "link" : "/api/v1/people/8474641"
