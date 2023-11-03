@@ -9,12 +9,29 @@ class Hockey < Thor
     desc "hockey cache", "Fetch and cache files"
     subcommand "cache", CacheCommand
 
-    desc "import", "Import JSON files in database"
+    desc "import", "Import JSON files into database."
     def import()
-        initTask()
-        ImportCommand
-            .new(@importService, @dbService)
-            .run()
+        dbService = DatabaseService.new
+        importService = ImportService.new(dbService)
+
+        Logger.taskTitle "Importing cached files"
+
+        Logger.info "Import positions"
+        importService.importPositions()
+
+        Logger.info "Import teams + roster"
+        importService.importTeams()
+        importService.importTeamRosters()
+
+        Logger.info "Import pool players + archive stats"
+        players = dbService.getAllRosters()
+
+        players.each do |playerId|
+            importService.importPlayerForId(playerId)
+            importService.importPlayerArchiveStatsForId(playerId)
+        end
+
+        Logger.taskEnd()
     end
 
     desc "roster teamId", "Show team roster"
