@@ -200,7 +200,7 @@ class DatabaseService
 
         results = @dbClient.query(query)
 
-        results.each do |result|
+        results.each do |row|
             stat = PlayerSeasonStats.fromRow(row)
             stats.append(stat)
         end
