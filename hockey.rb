@@ -6,13 +6,8 @@ Dir["./helpers/*.rb"].each {|file| require file }
 Dir["./services/*.rb"].each {|file| require file }
 
 class Hockey < Thor
-    desc "cache", "Fetch and cache files"
-    def cache(type = "all", force = false)
-        initTask()
-        CacheCommand
-          .new(@cacheService, @dbService)
-          .run(type, force)
-    end
+    desc "hockey cache", "Fetch and cache files"
+    subcommand "cache", CacheCommand
 
     desc "import", "Import JSON files in database"
     def import()

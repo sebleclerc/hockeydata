@@ -2,41 +2,19 @@
 # CacheCommand
 #
 
-class CacheCommand
-  def initialize(cacheService, dbService)
-    @cacheService = cacheService
-    @dbService = dbService
-  end
+class CacheCommand < BaseCommand
+  class_option :force, :type => :boolean
 
-  def run(type, force)
-    Logger.taskTitle "Cache command for type #{type}"
+  desc "all", "Cache everything."
+  def all()
+    Logger.taskTitle "Caching for all"
 
-    case type
-      when "all"
-        cacheAll(force)
-      when "roster"
-        cacheTeamRosters(force)
-      when "team"
-        cacheTeamPlayers(force)
-      when "salary"
-        cacheSalaryPlayers()
-      when "pool"
-        cachePool()
-      else
-        Logger.error "Wrong cache type: [#{type}]"
-    end
+    initTask()
 
-    Logger.taskEnd()
-  end
+    @cacheService.cachePositions(@force)
+    @cacheService.cacheTeams(@force)
 
-  private
-
-  def cacheAll(force)
-    Logger.info "Caching for all"
-    @cacheService.cachePositions(force)
-    @cacheService.cacheTeams(force)
-
-    cacheTeamRosters(force)
+    cacheTeamRosters()
 
     roster = @dbService.getPoolPlayersForSeason(Constants.currentSeason)
 
@@ -44,45 +22,82 @@ class CacheCommand
       @cacheService.cachePlayerForId(player.id, force)
       @cacheService.cachePlayerArchiveStatsForId(player.id, force)
     end
+
+    Logger.taskEnd
   end
 
-  def cacheTeamRosters(force)
-    Logger.info "Caching team's rosters"
+  desc "roster [--players]", "Cache every team's roster."
+  options :players => :boolean
+  def roster()
+    Logger.taskTitle "Caching for all"
 
-    teams = @dbService.getAllTeams()
-    teams.each do |team|
-      @cacheService.cacheTeamRoster(team, force)
+    initTask()
+
+    cacheTeamRosters()
+
+    if options[:players]
+      cacheTeamPlayers()
     end
+
+    Logger.taskEnd
   end
 
-  def cacheTeamPlayers(force)
-    Logger.info "Caching team's players"
+  desc "pool", "Cache pool players stats."
+  def pool()
+    Logger.taskTitle "Cache pool players stats"
 
-    Logger.info "What team ID?"
-    teamId = STDIN.gets.chomp
-    team = @dbService.getTeamForId(teamId)
-    roster = @dbService.getTeamRoster(team)
+    initTask()
 
-    roster.each do |playerId|
-      @cacheService.cachePlayerForId(playerId, force)
-      @cacheService.cachePlayerArchiveStatsForId(playerId, force)
+    @dbService.getPoolRosterForSeason(Constants.currentSeason).each do |playerId|
+      @cacheService.cachePlayerForId(playerId, false)
+      @cacheService.cachePlayerArchiveStatsForId(playerId, true)
     end
+
+    Logger.taskEnd
   end
 
-  def cacheSalaryPlayers()
-    Logger.info "Caching players stats with salary"
+  desc "salary", "Caching players stats with salary."
+  def salary()
+    Logger.taskTitle "Caching players stats with salary"
+
+    initTask()
+
     roster = @dbService.getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
 
     roster.each do |poolPlayer|
       @cacheService.cachePlayerArchiveStatsForId(poolPlayer.player.id, true)
     end
+
+    Logger.taskEnd
   end
 
-  def cachePool()
-    Logger.info "Refresh caching for pool"
-    @dbService.getPoolRosterForSeason(Constants.currentSeason).each do |playerId|
-      @cacheService.cachePlayerForId(playerId, false)
-      @cacheService.cachePlayerArchiveStatsForId(playerId, true)
+  no_tasks do
+    def initTask()
+      super
+      @force = options[:force]
+    end
+
+    def cacheTeamRosters()
+      Logger.info "Caching team's rosters"
+
+      teams = @dbService.getAllTeams()
+      teams.each do |team|
+        @cacheService.cacheTeamRoster(team, @force)
+      end
+    end
+
+    def cacheTeamPlayers()
+      Logger.info "Caching team's players"
+
+      Logger.info "What team ID?"
+      teamId = STDIN.gets.chomp
+      team = @dbService.getTeamForId(teamId)
+      roster = @dbService.getTeamRoster(team)
+
+      roster.each do |playerId|
+        @cacheService.cachePlayerForId(playerId, @force)
+        @cacheService.cachePlayerArchiveStatsForId(playerId, @force)
+      end
     end
   end
 end
