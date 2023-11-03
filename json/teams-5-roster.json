@@ -15,32 +15,6 @@
     }
   }, {
     "person" : {
-      "id" : 8476994,
-      "fullName" : "Vinnie Hinostroza",
-      "link" : "/api/v1/people/8476994"
-    },
-    "jerseyNumber" : "13",
-    "position" : {
-      "code" : "C",
-      "name" : "Center",
-      "type" : "Forward",
-      "abbreviation" : "C"
-    }
-  }, {
-    "person" : {
-      "id" : 8482241,
-      "fullName" : "Radim Zohorna",
-      "link" : "/api/v1/people/8482241"
-    },
-    "jerseyNumber" : "63",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
-    }
-  }, {
-    "person" : {
       "id" : 8470604,
       "fullName" : "Jeff Carter",
       "link" : "/api/v1/people/8470604"
@@ -184,6 +158,19 @@
     }
   }, {
     "person" : {
+      "id" : 8476994,
+      "fullName" : "Vinnie Hinostroza",
+      "link" : "/api/v1/people/8476994"
+    },
+    "jerseyNumber" : "13",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8477244,
       "fullName" : "Chad Ruhwedel",
       "link" : "/api/v1/people/8477244"
@@ -306,6 +293,19 @@
       "link" : "/api/v1/people/8482055"
     },
     "jerseyNumber" : "10",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
+      "id" : 8482241,
+      "fullName" : "Radim Zohorna",
+      "link" : "/api/v1/people/8482241"
+    },
+    "jerseyNumber" : "63",
     "position" : {
       "code" : "L",
       "name" : "Left Wing",

@@ -15,6 +15,19 @@
     }
   }, {
     "person" : {
+      "id" : 8484145,
+      "fullName" : "Zach Benson",
+      "link" : "/api/v1/people/8484145"
+    },
+    "jerseyNumber" : "9",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward",
+      "abbreviation" : "LW"
+    }
+  }, {
+    "person" : {
       "id" : 8473446,
       "fullName" : "Erik Johnson",
       "link" : "/api/v1/people/8473446"
@@ -249,6 +262,19 @@
     }
   }, {
     "person" : {
+      "id" : 8481751,
+      "fullName" : "Lukas Rousek",
+      "link" : "/api/v1/people/8481751"
+    },
+    "jerseyNumber" : "13",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
       "id" : 8482061,
       "fullName" : "Brandon Biro",
       "link" : "/api/v1/people/8482061"
@@ -298,19 +324,6 @@
       "name" : "Defenseman",
       "type" : "Defenseman",
       "abbreviation" : "D"
-    }
-  }, {
-    "person" : {
-      "id" : 8484145,
-      "fullName" : "Zach Benson",
-      "link" : "/api/v1/people/8484145"
-    },
-    "jerseyNumber" : "9",
-    "position" : {
-      "code" : "L",
-      "name" : "Left Wing",
-      "type" : "Forward",
-      "abbreviation" : "LW"
     }
   } ],
   "link" : "/api/v1/teams/7/roster"

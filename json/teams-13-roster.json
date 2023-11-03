@@ -249,6 +249,19 @@
     }
   }, {
     "person" : {
+      "id" : 8479335,
+      "fullName" : "Rasmus Asplund",
+      "link" : "/api/v1/people/8479335"
+    },
+    "jerseyNumber" : "71",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8479367,
       "fullName" : "William Lockwood",
       "link" : "/api/v1/people/8479367"

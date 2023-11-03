@@ -145,6 +145,19 @@
     }
   }, {
     "person" : {
+      "id" : 8477380,
+      "fullName" : "Jonny Brodzinski",
+      "link" : "/api/v1/people/8477380"
+    },
+    "jerseyNumber" : "22",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8478048,
       "fullName" : "Igor Shesterkin",
       "link" : "/api/v1/people/8478048"

@@ -275,6 +275,19 @@
     }
   }, {
     "person" : {
+      "id" : 8481028,
+      "fullName" : "Martin Pospisil",
+      "link" : "/api/v1/people/8481028"
+    },
+    "jerseyNumber" : "76",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward",
+      "abbreviation" : "C"
+    }
+  }, {
+    "person" : {
       "id" : 8481068,
       "fullName" : "Yegor Sharangovich",
       "link" : "/api/v1/people/8481068"
@@ -306,19 +319,6 @@
       "link" : "/api/v1/people/8482652"
     },
     "jerseyNumber" : "71",
-    "position" : {
-      "code" : "R",
-      "name" : "Right Wing",
-      "type" : "Forward",
-      "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8482679,
-      "fullName" : "Matt Coronato",
-      "link" : "/api/v1/people/8482679"
-    },
-    "jerseyNumber" : "27",
     "position" : {
       "code" : "R",
       "name" : "Right Wing",

@@ -249,6 +249,19 @@
     }
   }, {
     "person" : {
+      "id" : 8480007,
+      "fullName" : "Jonas Rondbjerg",
+      "link" : "/api/v1/people/8480007"
+    },
+    "jerseyNumber" : "46",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward",
+      "abbreviation" : "RW"
+    }
+  }, {
+    "person" : {
       "id" : 8480313,
       "fullName" : "Logan Thompson",
       "link" : "/api/v1/people/8480313"

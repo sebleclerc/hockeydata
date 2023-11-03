@@ -288,6 +288,19 @@
     }
   }, {
     "person" : {
+      "id" : 8482094,
+      "fullName" : "Daemon Hunt",
+      "link" : "/api/v1/people/8482094"
+    },
+    "jerseyNumber" : "48",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman",
+      "abbreviation" : "D"
+    }
+  }, {
+    "person" : {
       "id" : 8482122,
       "fullName" : "Brock Faber",
       "link" : "/api/v1/people/8482122"

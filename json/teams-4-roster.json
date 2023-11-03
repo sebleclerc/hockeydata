@@ -106,6 +106,19 @@
     }
   }, {
     "person" : {
+      "id" : 8477361,
+      "fullName" : "Cal Petersen",
+      "link" : "/api/v1/people/8477361"
+    },
+    "jerseyNumber" : "40",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie",
+      "abbreviation" : "G"
+    }
+  }, {
+    "person" : {
       "id" : 8477903,
       "fullName" : "Garnet Hathaway",
       "link" : "/api/v1/people/8477903"
@@ -168,19 +181,6 @@
       "name" : "Right Wing",
       "type" : "Forward",
       "abbreviation" : "RW"
-    }
-  }, {
-    "person" : {
-      "id" : 8479376,
-      "fullName" : "Victor Mete",
-      "link" : "/api/v1/people/8479376"
-    },
-    "jerseyNumber" : "98",
-    "position" : {
-      "code" : "D",
-      "name" : "Defenseman",
-      "type" : "Defenseman",
-      "abbreviation" : "D"
     }
   }, {
     "person" : {
