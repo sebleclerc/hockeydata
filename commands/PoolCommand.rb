@@ -1,3 +1,7 @@
+#
+# PoolCommand
+#
+
 class PoolCommand < BaseCommand
   desc "me SEASON", "Getting pool data for me. Default to current season."
   def me(season=Constants.currentSeason)

@@ -1,7 +1,10 @@
 #!/Users/sleclerc/.rvm/rubies/ruby-2.7.2/bin/ruby
+#
+# Hockey base app
+#
 
 require "thor"
-Dir["./commands/*.rb"].each {|file| require file }
+Dir["./commands/*.rb"].sort.each {|file| require file }
 Dir["./helpers/*.rb"].each {|file| require file }
 Dir["./services/*.rb"].each {|file| require file }
 
@@ -9,30 +12,8 @@ class Hockey < Thor
     desc "hockey cache", "Fetch and cache files"
     subcommand "cache", CacheCommand
 
-    desc "import", "Import JSON files into database."
-    def import()
-        dbService = DatabaseService.new
-        importService = ImportService.new(dbService)
-
-        Logger.taskTitle "Importing cached files"
-
-        Logger.info "Import positions"
-        importService.importPositions()
-
-        Logger.info "Import teams + roster"
-        importService.importTeams()
-        importService.importTeamRosters()
-
-        Logger.info "Import pool players + archive stats"
-        players = dbService.getAllRosters()
-
-        players.each do |playerId|
-            importService.importPlayerForId(playerId)
-            importService.importPlayerArchiveStatsForId(playerId)
-        end
-
-        Logger.taskEnd()
-    end
+    desc "import", "Import JSON files into databse."
+    subcommand "import", ImportCommand
 
     desc "roster [teamId]", "Team related commands."
     subcommand "roster", RosterCommand
