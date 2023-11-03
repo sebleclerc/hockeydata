@@ -42,12 +42,27 @@ class Hockey < Thor
             .run(teamId)
     end
 
-    desc "player playerId", "Show informations about a specific player"
+    desc "player playerId", "Show informations about a specific player."
     def player(playerId)
-        initTask()
-        PlayerCommand
-            .new(@dbService)
-            .run(playerId)
+        dbService = DatabaseService.new
+
+        Logger.taskTitle "Player for ID #{playerId}"
+
+        player = dbService.getPlayerForId(playerId)
+
+        Logger.info "Name: #{player.fullName} (#{player.primaryNumber})"
+        Logger.info "Birth #{player.birthDate} in #{player.birthLocation}"
+        Logger.info ""
+        Logger.info PlayerSeasonStats.formattedHeaderString()
+        Logger.info ""
+
+        stats = dbService.getPlayerSeasonStatsForPlayerIdAndSeason(playerId)
+
+        stats.each do |stat|
+            Logger.info stat.formattedString(player.positionCode)
+        end
+
+        Logger.taskEnd()
     end
 
     desc "hockey pool", "All pool related tasks."
