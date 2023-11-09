@@ -19,25 +19,20 @@ class CacheCommand < BaseCommand
     roster = @dbService.getPoolPlayersForSeason(Constants.currentSeason)
 
     roster.each do |player|
-      @cacheService.cachePlayerForId(player.id, force)
-      @cacheService.cachePlayerArchiveStatsForId(player.id, force)
+      @cacheService.cachePlayerForId(player.id, @force)
+      @cacheService.cachePlayerArchiveStatsForId(player.id, @force)
     end
 
     Logger.taskEnd
   end
 
-  desc "roster [--players]", "Cache every team's roster."
-  options :players => :boolean
+  desc "roster", "Cache every team's roster."
   def roster()
-    Logger.taskTitle "Caching for all"
+    Logger.taskTitle "Caching teams' rosters"
 
     initTask()
 
     cacheTeamRosters()
-
-    if options[:players]
-      cacheTeamPlayers()
-    end
 
     Logger.taskEnd
   end
@@ -78,7 +73,7 @@ class CacheCommand < BaseCommand
     end
 
     def cacheTeamRosters()
-      Logger.info "Caching team's rosters"
+      Logger.info "Caching all team rosters"
 
       teams = @dbService.getAllTeams()
       teams.each do |team|

@@ -29,7 +29,7 @@ class CacheService
         Logger.debug "Cache roster for team #{team.name}"
 
         @filename = Filenames.teamRoster(team)
-        @endpoint = "/teams/#{team.id}/roster"
+        @endpoint = "/roster/#{team.abbreviation}/#{Constants.currentSeason}"
 
         deleteCacheIfNeeded(force)
         checkCacheAndSave()
@@ -67,7 +67,7 @@ class CacheService
     end
 
     def apiEndpoint
-        return "https://statsapi.web.nhl.com/api/v1" + @endpoint
+        return "https://api-web.nhle.com/v1" + @endpoint
     end
 
     def deleteCacheIfNeeded(force)
