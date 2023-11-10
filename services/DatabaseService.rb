@@ -70,7 +70,7 @@ class DatabaseService
         roster.each do |player|
             result = @insertTeamPlayers.execute(
                 team.id,
-                player["person"]["id"]
+                player["id"]
             )
         end
     end

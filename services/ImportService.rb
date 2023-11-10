@@ -31,8 +31,12 @@ class ImportService
         teams.each do |jTeam|
             team = Team.fromJson(jTeam)
             @filename = Filenames.teamRoster(team)
-            roster = getCachedData()["roster"]
-            @dbService.insertTeamRoster(team, roster)
+
+            cachedFile = getCachedData()
+
+            @dbService.insertTeamRoster(team, cachedFile["forwards"])
+            @dbService.insertTeamRoster(team, cachedFile["defensemen"])
+            @dbService.insertTeamRoster(team, cachedFile["goalies"])
         end
     end
 
