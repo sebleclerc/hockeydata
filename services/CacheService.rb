@@ -39,7 +39,7 @@ class CacheService
         Logger.debug "Cache player with ID #{id}"
 
         @filename = Filenames.playerForId(id)
-        @endpoint = "/people/#{id}"
+        @endpoint = "/player/#{id}/landing"
 
         deleteCacheIfNeeded(force)
         checkCacheAndSave()
