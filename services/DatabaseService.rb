@@ -98,8 +98,17 @@ class DatabaseService
         return roster
     end
 
-    def insertPlayer(jPlayer)
-        player = Player.fromJson(jPlayer)
+    def getAllPlayers()
+        players = Array.new
+
+        results = @dbClient.query("SELECT * FROM Players")
+
+        results.each do |row|
+            players.append(row["id"])
+        end
+
+        return players
+    end
 
         result = @insertPlayer.execute(
             player.id,

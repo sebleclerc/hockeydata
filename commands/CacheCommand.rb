@@ -52,6 +52,21 @@ class CacheCommand < BaseCommand
     end
   end
 
+  desc "players", "Cache for all players"
+  def players()
+    Logger.taskTitle "Caching all players"
+
+    initTask()
+
+    players = @dbService.getAllPlayers()
+
+    players.each do |playerId|
+      @cacheService.cachePlayerForId(playerId, @force)
+    end
+
+    Logger.taskEnd
+  end
+
   desc "pool", "Cache pool players stats."
   def pool()
     Logger.taskTitle "Cache pool players stats"
