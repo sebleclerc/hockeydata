@@ -110,24 +110,34 @@ class DatabaseService
         return players
     end
 
+    def insertPlayer(item)
+        # p item
+
+        birthDate = item["birthDate"]
+        birthDateParts = birthDate.split("-")
+
+        birthProvince = item["birthStateProvince"]["default"] unless item["birthStateProvince"].nil?
+
         result = @insertPlayer.execute(
-            player.id,
-            player.firstName,
-            player.lastName,
-            player.primaryNumber,
-            player.birthYear,
-            player.birthMonth,
-            player.birthDay,
-            player.birthCity,
-            player.birthProvince,
-            player.birthCountry,
-            player.height,
-            player.weight,
-            player.active,
-            player.shoot,
-            player.rookie,
-            player.teamId,
-            player.positionCode
+            item["playerId"],
+            item["firstName"]["default"],
+            item["lastName"]["default"],
+            item["sweaterNumber"],
+            birthDateParts[0],
+            birthDateParts[1],
+            birthDateParts[2],
+            item["birthCity"]["default"],
+            birthProvince,
+            item["birthCountry"],
+            item["heightInInches"],
+            item["weightInPounds"],
+            item["isActive"],
+            item["shootsCatches"],
+            false, #Field not present anymore item["rookie"],
+            item["currentTeamId"],
+            item["position"],
+            item["headshot"],
+            item["heroImage"]
         )
     end
 
@@ -337,7 +347,7 @@ class DatabaseService
         @insertTeam = @dbClient.prepare("REPLACE INTO Teams (id,name,venue,abbreviation,firstYearOfPlay,divisionId,conferenceId,franchiseid,active) VALUES (?,?,?,?,?,?,?,?,?)")
         @insertTeamPlayers = @dbClient.prepare("REPLACE INTO TeamsPlayers (teamId,playerId) VALUES (?,?)")
         @insertPosition = @dbClient.prepare("REPLACE INTO Positions (code,abbrev,fullName,type) VALUES (?,?,?,?)")
-        @insertPlayer = @dbClient.prepare("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+        @insertPlayer = @dbClient.prepare("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode,headshotUrl,heroImageUrl) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPlayerStats = @dbClient.prepare("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPLayerStatsGoaler = @dbClient.prepare("REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPlayerSalary = @dbClient.prepare("INSERT INTO PlayersSalaries (playerId,season,avv) VALUES (?,?,?)")

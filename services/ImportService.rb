@@ -44,7 +44,7 @@ class ImportService
         @filename = Filenames.playerForId(id)
 
         if File.exist?(filePath)
-            player = getCachedData()["people"][0]
+            player = getCachedData()
             @dbService.insertPlayer(player)
         end
     end

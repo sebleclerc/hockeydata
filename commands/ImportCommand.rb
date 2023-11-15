@@ -17,11 +17,11 @@ class ImportCommand < BaseCommand
     @importService.importTeamRosters()
 
     Logger.info "Import pool players + archive stats"
-    players = @dbService.getAllRosters()
+    players = @dbService.getAllPlayers()
 
     players.each do |playerId|
       @importService.importPlayerForId(playerId)
-      @importService.importPlayerArchiveStatsForId(playerId)
+      # @importService.importPlayerArchiveStatsForId(playerId)
     end
 
     Logger.taskEnd()
