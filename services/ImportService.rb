@@ -50,11 +50,11 @@ class ImportService
     end
 
     def importPlayerArchiveStatsForId(id)
-        @filename = Filenames.playerArchiveStatsForId(id)
+        @filename = Filenames.playerForId(id)
 
         if File.exist?(filePath)
             player = @dbService.getPlayerForId(id)
-            stat = getCachedData()["stats"][0]["splits"]
+            stat = getCachedData()["seasonTotals"]
 
             if player.positionCode == 'G'
                 @dbService.insertPlayerArchiveStatGoaler(id, stat)

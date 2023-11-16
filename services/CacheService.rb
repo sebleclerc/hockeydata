@@ -45,16 +45,6 @@ class CacheService
         checkCacheAndSave()
     end
 
-    def cachePlayerArchiveStatsForId(id, force)
-        Logger.debug "Fetching player's archive stats for ID #{id}"
-
-        @filename = Filenames.playerArchiveStatsForId(id)
-        @endpoint = "/people/#{id}/stats?stats=yearByYear"
-
-        deleteCacheIfNeeded(force)
-        checkCacheAndSave()
-    end
-
     private
 
     def filePath

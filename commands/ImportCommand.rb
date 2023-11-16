@@ -21,7 +21,7 @@ class ImportCommand < BaseCommand
 
     players.each do |playerId|
       @importService.importPlayerForId(playerId)
-      # @importService.importPlayerArchiveStatsForId(playerId)
+      @importService.importPlayerArchiveStatsForId(playerId)
     end
 
     Logger.taskEnd()

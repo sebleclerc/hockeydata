@@ -153,55 +153,55 @@ class DatabaseService
         return players.first
     end
 
-    def insertPlayerArchiveStat(playerId, playerStat)
-        playerStat.each do |stat|
+    def insertPlayerArchiveStat(playerId, playerStats)
+        playerStats.each do |stat|
             @insertPlayerStats.execute(
                 playerId,
                 stat["season"],
-                stat["stat"]["games"],
-                stat["stat"]["goals"],
-                stat["stat"]["assists"],
-                stat["stat"]["points"],
-                stat["stat"]["shots"],
-                stat["stat"]["hits"],
-                convertStringToTime(stat["stat"]["timeOnIce"]),
-                stat["stat"]["shifts"],
-                stat["stat"]["plusMinus"],
-                stat["stat"]["shotPct"],
-                stat["stat"]["penaltyMinutes"],
-                stat["stat"]["powerPlayGoals"],
-                stat["stat"]["powerPlayPoints"],
-                convertStringToTime(stat["stat"]["powerPlayTimeOnIce"]),
-                stat["stat"]["shortHandedGoals"],
-                stat["stat"]["shortHandedPoints"],
-                convertStringToTime(stat["stat"]["shortHandedTimeOnIce"]),
-                stat["stat"]["gameWinningGoals"],
-                stat["stat"]["overTimeGoals"],
-                stat["league"]["id"],
-                stat["league"]["name"],
-                stat["team"]["id"],
-                stat["team"]["name"],
+                stat["gamesPlayed"],
+                stat["goals"],
+                stat["assists"],
+                stat["points"],
+                stat["shots"],
+                nil, #stat["stat"]["hits"], does not exist anymore
+                stat["avgToi"].to_f,
+                nil, #|||stat["stat"]["shifts"],
+                stat["plusMinus"],
+                stat["shootingPctg"],
+                stat["pim"],
+                stat["powerPlayGoals"],
+                stat["powerPlayPoints"],
+                nil, #!!!convertStringToTime(stat["stat"]["powerPlayTimeOnIce"]),
+                stat["shorthandedGoals"],
+                stat["shorthandedPoints"],
+                nil, #!!!convertStringToTime(stat["stat"]["shortHandedTimeOnIce"]),
+                stat["gameWinningGoals"],
+                stat["otGoals"],
+                nil, #!!!stat["league"]["id"],
+                stat["leagueAbbrev"],
+                nil, #!!!stat["team"]["id"],
+                stat["teamName"]["default"],
             )
         end
     end
 
-    def insertPlayerArchiveStatGoaler(playerId, playerStat)
-        playerStat.each do |stat|
+    def insertPlayerArchiveStatGoaler(playerId, playerStats)
+        playerStats.each do |stat|
             @insertPLayerStatsGoaler.execute(
                 playerId,
                 stat["season"],
-                stat["stat"]["games"],
-                stat["stat"]["gamesStarted"],
-                stat["stat"]["ot"],
-                stat["stat"]["shutouts"],
-                stat["stat"]["wins"],
-                stat["stat"]["losses"],
-                convertStringToTime(stat["stat"]["timeOnIce"]),
-                stat["stat"]["savePercentage"],
-                stat["league"]["id"],
-                stat["league"]["name"],
-                stat["team"]["id"],
-                stat["team"]["name"]
+                stat["gamesPlayed"],
+                stat["gamesStarted"],
+                stat["otLosses"],
+                stat["shutouts"],
+                stat["wins"],
+                stat["losses"],
+                convertStringToTime(stat["timeOnIce"]),
+                stat["savePctg"],
+                nil, #stat["league"]["id"],
+                stat["leagueAbbrev"],
+                nil, #stat["team"]["id"],
+                stat["teamName"]["default"]
             )
         end
     end

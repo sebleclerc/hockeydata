@@ -20,7 +20,6 @@ class CacheCommand < BaseCommand
 
     roster.each do |player|
       @cacheService.cachePlayerForId(player.id, @force)
-      @cacheService.cachePlayerArchiveStatsForId(player.id, @force)
     end
 
     Logger.taskEnd
@@ -48,7 +47,6 @@ class CacheCommand < BaseCommand
 
     roster.each do |playerId|
       @cacheService.cachePlayerForId(playerId, @force)
-      # @cacheService.cachePlayerArchiveStatsForId(playerId, @force)
     end
   end
 
@@ -75,7 +73,6 @@ class CacheCommand < BaseCommand
 
     @dbService.getPoolRosterForSeason(Constants.currentSeason).each do |playerId|
       @cacheService.cachePlayerForId(playerId, false)
-      @cacheService.cachePlayerArchiveStatsForId(playerId, true)
     end
 
     Logger.taskEnd
@@ -90,7 +87,7 @@ class CacheCommand < BaseCommand
     roster = @dbService.getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
 
     roster.each do |poolPlayer|
-      @cacheService.cachePlayerArchiveStatsForId(poolPlayer.player.id, true)
+      @cacheService.cachePlayerForId(poolPlayer.player.id, true)
     end
 
     Logger.taskEnd

@@ -14,8 +14,4 @@ class Filenames
   def self.playerForId(id)
     return "#{id}-player.json"
   end
-
-  def self.playerArchiveStatsForId(id)
-    return "#{id}-player-stats-archive.json"
-  end
 end
