@@ -4,7 +4,7 @@
 
 class SalaryMissingCommand < BaseCommand
   desc "team teamId season", "Add missing salary info for a specific team for a season."
-  def team(teamId, season)
+  def team(teamId, season=Constants.currentSeason)
     Logger.taskTitle "Missing Team #{teamId} salary for #{season}"
 
     initTask()
@@ -45,7 +45,7 @@ class SalaryMissingCommand < BaseCommand
   end
 
   desc "player playerId season", "Add missing salary info for a specific player."
-  def player(playerId, season)
+  def player(playerId, season=Constants.currentSeason)
     Logger.taskTitle "Missing Player #{playerId} salary for #{season}"
 
     initTask()
