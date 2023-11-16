@@ -2,59 +2,59 @@
 # SalaryCommand
 #
 
-class SalaryCommand < BaseCommand
-  desc "missing SEASON PLAYERID", "Add missing salary for a season and playerId"
-  def missing(season, type, entityId = nil)
-    Logger.taskTitle "Task salary missing for #{type}"
+class SalaryMissingCommand < BaseCommand
+  desc "missing team teamId season", "Add missing salary info for a specific team for a season"
+  def team(teamId, season)
+    Logger.taskTitle "Missing Team #{teamId} salary for #{season}"
+
     initTask()
 
-    case type
-      when "player"
-        Logger.info "To Be Developed"
-      when "team"
-        askMissingTeamSalary(season, entityId)
-      else
-        Logger.info "Incorrect missing type"
+    # Get team info
+    team = @dbService.getTeamForId(teamId)
+    Logger.info "Salary for team #{team.name}"
+
+    # Get players
+    roster = @dbService.getTeamRoster(team)
+    teamSalaries = Hash.new
+
+    roster.each do |playerId|
+      Logger.debug "PlayerID : #{playerId}"
+      salary = TaskPlayerSeasonSalary.new
+
+      player = @dbService.getPlayerForId(playerId)
+      salary.player = player
+      seasonSalary = @dbService.getPlayerSeasonSalary(playerId, season)
+      salary.salary = seasonSalary
+
+      teamSalaries[playerId] = salary
     end
 
-    Logger.taskEnd()
+    Logger.info "#{"ID".ljust(8)}#{"Name".rjust(30)}   #{"Salary".rjust(12)}"
+    teamSalaries.each do |playerId, salary|
+      Logger.info "#{playerId.to_s.ljust(8)}#{salary.fullName.rjust(30)}   #{salary.avv()}"
+    end
+
+    # Ask salary and insert
+    teamSalaries.each do |playerId, salary|
+      if salary.salary.nil?
+        askMissingPlayerSalary(salary.player, season)
+      end
+    end
+
+    Logger.taskEnd
+  end
+
+  def player(playerId, season)
+    Logger.taskTitle "Missing Player #{playerId} salary for #{season}"
+
+    initTask()
+
+    askMissingPlayerSalary(playerId, season)
+
+    Logger.taskEnd
   end
 
   no_tasks do
-    def askMissingTeamSalary(season, teamId)
-      # Get team info
-      team = @dbService.getTeamForId(teamId)
-      Logger.info "Salary for team #{team.name}"
-
-      # Get players
-      roster = @dbService.getTeamRoster(team)
-      teamSalaries = Hash.new
-
-      roster.each do |playerId|
-        Logger.debug "PlayerID : #{playerId}"
-        salary = TaskPlayerSeasonSalary.new
-
-        player = @dbService.getPlayerForId(playerId)
-        salary.player = player
-        seasonSalary = @dbService.getPlayerSeasonSalary(playerId, season)
-        salary.salary = seasonSalary
-
-        teamSalaries[playerId] = salary
-      end
-
-      Logger.info "#{"ID".ljust(8)}#{"Name".rjust(30)}   #{"Salary".rjust(12)}"
-      teamSalaries.each do |playerId, salary|
-        Logger.info "#{playerId.to_s.ljust(8)}#{salary.fullName.rjust(30)}   #{salary.avv()}"
-      end
-
-      # Ask salary and insert
-      teamSalaries.each do |playerId, salary|
-        if salary.salary.nil?
-          askMissingPlayerSalary(salary.player, season)
-        end
-      end
-    end
-
     def askMissingPlayerSalary(player, season)
       Logger.info "Quel est le salary de #{player.fullName} (#{player.positionCode})(#{player.id}) pour #{season}?"
       salary = STDIN.gets.chomp
@@ -87,6 +87,11 @@ class SalaryCommand < BaseCommand
       return nextSeason
     end
   end
+end
+
+class SalaryCommand < BaseCommand
+  desc "missing", "Add missing salary informations"
+  subcommand "missing", SalaryMissingCommand
 end
 
 class TaskPlayerSeasonSalary
