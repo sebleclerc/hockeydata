@@ -15,8 +15,8 @@ class Hockey < Thor
     desc "import", "Import JSON files into databse."
     subcommand "import", ImportCommand
 
-    desc "roster [teamId]", "Team related commands."
-    subcommand "roster", RosterCommand
+    desc "team [teamId]", "Team related commands."
+    subcommand "team", TeamCommand
 
     desc "player playerId", "Show informations about a specific player."
     subcommand "player", PlayerCommand

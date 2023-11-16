@@ -1,4 +1,4 @@
-class RosterCommand < BaseCommand
+class TeamCommand < BaseCommand
   desc "roster", "Show a list of NHL teams."
   def teams(teamId=nil)
     initTask()
