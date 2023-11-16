@@ -308,7 +308,7 @@ class DatabaseService
     end
 
     def getAvailablePlayerStatsSalaryForSeason(season)
-        results = @dbClient.query("SELECT * from Players p INNER JOIN PlayersStatsArchive psa ON p.id = psa.playerId INNER JOIN PlayersSalaries sal ON p.id = sal.playerId WHERE p.positionCode != 'G' AND psa.season = \"#{season}\" AND sal.season = \"#{season}\" AND psa.leagueName = \"NHL\" ORDER BY lastName, firstName")
+        results = @dbClient.query("SELECT * from Players p INNER JOIN PlayersStatsArchive psa ON p.id = psa.playerId INNER JOIN PlayersSalaries sal ON p.id = sal.playerId WHERE p.positionCode != 'G' AND psa.season = \"#{season}\" AND sal.season = \"#{season}\" AND psa.leagueName = \"NHL\" AND p.id NOT IN (SELECT playerId FROM PoolDraft WHERE statut IN (1,2)) ORDER BY lastName, firstName")
         players = Array.new
 
         results.each do |row|
