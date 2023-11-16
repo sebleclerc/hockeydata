@@ -206,7 +206,7 @@ class DatabaseService
         end
     end
 
-    def getPlayerSeasonStatsForPlayerIdAndSeason(playerId, season=nil)
+    def getPlayerSeasonStatsForPlayerIdAndSeason(playerId, season=nil, league="NHL")
         stats = Array.new
 
         query = "SELECT * FROM PlayersStatsArchive WHERE playerId = #{playerId}"
@@ -215,7 +215,8 @@ class DatabaseService
             query += " AND season = \"#{season}\""
         end
 
-        query += " AND teamId IS NOT NULL"
+        query += " AND leagueName = \"#{league}\""
+        query += " ORDER BY season"
 
         results = @dbClient.query(query)
 
@@ -227,7 +228,7 @@ class DatabaseService
         return stats
     end
 
-    def getPlayerSeasonStatsGoalerForPlayerIdAndSeason(playerId, season=nil)
+    def getPlayerSeasonStatsGoalerForPlayerIdAndSeason(playerId, season=nil, league="NHL")
         stats = Array.new
 
         query = "SELECT * FROM PlayersStatsArchiveGoaler WHERE playerId = #{playerId}"
@@ -236,7 +237,8 @@ class DatabaseService
             query += " AND season = \"#{season}\""
         end
 
-        query += " AND teamId IS NOT NULL"
+        query += " AND leagueName = \"#{league}\""
+        query += " ORDER BY season"
 
         results = @dbClient.query(query)
 

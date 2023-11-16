@@ -72,7 +72,7 @@ class CacheCommand < BaseCommand
     initTask()
 
     @dbService.getPoolRosterForSeason(Constants.currentSeason).each do |playerId|
-      @cacheService.cachePlayerForId(playerId, false)
+      @cacheService.cachePlayerForId(playerId, true)
     end
 
     Logger.taskEnd

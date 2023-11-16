@@ -3,7 +3,7 @@
 #
 
 class PlayerCommand < BaseCommand
-  desc "player info playerId", "Show informations about a specific player."
+  desc "player playerId", "Show informations about a specific player."
     def info(playerId)
       initTask()
 
