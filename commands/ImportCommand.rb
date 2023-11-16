@@ -17,7 +17,7 @@ class ImportCommand < BaseCommand
     @importService.importTeamRosters()
 
     Logger.info "Import pool players + archive stats"
-    players = @dbService.getAllPlayers()
+    players = getAllPlayers()
 
     players.each do |playerId|
       @importService.importPlayerForId(playerId)
@@ -28,4 +28,17 @@ class ImportCommand < BaseCommand
   end
 
   default_task :import
+
+  no_tasks do
+    def getAllPlayers()
+      ids = Array.new
+
+      Dir["./json/*-player.json"].sort.each { |file|
+        id = file.split("/")[2].split("-")[0]
+        ids.append(id)
+      }
+
+      return ids
+    end
+  end
 end
