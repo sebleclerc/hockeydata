@@ -61,7 +61,8 @@ class SalaryMissingCommand < BaseCommand
       salary = STDIN.gets.chomp
 
       if !(salary.nil? || salary.empty?)
-        @dbService.insertPlayerSalary(player.id, season, salary)
+        sanitizedSalary = salary.gsub! ",", ""
+        @dbService.insertPlayerSalary(player.id, season, sanitizedSalary)
       end
 
       Logger.info "Pour combien d'année encore?"
