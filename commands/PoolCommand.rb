@@ -69,6 +69,7 @@ class PoolCommand < BaseCommand
     poolPlayers = @dbService.getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
 
     header = Player.showFullNameHeader
+    header += "ID".rjust(8).colorize(:yellow)
     header += PlayerSalarySeason.showAVVHeader
     header += "P".intHeader()
     header += "Pool".intHeader()
@@ -77,6 +78,7 @@ class PoolCommand < BaseCommand
 
     poolPlayers.each do |player|
       statLine = player.player.showFullName
+      statLine += player.player.id.to_s.rjust(8)
       statLine += player.salary.showAVV
       statLine += player.stat.points.show()
       statLine += player.poolPoints().show()
