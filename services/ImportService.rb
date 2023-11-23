@@ -25,7 +25,7 @@ class ImportService
         teams = getCachedData()["teams"]
 
         # Flush current data
-        @dbService.clearTeamPlayers()
+        @dbService.clearTeamRosters()
 
         # And then import rosters
         teams.each do |jTeam|

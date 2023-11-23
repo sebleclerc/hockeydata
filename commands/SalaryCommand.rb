@@ -14,7 +14,7 @@ class SalaryMissingCommand < BaseCommand
     Logger.info "Salary for team #{team.name}"
 
     # Get players
-    roster = @dbService.getTeamRoster(team)
+    roster = @dbService.getRosterForTeam(team)
     teamSalaries = Hash.new
 
     roster.each do |playerId|

@@ -27,7 +27,7 @@ class TeamsCommand < BaseCommand
 
     def showRosterForTeamId(id)
       team = @dbService.getTeamForId(id)
-      roster = @dbService.getTeamRoster(team)
+      roster = @dbService.getRosterForTeam(team)
 
       Logger.taskTitle "Roster - Team #{id} #{team.name}"
 

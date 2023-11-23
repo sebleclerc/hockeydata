@@ -43,7 +43,7 @@ class CacheCommand < BaseCommand
     initTask()
 
     team = @dbService.getTeamForId(teamId)
-    roster = @dbService.getTeamRoster(team)
+    roster = @dbService.getRosterForTeam(team)
 
     roster.each do |playerId|
       @cacheService.cachePlayerForId(playerId, @force)

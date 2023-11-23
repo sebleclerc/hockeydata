@@ -7,12 +7,7 @@ require_relative "../models/PoolPlayerValues.rb"
 require_relative "../models/Position.rb"
 require_relative "../models/Team.rb"
 
-class DatabaseService
-    def initialize
-        @dbClient = Mysql2::Client.new(:host => "localhost", :database => "hockeydata", :username => "sleclerc", :password => "sleclerc")
-        prepareStatements()
-    end
-
+module DatabaseServicePositions
     def insertPositions(positions)
         positions.each do |item|
             position = Position.fromJson(item)
@@ -25,7 +20,9 @@ class DatabaseService
             )
         end
     end
+end
 
+module DatabaseServiceTeams
     def insertTeams(teams)
         teams.each do |item|
             team = Team.fromJson(item)
@@ -61,8 +58,10 @@ class DatabaseService
 
         return teams
     end
+end
 
-    def clearTeamPlayers
+module DatabaseServiceRoster
+    def clearTeamRosters()
         result = @dbClient.query("TRUNCATE TABLE TeamsPlayers")
     end
 
@@ -87,7 +86,7 @@ class DatabaseService
         return roster
     end
 
-    def getTeamRoster(team)
+    def getRosterForTeam(team)
         roster = Array.new
         results = @dbClient.query("SELECT * FROM TeamsPlayers WHERE teamId = #{team.id}")
 
@@ -97,6 +96,17 @@ class DatabaseService
 
         return roster
     end
+end
+
+class DatabaseService
+    def initialize
+        @dbClient = Mysql2::Client.new(:host => "localhost", :database => "hockeydata", :username => "sleclerc", :password => "sleclerc")
+        prepareStatements()
+    end
+
+    include DatabaseServicePositions
+    include DatabaseServiceTeams
+    include DatabaseServiceRoster
 
     def getAllPlayers()
         players = Array.new
