@@ -2,6 +2,74 @@
 # PoolCommand
 #
 
+class PoolPreviewCommand < BaseCommand
+  desc "all", "Show preview for all players."
+  def all()
+    initTask()
+
+    Logger.taskTitle "Preview stats for season #{Constants.currentSeason}"
+
+    poolPlayers = @dbService.getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+    printListOfPlayers(poolPlayers)
+
+    Logger.taskEnd
+  end
+
+  desc "forwards", "Show preview only for forwards."
+  def forwards()
+    initTask()
+
+    Logger.taskTitle "Preview stats for season #{Constants.currentSeason}"
+
+    forwards = @dbService
+                .getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+                .select { |player| ['C','L','R'].include? player.player.positionCode }
+    printListOfPlayers(forwards)
+
+    Logger.taskEnd
+  end
+
+  desc "defenses", "Show preview only for forwards."
+  def defenses()
+    initTask()
+
+    Logger.taskTitle "Preview stats for season #{Constants.currentSeason}"
+
+    defenses = @dbService
+                .getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+                .select { |player| player.player.positionCode == 'D' }
+    printListOfPlayers(defenses)
+
+    Logger.taskEnd
+  end
+
+  default_task :all
+
+  no_tasks do
+    def printListOfPlayers(players)
+      header = Player.showFullNameHeader
+      header += "ID".rjust(8).colorize(:yellow)
+      header += PlayerSalarySeason.showAVVHeader
+      header += "P".intHeader()
+      header += "Pool".intHeader()
+      header += "Value".floatHeader()
+      Logger.info header
+
+      players.each do |player|
+        statLine = player.player.showFullName
+        statLine += player.player.id.to_s.rjust(8)
+        statLine += player.salary.showAVV
+        statLine += player.stat.points.show()
+        statLine += player.poolPoints().show()
+
+        statLine += player.value.show()
+
+        Logger.info statLine
+      end
+    end
+  end
+end
+
 class PoolCommand < BaseCommand
   desc "me SEASON", "Getting pool data for me. Default to current season."
   def me(season=Constants.currentSeason)
@@ -61,33 +129,5 @@ class PoolCommand < BaseCommand
   end
 
   desc "preview", "Trying to find interesting pool choices."
-  def preview()
-    initTask()
-
-    Logger.taskTitle "Preview stats for season #{Constants.currentSeason}"
-
-    poolPlayers = @dbService.getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
-
-    header = Player.showFullNameHeader
-    header += "ID".rjust(8).colorize(:yellow)
-    header += PlayerSalarySeason.showAVVHeader
-    header += "P".intHeader()
-    header += "Pool".intHeader()
-    header += "Value".floatHeader()
-    Logger.info header
-
-    poolPlayers.each do |player|
-      statLine = player.player.showFullName
-      statLine += player.player.id.to_s.rjust(8)
-      statLine += player.salary.showAVV
-      statLine += player.stat.points.show()
-      statLine += player.poolPoints().show()
-
-      statLine += player.value.show()
-
-      Logger.info statLine
-    end
-
-    Logger.taskEnd
-  end
+  subcommand "preview", PoolPreviewCommand
 end
