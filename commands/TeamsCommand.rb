@@ -1,6 +1,6 @@
-class TeamCommand < BaseCommand
-  desc "roster", "Show a list of NHL teams."
-  def teams(teamId=nil)
+class TeamsCommand < BaseCommand
+  desc "list", "Show a list of NHL teams."
+  def list(teamId=nil)
     initTask()
 
     if teamId.nil?
@@ -10,7 +10,7 @@ class TeamCommand < BaseCommand
     end
   end
 
-  default_task :teams
+  default_task :list
 
   no_tasks do
     def showTeams
