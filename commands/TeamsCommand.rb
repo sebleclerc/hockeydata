@@ -26,7 +26,20 @@ class TeamsCommand < BaseCommand
       ])
 
       teams.each do |team|
-        Logger.info "#{team.id.to_s.ljust(5)}#{team.name.ljust(25)}"
+        teamRoster = @dbService.getRosterForTeam(team)
+        nbPlayersRoster = teamRoster.count()
+        nbPlayerInDb = 0
+
+        teamRoster.each do |playerId|
+          player = @dbService.getPlayerForId(playerId)
+
+          unless player.nil?
+            nbPlayerInDb += 1
+          end
+        end
+
+        proportion = "#{nbPlayerInDb} / #{nbPlayersRoster}"
+        Logger.info "#{team.id.to_s.rjust(Constants.idPadding)}#{team.name.rjust(Constants.fullNamePadding)}#{proportion.rjust(proportionPadding)}"
       end
 
       Logger.taskEnd
