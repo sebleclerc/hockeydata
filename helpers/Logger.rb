@@ -1,7 +1,7 @@
 require 'colorize'
 
 class Logger
-    @@moreLogging = false
+    @@moreLogging = true
 
     def self.taskTitle(title)
         info ""
@@ -19,7 +19,7 @@ class Logger
         info ""
     end
 
-    def self.headerColumns(columns)
+    def self.header(columns)
         header = ""
 
         columns.each do |column|
@@ -27,6 +27,16 @@ class Logger
         end
 
         info header
+    end
+
+    def self.row(columns)
+        line = ""
+
+        columns.each do |column|
+            line += column.title.rjust(column.adjust)
+        end
+
+        info line
     end
 
     def self.debug(text)

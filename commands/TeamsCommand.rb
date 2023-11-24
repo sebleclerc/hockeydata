@@ -19,10 +19,10 @@ class TeamsCommand < BaseCommand
       teams = @dbService.getAllTeams()
 
       proportionPadding = 10
-      Logger.headerColumns([
-        HeaderColumn.id(),
-        HeaderColumn.name(),
-        HeaderColumn.custom("P %", proportionPadding)
+      Logger.header([
+        LoggerColumn.id(),
+        LoggerColumn.name(),
+        LoggerColumn.custom("P %", proportionPadding)
       ])
 
       teams.each do |team|
@@ -39,7 +39,11 @@ class TeamsCommand < BaseCommand
         end
 
         proportion = "#{nbPlayerInDb} / #{nbPlayersRoster}"
-        Logger.info "#{team.id.to_s.rjust(Constants.idPadding)}#{team.name.rjust(Constants.fullNamePadding)}#{proportion.rjust(proportionPadding)}"
+        Logger.row([
+          LoggerColumn.id(team.id),
+          LoggerColumn.name(team.name),
+          LoggerColumn.custom(proportion, proportionPadding)
+        ])
       end
 
       Logger.taskEnd
