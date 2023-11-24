@@ -4,9 +4,10 @@
 #
 
 require "thor"
-Dir["./commands/*.rb"].sort.each {|file| require file }
+Dir["./models/*.rb"].each {|file| require file }
 Dir["./helpers/*.rb"].each {|file| require file }
 Dir["./services/*.rb"].each {|file| require file }
+Dir["./commands/*.rb"].sort.each {|file| require file }
 
 class Hockey < Thor
     desc "cache", "Fetch and cache files"

@@ -19,6 +19,16 @@ class Logger
         info ""
     end
 
+    def self.headerColumns(columns)
+        header = ""
+
+        columns.each do |column|
+            header += column.title.rjust(column.adjust).colorize(:yellow)
+        end
+
+        info header
+    end
+
     def self.debug(text)
         if @@moreLogging
             logMessage("🟩", text)

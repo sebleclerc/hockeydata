@@ -6,7 +6,11 @@ class Constants
     return @@currentSeason
   end
 
-  # All show padding
+  # All show
+  def self.idPadding
+    return 5
+  end
+
   def self.fullNamePadding
     return 30
   end

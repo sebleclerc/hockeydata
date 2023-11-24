@@ -18,6 +18,13 @@ class TeamsCommand < BaseCommand
 
       teams = @dbService.getAllTeams()
 
+      proportionPadding = 10
+      Logger.headerColumns([
+        HeaderColumn.id(),
+        HeaderColumn.name(),
+        HeaderColumn.custom("P %", proportionPadding)
+      ])
+
       teams.each do |team|
         Logger.info "#{team.id.to_s.ljust(5)}#{team.name.ljust(25)}"
       end
