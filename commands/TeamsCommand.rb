@@ -55,10 +55,18 @@ class TeamsCommand < BaseCommand
 
       Logger.taskTitle "Roster - Team #{id} #{team.name}"
 
+      Logger.header([
+        LoggerColumn.id(),
+        LoggerColumn.name()
+      ])
+
       roster.each do |playerId|
         player = @dbService.getPlayerForId(playerId)
         fullName = player.nil? ? "" : player.fullName
-        Logger.info "#{playerId.to_s.ljust(10)}#{fullName.ljust(25)}"
+        Logger.row([
+          LoggerColumn.id(playerId),
+          LoggerColumn.name(fullName)
+        ])
       end
 
       Logger.taskEnd
