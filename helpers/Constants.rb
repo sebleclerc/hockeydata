@@ -8,7 +8,7 @@ class Constants
 
   # All show
   def self.idPadding
-    return 5
+    return 8
   end
 
   def self.fullNamePadding
