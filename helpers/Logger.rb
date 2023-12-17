@@ -19,6 +19,14 @@ class Logger
         info ""
     end
 
+    def self.completed
+    info ""
+    info "      #"
+    info "  #  #"
+    info "   ##"
+    info ""
+    end
+
     def self.header(columns)
         header = ""
 

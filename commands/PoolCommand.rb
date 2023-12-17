@@ -70,6 +70,32 @@ class PoolPreviewCommand < BaseCommand
   end
 end
 
+class PoolPlayerCommand < BaseCommand
+  desc "add playerId", "Add playerId to list of taken players"
+  def add(playerId)
+    initTask()
+
+    Logger.taskTitle "Adding player #{playerId} to the taken list"
+
+    @dbService.addPlayerStatutTaken(playerId, Constants.currentSeason)
+
+    Logger.completed
+    Logger.taskEnd
+  end
+
+  desc "rem playerId", "Remove playerId from the list of taken players"
+  def rem(playerId)
+    initTask()
+
+    Logger.taskTitle "Removing player #{playerId} to the taken list"
+
+    @dbService.deletePlayerStatutTaken(playerId, Constants.currentSeason)
+
+    Logger.completed
+    Logger.taskEnd
+  end
+end
+
 class PoolCommand < BaseCommand
   desc "me SEASON", "Getting pool data for me. Default to current season."
   def me(season=Constants.currentSeason)
@@ -130,4 +156,7 @@ class PoolCommand < BaseCommand
 
   desc "preview", "Trying to find interesting pool choices."
   subcommand "preview", PoolPreviewCommand
+
+  desc "player", "Related to specific player"
+  subcommand "player", PoolPlayerCommand
 end

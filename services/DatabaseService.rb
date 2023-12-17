@@ -317,6 +317,22 @@ class DatabaseService
         return roster
     end
 
+    def addPlayerStatutTaken(playerId, season)
+        result = @insertPoolDraft.execute(
+            playerId,
+            season,
+            2
+        )
+    end
+
+    def deletePlayerStatutTaken(playerId, season)
+        result = @insertPoolDraft.execute(
+            playerId,
+            season,
+            0
+        )
+    end
+
     def getAvailablePlayerStatsSalaryForSeason(season)
         results = @dbClient.query("SELECT * from Players p INNER JOIN PlayersStatsArchive psa ON p.id = psa.playerId INNER JOIN PlayersSalaries sal ON p.id = sal.playerId WHERE p.positionCode != 'G' AND psa.season = \"#{season}\" AND sal.season = \"#{season}\" AND psa.leagueName = \"NHL\" AND p.id NOT IN (SELECT playerId FROM PoolDraft WHERE statut IN (1,2)) ORDER BY lastName, firstName")
         players = Array.new
@@ -363,6 +379,7 @@ class DatabaseService
         @insertPlayerStats = @dbClient.prepare("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPLayerStatsGoaler = @dbClient.prepare("REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPlayerSalary = @dbClient.prepare("INSERT INTO PlayersSalaries (playerId,season,avv) VALUES (?,?,?)")
+        @insertPoolDraft = @dbClient.prepare("REPLACE INTO PoolDraft (playerId,season,statut) VALUES (?,?,?)")
     end
 
     def convertStringToTime(value)
