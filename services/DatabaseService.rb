@@ -305,7 +305,7 @@ class DatabaseService
         end
 
         if !all
-            query += " AND pd.active = 1"
+            query += " AND pd.statut = 1"
         end
 
         results = @dbClient.query(query)
