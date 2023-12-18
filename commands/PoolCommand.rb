@@ -9,7 +9,7 @@ class PoolPreviewCommand < BaseCommand
 
     Logger.taskTitle "Preview stats for season #{Constants.currentSeason}"
 
-    poolPlayers = @dbService.getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+    poolPlayers = getAvailablePlayers()
     printListOfPlayers(poolPlayers)
 
     Logger.taskEnd
@@ -21,8 +21,7 @@ class PoolPreviewCommand < BaseCommand
 
     Logger.taskTitle "Preview stats for season #{Constants.currentSeason}"
 
-    forwards = @dbService
-                .getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+    forwards = getAvailablePlayers()
                 .select { |player| ['C','L','R'].include? player.player.positionCode }
     printListOfPlayers(forwards)
 
@@ -35,8 +34,7 @@ class PoolPreviewCommand < BaseCommand
 
     Logger.taskTitle "Preview stats for season #{Constants.currentSeason}"
 
-    defenses = @dbService
-                .getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+    defenses = getAvailablePlayers()
                 .select { |player| player.player.positionCode == 'D' }
     printListOfPlayers(defenses)
 
@@ -46,6 +44,12 @@ class PoolPreviewCommand < BaseCommand
   default_task :all
 
   no_tasks do
+    def getAvailablePlayers()
+      return @dbService
+              .getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
+              .select { |player| player.stat.points > 5 }
+    end
+
     def printListOfPlayers(players)
       header = Player.showFullNameHeader
       header += "ID".rjust(8).colorize(:yellow)
