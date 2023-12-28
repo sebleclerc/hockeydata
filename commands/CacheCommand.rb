@@ -42,12 +42,24 @@ class CacheCommand < BaseCommand
 
     initTask()
 
-    team = @dbService.getTeamForId(teamId)
-    roster = @dbService.getRosterForTeam(team)
+    cacheTeamPlayers(teamId)
 
-    roster.each do |playerId|
-      @cacheService.cachePlayerForId(playerId, @force)
+    Logger.taskEnd
+  end
+
+  desc "teams ids", "Cache every players for every teams"
+  def teams(teams)
+    Logger.taskTitle "Caching teams (#{teams}) players"
+
+    initTask()
+
+    teamIds = teams.split(",")
+
+    teamIds.each do |teamId|
+      cacheTeamPlayers(teamId)
     end
+
+    Logger.taskEnd
   end
 
   desc "players", "Cache for all players"
@@ -105,6 +117,15 @@ class CacheCommand < BaseCommand
       teams = @dbService.getAllTeams()
       teams.each do |team|
         @cacheService.cacheTeamRoster(team, @force)
+      end
+    end
+
+    def cacheTeamPlayers(teamId)
+      team = @dbService.getTeamForId(teamId)
+      roster = @dbService.getRosterForTeam(team)
+
+      roster.each do |playerId|
+        @cacheService.cachePlayerForId(playerId, @force)
       end
     end
   end
