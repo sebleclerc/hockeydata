@@ -6,7 +6,7 @@ class PlayerSeasonStatsGoaler
   attr_accessor :victoiresProlongation, :victoiresFusillade
 
   def self.formattedHeaderString
-    header = "Season".rjust(10)
+    header = "Season".rjust(10).colorize(:yellow)
     header += "Games".intHeader()
     header += "Started".intHeader()
     header += "Wins".intHeader()

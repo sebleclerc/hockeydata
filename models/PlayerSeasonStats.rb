@@ -24,7 +24,7 @@ class PlayerSeasonStats
   ## Showing
 
   def self.formattedHeaderString
-    header = "Season".rjust(10)
+    header = "Season".rjust(10).colorize(:yellow)
     header += "Games".intHeader()
     header += "Goals".intHeader()
     header += "Assists".intHeader()
