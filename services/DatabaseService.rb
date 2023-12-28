@@ -321,7 +321,9 @@ class DatabaseService
         result = @insertPoolDraft.execute(
             playerId,
             season,
-            2
+            2,
+            nil,
+            nil
         )
     end
 
@@ -329,7 +331,29 @@ class DatabaseService
         result = @insertPoolDraft.execute(
             playerId,
             season,
-            0
+            0,
+            nil,
+            nil
+        )
+    end
+
+    def selectPlayerForPool(playerId, season, date, points)
+        result = @insertPoolDraft.execute(
+            playerId,
+            season,
+            3,
+            date,
+            points
+        )
+    end
+
+    def revokePlayerForPool(playerId, season, date, points)
+        result = @insertPoolDraft.execute(
+            playerId,
+            season,
+            4,
+            date,
+            points
         )
     end
 
@@ -379,7 +403,7 @@ class DatabaseService
         @insertPlayerStats = @dbClient.prepare("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPLayerStatsGoaler = @dbClient.prepare("REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
         @insertPlayerSalary = @dbClient.prepare("INSERT INTO PlayersSalaries (playerId,season,avv) VALUES (?,?,?)")
-        @insertPoolDraft = @dbClient.prepare("REPLACE INTO PoolDraft (playerId,season,statut) VALUES (?,?,?)")
+        @insertPoolDraft = @dbClient.prepare("REPLACE INTO PoolDraft (playerId,season,statut,dateChanged,poolPointsChanged) VALUES (?,?,?,?,?)")
     end
 
     def convertStringToTime(value)
