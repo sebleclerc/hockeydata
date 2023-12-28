@@ -3,6 +3,28 @@
 #
 
 class SalaryMissingCommand < BaseCommand
+  desc "all season", "Add missing all missing salary for a season"
+  def all(season=Constants.currentSeason)
+    Logger.taskTitle "All missing salary for #{season}"
+
+    initTask()
+
+    # Get all combined rosters
+    roster = @dbService.getAllRosters()
+
+    roster.each do |playerId|
+      player = @dbService.getPlayerForId(playerId)
+      salary = @dbService.getPlayerSeasonSalary(playerId, season)
+
+      if !player.nil? && salary.nil?
+        system("open", "https://www.capfriendly.com/search?s=#{player.lastName}")
+        askMissingPlayerSalary(player, season)
+      end
+    end
+
+    Logger.taskEnd
+  end
+
   desc "team teamId season", "Add missing salary info for a specific team for a season."
   def team(teamId, season=Constants.currentSeason)
     Logger.taskTitle "Missing Team #{teamId} salary for #{season}"
