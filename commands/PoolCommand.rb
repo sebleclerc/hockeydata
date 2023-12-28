@@ -47,7 +47,7 @@ class PoolPreviewCommand < BaseCommand
     def getAvailablePlayers()
       return @dbService
               .getAvailablePlayerStatsSalaryForSeason(Constants.currentSeason)
-              .select { |player| player.stat.points > 5 }
+              .select { |player| player.stat.poolPoints(player.player.positionCode) > 10 }
     end
 
     def printListOfPlayers(players)
