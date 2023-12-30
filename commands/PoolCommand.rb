@@ -159,16 +159,16 @@ class PoolCommand < BaseCommand
 
     forwards.each do |playerId|
       player = @dbService.getPlayerForId(playerId)
-      statLine = player.fullName.show()
+      statLine = [LoggerColumn.name(player.fullName)]
 
       stat = @dbService.getPlayerSeasonStatsForPlayerIdAndSeason(player.id, season).first
 
       if stat != nil
         totalPoints += stat.poolPoints(player.positionCode)
-        statLine += stat.formattedString(player.positionCode)
+        statLine.push(*stat.formattedRows(player.positionCode))
       end
 
-      Logger.info statLine
+      Logger.row statLine
     end
 
     Logger.info ""

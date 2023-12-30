@@ -27,8 +27,16 @@ class LoggerColumn
 
   def self.int(title, value=nil)
     column = LoggerColumn.new
-    column.title = value.nil? ? title : value
+    column.title = value.nil? ? title : value.to_s
     column.adjust = Constants.intPadding
+
+    return column
+  end
+
+  def self.float(title, value=nil)
+    column = LoggerColumn.new
+    column.title = value.nil? ? title : value.to_s
+    column.adjust = Constants.floatPadding
 
     return column
   end

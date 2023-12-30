@@ -47,8 +47,8 @@ class PlayerSeasonStats
       LoggerColumn.int("P"),
       LoggerColumn.custom("Team Name", Constants.fullNamePadding),
       LoggerColumn.custom("League Name", Constants.fullNamePadding),
-      LoggerColumn.int("Pool"),
-      LoggerColumn.int("Proj.")
+      LoggerColumn.float("Pool"),
+      LoggerColumn.float("Proj.")
     ]
   end
 
@@ -65,6 +65,20 @@ class PlayerSeasonStats
     formatted += projectedPoolPoints(position).show()
 
     return formatted
+  end
+
+  def formattedRows(position)
+    return [
+      LoggerColumn.custom(season.to_s, Constants.seasonPadding),
+      LoggerColumn.int("GP", games),
+      LoggerColumn.int("G", goals),
+      LoggerColumn.int("A", assists),
+      LoggerColumn.int("P", points),
+      LoggerColumn.custom(teamName, Constants.fullNamePadding),
+      LoggerColumn.custom(leagueName, Constants.fullNamePadding),
+      LoggerColumn.float("Pool", poolPoints(position)),
+      LoggerColumn.float("Proj.", projectedPoolPoints(position))
+    ]
   end
 
   def poolPoints(position)

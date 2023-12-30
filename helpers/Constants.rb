@@ -23,6 +23,10 @@ class Constants
     return 10
   end
 
+  def self.floatPadding
+    return 10
+  end
+
   def self.seasonPadding
     return 10
   end
