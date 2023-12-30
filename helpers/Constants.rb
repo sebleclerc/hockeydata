@@ -18,4 +18,12 @@ class Constants
   def self.avvPadding
     return 15
   end
+
+  def self.intPadding
+    return 10
+  end
+
+  def self.seasonPadding
+    return 10
+  end
 end

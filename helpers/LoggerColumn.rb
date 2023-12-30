@@ -24,4 +24,12 @@ class LoggerColumn
 
     return column
   end
+
+  def self.int(title, value=nil)
+    column = LoggerColumn.new
+    column.title = value.nil? ? title : value
+    column.adjust = Constants.intPadding
+
+    return column
+  end
 end

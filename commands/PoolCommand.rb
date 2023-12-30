@@ -151,9 +151,9 @@ class PoolCommand < BaseCommand
 
     totalPoints = 0.0
 
-    header = "Name".showHeader()
-    header += PlayerSeasonStats.formattedHeaderString()
-    Logger.info header
+    headers = [LoggerColumn.name()]
+    headers.push(*PlayerSeasonStats.formattedHeaderRows())
+    Logger.header(headers)
 
     forwards = @dbService.getPoolRosterPositionForSeason(season, 'F')
 

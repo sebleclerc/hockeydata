@@ -38,6 +38,20 @@ class PlayerSeasonStats
     return header
   end
 
+  def self.formattedHeaderRows
+    return [
+      LoggerColumn.custom("Season", Constants.seasonPadding),
+      LoggerColumn.int("GP"),
+      LoggerColumn.int("G"),
+      LoggerColumn.int("A"),
+      LoggerColumn.int("P"),
+      LoggerColumn.custom("Team Name", Constants.fullNamePadding),
+      LoggerColumn.custom("League Name", Constants.fullNamePadding),
+      LoggerColumn.int("Pool"),
+      LoggerColumn.int("Proj.")
+    ]
+  end
+
   def formattedString(position)
     formatted = season.to_s.rjust(10)
     formatted += games.show()
