@@ -51,24 +51,24 @@ class PoolPreviewCommand < BaseCommand
     end
 
     def printListOfPlayers(players)
-      header = Player.showFullNameHeader
-      header += "ID".rjust(8).colorize(:yellow)
-      header += PlayerSalarySeason.showAVVHeader
-      header += "P".intHeader()
-      header += "Pool".intHeader()
-      header += "Value".floatHeader()
-      Logger.info header
+      Logger.header([
+        LoggerColumn.name(),
+        LoggerColumn.id(),
+        LoggerColumn.avv(),
+        LoggerColumn.int("P"),
+        LoggerColumn.float("Pool"),
+        LoggerColumn.poolValue()
+      ])
 
       players.each do |player|
-        statLine = player.player.showFullName
-        statLine += player.player.id.to_s.rjust(8)
-        statLine += player.salary.showAVV
-        statLine += player.stat.points.show()
-        statLine += player.poolPoints().show()
-
-        statLine += player.value.show()
-
-        Logger.info statLine
+        Logger.row([
+          LoggerColumn.name(player.player.showFullName),
+          LoggerColumn.id(player.player.id),
+          LoggerColumn.avv(player.salary),
+          LoggerColumn.int("P", player.stat.points),
+          LoggerColumn.float("Pool", player.poolPoints()),
+          LoggerColumn.poolValue(player.value)
+        ])
       end
     end
   end

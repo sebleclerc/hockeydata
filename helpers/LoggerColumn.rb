@@ -1,18 +1,10 @@
 class LoggerColumn
   attr_accessor :title, :adjust
 
-  def self.id(id=nil)
+  def self.avv(value=nil)
     column = LoggerColumn.new
-    column.title = id.nil? ? "ID" : id.to_s
-    column.adjust = Constants.idPadding
-
-    return column
-  end
-
-  def self.name(value=nil)
-    column = LoggerColumn.new
-    column.title = value.nil? ? "Name" : value
-    column.adjust = Constants.fullNamePadding
+    column.title = value.nil? ? "AVV" : value.showAVV
+    column.adjust = Constants.avvPadding
 
     return column
   end
@@ -25,6 +17,22 @@ class LoggerColumn
     return column
   end
 
+  def self.float(title, value=nil)
+    column = LoggerColumn.new
+    column.title = value.nil? ? title : value.to_s
+    column.adjust = Constants.floatPadding
+
+    return column
+  end
+
+  def self.id(id=nil)
+    column = LoggerColumn.new
+    column.title = id.nil? ? "ID" : id.to_s
+    column.adjust = Constants.idPadding
+
+    return column
+  end
+
   def self.int(title, value=nil)
     column = LoggerColumn.new
     column.title = value.nil? ? title : value.to_s
@@ -33,10 +41,18 @@ class LoggerColumn
     return column
   end
 
-  def self.float(title, value=nil)
+  def self.name(value=nil)
     column = LoggerColumn.new
-    column.title = value.nil? ? title : value.to_s
-    column.adjust = Constants.floatPadding
+    column.title = value.nil? ? "Name" : value
+    column.adjust = Constants.fullNamePadding
+
+    return column
+  end
+
+  def self.poolValue(value=nil)
+    column = LoggerColumn.new
+    column.title = value.nil? ? "Value" : value.to_s
+    column.adjust = 8
 
     return column
   end
