@@ -15,12 +15,16 @@ class Constants
     return 30
   end
 
+  def self.leagueNamePadding
+    return 10
+  end
+
   def self.avvPadding
     return 15
   end
 
   def self.intPadding
-    return 10
+    return 5
   end
 
   def self.floatPadding

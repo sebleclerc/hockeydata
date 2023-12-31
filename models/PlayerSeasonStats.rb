@@ -46,7 +46,7 @@ class PlayerSeasonStats
       LoggerColumn.int("A"),
       LoggerColumn.int("P"),
       LoggerColumn.custom("Team Name", Constants.fullNamePadding),
-      LoggerColumn.custom("League Name", Constants.fullNamePadding),
+      LoggerColumn.custom("League", Constants.leagueNamePadding),
       LoggerColumn.float("Pool"),
       LoggerColumn.float("Proj.")
     ]
@@ -75,7 +75,7 @@ class PlayerSeasonStats
       LoggerColumn.int("A", assists),
       LoggerColumn.int("P", points),
       LoggerColumn.custom(teamName, Constants.fullNamePadding),
-      LoggerColumn.custom(leagueName, Constants.fullNamePadding),
+      LoggerColumn.custom(leagueName, Constants.leagueNamePadding),
       LoggerColumn.float("Pool", poolPoints(position)),
       LoggerColumn.float("Proj.", projectedPoolPoints(position))
     ]
