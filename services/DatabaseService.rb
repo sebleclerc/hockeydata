@@ -294,7 +294,7 @@ class DatabaseService
         return roster
     end
 
-    def getPoolRosterPositionForSeason(season, position, all=false)
+    def getPoolRoster(season, position, statut, all=false)
         roster = Array.new
         query = "SELECT pd.playerId FROM PoolDraft pd, Players p WHERE pd.playerId = p.id AND season = \"#{season}\""
 
@@ -305,7 +305,11 @@ class DatabaseService
         end
 
         if !all
-            query += " AND pd.statut = 1"
+            if statut.instance_of? String
+                query += " AND pd.statut = #{statut}"
+            else
+                query += " AND pd.statut IN (#{statut.join(",")})"
+            end
         end
 
         results = @dbClient.query(query)

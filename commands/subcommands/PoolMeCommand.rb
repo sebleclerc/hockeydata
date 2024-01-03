@@ -15,7 +15,7 @@ class PoolMeCommand < BaseCommand
     headers.push(*PlayerSeasonStats.formattedHeaderRows())
     Logger.header(headers)
 
-    forwards = @dbService.getPoolRosterPositionForSeason(season, 'F')
+    forwards = @dbService.getPoolRoster(season, 'F', [PoolDraftStatut::SELECTED, PoolDraftStatut::EXCHANGED])
 
     forwards.each do |playerId|
       player = @dbService.getPlayerForId(playerId)
@@ -38,7 +38,8 @@ class PoolMeCommand < BaseCommand
 
     Logger.info header
 
-    goalers = @dbService.getPoolRosterPositionForSeason(season, 'G')
+    # goalers = @dbService.getPoolRosterPositionForSeason(season, 'G')
+    goalers = []
 
     goalers.each do |playerId|
       player = @dbService.getPlayerForId(playerId)
