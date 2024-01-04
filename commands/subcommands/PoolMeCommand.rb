@@ -17,15 +17,17 @@ class PoolMeCommand < BaseCommand
 
     forwards = @dbService.getPoolRoster(season, 'F', [PoolDraftStatut::SELECTED, PoolDraftStatut::EXCHANGED])
 
-    forwards.each do |playerId|
+    goalers = @dbService.getPoolRoster(season, 'G', [PoolDraftStatut::SELECTED, PoolDraftStatut::EXCHANGED])
+
+    goalers.each do |playerId|
       player = @dbService.getPlayerForId(playerId)
+      stat = @dbService.getPlayerSeasonStatsGoalerForPlayerIdAndSeason(player.id, season).first
+
       statLine = [LoggerColumn.name(player.fullName)]
 
-      stat = @dbService.getPlayerSeasonStatsForPlayerIdAndSeason(player.id, season).first
-
       if stat != nil
-        totalPoints += stat.poolPoints(player.positionCode)
-        statLine.push(*stat.formattedRows(player.positionCode))
+        @totalPoints += stat.poolPoints()
+        statLine.push(*stat.formattedRows())
       end
 
       Logger.row statLine

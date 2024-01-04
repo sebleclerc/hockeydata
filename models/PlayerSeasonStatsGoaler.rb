@@ -22,6 +22,22 @@ class PlayerSeasonStatsGoaler
     return header
   end
 
+  def self.formattedHeaderRows
+    return [
+      LoggerColumn.custom("Season", Constants.seasonPadding),
+      LoggerColumn.int("GP"),
+      LoggerColumn.int("GS"),
+      LoggerColumn.int("W"),
+      LoggerColumn.int("L"),
+      LoggerColumn.int("OT"),
+      LoggerColumn.int("SO"),
+      LoggerColumn.custom("Team Name", Constants.fullNamePadding),
+      LoggerColumn.custom("League", Constants.leagueNamePadding),
+      LoggerColumn.float("Pool"),
+      LoggerColumn.float("Proj.")
+    ]
+  end
+
   def formattedString()
     formatted = season.to_s.rjust(10)
     formatted += games.show()
@@ -37,6 +53,22 @@ class PlayerSeasonStatsGoaler
     formatted += projectedPoolPoints().show()
 
     return formatted
+  end
+
+  def formattedRows()
+    return [
+      LoggerColumn.custom(season.to_s, Constants.seasonPadding),
+      LoggerColumn.int("GP", games),
+      LoggerColumn.int("GS", gamesStarted),
+      LoggerColumn.int("W", wins),
+      LoggerColumn.int("L", losses),
+      LoggerColumn.int("OT", ot),
+      LoggerColumn.int("SO", shutouts),
+      LoggerColumn.custom(teamName, Constants.fullNamePadding),
+      LoggerColumn.custom(leagueName, Constants.leagueNamePadding),
+      LoggerColumn.float("Pool", poolPoints),
+      LoggerColumn.float("Proj.", projectedPoolPoints)
+    ]
   end
 
   def poolPoints()
@@ -58,7 +90,7 @@ class PlayerSeasonStatsGoaler
     points += projectedWins()*3
     points += projectedShutouts()*3
 
-    return points
+    return points.round(2)
   end
 
   def projectedWins
