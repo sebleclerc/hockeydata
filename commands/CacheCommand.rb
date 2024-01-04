@@ -83,7 +83,15 @@ class CacheCommand < BaseCommand
 
     initTask()
 
-    @dbService.getPoolRosterForSeason(Constants.currentSeason).each do |playerId|
+    players = @dbService.getPoolRoster(
+      Constants.currentSeason,
+      [
+        PoolDraftStatut::SELECTED,
+        PoolDraftStatut::EXCHANGED,
+        PoolDraftStatut::REVOKED
+      ]
+    )
+    players.each do |playerId|
       @cacheService.cachePlayerForId(playerId, true)
     end
 

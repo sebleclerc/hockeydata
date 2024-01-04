@@ -277,31 +277,16 @@ class DatabaseService
         return stats
     end
 
-    def getPoolRosterForSeason(season,all=false)
-        roster = Array.new
-        query = "SELECT * FROM PoolDraft WHERE season = \"#{season}\""
-
-        if !all
-            query += " AND active = 1"
-        end
-
-        results = @dbClient.query(query)
-
-        results.each do |row|
-            roster.append(row["playerId"])
-        end
-
-        return roster
-    end
-
-    def getPoolRoster(season, position, statut, all=false)
+    def getPoolRoster(season, statut, position=nil, all=false)
         roster = Array.new
         query = "SELECT pd.playerId FROM PoolDraft pd, Players p WHERE pd.playerId = p.id AND season = \"#{season}\""
 
-        if position == 'G'
-            query += " AND p.positionCode = \"G\""
-        else
-            query += " AND p.positionCode != \"G\""
+        if !position.nil?
+            if position == 'G'
+                query += " AND p.positionCode = \"G\""
+            else
+                query += " AND p.positionCode != \"G\""
+            end
         end
 
         if !all

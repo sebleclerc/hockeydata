@@ -21,7 +21,7 @@ class PoolMeCommand < BaseCommand
     headers.push(*PlayerSeasonStatsGoaler.formattedHeaderRows())
     Logger.header(headers)
 
-    goalers = @dbService.getPoolRoster(season, 'G', [PoolDraftStatut::SELECTED, PoolDraftStatut::EXCHANGED])
+    goalers = @dbService.getPoolRoster(season, [PoolDraftStatut::SELECTED, PoolDraftStatut::EXCHANGED], 'G')
 
     goalers.each do |playerId|
       player = @dbService.getPlayerForId(playerId)
@@ -52,7 +52,7 @@ class PoolMeCommand < BaseCommand
     end
 
     def calculateForwards(statut)
-      forwards = @dbService.getPoolRoster(@season, 'F', statut)
+      forwards = @dbService.getPoolRoster(@season, statut, 'F')
 
       forwards.each do |playerId|
         player = @dbService.getPlayerForId(playerId)
