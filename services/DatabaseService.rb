@@ -305,7 +305,7 @@ class DatabaseService
         end
 
         if !all
-            if statut.instance_of? String
+            if statut.instance_of? Integer
                 query += " AND pd.statut = #{statut}"
             else
                 query += " AND pd.statut IN (#{statut.join(",")})"
