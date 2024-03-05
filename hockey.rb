@@ -27,6 +27,9 @@ class Hockey < Thor
 
     desc "salary", "All salary related tasks."
     subcommand "salary", SalaryCommand
+
+    desc "meta", "Merge of multiple tasks"
+    subcommand "meta", MetaCommand
 end
 
 Hockey.start(ARGV)
