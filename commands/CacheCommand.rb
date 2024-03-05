@@ -16,10 +16,17 @@ class CacheCommand < BaseCommand
 
     cacheTeamRosters()
 
-    roster = @dbService.getPoolPlayersForSeason(Constants.currentSeason)
+    players = @dbService.getPoolRoster(
+      Constants.currentSeason,
+      [
+        PoolDraftStatut::SELECTED,
+        PoolDraftStatut::EXCHANGED,
+        PoolDraftStatut::REVOKED
+      ]
+    )
 
-    roster.each do |player|
-      @cacheService.cachePlayerForId(player.id, @force)
+    players.each do |player|
+      @cacheService.cachePlayerForId(player, @force)
     end
 
     Logger.taskEnd
