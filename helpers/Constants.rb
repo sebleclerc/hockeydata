@@ -1,6 +1,6 @@
 class Constants
   # Easy access from everywhere
-  @@currentSeason = "20232024"
+  @@currentSeason = "20242025"
 
   def self.currentSeason
     return @@currentSeason
