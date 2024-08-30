@@ -3,7 +3,4 @@
 # The first argument must be the name of the sample task (e.g. echo).
 # Any remaining arguments are forwarded to the sample's argv.
 
-task=$1
-shift 1
-
 ./gradlew --quiet ":installDist" && "./build/install/hockeydata/bin/hockeydata" "$@"
