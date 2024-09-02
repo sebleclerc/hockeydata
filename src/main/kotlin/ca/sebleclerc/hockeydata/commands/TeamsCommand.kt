@@ -1,12 +1,12 @@
 package ca.sebleclerc.hockeydata.commands
 
+import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
-import ca.sebleclerc.hockeydata.services.DatabaseService
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.arguments.argument
 
-class TeamsCommand : CliktCommand(name = "teams") {
+class TeamsCommand(private val di: DI) : CliktCommand(name = "teams") {
   private val option: String by argument()
 
   override fun run() {
@@ -19,14 +19,13 @@ class TeamsCommand : CliktCommand(name = "teams") {
       LoggerColumn.Custom("P %", proportionPadding)
     )
 
-    val service = DatabaseService()
-    service.getAllTeams().forEach { team ->
-      val roster = service.getRosterForTeam(team.id)
+    di.database.getAllTeams().forEach { team ->
+      val roster = di.database.getRosterForTeam(team.id)
       val nbPlayersInRoster = roster.count()
       var nbPlayerInDB = 0
 
       roster.forEach { playerId ->
-        val player = service.getPlayerForId(playerId)
+        val player = di.database.getPlayerForId(playerId)
         if (player != null) nbPlayerInDB += 1
       }
 

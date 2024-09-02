@@ -49,6 +49,7 @@ class DatabaseService {
   }
 
   // Players
+  
   fun getPlayerForId(playerId: Int): Player? {
     val rs = statement.executeQuery("SELECT * FROM Players WHERE id = $playerId")
 
