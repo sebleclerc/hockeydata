@@ -16,10 +16,14 @@ class TeamsCommand(private val di: DI) : CliktCommand(name = "teams") {
     val steps: MutableList<CacheStep> = di.database.getAllTeams().map { CacheStep.CacheTeamRoster(it) }.toMutableList()
     steps.add(0, CacheStep.Teams())
 
+    Logger.enabled = false
+
     di.cache.cache(
       steps,
       force = false
     )
+
+    Logger.enabled = true
 
     val proportionPadding = 10
     Logger.header(

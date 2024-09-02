@@ -4,6 +4,8 @@ import com.andreapivetta.kolor.green
 import com.andreapivetta.kolor.yellow
 
 object Logger {
+  var enabled = true
+
   fun taskTitle(title: String) {
     info("")
     info("###########################################################".green())
@@ -59,6 +61,6 @@ object Logger {
   }
 
   private fun logMessage(prefix: String, text: String) {
-    println("$prefix [HD] $text")
+    if (enabled) println("$prefix [HD] $text")
   }
 }
