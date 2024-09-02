@@ -3,6 +3,7 @@ package ca.sebleclerc.hockeydata.commands
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
+import ca.sebleclerc.hockeydata.models.CacheStep
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.arguments.argument
 
@@ -11,6 +12,14 @@ class TeamsCommand(private val di: DI) : CliktCommand(name = "teams") {
 
   override fun run() {
     Logger.taskTitle("Teams with option $option")
+
+    val steps: MutableList<CacheStep> = di.database.getAllTeams().map { CacheStep.CacheTeamRoster(it) }.toMutableList()
+    steps.add(0, CacheStep.Teams())
+
+    di.cache.cache(
+      steps,
+      force = false
+    )
 
     val proportionPadding = 10
     Logger.header(
