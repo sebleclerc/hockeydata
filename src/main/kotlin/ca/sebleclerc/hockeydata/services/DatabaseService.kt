@@ -1,5 +1,7 @@
 package ca.sebleclerc.hockeydata.services
 
+import ca.sebleclerc.hockeydata.models.CacheRosterPlayer
+import ca.sebleclerc.hockeydata.models.CacheRosterSection
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.Team
 import ca.sebleclerc.hockeydata.models.fromResult
@@ -39,6 +41,20 @@ class DatabaseService {
     return teams
   }
 
+  fun clearRosters() {
+    statement.execute("TRUNCATE TABLE TeamsPlayers")
+  }
+
+  fun insertTeamRoster(team: Team, players: List<CacheRosterPlayer>) {
+    val prepareAddRoster = connection.prepareStatement("REPLACE INTO TeamsPlayers (teamId,playerId) VALUES (?,?)")
+
+    players.forEach { player ->
+      prepareAddRoster.setInt(1, team.id)
+      prepareAddRoster.setInt(2, player.id)
+      prepareAddRoster.execute()
+    }
+  }
+
   fun getRosterForTeam(teamId: Int): List<Int> {
     val players = mutableListOf<Int>()
 
@@ -49,7 +65,7 @@ class DatabaseService {
   }
 
   // Players
-  
+
   fun getPlayerForId(playerId: Int): Player? {
     val rs = statement.executeQuery("SELECT * FROM Players WHERE id = $playerId")
 
