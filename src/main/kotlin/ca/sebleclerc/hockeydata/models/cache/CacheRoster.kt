@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.models
+package ca.sebleclerc.hockeydata.models.cache
 
 import kotlinx.serialization.Serializable
 
@@ -8,9 +8,6 @@ data class CacheRoster(
   val defensemen: List<CacheRosterPlayer>,
   val goalies: List<CacheRosterPlayer>
 )
-
-@Serializable
-data class CacheRosterSection(val players: List<CacheRosterPlayer>)
 
 @Serializable
 data class CacheRosterPlayer(val id: Int)

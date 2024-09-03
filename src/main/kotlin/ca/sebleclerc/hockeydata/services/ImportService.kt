@@ -1,8 +1,9 @@
 package ca.sebleclerc.hockeydata.services
 
-import ca.sebleclerc.hockeydata.models.CacheRoster
+import ca.sebleclerc.hockeydata.helpers.Logger
+import ca.sebleclerc.hockeydata.models.cache.CacheRoster
 import ca.sebleclerc.hockeydata.models.CacheStep
-import kotlinx.serialization.Serializable
+import ca.sebleclerc.hockeydata.models.cache.CachePlayer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.jsonObject
@@ -25,6 +26,15 @@ class ImportService(private val dbService: DatabaseService) {
       dbService.insertTeamRoster(team, roster.forwards)
       dbService.insertTeamRoster(team, roster.defensemen)
       dbService.insertTeamRoster(team, roster.goalies)
+    }
+  }
+
+  fun importPlayers(steps: List<CacheStep.Player>) {
+    steps.forEach { step ->
+      Logger.info("Import player ${step.playerId}")
+      val fileContent = step.file.readText()
+      val cachePlayer = json.decodeFromString<CachePlayer>(fileContent)
+      dbService.insertPlayers(cachePlayer)
     }
   }
 

@@ -1,11 +1,12 @@
 package ca.sebleclerc.hockeydata.services
 
-import ca.sebleclerc.hockeydata.models.CacheRosterPlayer
-import ca.sebleclerc.hockeydata.models.CacheRosterSection
+import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.Team
+import ca.sebleclerc.hockeydata.models.cache.CachePlayer
 import ca.sebleclerc.hockeydata.models.fromResult
 import ca.sebleclerc.hockeydata.models.fromRow
+import kotlinx.serialization.json.JsonObject
 import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.Statement
@@ -30,6 +31,8 @@ class DatabaseService {
     statement = connection.createStatement()
   }
 
+  // Backup
+
   // Teams
 
   fun getAllTeams(): List<Team> {
@@ -39,6 +42,12 @@ class DatabaseService {
     while (rs.next()) { teams.add(Team.fromResult(rs)) }
 
     return teams
+  }
+
+  fun getTeamForId(teamId: Int): Team? {
+    val rs = statement.executeQuery("SELECT * FROM Teams where id = $teamId")
+
+    return if (rs.next()) Team.fromResult(rs) else null
   }
 
   fun clearRosters() {
@@ -66,14 +75,33 @@ class DatabaseService {
 
   // Players
 
+  fun insertPlayers(player: CachePlayer) {
+    val insertPlayer = connection.prepareStatement("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode,headshotUrl,heroImageUrl) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+    insertPlayer.setInt(1, player.playerId)
+    insertPlayer.setString(2, player.firstName.default)
+    insertPlayer.setString(3, player.lastName.default)
+    insertPlayer.setInt(4, player.sweaterNumber ?: 0)
+    insertPlayer.setInt(5, 0)
+    insertPlayer.setInt(6, 0)
+    insertPlayer.setInt(7, 0)
+    insertPlayer.setString(8, player.birthCity.default)
+    insertPlayer.setString(9, player.birthStateProvince?.default)
+    insertPlayer.setString(10, player.birthCountry)
+    insertPlayer.setInt(11, player.heightInInches)
+    insertPlayer.setInt(12, player.weightInPounds)
+    insertPlayer.setBoolean(13, player.isActive)
+    insertPlayer.setString(14, player.shootsCatches)
+    insertPlayer.setBoolean(15, false)
+    insertPlayer.setInt(16, player.currentTeamId)
+    insertPlayer.setString(17, player.position)
+    insertPlayer.setString(18, player.headshot)
+    insertPlayer.setString(19, player.heroImage)
+    insertPlayer.execute()
+  }
+
   fun getPlayerForId(playerId: Int): Player? {
     val rs = statement.executeQuery("SELECT * FROM Players WHERE id = $playerId")
 
-    return if (rs.next()) {
-      val player = Player.fromRow(rs)
-      player
-    } else {
-      null
-    }
+    return if (rs.next()) Player.fromRow(rs) else null
   }
 }
