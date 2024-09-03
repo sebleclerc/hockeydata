@@ -6,7 +6,6 @@ import ca.sebleclerc.hockeydata.models.Team
 import ca.sebleclerc.hockeydata.models.cache.CachePlayer
 import ca.sebleclerc.hockeydata.models.fromResult
 import ca.sebleclerc.hockeydata.models.fromRow
-import kotlinx.serialization.json.JsonObject
 import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.Statement
