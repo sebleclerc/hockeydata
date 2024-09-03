@@ -8,7 +8,7 @@ data class CachePlayer(
   val firstName: CachePlayerDefault,
   val lastName: CachePlayerDefault,
   val sweaterNumber: Int? = null,
-  // birthday part1,2,3
+  val birthDate: String,
   val birthCity: CachePlayerDefault? = null,
   val birthStateProvince: CachePlayerDefault? = null,
   val birthCountry: String,

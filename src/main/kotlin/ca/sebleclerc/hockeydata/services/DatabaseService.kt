@@ -1,6 +1,5 @@
 package ca.sebleclerc.hockeydata.services
 
-import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.Team
@@ -76,14 +75,19 @@ class DatabaseService {
   // Players
 
   fun insertPlayers(player: CachePlayer) {
+    val birthSections = player.birthDate.split('-')
+    val birthYear = birthSections[0].toInt()
+    val birthMonth = birthSections[1].toInt()
+    val birthDay = birthSections[2].toInt()
+
     val insertPlayer = connection.prepareStatement("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode,headshotUrl,heroImageUrl) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
     insertPlayer.setInt(1, player.playerId)
     insertPlayer.setString(2, player.firstName.default)
     insertPlayer.setString(3, player.lastName.default)
     insertPlayer.setInt(4, player.sweaterNumber ?: 0)
-    insertPlayer.setInt(5, 0)
-    insertPlayer.setInt(6, 0)
-    insertPlayer.setInt(7, 0)
+    insertPlayer.setInt(5, birthYear)
+    insertPlayer.setInt(6, birthMonth)
+    insertPlayer.setInt(7, birthDay)
     insertPlayer.setString(8, player.birthCity?.default)
     insertPlayer.setString(9, player.birthStateProvince?.default)
     insertPlayer.setString(10, player.birthCountry)
