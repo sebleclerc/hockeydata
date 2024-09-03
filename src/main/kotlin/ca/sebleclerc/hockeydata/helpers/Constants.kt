@@ -3,7 +3,7 @@
 package ca.sebleclerc.hockeydata.helpers
 
 object Constants {
-  const val jsonFolder = ""
+  const val jsonFolder = "/Users/sleclerc/Developer/hockeydata/json"
   const val currentSeason = "20242025"
 
   const val paddingAVV = 15

@@ -92,7 +92,7 @@ class DatabaseService {
     insertPlayer.setBoolean(13, player.isActive)
     insertPlayer.setString(14, player.shootsCatches)
     insertPlayer.setBoolean(15, false)
-    insertPlayer.setInt(16, player.currentTeamId)
+    insertPlayer.setObject(16, player.currentTeamId, Types.INTEGER)
     insertPlayer.setString(17, player.position)
     insertPlayer.setString(18, player.headshot)
     insertPlayer.setString(19, player.heroImage)

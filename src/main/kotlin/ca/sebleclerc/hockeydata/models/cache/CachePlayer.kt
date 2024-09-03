@@ -16,7 +16,7 @@ data class CachePlayer(
   val weightInPounds: Int,
   val isActive: Boolean,
   val shootsCatches: String,
-  val currentTeamId: Int,
+  val currentTeamId: Int? = null,
   val position: String,
   val headshot: String,
   val heroImage: String,

@@ -39,11 +39,4 @@ class ImportService(private val dbService: DatabaseService) {
       cachePlayer.seasonTotals.forEach { dbService.insertPlayerStats(step.playerId, it) }
     }
   }
-
-  private fun getCachedData(step: CacheStep): JsonObject? {
-    val fileContent = step.file.readText()
-    val jsonObject = json.parseToJsonElement(fileContent).jsonObject
-
-    return jsonObject["data"]?.jsonObject
-  }
 }
