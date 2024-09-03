@@ -34,7 +34,9 @@ class ImportService(private val dbService: DatabaseService) {
       Logger.info("Import player ${step.playerId}")
       val fileContent = step.file.readText()
       val cachePlayer = json.decodeFromString<CachePlayer>(fileContent)
+
       dbService.insertPlayers(cachePlayer)
+      cachePlayer.seasonTotals.forEach { dbService.insertPlayerStats(step.playerId, it) }
     }
   }
 

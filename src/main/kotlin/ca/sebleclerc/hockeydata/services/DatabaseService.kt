@@ -1,14 +1,17 @@
 package ca.sebleclerc.hockeydata.services
 
+import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.Team
 import ca.sebleclerc.hockeydata.models.cache.CachePlayer
+import ca.sebleclerc.hockeydata.models.cache.CachePlayerSeason
 import ca.sebleclerc.hockeydata.models.fromResult
 import ca.sebleclerc.hockeydata.models.fromRow
 import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.Statement
+import java.sql.Types
 import java.util.Properties
 
 private const val url = "jdbc:mariadb://127.0.0.1:3306/hockeydata"
@@ -29,8 +32,6 @@ class DatabaseService {
     connection = DriverManager.getConnection(url, props)
     statement = connection.createStatement()
   }
-
-  // Backup
 
   // Teams
 
@@ -83,7 +84,7 @@ class DatabaseService {
     insertPlayer.setInt(5, 0)
     insertPlayer.setInt(6, 0)
     insertPlayer.setInt(7, 0)
-    insertPlayer.setString(8, player.birthCity.default)
+    insertPlayer.setString(8, player.birthCity?.default)
     insertPlayer.setString(9, player.birthStateProvince?.default)
     insertPlayer.setString(10, player.birthCountry)
     insertPlayer.setInt(11, player.heightInInches)
@@ -102,5 +103,36 @@ class DatabaseService {
     val rs = statement.executeQuery("SELECT * FROM Players WHERE id = $playerId")
 
     return if (rs.next()) Player.fromRow(rs) else null
+  }
+
+  fun insertPlayerStats(playerId: Int, stat: CachePlayerSeason) {
+    val insertStats = connection.prepareStatement("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName,gameTypeId) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+    insertStats.setInt(1, playerId)
+    insertStats.setInt(2, stat.season)
+    insertStats.setInt(3, stat.gamesPlayed)
+    insertStats.setObject(4, stat.goals, Types.INTEGER)
+    insertStats.setObject(5, stat.assists, Types.INTEGER)
+    insertStats.setObject(6, stat.points, Types.INTEGER)
+    insertStats.setObject(7, stat.shots, Types.INTEGER)
+    insertStats.setNull(8, Types.INTEGER) // Hits
+    insertStats.setObject(9, stat.averageTotalOnIce, Types.FLOAT)
+    insertStats.setNull(10, Types.INTEGER) // Shifts
+    insertStats.setObject(11, stat.plusMinus, Types.INTEGER)
+    insertStats.setObject(12, stat.shootingPctg, Types.INTEGER)
+    insertStats.setObject(13, stat.pim, Types.INTEGER)
+    insertStats.setObject(14, stat.powerPlayGoals, Types.INTEGER)
+    insertStats.setObject(15, stat.powerPlayPoints, Types.INTEGER)
+    insertStats.setNull(16, Types.FLOAT) // PowerPlayTimeOnIce
+    insertStats.setObject(17, stat.shorthandedGoals, Types.INTEGER)
+    insertStats.setObject(18, stat.shorthandedPoints, Types.INTEGER)
+    insertStats.setNull(19, Types.FLOAT) // ShorthandedTimeOnIce
+    insertStats.setObject(20, stat.gameWinningGoals, Types.INTEGER)
+    insertStats.setObject(21, stat.otGoals, Types.INTEGER)
+    insertStats.setNull(22, Types.INTEGER) // leagueID
+    insertStats.setString(23, stat.leagueAbbrev)
+    insertStats.setNull(24, Types.INTEGER) // teamID
+    insertStats.setString(25, stat.teamName.default)
+    insertStats.setInt(26, stat.gameTypeId)
+    insertStats.execute()
   }
 }

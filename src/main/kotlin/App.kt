@@ -2,6 +2,7 @@ import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.HockeyData
 import ca.sebleclerc.hockeydata.commands.CacheCommand
 import ca.sebleclerc.hockeydata.commands.TeamsCommand
+import ca.sebleclerc.hockeydata.commands.subcommands.CachePlayerCommand
 import ca.sebleclerc.hockeydata.commands.subcommands.CacheTeamCommand
 import com.github.ajalt.clikt.core.subcommands
 
@@ -10,7 +11,8 @@ fun main(args: Array<String>) = HockeyData()
     TeamsCommand(DI),
     CacheCommand(DI)
       .subcommands(
-        CacheTeamCommand(DI)
+        CacheTeamCommand(DI),
+        CachePlayerCommand(DI)
       )
   )
   .main(args)
