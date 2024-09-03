@@ -32,7 +32,7 @@ data class CachePlayerDefault(
 data class CachePlayerSeason(
   val season: Int,
   val leagueAbbrev: String,
-  val gamesPlayed: Int,
+  val gamesPlayed: Int? = null,
   val goals: Int? = null,
   val assists: Int? = null,
   val points: Int? = null,
