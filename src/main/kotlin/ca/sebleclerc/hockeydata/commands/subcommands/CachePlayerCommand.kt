@@ -17,6 +17,7 @@ class CachePlayerCommand(di: DI) : BaseCommand(di = di, name = "player") {
   private val playerId: String by argument()
 
   override fun run() {
+    super.run()
     Logger.taskTitle("Caching player with option $playerId")
 
     if (playerId == "all") {
