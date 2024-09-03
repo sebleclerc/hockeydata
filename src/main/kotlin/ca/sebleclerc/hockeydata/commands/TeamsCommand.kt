@@ -8,10 +8,8 @@ import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.arguments.argument
 
 class TeamsCommand(private val di: DI) : CliktCommand(name = "teams") {
-  private val option: String by argument()
-
   override fun run() {
-    Logger.taskTitle("Teams with option $option")
+    Logger.taskTitle("Teams")
 
     val steps: MutableList<CacheStep> = di.database.getAllTeams().map { CacheStep.CacheTeamRoster(it) }.toMutableList()
     steps.add(0, CacheStep.Teams())
