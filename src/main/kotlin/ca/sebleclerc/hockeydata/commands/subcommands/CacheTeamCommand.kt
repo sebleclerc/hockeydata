@@ -16,12 +16,7 @@ class CacheTeamCommand(di: DI) : BaseCommand(di = di, name = "team") {
     val team = di.database.getTeamForId(teamId)
 
     if (team != null) {
-      di.cache.cache(listOf(
-        CacheStep.CacheTeamRoster(team)
-      ),
-        true
-      )
-
+      di.cache.cache(listOf(CacheStep.CacheTeamRoster(team)), true)
       di.import.importRosters()
 
       val playerIds = di.database.getRosterForTeam(teamId)
@@ -29,7 +24,9 @@ class CacheTeamCommand(di: DI) : BaseCommand(di = di, name = "team") {
       di.cache.cache(playerSteps, force ?: false)
       di.import.importPlayers(playerSteps)
     } else {
+      Logger.error("")
       Logger.error("No team found for ID $teamId")
+      Logger.error("")
     }
 
     Logger.taskEnd()
