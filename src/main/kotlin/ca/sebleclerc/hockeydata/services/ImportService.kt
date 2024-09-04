@@ -3,10 +3,10 @@ package ca.sebleclerc.hockeydata.services
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.models.cache.CacheRoster
 import ca.sebleclerc.hockeydata.models.CacheStep
+import ca.sebleclerc.hockeydata.models.cache.CacheGoalerPlayer
 import ca.sebleclerc.hockeydata.models.cache.CachePlayer
+import ca.sebleclerc.hockeydata.models.cache.CacheSkaterPlayer
 import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.JsonObject
-import kotlinx.serialization.json.jsonObject
 
 class ImportService(private val dbService: DatabaseService) {
   private val json = Json {
@@ -36,7 +36,14 @@ class ImportService(private val dbService: DatabaseService) {
       val cachePlayer = json.decodeFromString<CachePlayer>(fileContent)
 
       dbService.insertPlayers(cachePlayer)
-      cachePlayer.seasonTotals.forEach { dbService.insertPlayerStats(step.playerId, it) }
+
+      if (cachePlayer.position == "G") {
+        val goaler = json.decodeFromString<CacheGoalerPlayer>(fileContent)
+        goaler.seasonTotals.forEach { dbService.insertGoalerSeason(step.playerId, it) }
+      } else {
+        val skater = json.decodeFromString<CacheSkaterPlayer>(fileContent)
+        skater.seasonTotals.forEach { dbService.insertSkaterSeason(step.playerId, it) }
+      }
     }
   }
 }

@@ -1,10 +1,12 @@
 package ca.sebleclerc.hockeydata.services
 
+import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.Team
+import ca.sebleclerc.hockeydata.models.cache.CacheGoalerSeason
 import ca.sebleclerc.hockeydata.models.cache.CachePlayer
-import ca.sebleclerc.hockeydata.models.cache.CachePlayerSeason
+import ca.sebleclerc.hockeydata.models.cache.CacheSkaterSeason
 import ca.sebleclerc.hockeydata.models.fromResult
 import ca.sebleclerc.hockeydata.models.fromRow
 import java.sql.Connection
@@ -109,7 +111,7 @@ class DatabaseService {
     return if (rs.next()) Player.fromRow(rs) else null
   }
 
-  fun insertPlayerStats(playerId: Int, stat: CachePlayerSeason) {
+  fun insertSkaterSeason(playerId: Int, stat: CacheSkaterSeason) {
     val insertStats = connection.prepareStatement("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName,gameTypeId) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
     insertStats.setInt(1, playerId)
     insertStats.setInt(2, stat.season)
@@ -137,6 +139,26 @@ class DatabaseService {
     insertStats.setNull(24, Types.INTEGER) // teamID
     insertStats.setString(25, stat.teamName.default)
     insertStats.setInt(26, stat.gameTypeId)
+    insertStats.execute()
+  }
+
+  fun insertGoalerSeason(playerId: Int, stat: CacheGoalerSeason) {
+    val insertStats = connection.prepareStatement("REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName,gameTypeId) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+    insertStats.setInt(1, playerId)
+    insertStats.setInt(2, stat.season)
+    insertStats.setObject(3, stat.gamesPlayed, Types.INTEGER)
+    insertStats.setObject(4, stat.gamesStarted, Types.INTEGER)
+    insertStats.setObject(5, stat.otLosses, Types.INTEGER)
+    insertStats.setObject(6, stat.shutouts, Types.INTEGER)
+    insertStats.setObject(7, stat.wins, Types.INTEGER)
+    insertStats.setObject(8, stat.losses, Types.INTEGER)
+    insertStats.setObject(9, stat.averageTotalOnIce, Types.FLOAT)
+    insertStats.setObject(10, stat.savePctg, Types.FLOAT)
+    insertStats.setNull(11, Types.INTEGER)
+    insertStats.setString(12, stat.leagueAbbrev)
+    insertStats.setNull(13, Types.INTEGER) //team id
+    insertStats.setString(14, stat.teamName.default)
+    insertStats.setInt(15, stat.gameTypeId)
     insertStats.execute()
   }
 }
