@@ -111,9 +111,11 @@ class DatabaseService {
     return if (rs.next()) Player.fromRow(rs) else null
   }
 
-  fun insertSkaterSeason(playerId: Int, stat: CacheSkaterSeason) {
-    val insertStats = connection.prepareStatement("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName,gameTypeId) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
-    insertStats.setInt(1, playerId)
+  fun insertSkaterSeason(player: CachePlayer, stat: CacheSkaterSeason) {
+    val poolPoints = PoolHelper.getSkaterPoolPoint(player, stat)
+
+    val insertStats = connection.prepareStatement("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName,gameTypeId,poolPoints) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+    insertStats.setInt(1, player.playerId)
     insertStats.setInt(2, stat.season)
     insertStats.setObject(3, stat.gamesPlayed, Types.INTEGER)
     insertStats.setObject(4, stat.goals, Types.INTEGER)
@@ -139,6 +141,7 @@ class DatabaseService {
     insertStats.setNull(24, Types.INTEGER) // teamID
     insertStats.setString(25, stat.teamName.default)
     insertStats.setInt(26, stat.gameTypeId)
+    insertStats.setFloat(27, poolPoints)
     insertStats.execute()
   }
 
@@ -154,7 +157,7 @@ class DatabaseService {
     insertStats.setObject(8, stat.losses, Types.INTEGER)
     insertStats.setObject(9, stat.averageTotalOnIce, Types.FLOAT)
     insertStats.setObject(10, stat.savePctg, Types.FLOAT)
-    insertStats.setNull(11, Types.INTEGER)
+    insertStats.setNull(11, Types.INTEGER) // league ID
     insertStats.setString(12, stat.leagueAbbrev)
     insertStats.setNull(13, Types.INTEGER) //team id
     insertStats.setString(14, stat.teamName.default)

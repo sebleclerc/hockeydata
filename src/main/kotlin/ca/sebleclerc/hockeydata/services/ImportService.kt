@@ -42,7 +42,7 @@ class ImportService(private val dbService: DatabaseService) {
         goaler.seasonTotals.forEach { dbService.insertGoalerSeason(step.playerId, it) }
       } else {
         val skater = json.decodeFromString<CacheSkaterPlayer>(fileContent)
-        skater.seasonTotals.forEach { dbService.insertSkaterSeason(step.playerId, it) }
+        skater.seasonTotals.forEach { dbService.insertSkaterSeason(cachePlayer, it) }
       }
     }
   }
