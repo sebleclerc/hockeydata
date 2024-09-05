@@ -18,6 +18,9 @@ data class Player(
   val heroImageUrl: String
 ) {
   companion object
+
+  val fullName: String
+    get() { return "$firstName $lastName" }
 }
 
 // Row

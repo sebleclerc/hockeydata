@@ -1,8 +1,11 @@
 package ca.sebleclerc.hockeydata.services
 
 import ca.sebleclerc.hockeydata.helpers.Logger
+import ca.sebleclerc.hockeydata.helpers.PoolHelper
+import ca.sebleclerc.hockeydata.models.CacheStep
 import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
+import ca.sebleclerc.hockeydata.models.PlayerSkaterSeason
 import ca.sebleclerc.hockeydata.models.Team
 import ca.sebleclerc.hockeydata.models.cache.CacheGoalerSeason
 import ca.sebleclerc.hockeydata.models.cache.CachePlayer
@@ -76,6 +79,31 @@ class DatabaseService {
 
   // Players
 
+  fun getAllPlayers(onlyGoalers: Boolean? = null): List<Player> {
+    val players = mutableListOf<Player>()
+    var query = "SELECT * FROM Players"
+
+    onlyGoalers?.also {
+      query += if (it) " WHERE positionCode = 'G'" else " WHERE positionCode != 'G'"
+    }
+
+    query += " LIMIT 10"
+
+    val rs = statement.executeQuery(query)
+
+    while (rs.next()) {
+      players.add(Player.fromRow(rs))
+    }
+
+    return players
+  }
+
+  fun getPlayerForId(playerId: Int): Player? {
+    val rs = statement.executeQuery("SELECT * FROM Players WHERE id = $playerId")
+
+    return if (rs.next()) Player.fromRow(rs) else null
+  }
+
   fun insertPlayers(player: CachePlayer) {
     val birthSections = player.birthDate.split('-')
     val birthYear = birthSections[0].toInt()
@@ -105,10 +133,15 @@ class DatabaseService {
     insertPlayer.execute()
   }
 
-  fun getPlayerForId(playerId: Int): Player? {
-    val rs = statement.executeQuery("SELECT * FROM Players WHERE id = $playerId")
+  fun getSeasonsForSkaterId(playerId: Int): List<PlayerSkaterSeason> {
+    val seasons = mutableListOf<PlayerSkaterSeason>()
+    val rs = statement.executeQuery("SELECT * FROM PlayersStatsArchive WHERE leagueName = 'NHL' AND gameTypeId = 2 AND playerId = $playerId ORDER BY season DESC LIMIT 5")
 
-    return if (rs.next()) Player.fromRow(rs) else null
+    while (rs.next()) {
+      seasons.add(PlayerSkaterSeason.fromRow(rs))
+    }
+
+    return seasons
   }
 
   fun insertSkaterSeason(player: CachePlayer, stat: CacheSkaterSeason) {
