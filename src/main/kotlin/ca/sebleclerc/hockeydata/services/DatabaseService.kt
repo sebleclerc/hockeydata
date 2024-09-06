@@ -206,4 +206,12 @@ class DatabaseService {
 
     return if(rs.next()) PlayerSalarySeason.fromRow(rs) else null
   }
+
+  fun insertPlayerSalary(playerId: Int, season: Int, salary: Int) {
+    val insertSalary = connection.prepareStatement("INSERT INTO PlayersSalaries (playerId,season,avv) VALUES (?,?,?)")
+    insertSalary.setInt(1, playerId)
+    insertSalary.setInt(2, season)
+    insertSalary.setInt(3, salary)
+    insertSalary.execute()
+  }
 }
