@@ -77,8 +77,6 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
       0
     }
 
-    Logger.debug("Sanitized salary $sanitizedSalary")
-
     if (sanitizedSalary > 0) {
       di.database.insertPlayerSalary(
         playerId = player.id,
@@ -95,7 +93,7 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
 
           repeat(it) {
             val nextSeason = calculateNextSeason(currentSeason)
-            Logger.debug("Next season: $nextSeason")
+            Logger.info("Adding salary for season $nextSeason")
             di.database.insertPlayerSalary(
               playerId = player.id,
               season = nextSeason,
@@ -110,13 +108,11 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
   }
 
   private fun calculateNextSeason(current: Int) : Int {
-    Logger.debug("Next from which? $current")
     val currentStr = current.toString()
     val lastPart = currentStr.takeLast(4)
     val nextYearLast = lastPart.toInt() + 1
 
     val nextSeason = "$lastPart$nextYearLast"
-    Logger.debug("Next season $nextSeason")
     return nextSeason.toInt()
   }
 }
