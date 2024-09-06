@@ -5,6 +5,7 @@ import ca.sebleclerc.hockeydata.helpers.PoolHelper
 import ca.sebleclerc.hockeydata.models.CacheStep
 import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
+import ca.sebleclerc.hockeydata.models.PlayerSalarySeason
 import ca.sebleclerc.hockeydata.models.PlayerSkaterSeason
 import ca.sebleclerc.hockeydata.models.Team
 import ca.sebleclerc.hockeydata.models.cache.CacheGoalerSeason
@@ -196,5 +197,13 @@ class DatabaseService {
     insertStats.setString(14, stat.teamName.default)
     insertStats.setInt(15, stat.gameTypeId)
     insertStats.execute()
+  }
+
+  // Salary
+
+  fun getPlayerSeasonSalary(season: Int, playerId: Int): PlayerSalarySeason? {
+    val rs = statement.executeQuery("SELECT * FROM PlayersSalaries WHERE playerId = $playerId AND season = $season")
+
+    return if(rs.next()) PlayerSalarySeason.fromRow(rs) else null
   }
 }
