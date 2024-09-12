@@ -7,6 +7,7 @@ import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.PlayerSalarySeason
+import ca.sebleclerc.hockeydata.models.Season
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.types.int
 
@@ -64,7 +65,7 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
     Logger.taskEnd()
   }
 
-  private fun askMissingPlayerSalary(player: Player, season: Int) {
+  private fun askMissingPlayerSalary(player: Player, season: Season) {
     Logger.info("Quel est le salaire de ${player.fullName} (${player.positionCode})(${player.id}) pour $season?")
     val salary = readln()
 
@@ -92,7 +93,7 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
           var currentSeason = season
 
           repeat(it) {
-            val nextSeason = calculateNextSeason(currentSeason)
+            val nextSeason = currentSeason.next
             Logger.info("Adding salary for season $nextSeason")
             di.database.insertPlayerSalary(
               playerId = player.id,
@@ -105,15 +106,6 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
         }
       }
     }
-  }
-
-  private fun calculateNextSeason(current: Int) : Int {
-    val currentStr = current.toString()
-    val lastPart = currentStr.takeLast(4)
-    val nextYearLast = lastPart.toInt() + 1
-
-    val nextSeason = "$lastPart$nextYearLast"
-    return nextSeason.toInt()
   }
 }
 

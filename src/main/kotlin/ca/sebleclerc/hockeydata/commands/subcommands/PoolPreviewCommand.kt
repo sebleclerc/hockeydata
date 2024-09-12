@@ -57,7 +57,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
           .map {
             val pPoints = it.poolPoints
             val season = it.season
-            LoggerColumn.Custom(it.poolPoints.toString(), 7)
+            LoggerColumn.Custom("${pPoints}[${season.compact}]", 17)
           }
 //          .map { it.poolPoints }
 //          .joinToString(separator = ",")

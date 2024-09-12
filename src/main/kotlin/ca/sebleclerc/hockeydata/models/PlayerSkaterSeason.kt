@@ -3,7 +3,7 @@ package ca.sebleclerc.hockeydata.models
 import java.sql.ResultSet
 
 data class PlayerSkaterSeason(
-  val season: Int,
+  val season: Season,
   val league: String,
   val team: String,
   val games: Int,
@@ -17,7 +17,7 @@ data class PlayerSkaterSeason(
 
 fun PlayerSkaterSeason.Companion.fromRow(rs: ResultSet): PlayerSkaterSeason {
   return PlayerSkaterSeason(
-    rs.getInt("season"),
+    Season(rs.getInt("season")),
     rs.getString("leagueName"),
     rs.getString("teamName"),
     rs.getInt("games"),

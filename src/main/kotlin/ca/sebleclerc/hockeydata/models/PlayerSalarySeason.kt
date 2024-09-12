@@ -2,7 +2,7 @@ package ca.sebleclerc.hockeydata.models
 
 import java.sql.ResultSet
 
-class PlayerSalarySeason(val salary: Int, val season: Int) {
+class PlayerSalarySeason(val salary: Int, val season: Season) {
   companion object
 
   val avv: String
@@ -30,6 +30,6 @@ class PlayerSalarySeason(val salary: Int, val season: Int) {
 fun PlayerSalarySeason.Companion.fromRow(rs: ResultSet): PlayerSalarySeason {
   return PlayerSalarySeason(
     salary = rs.getInt("avv"),
-    season = rs.getInt("season")
+    season = Season(rs.getInt("season"))
   )
 }

@@ -7,6 +7,7 @@ import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.PlayerSalarySeason
 import ca.sebleclerc.hockeydata.models.PlayerSkaterSeason
+import ca.sebleclerc.hockeydata.models.Season
 import ca.sebleclerc.hockeydata.models.Team
 import ca.sebleclerc.hockeydata.models.cache.CacheGoalerSeason
 import ca.sebleclerc.hockeydata.models.cache.CachePlayer
@@ -201,16 +202,16 @@ class DatabaseService {
 
   // Salary
 
-  fun getPlayerSeasonSalary(season: Int, playerId: Int): PlayerSalarySeason? {
-    val rs = statement.executeQuery("SELECT * FROM PlayersSalaries WHERE playerId = $playerId AND season = $season")
+  fun getPlayerSeasonSalary(season: Season, playerId: Int): PlayerSalarySeason? {
+    val rs = statement.executeQuery("SELECT * FROM PlayersSalaries WHERE playerId = $playerId AND season = ${season.intValue}")
 
     return if(rs.next()) PlayerSalarySeason.fromRow(rs) else null
   }
 
-  fun insertPlayerSalary(playerId: Int, season: Int, salary: Int) {
+  fun insertPlayerSalary(playerId: Int, season: Season, salary: Int) {
     val insertSalary = connection.prepareStatement("INSERT INTO PlayersSalaries (playerId,season,avv) VALUES (?,?,?)")
     insertSalary.setInt(1, playerId)
-    insertSalary.setInt(2, season)
+    insertSalary.setInt(2, season.intValue)
     insertSalary.setInt(3, salary)
     insertSalary.execute()
   }
