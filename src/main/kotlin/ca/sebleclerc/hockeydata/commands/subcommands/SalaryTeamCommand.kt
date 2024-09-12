@@ -35,18 +35,17 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
       salaries[playerId.toString()] = PlayerSeasonSalary(player, salary)
     }
 
-    val padding = 15
     Logger.header(
       LoggerColumn.ID(),
       LoggerColumn.Name(),
-      LoggerColumn.Custom("Salary", padding)
+      LoggerColumn.Salary()
     )
 
     salaries.forEach {
       Logger.row(
         LoggerColumn.ID(it.value.player?.id ?: 0),
         LoggerColumn.Name(it.value.player?.fullName ?: ""),
-        LoggerColumn.Custom(it.value.salary?.avv ?: "", padding)
+        LoggerColumn.Salary(it.value.salary?.avv ?: "")
       )
     }
 
