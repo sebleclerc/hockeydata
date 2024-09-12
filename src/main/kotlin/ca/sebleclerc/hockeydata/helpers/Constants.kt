@@ -12,5 +12,6 @@ object Constants {
   const val paddingInt = 5
   const val paddingLeagueName = 10
   const val paddingName = 30
+  const val paddingPosition = 5
   const val paddingSeason = 10
 }
