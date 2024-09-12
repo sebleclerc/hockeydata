@@ -17,7 +17,6 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     Logger.taskTitle("Pool Preview")
 
     val averagePadding = 12
-    val historyPadding = 10
 
     Logger.header(
       LoggerColumn.ID(),
@@ -28,38 +27,31 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
       LoggerColumn.Custom("History", 10)
     )
 
-    val players = mutableListOf<Triple<PoolSkaterPlayer, PlayerSalarySeason?, Double>>()
+    val players = mutableListOf<PoolSkaterPlayer>()
 
     di.database.getAllPlayers(false).forEach { player ->
       val seasons = di.database.getSeasonsForSkaterId(player.id)
       val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
 
-      players.add(
-        Triple(
-          PoolSkaterPlayer(player, seasons),
-          salary,
-          seasons.map { it.poolPoints }.average()
-        )
-      )
+      players.add(PoolSkaterPlayer(player, seasons, salary))
     }
 
     players
-      .filter { it.third > 30 }
-      .sortedByDescending { it.third }
+      .filter { it.averagePoints > 30 }
+      .sortedByDescending { it.averagePoints }
       .forEach { element ->
         val rows = mutableListOf(
-          LoggerColumn.ID(element.first.player.id),
-          LoggerColumn.Name(element.first.player.fullName),
-          LoggerColumn.Position(element.first.player.positionCode),
-          LoggerColumn.Salary(element.second?.avv ?: "N/A"),
+          LoggerColumn.ID(element.player.id),
+          LoggerColumn.Name(element.player.fullName),
+          LoggerColumn.Position(element.player.positionCode),
+          LoggerColumn.Salary(element.salary?.avv ?: "N/A"),
           LoggerColumn.Custom(
-            BigDecimal(element.third)
+            BigDecimal(element.averagePoints)
               .setScale(2, RoundingMode.HALF_EVEN)
               .toString(),
             padding = averagePadding),
         )
         val history = element
-          .first
           .seasons
           .map {
             val pPoints = it.poolPoints
