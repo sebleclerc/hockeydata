@@ -7,7 +7,8 @@ import java.math.RoundingMode
 class PoolSkaterPlayer(
   val player: Player,
   val seasons: List<PlayerSkaterSeason>,
-  val salary: PlayerSalarySeason?
+  val salary: PlayerSalarySeason?,
+  val team: Team?
 ) {
   val averagePoints = seasons.map { it.poolPoints }.average()
   val averageGames = seasons.map { it.games }.average()

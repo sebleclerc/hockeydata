@@ -26,6 +26,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
       LoggerColumn.ID(),
       LoggerColumn.Name(),
       LoggerColumn.Position(),
+      LoggerColumn.Team(),
       LoggerColumn.Salary(),
       LoggerColumn.Custom("Average", averagePadding),
       LoggerColumn.Custom("V. Last", valuePadding),
@@ -38,8 +39,9 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     di.database.getAllPlayers(false).forEach { player ->
       val seasons = di.database.getSeasonsForSkaterId(player.id)
       val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
+      val team = di.database.getTeamForId(player.teamId)
 
-      players.add(PoolSkaterPlayer(player, seasons, salary))
+      players.add(PoolSkaterPlayer(player, seasons, salary, team))
     }
 
     players
@@ -51,6 +53,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
           LoggerColumn.ID(element.player.id),
           LoggerColumn.Name(element.player.fullName),
           LoggerColumn.Position(element.player.positionCode),
+          LoggerColumn.Team(element.team?.abbreviation ?: "N/A"),
           LoggerColumn.Salary(element.salary?.avv ?: "N/A"),
           LoggerColumn.Custom(
             BigDecimal(element.averagePoints)
