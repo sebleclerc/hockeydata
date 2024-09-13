@@ -5,12 +5,15 @@ import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
-import ca.sebleclerc.hockeydata.models.PlayerSalarySeason
 import ca.sebleclerc.hockeydata.models.PoolSkaterPlayer
+import com.github.ajalt.clikt.parameters.options.flag
+import com.github.ajalt.clikt.parameters.options.option
 import java.math.BigDecimal
 import java.math.RoundingMode
 
 class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
+  private val sortValue by option("--sortValue").flag()
+
   override fun run() {
     super.run()
 
@@ -41,7 +44,8 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
 
     players
       .filter { it.averagePoints > 30 }
-      .sortedByDescending { it.averagePoints }
+      .sortedWith(compareBy { if (sortValue) it.poolValue else it.averagePoints })
+      .reversed()
       .forEach { element ->
         val rows = mutableListOf(
           LoggerColumn.ID(element.player.id),
