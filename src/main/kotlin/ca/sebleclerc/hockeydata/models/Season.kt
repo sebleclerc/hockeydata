@@ -26,4 +26,11 @@ class Season(private val value: Int) {
       val nextSeason = "$lastPart$nextYearLast"
       return Season(nextSeason.toInt())
     }
+
+  override fun equals(other: Any?): Boolean {
+    if (this === other) return true
+    if (other !is Season) return false
+
+    return this.value == other.value
+  }
 }

@@ -17,6 +17,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     Logger.taskTitle("Pool Preview")
 
     val averagePadding = 12
+    val valuePadding = 12
 
     Logger.header(
       LoggerColumn.ID(),
@@ -24,6 +25,8 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
       LoggerColumn.Position(),
       LoggerColumn.Salary(),
       LoggerColumn.Custom("Average", averagePadding),
+      LoggerColumn.Custom("V. Last", valuePadding),
+      LoggerColumn.Custom("V. Avg.", valuePadding),
       LoggerColumn.Custom("History", 10)
     )
 
@@ -50,6 +53,8 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
               .setScale(2, RoundingMode.HALF_EVEN)
               .toString(),
             padding = averagePadding),
+          LoggerColumn.Custom(element.poolValue, valuePadding),
+          LoggerColumn.Custom(element.averagePoolValue, valuePadding)
         )
         val history = element
           .seasons
