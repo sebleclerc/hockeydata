@@ -5,7 +5,6 @@ import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.models.CacheStep
 import com.github.ajalt.clikt.core.CliktCommand
-import com.github.ajalt.clikt.parameters.arguments.argument
 
 class TeamsCommand(private val di: DI) : CliktCommand(name = "teams") {
   override fun run() {
