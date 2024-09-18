@@ -88,9 +88,7 @@ class DatabaseService {
     onlyGoalers?.also {
       query += if (it) " WHERE positionCode = 'G'" else " WHERE positionCode != 'G'"
     }
-
-    query += " LIMIT 10"
-
+    
     val rs = statement.executeQuery(query)
 
     while (rs.next()) {
