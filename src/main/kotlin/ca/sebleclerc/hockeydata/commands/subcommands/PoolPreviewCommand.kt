@@ -5,6 +5,7 @@ import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
+import ca.sebleclerc.hockeydata.models.PoolDraftStatut
 import ca.sebleclerc.hockeydata.models.PoolSkaterPlayer
 import com.github.ajalt.clikt.parameters.options.flag
 import com.github.ajalt.clikt.parameters.options.option
@@ -19,6 +20,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
 
     Logger.taskTitle("Pool Preview")
 
+    val statuses = di.database.getAllPoolDraftStatuses()
     val averagePadding = 12
     val valuePadding = 12
 
@@ -37,6 +39,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     val players = mutableListOf<PoolSkaterPlayer>()
 
     di.database.getAllPlayers(false).forEach { player ->
+      if (statuses[player.id] != PoolDraftStatut.AVAILABLE) else return@forEach
       val seasons = di.database.getSeasonsForSkaterId(player.id)
       val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
       val team = di.database.getTeamForId(player.teamId)

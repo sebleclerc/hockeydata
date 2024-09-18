@@ -1,12 +1,12 @@
 package ca.sebleclerc.hockeydata.services
 
-import ca.sebleclerc.hockeydata.helpers.Logger
+import ca.sebleclerc.hockeydata.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.PoolHelper
-import ca.sebleclerc.hockeydata.models.CacheStep
 import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.PlayerSalarySeason
 import ca.sebleclerc.hockeydata.models.PlayerSkaterSeason
+import ca.sebleclerc.hockeydata.models.PoolDraftStatut
 import ca.sebleclerc.hockeydata.models.Season
 import ca.sebleclerc.hockeydata.models.Team
 import ca.sebleclerc.hockeydata.models.cache.CacheGoalerSeason
@@ -214,5 +214,22 @@ class DatabaseService {
     insertSalary.setInt(2, season.intValue)
     insertSalary.setInt(3, salary)
     insertSalary.execute()
+  }
+
+  // Pool
+
+  fun getAllPoolDraftStatuses(): Map<Int, PoolDraftStatut> {
+    val statuses = mutableMapOf<Int, PoolDraftStatut>()
+
+    val rs = statement.executeQuery("SELECT * FROM PoolDraft WHERE season = ${Constants.currentSeason.intValue}")
+
+    while (rs.next()) {
+      val playerId = rs.getInt("playerId")
+      val statutId = rs.getInt("statut")
+      val status = PoolDraftStatut.values().firstOrNull { it.value == statutId } ?: PoolDraftStatut.AVAILABLE
+      statuses[playerId] = status
+    }
+
+    return statuses
   }
 }
