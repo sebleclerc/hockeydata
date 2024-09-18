@@ -65,7 +65,7 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
   }
 
   private fun askMissingPlayerSalary(player: Player, season: Season) {
-    Logger.info("Quel est le salaire de ${player.fullName} (${player.positionCode})(${player.id}) pour $season?")
+    Logger.info("Quel est le salaire de ${player.lastName}, ${player.firstName} (${player.positionCode})(${player.id}) pour $season?")
     val salary = readln()
 
     val sanitizedSalary = if (salary.isNotEmpty()) {
