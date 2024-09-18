@@ -22,9 +22,14 @@ class SalaryAllCommand(di: DI) : BaseCommand(di, name = "all") {
       LoggerColumn.Custom("P %", customPadding)
     )
 
+    var totalPlayers = 0
+    var totalInDbPlayers = 0
+
     di.database.getAllTeams().forEach { team ->
       val roster = di.database.getRosterForTeam(team.id)
       val nbPlayersInRoster = roster.count()
+      totalPlayers += roster.count()
+
       var nbPlayerInDB = 0
 
       roster.forEach { playerId ->
@@ -32,6 +37,7 @@ class SalaryAllCommand(di: DI) : BaseCommand(di, name = "all") {
         if (salary != null) nbPlayerInDB += 1
       }
 
+      totalInDbPlayers += nbPlayerInDB
       val proportion = "$nbPlayerInDB / $nbPlayersInRoster"
 
       Logger.row(
@@ -40,6 +46,9 @@ class SalaryAllCommand(di: DI) : BaseCommand(di, name = "all") {
         LoggerColumn.Custom(proportion, customPadding)
       )
     }
+
+    Logger.info("")
+    Logger.info("Total players proportion: $totalInDbPlayers / $totalPlayers")
 
     Logger.taskEnd()
   }
