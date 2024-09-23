@@ -22,6 +22,14 @@ object Logger {
     info("")
   }
 
+  fun completed() {
+    info("")
+    info("      #")
+    info("  #  #")
+    info("   ##")
+    info("")
+  }
+
   fun header(vararg headers: LoggerColumn) {
     var header = ""
 

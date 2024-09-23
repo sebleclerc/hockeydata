@@ -230,4 +230,15 @@ class DatabaseService {
 
     return statuses
   }
+
+  fun updatePlayerForPool(playerId: Int, statut: PoolDraftStatut) {
+    val insertPoolDraft = connection.prepareStatement("REPLACE INTO PoolDraft (playerId,season,statut,dateChanged,poolPointsChanged) VALUES (?,?,?,?,?)")
+    insertPoolDraft.setInt(1, playerId)
+    insertPoolDraft.setInt(2, Constants.currentSeason.intValue)
+    insertPoolDraft.setInt(3, statut.value)
+    insertPoolDraft.setNull(4, Types.DATE)
+    insertPoolDraft.setNull(5, Types.FLOAT)
+
+    insertPoolDraft.execute()
+  }
 }
