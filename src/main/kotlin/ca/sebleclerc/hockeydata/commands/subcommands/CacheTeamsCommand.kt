@@ -9,9 +9,17 @@ class CacheTeamsCommand(di: DI) : BaseCommand(di = di, name = "teams") {
   override fun run() {
     Logger.taskTitle("Cache Teams rosters")
 
-    val steps = di.database.getAllTeams().map { CacheStep.CacheTeamRoster(it) }
+    val teams = di.database.getAllTeams()
+    val steps = teams.map { CacheStep.CacheTeamRoster(it) }
     di.cache.cache(steps, force ?: false)
     di.import.importRosters()
+
+    teams.forEach { team ->
+      val roster = di.database.getRosterForTeam(team.id)
+      val playerSteps = roster.map { CacheStep.Player(it) }
+      di.cache.cache(playerSteps, false)
+      di.import.importPlayers(playerSteps)
+    }
 
     Logger.taskEnd()
   }
