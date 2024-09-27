@@ -1,6 +1,7 @@
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.HockeyData
 import ca.sebleclerc.hockeydata.commands.CacheCommand
+import ca.sebleclerc.hockeydata.commands.PlayerCommand
 import ca.sebleclerc.hockeydata.commands.PoolCommand
 import ca.sebleclerc.hockeydata.commands.SalaryCommand
 import ca.sebleclerc.hockeydata.commands.TeamsCommand
@@ -29,6 +30,7 @@ fun main(args: Array<String>) = HockeyData()
       .subcommands(
         SalaryTeamCommand(DI),
         SalaryAllCommand(DI)
-      )
+      ),
+    PlayerCommand(DI)
   )
   .main(args)

@@ -133,9 +133,20 @@ class DatabaseService {
     insertPlayer.execute()
   }
 
-  fun getSeasonsForSkaterId(playerId: Int): List<PlayerSkaterSeason> {
+  fun getLastSeasonsForSkaterId(playerId: Int): List<PlayerSkaterSeason> {
     val seasons = mutableListOf<PlayerSkaterSeason>()
     val rs = statement.executeQuery("SELECT * FROM PlayersStatsArchive WHERE leagueName = 'NHL' AND gameTypeId = 2 AND playerId = $playerId ORDER BY season DESC LIMIT 5")
+
+    while (rs.next()) {
+      seasons.add(PlayerSkaterSeason.fromRow(rs))
+    }
+
+    return seasons
+  }
+
+  fun getAllSeasonsForSkaterId(playerId: Int): List<PlayerSkaterSeason> {
+    val seasons = mutableListOf<PlayerSkaterSeason>()
+    val rs = statement.executeQuery("SELECT * FROM PlayersStatsArchive WHERE gameTypeId = 2 AND playerId = $playerId ORDER BY season")
 
     while (rs.next()) {
       seasons.add(PlayerSkaterSeason.fromRow(rs))

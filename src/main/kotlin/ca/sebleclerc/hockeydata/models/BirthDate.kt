@@ -11,6 +11,9 @@ data class BirthDate(
   val country: String
 ) {
   companion object
+
+  val display: String
+    get() = "$year-$month-$day"
 }
 
 // From ResultSet

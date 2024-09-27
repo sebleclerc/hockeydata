@@ -40,7 +40,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
 
     di.database.getAllPlayers(false).forEach { player ->
       if (statuses[player.id] != PoolDraftStatut.AVAILABLE) else return@forEach
-      val seasons = di.database.getSeasonsForSkaterId(player.id)
+      val seasons = di.database.getLastSeasonsForSkaterId(player.id)
       val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
       val team = di.database.getTeamForId(player.teamId)
 
