@@ -8,8 +8,13 @@ import okhttp3.Request
 class CacheService(private val import: ImportService) {
   private val apiClient = OkHttpClient()
 
-  fun cache(steps: List<CacheStep>, force: Boolean) {
-    steps.forEach { cacheStep(it, force) }
+  fun cache(steps: List<CacheStep>, force: Boolean, showProgress: Boolean = false) {
+    steps.forEach {
+      cacheStep(it, force)
+      if (showProgress) {
+        Logger.step()
+      }
+    }
 
     import.importRosters()
   }
