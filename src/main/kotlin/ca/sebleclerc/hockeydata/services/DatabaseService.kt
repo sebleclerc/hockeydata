@@ -98,6 +98,23 @@ class DatabaseService {
     return players
   }
 
+  fun getPlayersForTeam(teamId: Int): List<Player> {
+    val players = mutableListOf<Player>()
+    var query = "SELECT * FROM Players p, TeamsPlayers tp WHERE p.id = tp.playerId AND tp.teamId = $teamId"
+
+//    onlyGoalers?.also {
+//      query += if (it) " WHERE positionCode = 'G'" else " WHERE positionCode != 'G'"
+//    }
+
+    val rs = statement.executeQuery(query)
+
+    while (rs.next()) {
+      players.add(Player.fromRow(rs))
+    }
+
+    return players
+  }
+
   fun getPlayerForId(playerId: Int): Player? {
     val rs = statement.executeQuery("SELECT * FROM Players WHERE id = $playerId")
 

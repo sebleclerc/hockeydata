@@ -9,11 +9,13 @@ import ca.sebleclerc.hockeydata.models.PoolDraftStatut
 import ca.sebleclerc.hockeydata.models.PoolSkaterPlayer
 import com.github.ajalt.clikt.parameters.options.flag
 import com.github.ajalt.clikt.parameters.options.option
+import com.github.ajalt.clikt.parameters.types.int
 import java.math.BigDecimal
 import java.math.RoundingMode
 
 class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
   private val sortValue by option("--sortValue").flag()
+  private val teamId by option("-t", "--team").int()
 
   override fun run() {
     super.run()
@@ -37,8 +39,13 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     )
 
     val players = mutableListOf<PoolSkaterPlayer>()
+    val dbPlayers = if (teamId != null) {
+      di.database.getPlayersForTeam(teamId!!)
+    } else {
+      di.database.getAllPlayers(false)
+    }
 
-    di.database.getAllPlayers(false).forEach { player ->
+    dbPlayers.forEach { player ->
       if (statuses[player.id] != PoolDraftStatut.AVAILABLE) else return@forEach
       val seasons = di.database.getLastSeasonsForSkaterId(player.id)
       val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
@@ -48,7 +55,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     }
 
     players
-      .filter { it.averagePoints > 30 }
+      .filter { if (teamId != null) it.averagePoints > -1 else it.averagePoints > 30 }
       .sortedWith(compareBy { if (sortValue) it.poolValue else it.averagePoints })
       .reversed()
       .forEach { element ->
