@@ -29,7 +29,7 @@ class CachePlayerCommand(di: DI) : BaseCommand(di = di, name = "player") {
   private fun cachePlayerWithId(playerId: Int) {
     val step = CacheStep.Player(playerId)
 
-    di.cache.cache(listOf(step), force ?: false)
+    di.cache.cache(listOf(step), true)
     di.import.importPlayers(listOf(step))
   }
 
