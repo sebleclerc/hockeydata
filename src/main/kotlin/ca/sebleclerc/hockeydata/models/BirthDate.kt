@@ -8,7 +8,7 @@ data class BirthDate(
   val day: Int,
   val city: String?,
   val province: String?,
-  val country: String
+  val country: String?
 ) {
   companion object
 

@@ -11,7 +11,7 @@ data class CachePlayer(
   val birthDate: String,
   val birthCity: CacheDefault? = null,
   val birthStateProvince: CacheDefault? = null,
-  val birthCountry: String,
+  val birthCountry: String? = null,
   val heightInInches: Int,
   val weightInPounds: Int,
   val isActive: Boolean,
