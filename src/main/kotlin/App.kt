@@ -6,6 +6,7 @@ import ca.sebleclerc.hockeydata.commands.PoolCommand
 import ca.sebleclerc.hockeydata.commands.SalaryCommand
 import ca.sebleclerc.hockeydata.commands.TeamsCommand
 import ca.sebleclerc.hockeydata.commands.subcommands.CachePlayerCommand
+import ca.sebleclerc.hockeydata.commands.subcommands.CacheTeamCommand
 import ca.sebleclerc.hockeydata.commands.subcommands.CacheTeamsCommand
 import ca.sebleclerc.hockeydata.commands.subcommands.PoolPreviewCommand
 import ca.sebleclerc.hockeydata.commands.subcommands.PoolTakenCommand
@@ -18,6 +19,7 @@ fun main(args: Array<String>) = HockeyData()
     TeamsCommand(DI),
     CacheCommand(DI)
       .subcommands(
+        CacheTeamCommand(DI),
         CacheTeamsCommand(DI),
         CachePlayerCommand(DI)
       ),
