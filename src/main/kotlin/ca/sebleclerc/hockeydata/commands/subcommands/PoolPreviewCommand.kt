@@ -46,16 +46,24 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     }
 
     dbPlayers.forEach { player ->
-      if (statuses[player.id] != PoolDraftStatut.AVAILABLE) else return@forEach
-      val seasons = di.database.getLastSeasonsForSkaterId(player.id)
-      val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
-      val team = di.database.getTeamForId(player.teamId)
+      val status = statuses[player.id]
+      if (status == null) {
+        val seasons = di.database.getLastSeasonsForSkaterId(player.id)
+        val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
+        val team = di.database.getTeamForId(player.teamId)
 
-      players.add(PoolSkaterPlayer(player, seasons, salary, team))
+        players.add(PoolSkaterPlayer(player, seasons, salary, team))
+      } else if (status == PoolDraftStatut.AVAILABLE) {
+        val seasons = di.database.getLastSeasonsForSkaterId(player.id)
+        val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
+        val team = di.database.getTeamForId(player.teamId)
+
+        players.add(PoolSkaterPlayer(player, seasons, salary, team))
+      }
     }
 
     players
-      .filter { if (teamId != null) it.averagePoints > -1 else it.averagePoints > 30 }
+      .filter { if (teamId != null) it.averagePoints > -1 else it.averagePoints > 20 }
       .sortedWith(compareBy { if (sortValue) it.poolValue else it.averagePoints })
       .reversed()
       .forEach { element ->
