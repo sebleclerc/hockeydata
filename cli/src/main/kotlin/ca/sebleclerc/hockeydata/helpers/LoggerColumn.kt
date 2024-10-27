@@ -17,4 +17,5 @@ sealed class LoggerColumn(val title: String, val padding: Int) {
   class Goals(value: Int? = null) : LoggerColumn(value?.toString() ?: "G", Constants.paddingInt)
   class Assists(value: Int? = null) : LoggerColumn(value?.toString() ?: "A", Constants.paddingInt)
   class Points(value: Int? = null) : LoggerColumn(value?.toString() ?: "Pts", Constants.paddingInt)
+  class PoolPts(value: Float? = null) : LoggerColumn(value?.toString() ?: "Pool", Constants.paddingFloat)
 }

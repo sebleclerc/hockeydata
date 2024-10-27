@@ -53,7 +53,10 @@ class DatabaseService {
   fun getTeamForId(teamId: Int): Team? {
     val rs = statement.executeQuery("SELECT * FROM Teams where id = $teamId")
 
-    return if (rs.next()) Team.fromResult(rs) else null
+    val player = if (rs.next()) Team.fromResult(rs) else null
+
+    rs.close()
+    return player
   }
 
   fun clearRosters() {
@@ -121,6 +124,22 @@ class DatabaseService {
     return if (rs.next()) Player.fromRow(rs) else null
   }
 
+  fun getPoolMePlayers(): List<Player> {
+    val players = mutableListOf<Player>()
+    val query = "SELECT pd.playerId FROM PoolDraft pd, Players p WHERE pd.playerId = p.id AND statut = 1 AND season = ${Constants.currentSeason.intValue}"
+
+    val playerIds = mutableListOf<Int>()
+    val rs = statement.executeQuery(query)
+    while (rs.next()) { playerIds.add(rs.getInt("playerId")) }
+    rs.close()
+
+    playerIds.forEach { playerId ->
+      getPlayerForId(playerId)?.also { players.add(it) }
+    }
+
+    return players
+  }
+
   fun insertPlayers(player: CachePlayer) {
     val birthSections = player.birthDate.split('-')
     val birthYear = birthSections[0].toInt()
@@ -148,6 +167,11 @@ class DatabaseService {
     insertPlayer.setString(18, player.headshot)
     insertPlayer.setString(19, player.heroImage)
     insertPlayer.execute()
+  }
+
+  fun getSingleSeasonForSkateId(playerId: Int, season: Season): PlayerSkaterSeason? {
+    val rs = statement.executeQuery("SELECT * FROM PlayersStatsArchive WHERE leagueName = 'NHL' AND gameTypeId = 2 AND playerId = $playerId AND season = ${season.intValue}")
+    return if (rs.next()) PlayerSkaterSeason.fromRow(rs) else null
   }
 
   fun getLastSeasonsForSkaterId(playerId: Int): List<PlayerSkaterSeason> {
