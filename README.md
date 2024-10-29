@@ -3,6 +3,9 @@
 To update all rosters + add missing players:  
 `./run.sh cache teams && mysqldump hockeydata > assets/database.sql`
 
+Pour mettre à jour TOUS les joueurs:  
+`./run.sh cache player all && mysqldump hockeydata > assets/database.sql`
+
 Pour avoir une idée de l'année en cours:  
 `./run.sh pool me`
 

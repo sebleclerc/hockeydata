@@ -34,11 +34,17 @@ class CachePlayerCommand(di: DI) : BaseCommand(di = di, name = "player") {
   }
 
   private fun cacheAllPlayers() {
-    Path(Constants.jsonFolder).listDirectoryEntries("*-player.json").forEach {
+    Logger.enabled = false
+
+    val players = Path(Constants.jsonFolder).listDirectoryEntries("*-player.json")
+
+    Logger.startProgress("Players", players.count().toFloat())
+    players.forEach {
       val playerId = it.name.split("-")[0].toInt()
       Logger.info("Caching player $playerId from ${it.name}")
 
       cachePlayerWithId(playerId)
+      Logger.step()
     }
 
   }
