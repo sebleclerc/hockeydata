@@ -5,6 +5,7 @@ import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
+import ca.sebleclerc.hockeydata.models.PlayerSkaterSeason
 import ca.sebleclerc.hockeydata.models.PoolDraftStatut
 import ca.sebleclerc.hockeydata.models.PoolSkaterPlayer
 import com.github.ajalt.clikt.parameters.options.flag
@@ -14,6 +15,7 @@ import java.math.BigDecimal
 import java.math.RoundingMode
 
 class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
+  private val current: Boolean? by option("-c", "--current").flag()
   private val sortValue by option("--sortValue").flag()
   private val teamId by option("-t", "--team").int()
 
@@ -23,20 +25,32 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     Logger.taskTitle("Pool Preview")
 
     val statuses = di.database.getAllPoolDraftStatuses()
-    val averagePadding = 12
-    val valuePadding = 12
+    val averagePadding = 10
+    val valuePadding = 10
+    val currentPadding = 7
 
-    Logger.header(
+    val headers = mutableListOf(
       LoggerColumn.ID(),
       LoggerColumn.Name(),
       LoggerColumn.Position(),
       LoggerColumn.Team(),
-      LoggerColumn.Salary(),
-      LoggerColumn.Custom("Average", averagePadding),
-      LoggerColumn.Custom("V. Last", valuePadding),
-      LoggerColumn.Custom("V. Avg.", valuePadding),
-      LoggerColumn.Custom("History", 10)
+      LoggerColumn.Salary()
     )
+
+    if (current == true) {
+      headers.add(LoggerColumn.Custom("Cur.", padding = currentPadding))
+    }
+
+    headers.addAll(
+      listOf(
+        LoggerColumn.Custom("Average", averagePadding),
+        LoggerColumn.Custom("V. Last", valuePadding),
+        LoggerColumn.Custom("V. Avg.", valuePadding),
+        LoggerColumn.Custom("History", 10)
+      )
+    )
+
+    Logger.header(*headers.toTypedArray())
 
     val players = mutableListOf<PoolSkaterPlayer>()
     val dbPlayers = if (teamId != null) {
@@ -47,24 +61,27 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
 
     dbPlayers.forEach { player ->
       val status = statuses[player.id]
-      if (status == null) {
+      if (status == null || status == PoolDraftStatut.AVAILABLE) {
         val seasons = di.database.getLastSeasonsForSkaterId(player.id)
         val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
         val team = di.database.getTeamForId(player.teamId)
+        val current = if (current == true) di.database.getSingleSeasonForSkateId(player.id, Constants.currentSeason) else null
 
-        players.add(PoolSkaterPlayer(player, seasons, salary, team))
-      } else if (status == PoolDraftStatut.AVAILABLE) {
-        val seasons = di.database.getLastSeasonsForSkaterId(player.id)
-        val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
-        val team = di.database.getTeamForId(player.teamId)
-
-        players.add(PoolSkaterPlayer(player, seasons, salary, team))
+        players.add(PoolSkaterPlayer(player, seasons, salary, team, current))
       }
     }
 
     players
       .filter { if (teamId != null) it.averagePoints > -1 else it.averagePoints > 20 }
-      .sortedWith(compareBy { if (sortValue) it.poolValue else it.averagePoints })
+      .sortedWith(compareBy {
+        if (current == true) {
+          it.current?.poolPoints?.toDouble()
+        } else if (sortValue) {
+          it.poolValue
+        } else {
+          it.averagePoints
+        }
+      })
       .reversed()
       .forEach { element ->
         val rows = mutableListOf(
@@ -73,6 +90,18 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
           LoggerColumn.Position(element.player.positionCode),
           LoggerColumn.Team(element.team?.abbreviation ?: "N/A"),
           LoggerColumn.Salary(element.salary?.avv ?: "N/A"),
+        )
+
+        if (current == true) {
+          rows.add(
+            LoggerColumn.Custom(
+              (element.current?.poolPoints ?: 0F).toString(),
+              padding = currentPadding
+            )
+          )
+        }
+
+        rows.addAll(listOf(
           LoggerColumn.Custom(
             BigDecimal(element.averagePoints)
               .setScale(2, RoundingMode.HALF_EVEN)
@@ -80,13 +109,13 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
             padding = averagePadding),
           LoggerColumn.Custom(element.poolValue, valuePadding),
           LoggerColumn.Custom(element.averagePoolValue, valuePadding)
-        )
+        ))
         val history = element
           .seasons
           .map {
             val pPoints = it.poolPoints
             val season = it.season
-            LoggerColumn.Custom("${pPoints}[${season.compact}]", 17)
+            LoggerColumn.Custom("${pPoints}[${season.compact}]", 14)
           }
         rows.addAll(history)
 

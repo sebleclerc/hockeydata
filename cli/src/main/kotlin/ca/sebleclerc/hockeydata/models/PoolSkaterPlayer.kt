@@ -8,7 +8,8 @@ class PoolSkaterPlayer(
   val player: Player,
   val seasons: List<PlayerSkaterSeason>,
   val salary: PlayerSalarySeason?,
-  val team: Team?
+  val team: Team?,
+  val current: PlayerSkaterSeason?
 ) {
   val averagePoints = seasons.map { it.poolPoints }.average()
   val averageGames = seasons.map { it.games }.average()
