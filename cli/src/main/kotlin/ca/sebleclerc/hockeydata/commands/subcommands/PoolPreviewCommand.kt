@@ -5,7 +5,6 @@ import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
-import ca.sebleclerc.hockeydata.models.PlayerSkaterSeason
 import ca.sebleclerc.hockeydata.models.PoolDraftStatut
 import ca.sebleclerc.hockeydata.models.PoolSkaterPlayer
 import com.github.ajalt.clikt.parameters.options.flag
@@ -18,6 +17,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
   private val current: Boolean? by option("-c", "--current").flag()
   private val sortValue by option("--sortValue").flag()
   private val teamId by option("-t", "--team").int()
+  private val name by option("-n", "--name")
 
   override fun run() {
     super.run()
@@ -72,7 +72,15 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
     }
 
     players
-      .filter { if (teamId != null) it.averagePoints > -1 else it.averagePoints > 20 }
+      .filter {
+        if (name != null) {
+          it.player.fullName.contains(name!!)
+        } else if (teamId != null) {
+          it.averagePoints > -1
+        } else {
+          it.averagePoints > -1
+        }
+      }
       .sortedWith(compareBy {
         if (current == true) {
           it.current?.poolPoints?.toDouble()
