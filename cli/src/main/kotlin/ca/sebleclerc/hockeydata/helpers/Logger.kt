@@ -16,6 +16,12 @@ object Logger {
     info("")
   }
 
+  fun taskSubtitle(subtitle: String) {
+    info(subtitle.green())
+    info("##############################".green())
+    info("")
+  }
+
   fun taskEnd() {
     info("")
     info("")
