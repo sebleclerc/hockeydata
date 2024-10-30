@@ -37,9 +37,9 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
       LoggerColumn.Salary()
     )
 
-    if (current == true) {
+//    if (current == true) {
       headers.add(LoggerColumn.Custom("Cur.", padding = currentPadding))
-    }
+//    }
 
     headers.addAll(
       listOf(
@@ -65,7 +65,8 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
         val seasons = di.database.getLastSeasonsForSkaterId(player.id)
         val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
         val team = di.database.getTeamForId(player.teamId)
-        val current = if (current == true) di.database.getSingleSeasonForSkateId(player.id, Constants.currentSeason) else null
+        val current = di.database.getSingleSeasonForSkateId(player.id, Constants.currentSeason)
+//        val current = if (current == true) di.database.getSingleSeasonForSkateId(player.id, Constants.currentSeason) else null
 
         players.add(PoolSkaterPlayer(player, seasons, salary, team, current))
       }
@@ -100,14 +101,14 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
           LoggerColumn.Salary(element.salary?.avv ?: "N/A"),
         )
 
-        if (current == true) {
+//        if (current == true) {
           rows.add(
             LoggerColumn.Custom(
               (element.current?.poolPoints ?: 0F).toString(),
               padding = currentPadding
             )
           )
-        }
+//        }
 
         rows.addAll(listOf(
           LoggerColumn.Custom(
