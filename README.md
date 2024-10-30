@@ -9,6 +9,35 @@ Pour mettre à jour TOUS les joueurs:
 Pour avoir une idée de l'année en cours:  
 `./run.sh pool me`
 
+Questions salaire...  
+`./run.sh salary all`  
+`./run.sh salary team XX`
+
+Et pour demander le salaire des joueurs manquants, on ajoute `--force`
+
+Pool  
+Pour enlever un joueur:  
+`./run.sh pool taken XXXX`
+
+Pour trouver tous les joueurs sélectionnés:
+```
+SELECT id, firstName, lastName, statut
+FROM Players p 
+RIGHT JOIN PoolDraft pd
+ON p.id = pd.playerId
+WHERE season = 20242025
+AND statut != 1
+ORDER BY lastName
+```
+
+Pour mettre à jour un joueur:
+```
+UPDATE PoolDraft
+SET statut = 0
+WHERE playerId = XXX
+AND season = 20242025
+```
+
 ## More informations
 For a list of informations, we can visit: 
 https://gitlab.com/dword4/nhlapi/-/blob/master/stats-api.md
