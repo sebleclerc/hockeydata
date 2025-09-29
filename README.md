@@ -25,7 +25,7 @@ SELECT id, firstName, lastName, statut
 FROM Players p 
 RIGHT JOIN PoolDraft pd
 ON p.id = pd.playerId
-WHERE season = 20242025
+WHERE season = 20252026
 AND statut != 1
 ORDER BY lastName
 ```
@@ -35,7 +35,7 @@ Pour mettre à jour un joueur:
 UPDATE PoolDraft
 SET statut = 0
 WHERE playerId = XXX
-AND season = 20242025
+AND season = 20252026
 ```
 
 ## More informations

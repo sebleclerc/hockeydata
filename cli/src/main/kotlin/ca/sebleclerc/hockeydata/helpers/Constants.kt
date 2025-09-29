@@ -6,7 +6,7 @@ import ca.sebleclerc.hockeydata.models.Season
 
 object Constants {
   const val jsonFolder = "/Users/sleclerc/Developer/hockeydata/json"
-  val currentSeason = Season(20242025)
+  val currentSeason = Season(20252026)
 
   const val paddingAVV = 15
   const val paddingFloat = 10
