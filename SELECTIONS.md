@@ -1,6 +1,10 @@
 # Voici un historique des sélections de pool au cours des années
+## 2025-2026
+### Current (TBD 2025-10-05)
+
 ## 2024-2025
 ### Current
+Nothing 🤷🏻‍♂️
 
 ### Old
 ## 2023-2024
