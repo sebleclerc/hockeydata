@@ -1,32 +1,42 @@
 # HockeyData
-## Players
-List of players in pool's draft
+## Easy tasks
+To update all rosters + add missing players:  
+`./run.sh cache teams && mysqldump hockeydata > assets/database.sql`
 
-### 2023-2024
-- 8478402, # Connor McDavid
-- 8473419, # Brad Marchand
-- 8474564, # Steven Stamkos
-- 8479343, # Clayton Keller
-- 8476539, # Jonathan Marchesseault
-- 8478864, # Kirill Kaprizov
-- 8484144, # Connor Bedard
-- 8482117, # Lukas Reichel
-- 8477451, # Ryan Hartman
-- 8481093, # RHP
-- 8482745, # Mason McTavish
-- 8479410, # Sergachev
-- 8474590, # John Carlson
-- 8483460, # David Jiricek
-- 8483495, # Simon Nemec
-=> Missing Drouin, Guhle et Gustafsson
+Pour mettre à jour TOUS les joueurs:  
+`./run.sh cache player all && mysqldump hockeydata > assets/database.sql`
 
-#### Old
+Pour avoir une idée de l'année en cours:  
+`./run.sh pool me`
 
-- 8482803, # Olen Zellweger
-- 8482730, # Brandt Clark
-- 8483524, # Share Wright
+Questions salaire...  
+`./run.sh salary all`  
+`./run.sh salary team XX`
 
-## Teams
+Et pour demander le salaire des joueurs manquants, on ajoute `--force`
+
+Pool  
+Pour enlever un joueur:  
+`./run.sh pool taken XXXX`
+
+Pour trouver tous les joueurs sélectionnés:
+```
+SELECT id, firstName, lastName, statut
+FROM Players p 
+RIGHT JOIN PoolDraft pd
+ON p.id = pd.playerId
+WHERE season = 20252026
+AND statut != 1
+ORDER BY lastName
+```
+
+Pour mettre à jour un joueur:
+```
+UPDATE PoolDraft
+SET statut = 0
+WHERE playerId = XXX
+AND season = 20252026
+```
 
 ## More informations
 For a list of informations, we can visit: 
@@ -38,21 +48,21 @@ https://medium.com/@vtashlikovich/nhl-api-what-data-is-exposed-and-how-to-analys
 ## Pool
 ### Règles
 
-Masse salariale à respecter (83,5M)
-7 échanges + 1 pour un gardien  
+9 échanges  
 Attaquants : Buts = 2pts, passe = 1 pts  
 Défenseurs : But = 3 pts, passe = 1.5pts  
-Gardien : Victoire = 3 pts, blanchissages = 3 pts, passe = 2 pts, but = 5 pts, fusillade = 1 pts pour défaite 2 pour victoire
+Gardien : Victoire = 3 pts, blanchissages = 3 pts, passe = 2 pts, but = 5 pts, fusillade = 1 pts pour défaite 2 pour victoire  
+Un échange pour un joueur LTIR ne compte pas.
+
+## Requête de vérification
+SELECT id, firstName, lastName, psa.season, poolPoints, avv, poolPoints/(avv/10000) as Value FROM Players p, PlayersStatsArchive psa, PlayersSalaries sal WHERE p.id = psa.playerId AND p.id = sal.playerId AND psa.season = sal.season AND psa.leagueName = "NHL" ORDER BY Value DESC
 
 ## Roadmap
-### LocalService
-Add a `force` flag to force fetching from API
-
 Importer le roster des differentes annees
 
-Outil pour importer le salary
+Outil pour importer le salaire
 
-Trouver l'evolution d'un joueur
+Trouver l'évolution d'un joueur
 Comparer les statistiques
 dans la AHL, ECHL, CHL
 et autres
