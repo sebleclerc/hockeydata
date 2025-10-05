@@ -18,6 +18,7 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
   private val sortValue by option("--sortValue").flag()
   private val teamId by option("-t", "--team").int()
   private val name by option("-n", "--name")
+  private val minimal by option("-m", "--minimal").flag()
 
   override fun run() {
     super.run()
@@ -78,6 +79,8 @@ class PoolPreviewCommand(di: DI) : BaseCommand(di, name = "preview") {
           it.player.fullName.contains(name!!)
         } else if (teamId != null) {
           it.averagePoints > -1
+        } else if (minimal) {
+          it.averagePoints > 20
         } else {
           it.averagePoints > -1
         }
