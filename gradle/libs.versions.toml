@@ -2,12 +2,12 @@
 androidx-lifecycle = "2.8.0"
 compose-plugin = "1.6.11"
 junit = "4.13.2"
-kotlin = "2.0.20"
+kotlin = "2.2.20"
 kotlinx-coroutines = "1.8.1"
-kotlinx-serialization = "1.7.2"
+kotlinx-serialization = "1.9.0"
 
 click = "4.4.0"
-maria-db = "3.4.1"
+maria-db = "3.5.6"
 slf4j = "2.0.16"
 
 okhttp = "4.12.0"
