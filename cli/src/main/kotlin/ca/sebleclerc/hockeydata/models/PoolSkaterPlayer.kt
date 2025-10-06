@@ -1,6 +1,5 @@
 package ca.sebleclerc.hockeydata.models
 
-import ca.sebleclerc.hockeydata.helpers.Logger
 import java.math.BigDecimal
 import java.math.RoundingMode
 
@@ -16,7 +15,7 @@ class PoolSkaterPlayer(
 
   val poolValue: String
     get() {
-      val lastSeason = Season(20232024)
+      val lastSeason = Season(20242025)
       val lastSeasonPoints = seasons.firstOrNull { it.season == lastSeason }
       if (lastSeasonPoints != null) else return ""
       if (salary != null) else return ""
