@@ -8,6 +8,11 @@ slf4j = "2.0.16"
 
 okhttp = "4.12.0"
 
+androidx-lifecycle = "2.9.4"
+composeHotReload = "1.0.0-beta07"
+composeMultiplatform = "1.9.0"
+kotlinx-coroutines = "1.10.2"
+
 
 [libraries]
 clikt = { group = "com.github.ajalt.clikt", name = "clikt", version.ref = "click"}
@@ -16,5 +21,12 @@ maria-db = { group = "org.mariadb.jdbc", name ="mariadb-java-client", version.re
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 slf4j = { group = "org.slf4j", name = "slf4j-simple", version.ref = "slf4j" }
 
+androidx-lifecycle-viewmodelCompose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-runtimeCompose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
+kotlinx-coroutinesSwing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
+
 [plugins]
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+compose-hotReload = { id = "org.jetbrains.compose.hot-reload", version.ref = "composeHotReload" }
+compose-multiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

@@ -5,3 +5,6 @@ plugins {
 rootProject.name = "hockeydata"
 
 include("cli")
+
+include("shared-ui")
+include("desktop")
