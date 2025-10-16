@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.models
+package ca.sebleclerc.hockeydata.domain
 
 enum class PoolDraftStatut(
   val value: Int,

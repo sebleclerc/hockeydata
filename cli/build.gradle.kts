@@ -8,13 +8,16 @@ group = "ca.sebleclerc"
 version = "1.0-SNAPSHOT"
 
 dependencies {
-    implementation(libs.clikt)
+  implementation(project(":core"))
+  implementation(project(":domain"))
 
-    implementation(libs.maria.db)
-    implementation(libs.slf4j)
+  implementation(libs.clikt)
 
-    implementation(libs.okhttp)
-    implementation(libs.kotlinx.serialization)
+  implementation(libs.maria.db)
+  implementation(libs.slf4j)
+
+  implementation(libs.okhttp)
+  implementation(libs.kotlinx.serialization)
 
     testImplementation(kotlin("test"))
 }

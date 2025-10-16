@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.models
+package ca.sebleclerc.hockeydata.domain
 
 class Season(
   private val value: Int,

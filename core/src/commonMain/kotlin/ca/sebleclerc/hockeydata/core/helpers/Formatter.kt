@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.helpers
+package ca.sebleclerc.hockeydata.core.helpers
 
 object Formatter {
   fun intToSalary(salary: Int): String {

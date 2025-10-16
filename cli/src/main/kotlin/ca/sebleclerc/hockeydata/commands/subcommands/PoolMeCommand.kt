@@ -2,12 +2,12 @@ package ca.sebleclerc.hockeydata.commands.subcommands
 
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
+import ca.sebleclerc.hockeydata.core.helpers.Formatter
+import ca.sebleclerc.hockeydata.domain.Player
 import ca.sebleclerc.hockeydata.helpers.Constants
-import ca.sebleclerc.hockeydata.helpers.Formatter
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.models.CacheStep
-import ca.sebleclerc.hockeydata.models.Player
 
 class PoolMeCommand(
   di: DI,

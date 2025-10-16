@@ -1,6 +1,6 @@
-package ca.sebleclerc.hockeydata.models
+package ca.sebleclerc.hockeydata.domain
 
-import ca.sebleclerc.hockeydata.helpers.Formatter
+import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import java.sql.ResultSet
 
 class PlayerSalarySeason(

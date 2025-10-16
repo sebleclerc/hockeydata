@@ -1,7 +1,7 @@
 package ca.sebleclerc.hockeydata.helpers
 
-import ca.sebleclerc.hockeydata.models.Player
-import ca.sebleclerc.hockeydata.models.PlayerSkaterSeason
+import ca.sebleclerc.hockeydata.domain.Player
+import ca.sebleclerc.hockeydata.domain.PlayerSkaterSeason
 import ca.sebleclerc.hockeydata.models.cache.CachePlayer
 import ca.sebleclerc.hockeydata.models.cache.CacheSkaterSeason
 

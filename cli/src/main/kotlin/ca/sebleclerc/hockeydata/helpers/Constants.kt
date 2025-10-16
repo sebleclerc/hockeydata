@@ -2,7 +2,7 @@
 
 package ca.sebleclerc.hockeydata.helpers
 
-import ca.sebleclerc.hockeydata.models.Season
+import ca.sebleclerc.hockeydata.domain.Season
 
 object Constants {
   val currentSeason = Season(20252026)

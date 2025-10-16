@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.models
+package ca.sebleclerc.hockeydata.domain
 
 import java.math.BigDecimal
 import java.math.RoundingMode
