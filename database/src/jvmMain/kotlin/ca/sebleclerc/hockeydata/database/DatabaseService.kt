@@ -1,25 +1,24 @@
-package ca.sebleclerc.hockeydata.services
+package ca.sebleclerc.hockeydata.database
 
-import ca.sebleclerc.hockeydata.domain.Player
-import ca.sebleclerc.hockeydata.helpers.Constants
-import ca.sebleclerc.hockeydata.helpers.PoolHelper
-import ca.sebleclerc.hockeydata.domain.PlayerSalarySeason
-import ca.sebleclerc.hockeydata.domain.PlayerSkaterSeason
-import ca.sebleclerc.hockeydata.domain.PoolDraftStatut
-import ca.sebleclerc.hockeydata.domain.Season
-import ca.sebleclerc.hockeydata.domain.Team
-import ca.sebleclerc.hockeydata.models.cache.CacheGoalerSeason
-import ca.sebleclerc.hockeydata.models.cache.CachePlayer
-import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
-import ca.sebleclerc.hockeydata.models.cache.CacheSkaterSeason
-import ca.sebleclerc.hockeydata.domain.fromRow
-import fromResult
-import fromRow
+import ca.sebleclerc.hockeydata.core.cache.CacheGoalerSeason
+import ca.sebleclerc.hockeydata.core.cache.CachePlayer
+import ca.sebleclerc.hockeydata.core.cache.CacheRosterPlayer
+import ca.sebleclerc.hockeydata.core.cache.CacheSkaterSeason
+import ca.sebleclerc.hockeydata.core.domain.Player
+import ca.sebleclerc.hockeydata.core.domain.PlayerSalarySeason
+import ca.sebleclerc.hockeydata.core.domain.PlayerSkaterSeason
+import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
+import ca.sebleclerc.hockeydata.core.domain.Season
+import ca.sebleclerc.hockeydata.core.domain.Team
+import ca.sebleclerc.hockeydata.core.domain.fromRow
+import ca.sebleclerc.hockeydata.core.helpers.Constants
+import ca.sebleclerc.hockeydata.core.helpers.PoolHelper
 import java.sql.Connection
 import java.sql.DriverManager
 import java.sql.Statement
 import java.sql.Types
 import java.util.Properties
+import kotlin.collections.forEach
 
 class DatabaseService {
   private val connection: Connection
@@ -29,8 +28,8 @@ class DatabaseService {
     Class.forName("org.mariadb.jdbc.Driver")
 
     val props = Properties()
-    props.setProperty("user", Constants.DB_USERNAME)
-    props.setProperty("password", Constants.DB_PASSWORD)
+    props.setProperty("user", Constants.DB_USER)
+    props.setProperty("password", Constants.DB_PWD)
 
     connection = DriverManager.getConnection(Constants.DB_URL, props)
     statement = connection.createStatement()
@@ -188,7 +187,7 @@ class DatabaseService {
       statement.executeQuery(
         "SELECT * FROM PlayersStatsArchive WHERE leagueName = 'NHL' AND gameTypeId = 2 AND playerId = $playerId AND season = ${season.intValue}",
       )
-    return if (rs.next()) PlayerSkaterSeason.fromRow(rs) else null
+    return if (rs.next()) PlayerSkaterSeason.Companion.fromRow(rs) else null
   }
 
   fun getLastSeasonsForSkaterId(playerId: Int): List<PlayerSkaterSeason> {
@@ -199,7 +198,7 @@ class DatabaseService {
       )
 
     while (rs.next()) {
-      seasons.add(PlayerSkaterSeason.fromRow(rs))
+      seasons.add(PlayerSkaterSeason.Companion.fromRow(rs))
     }
 
     return seasons
@@ -210,7 +209,7 @@ class DatabaseService {
     val rs = statement.executeQuery("SELECT * FROM PlayersStatsArchive WHERE gameTypeId = 2 AND playerId = $playerId ORDER BY season")
 
     while (rs.next()) {
-      seasons.add(PlayerSkaterSeason.fromRow(rs))
+      seasons.add(PlayerSkaterSeason.Companion.fromRow(rs))
     }
 
     return seasons

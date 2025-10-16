@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.domain
+package ca.sebleclerc.hockeydata.core.domain
 
 data class Player(
   val id: Int,

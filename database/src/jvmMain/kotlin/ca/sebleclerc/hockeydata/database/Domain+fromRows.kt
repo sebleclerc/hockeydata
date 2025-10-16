@@ -1,10 +1,12 @@
 @file:Suppress("ktlint:standard:filename")
 
-import ca.sebleclerc.hockeydata.domain.BirthDate
-import ca.sebleclerc.hockeydata.domain.Player
-import ca.sebleclerc.hockeydata.domain.PlayerSkaterSeason
-import ca.sebleclerc.hockeydata.domain.Season
-import ca.sebleclerc.hockeydata.domain.Team
+package ca.sebleclerc.hockeydata.database
+
+import ca.sebleclerc.hockeydata.core.domain.BirthDate
+import ca.sebleclerc.hockeydata.core.domain.Player
+import ca.sebleclerc.hockeydata.core.domain.PlayerSkaterSeason
+import ca.sebleclerc.hockeydata.core.domain.Season
+import ca.sebleclerc.hockeydata.core.domain.Team
 import java.sql.ResultSet
 
 // region BirthDate

@@ -1,5 +1,7 @@
 package ca.sebleclerc.hockeydata.helpers
 
+import ca.sebleclerc.hockeydata.core.helpers.Constants
+
 sealed class LoggerColumn(
   val title: String,
   val padding: Int,

@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.models.cache
+package ca.sebleclerc.hockeydata.core.cache
 
 import kotlinx.serialization.Serializable
 

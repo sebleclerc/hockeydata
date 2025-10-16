@@ -9,12 +9,9 @@ version = "1.0-SNAPSHOT"
 
 dependencies {
   implementation(project(":core"))
-  implementation(project(":domain"))
+  implementation(project(":database"))
 
   implementation(libs.clikt)
-
-  implementation(libs.maria.db)
-  implementation(libs.slf4j)
 
   implementation(libs.okhttp)
   implementation(libs.kotlinx.serialization)

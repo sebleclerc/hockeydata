@@ -1,6 +1,6 @@
 package ca.sebleclerc.hockeydata.models
 
-import ca.sebleclerc.hockeydata.domain.Team
+import ca.sebleclerc.hockeydata.core.domain.Team
 import java.io.File
 
 sealed class CacheStep(

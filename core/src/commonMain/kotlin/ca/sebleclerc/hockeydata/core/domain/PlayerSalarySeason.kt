@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.domain
+package ca.sebleclerc.hockeydata.core.domain
 
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import java.sql.ResultSet

@@ -1,9 +1,9 @@
-package ca.sebleclerc.hockeydata.helpers
+package ca.sebleclerc.hockeydata.core.helpers
 
-import ca.sebleclerc.hockeydata.domain.Player
-import ca.sebleclerc.hockeydata.domain.PlayerSkaterSeason
-import ca.sebleclerc.hockeydata.models.cache.CachePlayer
-import ca.sebleclerc.hockeydata.models.cache.CacheSkaterSeason
+import ca.sebleclerc.hockeydata.core.cache.CachePlayer
+import ca.sebleclerc.hockeydata.core.cache.CacheSkaterSeason
+import ca.sebleclerc.hockeydata.core.domain.Player
+import ca.sebleclerc.hockeydata.core.domain.PlayerSkaterSeason
 
 object PoolHelper {
   fun getSkaterPoolPoint(

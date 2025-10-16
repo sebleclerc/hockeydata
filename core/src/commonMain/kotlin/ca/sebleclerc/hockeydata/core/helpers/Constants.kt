@@ -1,16 +1,13 @@
-@file:Suppress("ConstPropertyName")
+package ca.sebleclerc.hockeydata.core.helpers
 
-package ca.sebleclerc.hockeydata.helpers
-
-import ca.sebleclerc.hockeydata.domain.Season
+import ca.sebleclerc.hockeydata.core.domain.Season
 
 object Constants {
   val currentSeason = Season(20252026)
 
-  // Database
   const val DB_URL = "jdbc:mariadb://127.0.0.1:3306/hockeydata"
-  const val DB_USERNAME = "sleclerc"
-  const val DB_PASSWORD = "sleclerc"
+  const val DB_USER = "sleclerc"
+  const val DB_PWD = "sleclerc"
 
   // Export
   const val jsonFolder = "/Users/sleclerc/Developer/hockeydata/json"

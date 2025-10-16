@@ -1,7 +1,7 @@
 package ca.sebleclerc.hockeydata.commands
 
 import ca.sebleclerc.hockeydata.DI
-import ca.sebleclerc.hockeydata.helpers.Constants
+import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 import com.github.ajalt.clikt.parameters.arguments.argument

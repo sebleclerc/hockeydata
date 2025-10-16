@@ -5,7 +5,8 @@ plugins {
 rootProject.name = "hockeydata"
 
 include("core")
-include("domain")
+
+include("database")
 
 include("cli")
 

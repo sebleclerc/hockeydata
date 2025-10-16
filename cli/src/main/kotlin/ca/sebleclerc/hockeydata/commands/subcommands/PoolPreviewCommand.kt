@@ -2,11 +2,11 @@ package ca.sebleclerc.hockeydata.commands.subcommands
 
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
-import ca.sebleclerc.hockeydata.helpers.Constants
+import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
-import ca.sebleclerc.hockeydata.domain.PoolDraftStatut
-import ca.sebleclerc.hockeydata.domain.PoolSkaterPlayer
+import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
+import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import com.github.ajalt.clikt.parameters.options.flag
 import com.github.ajalt.clikt.parameters.options.option
 import com.github.ajalt.clikt.parameters.types.int
