@@ -5,10 +5,16 @@ import ca.sebleclerc.hockeydata.models.CacheStep
 import okhttp3.OkHttpClient
 import okhttp3.Request
 
-class CacheService(private val import: ImportService) {
+class CacheService(
+  private val import: ImportService,
+) {
   private val apiClient = OkHttpClient()
 
-  fun cache(steps: List<CacheStep>, force: Boolean, showProgress: Boolean = false) {
+  fun cache(
+    steps: List<CacheStep>,
+    force: Boolean,
+    showProgress: Boolean = false,
+  ) {
     steps.forEach {
       cacheStep(it, force)
       if (showProgress) {
@@ -19,12 +25,18 @@ class CacheService(private val import: ImportService) {
     import.importRosters()
   }
 
-  private fun cacheStep(step: CacheStep, force: Boolean) {
+  private fun cacheStep(
+    step: CacheStep,
+    force: Boolean,
+  ) {
     deleteCacheIfNeeded(step, force)
     checkCacheAndSave(step)
   }
 
-  private fun deleteCacheIfNeeded(step: CacheStep, force: Boolean) {
+  private fun deleteCacheIfNeeded(
+    step: CacheStep,
+    force: Boolean,
+  ) {
     if (force && step.file.exists()) {
       Logger.info("Deleting file at path.")
       step.file.delete()
@@ -37,10 +49,11 @@ class CacheService(private val import: ImportService) {
     } else {
       Logger.warning("Calling NHL's API")
       Logger.info(step.apiPath)
-      val request = Request
-        .Builder()
-        .url(step.apiPath)
-        .build()
+      val request =
+        Request
+          .Builder()
+          .url(step.apiPath)
+          .build()
 
       val response = apiClient.newCall(request).execute()
       val body = response.body?.string() ?: ""

@@ -8,7 +8,7 @@ data class BirthDate(
   val day: Int,
   val city: String?,
   val province: String?,
-  val country: String?
+  val country: String?,
 ) {
   companion object
 
@@ -17,8 +17,8 @@ data class BirthDate(
 }
 
 // From ResultSet
-fun BirthDate.Companion.fromRow(rs: ResultSet): BirthDate {
-  return BirthDate(
+fun BirthDate.Companion.fromRow(rs: ResultSet): BirthDate =
+  BirthDate(
     rs.getInt("birthYear"),
     rs.getInt("birthMonth"),
     rs.getInt("birthDay"),
@@ -26,4 +26,3 @@ fun BirthDate.Companion.fromRow(rs: ResultSet): BirthDate {
     rs.getString("birthProvince"),
     rs.getString("birthCountry"),
   )
-}

@@ -2,7 +2,6 @@ package ca.sebleclerc.hockeydata.services
 
 import ca.sebleclerc.hockeydata.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.PoolHelper
-import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.Player
 import ca.sebleclerc.hockeydata.models.PlayerSalarySeason
 import ca.sebleclerc.hockeydata.models.PlayerSkaterSeason
@@ -11,6 +10,7 @@ import ca.sebleclerc.hockeydata.models.Season
 import ca.sebleclerc.hockeydata.models.Team
 import ca.sebleclerc.hockeydata.models.cache.CacheGoalerSeason
 import ca.sebleclerc.hockeydata.models.cache.CachePlayer
+import ca.sebleclerc.hockeydata.models.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.models.cache.CacheSkaterSeason
 import ca.sebleclerc.hockeydata.models.fromResult
 import ca.sebleclerc.hockeydata.models.fromRow
@@ -20,10 +20,6 @@ import java.sql.Statement
 import java.sql.Types
 import java.util.Properties
 
-private const val url = "jdbc:mariadb://127.0.0.1:3306/hockeydata"
-private const val username = "sleclerc"
-private const val password = "sleclerc"
-
 class DatabaseService {
   private val connection: Connection
   private val statement: Statement
@@ -32,10 +28,10 @@ class DatabaseService {
     Class.forName("org.mariadb.jdbc.Driver")
 
     val props = Properties()
-    props.setProperty("user", username)
-    props.setProperty("password", password)
+    props.setProperty("user", Constants.DB_USERNAME)
+    props.setProperty("password", Constants.DB_PASSWORD)
 
-    connection = DriverManager.getConnection(url, props)
+    connection = DriverManager.getConnection(Constants.DB_URL, props)
     statement = connection.createStatement()
   }
 
@@ -45,7 +41,9 @@ class DatabaseService {
     val teams = mutableListOf<Team>()
 
     val rs = statement.executeQuery("SELECT * FROM Teams")
-    while (rs.next()) { teams.add(Team.fromResult(rs)) }
+    while (rs.next()) {
+      teams.add(Team.fromResult(rs))
+    }
 
     return teams
   }
@@ -63,7 +61,10 @@ class DatabaseService {
     statement.execute("TRUNCATE TABLE TeamsPlayers")
   }
 
-  fun insertTeamRoster(team: Team, players: List<CacheRosterPlayer>) {
+  fun insertTeamRoster(
+    team: Team,
+    players: List<CacheRosterPlayer>,
+  ) {
     val prepareAddRoster = connection.prepareStatement("REPLACE INTO TeamsPlayers (teamId,playerId) VALUES (?,?)")
 
     players.forEach { player ->
@@ -77,7 +78,9 @@ class DatabaseService {
     val players = mutableListOf<Int>()
 
     val rs = statement.executeQuery("SELECT * FROM TeamsPlayers WHERE teamId = $teamId")
-    while (rs.next()) { players.add(rs.getInt("playerId")) }
+    while (rs.next()) {
+      players.add(rs.getInt("playerId"))
+    }
 
     return players
   }
@@ -91,7 +94,7 @@ class DatabaseService {
     onlyGoalers?.also {
       query += if (it) " WHERE positionCode = 'G'" else " WHERE positionCode != 'G'"
     }
-    
+
     val rs = statement.executeQuery(query)
 
     while (rs.next()) {
@@ -126,11 +129,15 @@ class DatabaseService {
 
   fun getPoolMePlayers(): List<Player> {
     val players = mutableListOf<Player>()
+
+    @Suppress("ktlint:standard:max-line-length")
     val query = "SELECT pd.playerId FROM PoolDraft pd, Players p WHERE pd.playerId = p.id AND statut = 1 AND season = ${Constants.currentSeason.intValue}"
 
     val playerIds = mutableListOf<Int>()
     val rs = statement.executeQuery(query)
-    while (rs.next()) { playerIds.add(rs.getInt("playerId")) }
+    while (rs.next()) {
+      playerIds.add(rs.getInt("playerId"))
+    }
     rs.close()
 
     playerIds.forEach { playerId ->
@@ -146,7 +153,10 @@ class DatabaseService {
     val birthMonth = birthSections[1].toInt()
     val birthDay = birthSections[2].toInt()
 
-    val insertPlayer = connection.prepareStatement("REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode,headshotUrl,heroImageUrl) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+    val insertPlayer =
+      connection.prepareStatement(
+        "REPLACE INTO Players (id,firstName,lastName,primaryNumber,birthYear,birthMonth,birthDay,birthCity,birthProvince,birthCountry,height,weight,active,shoot,rookie,teamId,positionCode,headshotUrl,heroImageUrl) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+      )
     insertPlayer.setInt(1, player.playerId)
     insertPlayer.setString(2, player.firstName.default)
     insertPlayer.setString(3, player.lastName.default)
@@ -169,14 +179,23 @@ class DatabaseService {
     insertPlayer.execute()
   }
 
-  fun getSingleSeasonForSkateId(playerId: Int, season: Season): PlayerSkaterSeason? {
-    val rs = statement.executeQuery("SELECT * FROM PlayersStatsArchive WHERE leagueName = 'NHL' AND gameTypeId = 2 AND playerId = $playerId AND season = ${season.intValue}")
+  fun getSingleSeasonForSkateId(
+    playerId: Int,
+    season: Season,
+  ): PlayerSkaterSeason? {
+    val rs =
+      statement.executeQuery(
+        "SELECT * FROM PlayersStatsArchive WHERE leagueName = 'NHL' AND gameTypeId = 2 AND playerId = $playerId AND season = ${season.intValue}",
+      )
     return if (rs.next()) PlayerSkaterSeason.fromRow(rs) else null
   }
 
   fun getLastSeasonsForSkaterId(playerId: Int): List<PlayerSkaterSeason> {
     val seasons = mutableListOf<PlayerSkaterSeason>()
-    val rs = statement.executeQuery("SELECT * FROM PlayersStatsArchive WHERE leagueName = 'NHL' AND gameTypeId = 2 AND season != ${Constants.currentSeason.intValue} AND playerId = $playerId ORDER BY season DESC LIMIT 5")
+    val rs =
+      statement.executeQuery(
+        "SELECT * FROM PlayersStatsArchive WHERE leagueName = 'NHL' AND gameTypeId = 2 AND season != ${Constants.currentSeason.intValue} AND playerId = $playerId ORDER BY season DESC LIMIT 5",
+      )
 
     while (rs.next()) {
       seasons.add(PlayerSkaterSeason.fromRow(rs))
@@ -196,10 +215,16 @@ class DatabaseService {
     return seasons
   }
 
-  fun insertSkaterSeason(player: CachePlayer, stat: CacheSkaterSeason) {
+  fun insertSkaterSeason(
+    player: CachePlayer,
+    stat: CacheSkaterSeason,
+  ) {
     val poolPoints = PoolHelper.getSkaterPoolPoint(player, stat)
 
-    val insertStats = connection.prepareStatement("REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName,gameTypeId,poolPoints) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+    val insertStats =
+      connection.prepareStatement(
+        "REPLACE INTO PlayersStatsArchive (playerId,season,games,goals,assists,points,shots,hits,timeOnIce,shifts,plusMinus,shotPct,penaltyMinutes,powerPlayGoals,powerPlayPoints,powerPlayTimeOnIce,shortHandedGoals,shortHandedPoints,shortHandedTimeOnIce,gameWinningGoals,overTimeGoals,leagueId,leagueName,teamId,teamName,gameTypeId,poolPoints) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+      )
     insertStats.setInt(1, player.playerId)
     insertStats.setInt(2, stat.season)
     insertStats.setObject(3, stat.gamesPlayed, Types.INTEGER)
@@ -230,8 +255,14 @@ class DatabaseService {
     insertStats.execute()
   }
 
-  fun insertGoalerSeason(playerId: Int, stat: CacheGoalerSeason) {
-    val insertStats = connection.prepareStatement("REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName,gameTypeId) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)")
+  fun insertGoalerSeason(
+    playerId: Int,
+    stat: CacheGoalerSeason,
+  ) {
+    val insertStats =
+      connection.prepareStatement(
+        "REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName,gameTypeId) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+      )
     insertStats.setInt(1, playerId)
     insertStats.setInt(2, stat.season)
     insertStats.setObject(3, stat.gamesPlayed, Types.INTEGER)
@@ -244,7 +275,7 @@ class DatabaseService {
     insertStats.setObject(10, stat.savePctg, Types.FLOAT)
     insertStats.setNull(11, Types.INTEGER) // league ID
     insertStats.setString(12, stat.leagueAbbrev)
-    insertStats.setNull(13, Types.INTEGER) //team id
+    insertStats.setNull(13, Types.INTEGER) // team id
     insertStats.setString(14, stat.teamName.default)
     insertStats.setInt(15, stat.gameTypeId)
     insertStats.execute()
@@ -252,13 +283,20 @@ class DatabaseService {
 
   // Salary
 
-  fun getPlayerSeasonSalary(season: Season, playerId: Int): PlayerSalarySeason? {
+  fun getPlayerSeasonSalary(
+    season: Season,
+    playerId: Int,
+  ): PlayerSalarySeason? {
     val rs = statement.executeQuery("SELECT * FROM PlayersSalaries WHERE playerId = $playerId AND season = ${season.intValue}")
 
-    return if(rs.next()) PlayerSalarySeason.fromRow(rs) else null
+    return if (rs.next()) PlayerSalarySeason.fromRow(rs) else null
   }
 
-  fun insertPlayerSalary(playerId: Int, season: Season, salary: Int) {
+  fun insertPlayerSalary(
+    playerId: Int,
+    season: Season,
+    salary: Int,
+  ) {
     val insertSalary = connection.prepareStatement("INSERT INTO PlayersSalaries (playerId,season,avv) VALUES (?,?,?)")
     insertSalary.setInt(1, playerId)
     insertSalary.setInt(2, season.intValue)
@@ -283,8 +321,14 @@ class DatabaseService {
     return statuses
   }
 
-  fun updatePlayerForPool(playerId: Int, statut: PoolDraftStatut) {
-    val insertPoolDraft = connection.prepareStatement("REPLACE INTO PoolDraft (playerId,season,statut,dateChanged,poolPointsChanged) VALUES (?,?,?,?,?)")
+  fun updatePlayerForPool(
+    playerId: Int,
+    statut: PoolDraftStatut,
+  ) {
+    val insertPoolDraft =
+      connection.prepareStatement(
+        "REPLACE INTO PoolDraft (playerId,season,statut,dateChanged,poolPointsChanged) VALUES (?,?,?,?,?)",
+      )
     insertPoolDraft.setInt(1, playerId)
     insertPoolDraft.setInt(2, Constants.currentSeason.intValue)
     insertPoolDraft.setInt(3, statut.value)

@@ -7,7 +7,9 @@ import ca.sebleclerc.hockeydata.models.CacheStep
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.types.int
 
-class CacheTeamCommand(di: DI) : BaseCommand(di, name = "team") {
+class CacheTeamCommand(
+  di: DI,
+) : BaseCommand(di, name = "team") {
   val teamId by argument().int()
 
   override fun run() {

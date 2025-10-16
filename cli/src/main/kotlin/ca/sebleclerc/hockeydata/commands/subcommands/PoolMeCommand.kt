@@ -9,8 +9,11 @@ import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.models.CacheStep
 import ca.sebleclerc.hockeydata.models.Player
 
-class PoolMeCommand(di: DI) : BaseCommand(di, name = "me") {
+class PoolMeCommand(
+  di: DI,
+) : BaseCommand(di, name = "me") {
   private var totalSalary = 11900000
+
   override fun run() {
     super.run()
 
@@ -26,16 +29,17 @@ class PoolMeCommand(di: DI) : BaseCommand(di, name = "me") {
     val forwards = players.filter { it.positionCode != "D" }
     val defenses = players.filter { it.positionCode == "D" }
 
-    val columns = listOf(
-      LoggerColumn.ID(),
-      LoggerColumn.Name(),
-      LoggerColumn.Games(),
-      LoggerColumn.Goals(),
-      LoggerColumn.Assists(),
-      LoggerColumn.Points(),
-      LoggerColumn.PoolPts(),
-      LoggerColumn.Salary()
-    )
+    val columns =
+      listOf(
+        LoggerColumn.ID(),
+        LoggerColumn.Name(),
+        LoggerColumn.Games(),
+        LoggerColumn.Goals(),
+        LoggerColumn.Assists(),
+        LoggerColumn.Points(),
+        LoggerColumn.PoolPts(),
+        LoggerColumn.Salary(),
+      )
 
     Logger.taskSubtitle("Forwards")
     Logger.header(*columns.toTypedArray())
@@ -51,7 +55,6 @@ class PoolMeCommand(di: DI) : BaseCommand(di, name = "me") {
     Logger.info("")
     Logger.info("")
     Logger.info("Salaire total:      ${Formatter.intToSalary(totalSalary)}")
-
 
     Logger.taskEnd()
   }
@@ -69,7 +72,7 @@ class PoolMeCommand(di: DI) : BaseCommand(di, name = "me") {
       LoggerColumn.Assists(stats?.assists ?: 0),
       LoggerColumn.Points(stats?.points ?: 0),
       LoggerColumn.PoolPts(stats?.poolPoints ?: 0F),
-      LoggerColumn.Salary(salary?.avv ?: "N/A")
+      LoggerColumn.Salary(salary?.avv ?: "N/A"),
     )
   }
 }

@@ -7,7 +7,9 @@ import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.types.int
 
-class PlayerCommand(di: DI): BaseCommand(di, name = "player") {
+class PlayerCommand(
+  di: DI,
+) : BaseCommand(di, name = "player") {
   val playerId by argument().int()
 
   override fun run() {
@@ -29,7 +31,7 @@ class PlayerCommand(di: DI): BaseCommand(di, name = "player") {
       LoggerColumn.Games(),
       LoggerColumn.Goals(),
       LoggerColumn.Assists(),
-      LoggerColumn.Points()
+      LoggerColumn.Points(),
     )
 
     val seasons = di.database.getAllSeasonsForSkaterId(playerId)
@@ -42,7 +44,7 @@ class PlayerCommand(di: DI): BaseCommand(di, name = "player") {
         LoggerColumn.Games(season.games),
         LoggerColumn.Goals(season.goals),
         LoggerColumn.Assists(season.assists),
-        LoggerColumn.Points(season.points)
+        LoggerColumn.Points(season.points),
       )
     }
 

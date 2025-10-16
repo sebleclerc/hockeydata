@@ -17,21 +17,24 @@ import ca.sebleclerc.hockeydata.shared.ui.Title
 
 fun main() {
   application {
-    val windowState = rememberWindowState(
-      width = 600.dp,
-      height = 800.dp
-    )
+    val windowState =
+      rememberWindowState(
+        width = 600.dp,
+        height = 800.dp,
+      )
 
     Window(
       onCloseRequest = ::exitApplication,
       state = windowState,
-      title = "HockeyData"
+      title = "HockeyData",
     ) {
       MaterialTheme {
         FlowColumn(
-          modifier = Modifier.padding(30.dp)
-            .fillMaxSize()
-            .border(width = 1.dp, color = Color.Red)
+          modifier =
+            Modifier
+              .padding(30.dp)
+              .fillMaxSize()
+              .border(width = 1.dp, color = Color.Red),
         ) {
           PageTitle("Hockey Data")
           Title()

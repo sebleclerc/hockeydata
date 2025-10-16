@@ -6,7 +6,9 @@ import ca.sebleclerc.hockeydata.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 
-class SalaryAllCommand(di: DI) : BaseCommand(di, name = "all") {
+class SalaryAllCommand(
+  di: DI,
+) : BaseCommand(di, name = "all") {
   override fun run() {
     super.run()
 
@@ -19,7 +21,7 @@ class SalaryAllCommand(di: DI) : BaseCommand(di, name = "all") {
     Logger.header(
       LoggerColumn.ID(),
       LoggerColumn.Name(),
-      LoggerColumn.Custom("P %", customPadding)
+      LoggerColumn.Custom("P %", customPadding),
     )
 
     var totalPlayers = 0
@@ -43,7 +45,7 @@ class SalaryAllCommand(di: DI) : BaseCommand(di, name = "all") {
       Logger.row(
         LoggerColumn.ID(team.id),
         LoggerColumn.Name(team.name),
-        LoggerColumn.Custom(proportion, customPadding)
+        LoggerColumn.Custom(proportion, customPadding),
       )
     }
 

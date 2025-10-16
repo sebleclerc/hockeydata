@@ -1,12 +1,12 @@
 package ca.sebleclerc.hockeydata.models
 
-class Season(private val value: Int) {
+class Season(
+  private val value: Int,
+) {
   val intValue: Int
     get() = value
 
-  override fun toString(): String {
-    return value.toString()
-  }
+  override fun toString(): String = value.toString()
 
   val compact: String
     get() {

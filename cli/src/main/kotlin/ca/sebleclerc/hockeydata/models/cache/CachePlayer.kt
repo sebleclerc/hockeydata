@@ -19,12 +19,12 @@ data class CachePlayer(
   val currentTeamId: Int? = null,
   val position: String,
   val headshot: String,
-  val heroImage: String
+  val heroImage: String,
 )
 
 @Serializable
 data class CacheSkaterPlayer(
-  val seasonTotals: List<CacheSkaterSeason>
+  val seasonTotals: List<CacheSkaterSeason>,
 )
 
 @Serializable
@@ -48,7 +48,7 @@ data class CacheSkaterSeason(
   val otGoals: Int? = null,
   val shootingPctg: Float? = null,
   val teamName: CacheDefault,
-  val gameTypeId: Int
+  val gameTypeId: Int,
 ) {
   val averageTotalOnIce: Float?
     get() = convertStringToFloat(avgToi)
@@ -56,7 +56,7 @@ data class CacheSkaterSeason(
 
 @Serializable
 data class CacheGoalerPlayer(
-  val seasonTotals: List<CacheGoalerSeason>
+  val seasonTotals: List<CacheGoalerSeason>,
 )
 
 @Serializable
@@ -79,7 +79,7 @@ data class CacheGoalerSeason(
   val otLosses: Int? = null,
   val pim: Int? = null,
   val teamName: CacheDefault,
-  val gameTypeId: Int
+  val gameTypeId: Int,
 ) {
   val averageTotalOnIce: Float?
     get() = convertStringToFloat(timeOnIce)

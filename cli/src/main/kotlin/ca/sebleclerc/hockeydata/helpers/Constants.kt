@@ -5,9 +5,17 @@ package ca.sebleclerc.hockeydata.helpers
 import ca.sebleclerc.hockeydata.models.Season
 
 object Constants {
-  const val jsonFolder = "/Users/sleclerc/Developer/hockeydata/json"
   val currentSeason = Season(20252026)
 
+  // Database
+  const val DB_URL = "jdbc:mariadb://127.0.0.1:3306/hockeydata"
+  const val DB_USERNAME = "sleclerc"
+  const val DB_PASSWORD = "sleclerc"
+
+  // Export
+  const val jsonFolder = "/Users/sleclerc/Developer/hockeydata/json"
+
+  // UI
   const val paddingAVV = 15
   const val paddingFloat = 10
   const val paddingId = 8

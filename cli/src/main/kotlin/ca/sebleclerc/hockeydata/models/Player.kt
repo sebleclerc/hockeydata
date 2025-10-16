@@ -15,17 +15,19 @@ data class Player(
   val teamId: Int,
   val positionCode: String,
   val headshotUrl: String,
-  val heroImageUrl: String
+  val heroImageUrl: String,
 ) {
   companion object
 
   val fullName: String
-    get() { return "$firstName $lastName" }
+    get() {
+      return "$firstName $lastName"
+    }
 }
 
 // Row
-fun Player.Companion.fromRow(rs: ResultSet): Player {
-  return Player(
+fun Player.Companion.fromRow(rs: ResultSet): Player =
+  Player(
     rs.getInt("id"),
     rs.getString("firstName"),
     rs.getString("lastName"),
@@ -40,4 +42,3 @@ fun Player.Companion.fromRow(rs: ResultSet): Player {
     rs.getString("headshotUrl"),
     rs.getString("heroImageUrl"),
   )
-}

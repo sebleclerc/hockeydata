@@ -5,7 +5,9 @@ import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.models.CacheStep
 
-class CacheTeamsCommand(di: DI) : BaseCommand(di = di, name = "teams") {
+class CacheTeamsCommand(
+  di: DI,
+) : BaseCommand(di = di, name = "teams") {
   override fun run() {
     Logger.taskTitle("Cache Teams rosters")
     Logger.enabled = false

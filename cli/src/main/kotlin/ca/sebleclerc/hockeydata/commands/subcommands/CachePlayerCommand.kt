@@ -10,7 +10,9 @@ import kotlin.io.path.Path
 import kotlin.io.path.listDirectoryEntries
 import kotlin.io.path.name
 
-class CachePlayerCommand(di: DI) : BaseCommand(di = di, name = "player") {
+class CachePlayerCommand(
+  di: DI,
+) : BaseCommand(di = di, name = "player") {
   private val playerId: String by argument()
 
   override fun run() {
@@ -46,6 +48,5 @@ class CachePlayerCommand(di: DI) : BaseCommand(di = di, name = "player") {
       cachePlayerWithId(playerId)
       Logger.step()
     }
-
   }
 }

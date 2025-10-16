@@ -8,7 +8,7 @@ class PoolSkaterPlayer(
   val seasons: List<PlayerSkaterSeason>,
   val salary: PlayerSalarySeason?,
   val team: Team?,
-  val current: PlayerSkaterSeason?
+  val current: PlayerSkaterSeason?,
 ) {
   val averagePoints = seasons.map { it.poolPoints }.average()
   val averageGames = seasons.map { it.games }.average()
@@ -17,10 +17,11 @@ class PoolSkaterPlayer(
     get() {
       val lastSeason = Season(20242025)
       val lastSeasonPoints = seasons.firstOrNull { it.season == lastSeason }
-      if (lastSeasonPoints != null) else return ""
-      if (salary != null) else return ""
 
-      val value =  lastSeasonPoints.poolPoints.toDouble() / salary.salary * 100000
+      if (lastSeasonPoints == null) return ""
+      if (salary == null) return ""
+
+      val value = lastSeasonPoints.poolPoints.toDouble() / salary.salary * 100000
       return BigDecimal(value)
         .setScale(5, RoundingMode.HALF_EVEN)
         .toString()
@@ -28,7 +29,7 @@ class PoolSkaterPlayer(
 
   val averagePoolValue: String
     get() {
-      if (salary != null) else return ""
+      if (salary == null) return ""
 
       val value = averagePoints / salary.salary * 100000
       return BigDecimal(value)

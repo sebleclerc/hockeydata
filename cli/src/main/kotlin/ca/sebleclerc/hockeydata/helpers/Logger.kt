@@ -79,7 +79,10 @@ object Logger {
   private var currentStep: Float = 0F
   private var maxSteps: Float = 0F
 
-  fun startProgress(title: String, max: Float) {
+  fun startProgress(
+    title: String,
+    max: Float,
+  ) {
     isInProgress = true
     currentStep = 0F
     maxSteps = max
@@ -126,7 +129,10 @@ object Logger {
     return "  [ ${"|".repeat(completed)}${".".repeat(empty)} ]"
   }
 
-  private fun logMessage(prefix: String, text: String) {
+  private fun logMessage(
+    prefix: String,
+    text: String,
+  ) {
     if (enabled) println("$prefix [HD] $text")
   }
 }

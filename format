@@ -1,0 +1,1 @@
+ktlint --format 'build.gradle.kts' '**/src/**/*.kt' '**/src/**/*.kts'

@@ -4,5 +4,5 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class CacheDefault(
-  val default: String
+  val default: String,
 )

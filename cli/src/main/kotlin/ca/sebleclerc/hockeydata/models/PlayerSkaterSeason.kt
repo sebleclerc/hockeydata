@@ -10,13 +10,13 @@ data class PlayerSkaterSeason(
   val goals: Int,
   val assists: Int,
   val points: Int,
-  val poolPoints: Float
+  val poolPoints: Float,
 ) {
   companion object
 }
 
-fun PlayerSkaterSeason.Companion.fromRow(rs: ResultSet): PlayerSkaterSeason {
-  return PlayerSkaterSeason(
+fun PlayerSkaterSeason.Companion.fromRow(rs: ResultSet): PlayerSkaterSeason =
+  PlayerSkaterSeason(
     Season(rs.getInt("season")),
     rs.getString("leagueName"),
     rs.getString("teamName"),
@@ -24,6 +24,5 @@ fun PlayerSkaterSeason.Companion.fromRow(rs: ResultSet): PlayerSkaterSeason {
     rs.getInt("goals"),
     rs.getInt("assists"),
     rs.getInt("points"),
-    rs.getFloat("poolPoints")
+    rs.getFloat("poolPoints"),
   )
-}

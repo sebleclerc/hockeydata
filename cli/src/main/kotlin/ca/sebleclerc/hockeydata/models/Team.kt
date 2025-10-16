@@ -11,14 +11,14 @@ data class Team(
   val divisionId: Int,
   val conferenceId: Int,
   val franchiseId: Int,
-  val active: Boolean
+  val active: Boolean,
 ) {
   companion object
 }
 
 // Import from ResultSet
-fun Team.Companion.fromResult(rs: ResultSet): Team {
-  return Team(
+fun Team.Companion.fromResult(rs: ResultSet): Team =
+  Team(
     rs.getInt("id"),
     rs.getString("name"),
     rs.getString("venue"),
@@ -27,6 +27,5 @@ fun Team.Companion.fromResult(rs: ResultSet): Team {
     rs.getInt("divisionId"),
     rs.getInt("conferenceId"),
     rs.getInt("franchiseId"),
-    rs.getBoolean("active")
+    rs.getBoolean("active"),
   )
-}

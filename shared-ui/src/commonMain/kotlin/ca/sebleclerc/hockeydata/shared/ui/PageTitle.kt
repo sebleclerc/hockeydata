@@ -15,8 +15,10 @@ fun PageTitle(title: String) {
   Text(
     text = title,
     textAlign = TextAlign.Center,
-    modifier = Modifier.padding(8.dp)
-      .border(width = 1.dp, color = Color.Blue)
-      .fillMaxWidth()
+    modifier =
+      Modifier
+        .padding(8.dp)
+        .border(width = 1.dp, color = Color.Blue)
+        .fillMaxWidth(),
   )
 }

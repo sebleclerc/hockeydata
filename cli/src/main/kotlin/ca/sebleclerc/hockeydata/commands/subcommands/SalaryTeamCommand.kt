@@ -11,7 +11,9 @@ import ca.sebleclerc.hockeydata.models.Season
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.types.int
 
-class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
+class SalaryTeamCommand(
+  di: DI,
+) : BaseCommand(di, name = "team") {
   private val teamId by argument().int()
 
   override fun run() {
@@ -27,10 +29,11 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
 
     roster.forEach { playerId ->
       val player = di.database.getPlayerForId(playerId)
-      val salary = di.database.getPlayerSeasonSalary(
-        season = Constants.currentSeason,
-        playerId = playerId
-      )
+      val salary =
+        di.database.getPlayerSeasonSalary(
+          season = Constants.currentSeason,
+          playerId = playerId,
+        )
 
       salaries[playerId.toString()] = PlayerSeasonSalary(player, salary)
     }
@@ -38,14 +41,14 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
     Logger.header(
       LoggerColumn.ID(),
       LoggerColumn.Name(),
-      LoggerColumn.Salary()
+      LoggerColumn.Salary(),
     )
 
     salaries.forEach {
       Logger.row(
         LoggerColumn.ID(it.value.player?.id ?: 0),
         LoggerColumn.Name(it.value.player?.fullName ?: ""),
-        LoggerColumn.Salary(it.value.salary?.avv ?: "")
+        LoggerColumn.Salary(it.value.salary?.avv ?: ""),
       )
     }
 
@@ -55,7 +58,7 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
         if (it.value.salary == null && it.value.player != null) {
           askMissingPlayerSalary(
             player = it.value.player!!,
-            season = Constants.currentSeason
+            season = Constants.currentSeason,
           )
         }
       }
@@ -64,24 +67,29 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
     Logger.taskEnd()
   }
 
-  private fun askMissingPlayerSalary(player: Player, season: Season) {
+  private fun askMissingPlayerSalary(
+    player: Player,
+    season: Season,
+  ) {
     Logger.info("Quel est le salaire de ${player.lastName}, ${player.firstName} (${player.positionCode})(${player.id}) pour $season?")
     val salary = readln()
 
-    val sanitizedSalary = if (salary.isNotEmpty()) {
-      salary.replace(
-        oldValue = ",",
-        newValue = ""
-      ).toInt()
-    } else {
-      0
-    }
+    val sanitizedSalary =
+      if (salary.isNotEmpty()) {
+        salary
+          .replace(
+            oldValue = ",",
+            newValue = "",
+          ).toInt()
+      } else {
+        0
+      }
 
     if (sanitizedSalary > 0) {
       di.database.insertPlayerSalary(
         playerId = player.id,
         season = season,
-        salary = sanitizedSalary
+        salary = sanitizedSalary,
       )
 
       Logger.info("Pour combien d'années encore?")
@@ -97,7 +105,7 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
             di.database.insertPlayerSalary(
               playerId = player.id,
               season = nextSeason,
-              salary = sanitizedSalary
+              salary = sanitizedSalary,
             )
 
             currentSeason = nextSeason
@@ -110,5 +118,5 @@ class SalaryTeamCommand(di: DI) : BaseCommand(di, name = "team") {
 
 private data class PlayerSeasonSalary(
   var player: Player?,
-  var salary: PlayerSalarySeason?
+  var salary: PlayerSalarySeason?,
 )
