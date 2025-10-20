@@ -12,6 +12,7 @@ import ca.sebleclerc.hockeydata.core.domain.Season
 import ca.sebleclerc.hockeydata.core.domain.Team
 import ca.sebleclerc.hockeydata.core.domain.fromRow
 import ca.sebleclerc.hockeydata.core.helpers.Constants
+import ca.sebleclerc.hockeydata.core.helpers.Logger
 import ca.sebleclerc.hockeydata.core.helpers.PoolHelper
 import java.sql.Connection
 import java.sql.DriverManager
@@ -25,7 +26,7 @@ class DatabaseService {
   private val statement: Statement
 
   init {
-    Class.forName("org.mariadb.jdbc.Driver")
+    Logger.debug("[DatabaseService] INIT")
 
     val props = Properties()
     props.setProperty("user", Constants.DB_USER)
@@ -128,6 +129,7 @@ class DatabaseService {
   }
 
   fun getPoolMePlayers(): List<Player> {
+    Logger.debug("[DatabaseService] getPoolMePlayers()")
     val players = mutableListOf<Player>()
 
     @Suppress("ktlint:standard:max-line-length")
@@ -139,6 +141,8 @@ class DatabaseService {
       playerIds.add(rs.getInt("playerId"))
     }
     rs.close()
+
+    Logger.debug("Got ${playerIds.size} player Ids")
 
     playerIds.forEach { playerId ->
       getPlayerForId(playerId)?.also { players.add(it) }

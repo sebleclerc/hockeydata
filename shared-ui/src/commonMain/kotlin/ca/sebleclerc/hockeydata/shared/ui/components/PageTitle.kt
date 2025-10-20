@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui
+package ca.sebleclerc.hockeydata.shared.ui.components
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -18,7 +18,6 @@ fun PageTitle(title: String) {
     modifier =
       Modifier
         .padding(8.dp)
-        .border(width = 1.dp, color = Color.Blue)
         .fillMaxWidth(),
   )
 }
