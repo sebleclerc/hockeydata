@@ -4,25 +4,28 @@ object Logger {
   fun debug(text: String) {
     logMessage(
       text = text,
-      level = LoggerLevel.DEBUG
+      level = LoggerLevel.DEBUG,
     )
   }
 
   fun warning(text: String) {
     logMessage(
       text = text,
-      level = LoggerLevel.WARNING
+      level = LoggerLevel.WARNING,
     )
   }
 
   fun error(text: String) {
     logMessage(
       text = text,
-      level = LoggerLevel.ERROR
+      level = LoggerLevel.ERROR,
     )
   }
 
-  private fun logMessage(text: String, level: LoggerLevel) {
+  private fun logMessage(
+    text: String,
+    level: LoggerLevel,
+  ) {
     val message = "${level.prefix} [HD] $text"
     platformLogMessage(message)
   }

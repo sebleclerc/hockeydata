@@ -40,7 +40,7 @@ class PlayerCommand(
       Logger.row(
         LoggerColumn.Season(season.season.intValue),
         LoggerColumn.League(season.league),
-        LoggerColumn.TeamName(season.team.take(Constants.paddingTeamName - 2)),
+        LoggerColumn.TeamName(season.team.take(Constants.PADDING_TEAM_NAME - 2)),
         LoggerColumn.Games(season.games),
         LoggerColumn.Goals(season.goals),
         LoggerColumn.Assists(season.assists),

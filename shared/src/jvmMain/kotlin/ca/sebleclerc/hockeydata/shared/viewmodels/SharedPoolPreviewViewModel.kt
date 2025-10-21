@@ -7,9 +7,15 @@ import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.database.DatabaseService
 
 open class SharedPoolPreviewViewModel(
-  private val dbService: DatabaseService
+  private val dbService: DatabaseService,
 ) : ViewModel() {
-  fun getAllPoolPreviewPlayers(teamId: Int? = null, name: String? = null, minimal: Boolean, current: Boolean? = null, sortValue: Boolean): List<PoolSkaterPlayer> {
+  fun getAllPoolPreviewPlayers(
+    teamId: Int? = null,
+    name: String? = null,
+    minimal: Boolean,
+    current: Boolean? = null,
+    sortValue: Boolean,
+  ): List<PoolSkaterPlayer> {
     val players = fetchPoolSkaterPlayerFromDatabase()
 
     return players

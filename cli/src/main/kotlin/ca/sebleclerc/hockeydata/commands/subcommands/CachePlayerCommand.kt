@@ -38,7 +38,7 @@ class CachePlayerCommand(
   private fun cacheAllPlayers() {
     Logger.enabled = false
 
-    val players = Path(Constants.jsonFolder).listDirectoryEntries("*-player.json")
+    val players = Path(Constants.JSON_FOLDER).listDirectoryEntries("*-player.json")
 
     Logger.startProgress("Players", players.count().toFloat())
     players.forEach {

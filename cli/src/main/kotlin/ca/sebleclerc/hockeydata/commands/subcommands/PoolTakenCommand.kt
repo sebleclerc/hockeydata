@@ -2,8 +2,8 @@ package ca.sebleclerc.hockeydata.commands.subcommands
 
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
-import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
+import ca.sebleclerc.hockeydata.helpers.Logger
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.types.int
 

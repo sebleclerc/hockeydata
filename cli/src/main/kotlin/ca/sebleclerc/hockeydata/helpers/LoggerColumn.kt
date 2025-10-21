@@ -13,53 +13,53 @@ sealed class LoggerColumn(
 
   class ID(
     title: Int? = null,
-  ) : LoggerColumn(title?.toString() ?: "ID", Constants.paddingId)
+  ) : LoggerColumn(title?.toString() ?: "ID", Constants.PADDING_ID)
 
   class Name(
     name: String? = null,
-  ) : LoggerColumn(name ?: "Name", Constants.paddingName)
+  ) : LoggerColumn(name ?: "Name", Constants.PADDING_NAME)
 
   class Position(
     value: String? = null,
-  ) : LoggerColumn(value ?: "Pos", Constants.paddingPosition)
+  ) : LoggerColumn(value ?: "Pos", Constants.PADDING_POSITION)
 
   class Salary(
     value: String? = null,
-  ) : LoggerColumn(value ?: "Salary", Constants.paddingAVV)
+  ) : LoggerColumn(value ?: "Salary", Constants.PADDING_AVV)
 
   class League(
     name: String? = null,
-  ) : LoggerColumn(name ?: "League", Constants.paddingLeagueName)
+  ) : LoggerColumn(name ?: "League", Constants.PADDING_LEAGUE_NAME)
 
   class Team(
     name: String? = null,
-  ) : LoggerColumn(name ?: "Team", Constants.paddingTeamAbbrev)
+  ) : LoggerColumn(name ?: "Team", Constants.PADDING_TEAM_ABBREV)
 
   class TeamName(
     name: String? = null,
-  ) : LoggerColumn(name ?: "Team", Constants.paddingTeamName)
+  ) : LoggerColumn(name ?: "Team", Constants.PADDING_TEAM_NAME)
 
   class Season(
     season: Int? = null,
-  ) : LoggerColumn(season?.toString() ?: "Season", Constants.paddingSeason)
+  ) : LoggerColumn(season?.toString() ?: "Season", Constants.PADDING_SEASON)
 
   class Games(
     value: Int? = null,
-  ) : LoggerColumn(value?.toString() ?: "Games", Constants.paddingInt + 2)
+  ) : LoggerColumn(value?.toString() ?: "Games", Constants.PADDING_INT + 2)
 
   class Goals(
     value: Int? = null,
-  ) : LoggerColumn(value?.toString() ?: "G", Constants.paddingInt)
+  ) : LoggerColumn(value?.toString() ?: "G", Constants.PADDING_INT)
 
   class Assists(
     value: Int? = null,
-  ) : LoggerColumn(value?.toString() ?: "A", Constants.paddingInt)
+  ) : LoggerColumn(value?.toString() ?: "A", Constants.PADDING_INT)
 
   class Points(
     value: Int? = null,
-  ) : LoggerColumn(value?.toString() ?: "Pts", Constants.paddingInt)
+  ) : LoggerColumn(value?.toString() ?: "Pts", Constants.PADDING_INT)
 
   class PoolPts(
     value: Float? = null,
-  ) : LoggerColumn(value?.toString() ?: "Pool", Constants.paddingFloat)
+  ) : LoggerColumn(value?.toString() ?: "Pool", Constants.PADDING_FLOAT)
 }

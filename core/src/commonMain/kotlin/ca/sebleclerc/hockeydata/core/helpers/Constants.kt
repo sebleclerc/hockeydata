@@ -10,17 +10,17 @@ object Constants {
   const val DB_PWD = "sleclerc"
 
   // Export
-  const val jsonFolder = "/Users/sleclerc/Developer/hockeydata/json"
+  const val JSON_FOLDER = "/Users/sleclerc/Developer/hockeydata/json"
 
   // UI
-  const val paddingAVV = 15
-  const val paddingFloat = 10
-  const val paddingId = 8
-  const val paddingInt = 5
-  const val paddingLeagueName = 10
-  const val paddingName = 25
-  const val paddingPosition = 4
-  const val paddingSeason = 10
-  const val paddingTeamAbbrev = 6
-  const val paddingTeamName = 25
+  const val PADDING_AVV = 15
+  const val PADDING_FLOAT = 10
+  const val PADDING_ID = 8
+  const val PADDING_INT = 5
+  const val PADDING_LEAGUE_NAME = 10
+  const val PADDING_NAME = 25
+  const val PADDING_POSITION = 4
+  const val PADDING_SEASON = 10
+  const val PADDING_TEAM_ABBREV = 6
+  const val PADDING_TEAM_NAME = 25
 }

@@ -55,58 +55,58 @@ class PoolPreviewCommand(
 
     Logger.header(*headers.toTypedArray())
 
-    val players = viewModel.getAllPoolPreviewPlayers(
-      teamId = teamId,
-      name = name,
-      minimal = minimal,
-      current = current,
-      sortValue = sortValue,
-    )
+    val players =
+      viewModel.getAllPoolPreviewPlayers(
+        teamId = teamId,
+        name = name,
+        minimal = minimal,
+        current = current,
+        sortValue = sortValue,
+      )
 
-
-      players.forEach { element ->
-        val rows =
-          mutableListOf(
-            LoggerColumn.ID(element.player.id),
-            LoggerColumn.Name(element.player.fullName),
-            LoggerColumn.Position(element.player.positionCode),
-            LoggerColumn.Team(element.team?.abbreviation ?: "N/A"),
-            LoggerColumn.Salary(element.salary?.avv ?: "N/A"),
-          )
+    players.forEach { element ->
+      val rows =
+        mutableListOf(
+          LoggerColumn.ID(element.player.id),
+          LoggerColumn.Name(element.player.fullName),
+          LoggerColumn.Position(element.player.positionCode),
+          LoggerColumn.Team(element.team?.abbreviation ?: "N/A"),
+          LoggerColumn.Salary(element.salary?.avv ?: "N/A"),
+        )
 
 //        if (current == true) {
-        rows.add(
-          LoggerColumn.Custom(
-            (element.current?.poolPoints ?: 0F).toString(),
-            padding = currentPadding,
-          ),
-        )
+      rows.add(
+        LoggerColumn.Custom(
+          (element.current?.poolPoints ?: 0F).toString(),
+          padding = currentPadding,
+        ),
+      )
 //        }
 
-        rows.addAll(
-          listOf(
-            LoggerColumn.Custom(
-              BigDecimal(element.averagePoints)
-                .setScale(2, RoundingMode.HALF_EVEN)
-                .toString(),
-              padding = averagePadding,
-            ),
-            LoggerColumn.Custom(element.poolValue, valuePadding),
-            LoggerColumn.Custom(element.averagePoolValue, valuePadding),
+      rows.addAll(
+        listOf(
+          LoggerColumn.Custom(
+            BigDecimal(element.averagePoints)
+              .setScale(2, RoundingMode.HALF_EVEN)
+              .toString(),
+            padding = averagePadding,
           ),
-        )
-        val history =
-          element
-            .seasons
-            .map {
-              val pPoints = it.poolPoints
-              val season = it.season
-              LoggerColumn.Custom("$pPoints[${season.compact}]", 14)
-            }
-        rows.addAll(history)
+          LoggerColumn.Custom(element.poolValue, valuePadding),
+          LoggerColumn.Custom(element.averagePoolValue, valuePadding),
+        ),
+      )
+      val history =
+        element
+          .seasons
+          .map {
+            val pPoints = it.poolPoints
+            val season = it.season
+            LoggerColumn.Custom("$pPoints[${season.compact}]", 14)
+          }
+      rows.addAll(history)
 
-        Logger.row(*rows.toTypedArray())
-      }
+      Logger.row(*rows.toTypedArray())
+    }
 
     Logger.taskEnd()
   }

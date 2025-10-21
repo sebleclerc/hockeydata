@@ -8,8 +8,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.navigation.compose.NavHost
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolMe
@@ -18,12 +18,11 @@ import ca.sebleclerc.hockeydata.shared.ui.screens.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolPreviewScreen
 
 @Composable
-fun HockeyDataApp(
-  navController: NavHostController = rememberNavController()
-) {
+fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
   Column(
-    modifier = Modifier
-      .padding(horizontal = 10.dp)
+    modifier =
+      Modifier
+        .padding(horizontal = 10.dp),
   ) {
     NavigationBar {
       Button(onClick = { navController.navigate(PoolMe) }) {
@@ -36,10 +35,10 @@ fun HockeyDataApp(
     NavHost(
       navController = navController,
       startDestination = PoolPreview,
-      modifier = Modifier
+      modifier = Modifier,
     ) {
       composable<PoolMe> { PoolMeScreen() }
-      composable<PoolPreview>{
+      composable<PoolPreview> {
         PoolPreviewScreen()
       }
     }

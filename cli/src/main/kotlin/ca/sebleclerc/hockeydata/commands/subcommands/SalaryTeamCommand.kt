@@ -3,11 +3,11 @@ package ca.sebleclerc.hockeydata.commands.subcommands
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.core.domain.Player
+import ca.sebleclerc.hockeydata.core.domain.PlayerSalarySeason
+import ca.sebleclerc.hockeydata.core.domain.Season
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
-import ca.sebleclerc.hockeydata.core.domain.PlayerSalarySeason
-import ca.sebleclerc.hockeydata.core.domain.Season
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.types.int
 
