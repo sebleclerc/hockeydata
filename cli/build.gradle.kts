@@ -11,6 +11,9 @@ dependencies {
   implementation(project(":core"))
   implementation(project(":database"))
 
+  implementation(project(":shared"))
+  implementation(libs.androidx.lifecycle.viewmodelCompose)
+
   implementation(libs.clikt)
 
   implementation(libs.okhttp)

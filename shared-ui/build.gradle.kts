@@ -13,6 +13,7 @@ kotlin {
     commonMain.dependencies {
       implementation(project(":core"))
       implementation(project(":database"))
+      implementation(project(":shared"))
 
       implementation(libs.compose.navigation)
 

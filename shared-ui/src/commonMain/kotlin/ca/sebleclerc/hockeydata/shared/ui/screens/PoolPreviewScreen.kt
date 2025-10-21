@@ -12,6 +12,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import ca.sebleclerc.hockeydata.shared.ui.DI
 import ca.sebleclerc.hockeydata.shared.ui.components.PageTitle
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewViewModel
+import ca.sebleclerc.hockeydata.shared.viewmodels.SharedPoolPreviewViewModel
 
 @Composable
 fun PoolPreviewScreen(
@@ -23,8 +24,8 @@ fun PoolPreviewScreen(
       .border(1.dp, Color.Red)
   ) {
     item { PageTitle("Pool Preview") }
-    items(count = viewModel.previewSkaters.size) {
-      val player = viewModel.previewSkaters[it]
+    items(count = viewModel.poolSkaters.size) {
+      val player = viewModel.poolSkaters[it]
       Text("Name: ${player.player.fullName}")
     }
   }

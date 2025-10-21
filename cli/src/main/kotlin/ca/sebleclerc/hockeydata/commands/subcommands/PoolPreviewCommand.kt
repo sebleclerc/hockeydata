@@ -2,11 +2,9 @@ package ca.sebleclerc.hockeydata.commands.subcommands
 
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
-import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
-import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
-import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
+import ca.sebleclerc.hockeydata.shared.viewmodels.SharedPoolPreviewViewModel
 import com.github.ajalt.clikt.parameters.options.flag
 import com.github.ajalt.clikt.parameters.options.option
 import com.github.ajalt.clikt.parameters.types.int
@@ -27,7 +25,8 @@ class PoolPreviewCommand(
 
     Logger.taskTitle("Pool Preview")
 
-    val statuses = di.database.getAllPoolDraftStatuses()
+    val viewModel = SharedPoolPreviewViewModel(di.database)
+
     val averagePadding = 10
     val valuePadding = 10
     val currentPadding = 7
@@ -56,50 +55,16 @@ class PoolPreviewCommand(
 
     Logger.header(*headers.toTypedArray())
 
-    val players = mutableListOf<PoolSkaterPlayer>()
-    val dbPlayers =
-      if (teamId != null) {
-        di.database.getPlayersForTeam(teamId!!)
-      } else {
-        di.database.getAllPlayers(false)
-      }
+    val players = viewModel.getAllPoolPreviewPlayers(
+      teamId = teamId,
+      name = name,
+      minimal = minimal,
+      current = current,
+      sortValue = sortValue,
+    )
 
-    dbPlayers.forEach { player ->
-      val status = statuses[player.id]
-      if (status == null || status == PoolDraftStatut.AVAILABLE) {
-        val seasons = di.database.getLastSeasonsForSkaterId(player.id)
-        val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
-        val team = di.database.getTeamForId(player.teamId)
-        val current = di.database.getSingleSeasonForSkateId(player.id, Constants.currentSeason)
-//        val current = if (current == true) di.database.getSingleSeasonForSkateId(player.id, Constants.currentSeason) else null
 
-        players.add(PoolSkaterPlayer(player, seasons, salary, team, current))
-      }
-    }
-
-    players
-      .filter {
-        if (name != null) {
-          it.player.fullName.contains(name!!)
-        } else if (teamId != null) {
-          it.averagePoints > -1
-        } else if (minimal) {
-          it.averagePoints > 20
-        } else {
-          it.averagePoints > -1
-        }
-      }.sortedWith(
-        compareBy {
-          if (current == true) {
-            it.current?.poolPoints?.toDouble()
-          } else if (sortValue) {
-            it.poolValue
-          } else {
-            it.averagePoints
-          }
-        },
-      ).reversed()
-      .forEach { element ->
+      players.forEach { element ->
         val rows =
           mutableListOf(
             LoggerColumn.ID(element.player.id),

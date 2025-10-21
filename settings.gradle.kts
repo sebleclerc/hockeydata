@@ -8,7 +8,9 @@ include("core")
 
 include("database")
 
+include("shared")
+include("shared-ui")
+
 include("cli")
 
-include("shared-ui")
 include("desktop")
