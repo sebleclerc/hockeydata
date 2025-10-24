@@ -36,4 +36,14 @@ class PoolSkaterPlayer(
         .setScale(5, RoundingMode.HALF_EVEN)
         .toString()
     }
+
+  val history: List<String>
+    get() =
+      seasons
+        .take(3) // REMOVE
+        .map {
+          val pPoints = it.poolPoints
+          val season = it.season
+          "$pPoints[${season.compact}]"
+        }
 }

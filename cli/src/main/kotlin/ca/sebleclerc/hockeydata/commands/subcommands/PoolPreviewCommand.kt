@@ -2,6 +2,7 @@ package ca.sebleclerc.hockeydata.commands.subcommands
 
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
+import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.shared.viewmodels.SharedPoolPreviewViewModel
@@ -86,23 +87,16 @@ class PoolPreviewCommand(
       rows.addAll(
         listOf(
           LoggerColumn.Custom(
-            BigDecimal(element.averagePoints)
-              .setScale(2, RoundingMode.HALF_EVEN)
-              .toString(),
+            Formatter.roundDouble(element.averagePoints),
             padding = averagePadding,
           ),
           LoggerColumn.Custom(element.poolValue, valuePadding),
           LoggerColumn.Custom(element.averagePoolValue, valuePadding),
         ),
       )
-      val history =
-        element
-          .seasons
-          .map {
-            val pPoints = it.poolPoints
-            val season = it.season
-            LoggerColumn.Custom("$pPoints[${season.compact}]", 14)
-          }
+      val history = element
+        .history
+        .map { LoggerColumn.Custom(it, padding = 14) }
       rows.addAll(history)
 
       Logger.row(*rows.toTypedArray())
