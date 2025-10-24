@@ -40,7 +40,6 @@ class PoolSkaterPlayer(
   val history: List<String>
     get() =
       seasons
-        .take(3) // REMOVE
         .map {
           val pPoints = it.poolPoints
           val season = it.season

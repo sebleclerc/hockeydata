@@ -20,7 +20,7 @@ fun PoolPreviewRow(player: PoolSkaterPlayer) {
     LazyColumnRow(text = player.averagePoolValue, padding = Constants.UI_PADDING_ID)
     player.history.forEach {
       LazyColumnRow(
-        text = it, padding = 100
+        text = it, padding = Constants.UI_PADDING_HISTORY
       )
     }
   }

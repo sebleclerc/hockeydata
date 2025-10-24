@@ -16,6 +16,6 @@ fun PoolPreviewHeader() {
     LazyColumnHeader(text = "Average", padding = Constants.UI_PADDING_ID)
     LazyColumnHeader(text = "V. Last", padding = Constants.UI_PADDING_ID)
     LazyColumnHeader(text = "V. Avg.", padding = Constants.UI_PADDING_ID)
-    LazyColumnHeader(text = "History", padding = Constants.UI_PADDING_ID)
+    LazyColumnHeader(text = "History", padding = Constants.UI_PADDING_HISTORY)
   }
 }
