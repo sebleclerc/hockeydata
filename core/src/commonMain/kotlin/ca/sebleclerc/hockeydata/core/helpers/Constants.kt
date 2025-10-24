@@ -12,7 +12,7 @@ object Constants {
   // Export
   const val JSON_FOLDER = "/Users/sleclerc/Developer/hockeydata/json"
 
-  // UI
+  // CLI
   const val PADDING_AVV = 15
   const val PADDING_FLOAT = 10
   const val PADDING_ID = 8
@@ -23,4 +23,11 @@ object Constants {
   const val PADDING_SEASON = 10
   const val PADDING_TEAM_ABBREV = 6
   const val PADDING_TEAM_NAME = 25
+
+  // SHARED UI
+  const val UI_PADDING_AVV = 125
+  const val UI_PADDING_ID = 85
+  const val UI_PADDING_NAME = 210
+  const val UI_PADDING_POSITION = 30
+  const val UI_PADDING_TEAM_ABBREV = 45
 }
