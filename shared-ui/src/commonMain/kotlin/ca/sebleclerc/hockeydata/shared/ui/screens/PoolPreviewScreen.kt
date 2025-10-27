@@ -8,9 +8,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import ca.sebleclerc.hockeydata.shared.ui.components.PageTitle
 import ca.sebleclerc.hockeydata.shared.ui.components.PoolPreviewHeader
 import ca.sebleclerc.hockeydata.shared.ui.components.PoolPreviewRow
+import ca.sebleclerc.hockeydata.shared.ui.components.page.PageTitle
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewAction
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewState
 

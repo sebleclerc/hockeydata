@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.components
+package ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.sp
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 
 @Composable
-fun LazyColumnRowItem(
+fun RowItem(
   text: String,
   padding: Int,
 ) {

@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.components
+package ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.height
@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.sp
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 
 @Composable
-fun LazyColumnRowButton(
+fun RowButton(
   text: String,
   onClick: () -> Unit,
 ) {
