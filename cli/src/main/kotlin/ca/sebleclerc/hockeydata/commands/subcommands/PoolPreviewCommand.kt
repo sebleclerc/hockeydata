@@ -94,9 +94,10 @@ class PoolPreviewCommand(
           LoggerColumn.Custom(element.averagePoolValue, valuePadding),
         ),
       )
-      val history = element
-        .history
-        .map { LoggerColumn.Custom(it, padding = 14) }
+      val history =
+        element
+          .history
+          .map { LoggerColumn.Custom(it, padding = 14) }
       rows.addAll(history)
 
       Logger.row(*rows.toTypedArray())

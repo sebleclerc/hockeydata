@@ -11,8 +11,8 @@ fun main() {
   application {
     val windowState =
       rememberWindowState(
-        width = 1200.dp,
-        height = 900.dp,
+        width = 1400.dp,
+        height = 925.dp,
       )
 
     Window(

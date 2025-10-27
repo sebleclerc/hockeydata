@@ -31,4 +31,5 @@ object Constants {
   const val UI_PADDING_POSITION = 30
   const val UI_PADDING_TEAM_ABBREV = 45
   const val UI_PADDING_HISTORY = 85
+  const val UI_ROW_HEIGHT = 25
 }

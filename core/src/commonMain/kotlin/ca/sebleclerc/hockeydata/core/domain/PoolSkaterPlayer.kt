@@ -44,5 +44,18 @@ class PoolSkaterPlayer(
           val pPoints = it.poolPoints
           val season = it.season
           "$pPoints[${season.compact}]"
-        }
+        }.padEnd(5, "")
+}
+
+private fun <T> List<T>.padEnd(
+  targetLength: Int,
+  paddingElement: T,
+): List<T> {
+  val currentSize = this.size
+  if (currentSize >= targetLength) {
+    return this
+  }
+  val paddingCount = targetLength - currentSize
+  val paddingList = List(paddingCount) { paddingElement }
+  return this + paddingList // Or this.toMutableList().apply { addAll(paddingList) }
 }

@@ -8,9 +8,15 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun LazyColumnHeader(text: String, padding: Int) {
-  Text(text = text,
+fun LazyColumnHeader(
+  text: String,
+  padding: Int,
+) {
+  Text(
+    text = text,
     textAlign = TextAlign.Center,
-    modifier = Modifier
-    .width(padding.dp))
+    modifier =
+      Modifier
+        .width(padding.dp),
+  )
 }

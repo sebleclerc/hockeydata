@@ -4,11 +4,10 @@ import java.math.BigDecimal
 import java.math.RoundingMode
 
 object Formatter {
-  fun roundDouble(value: Double): String {
-    return BigDecimal(value)
+  fun roundDouble(value: Double): String =
+    BigDecimal(value)
       .setScale(2, RoundingMode.HALF_EVEN)
       .toString()
-  }
 
   fun intToSalary(salary: Int): String {
     var formatted =

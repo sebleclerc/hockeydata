@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
+import ca.sebleclerc.hockeydata.core.helpers.Logger
 import ca.sebleclerc.hockeydata.database.DatabaseService
 
 open class SharedPoolPreviewViewModel(
@@ -16,6 +17,7 @@ open class SharedPoolPreviewViewModel(
     current: Boolean? = null,
     sortValue: Boolean,
   ): List<PoolSkaterPlayer> {
+    Logger.debug("[SharedPoolPreviewViewModel] getAllPoolPreviewPlayers")
     val players = fetchPoolSkaterPlayerFromDatabase()
 
     return players
