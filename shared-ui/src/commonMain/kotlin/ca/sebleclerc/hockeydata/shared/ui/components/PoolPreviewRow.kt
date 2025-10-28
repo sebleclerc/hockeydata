@@ -35,11 +35,10 @@ fun PoolPreviewRow(
       Modifier
         .height(Constants.UI_ROW_HEIGHT.dp)
         .padding(vertical = 2.dp)
-        .background(if (isHovered) Color.LightGray else Color.White)
+        .background(if (isHovered) Color.LightGray else Color.Transparent)
         .onPointerEvent(PointerEventType.Enter) {
           isHovered = true
-        }
-        .onPointerEvent(PointerEventType.Exit) {
+        }.onPointerEvent(PointerEventType.Exit) {
           isHovered = false
         },
   ) {
@@ -72,7 +71,7 @@ fun PoolPreviewRow(
       onClick = { onAction(PoolPreviewAction.OnPlayerTaken(player)) },
     )
     RowButton(
-      text = "Select",
+      text = "ME",
       onClick = { onAction(PoolPreviewAction.OnPlayerSelect(player)) },
     )
   }

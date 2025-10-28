@@ -35,7 +35,7 @@ class PoolPreviewViewModel(
   private fun didReceivedOnPlayerSelect(player: PoolSkaterPlayer) {
     updatePlayerForPool(
       playerId = player.player.id,
-      statut = PoolDraftStatut.SELECTED
+      statut = PoolDraftStatut.SELECTED,
     )
 
     refresh()
@@ -44,7 +44,7 @@ class PoolPreviewViewModel(
   private fun didReceivedOnPlayerTaken(player: PoolSkaterPlayer) {
     updatePlayerForPool(
       playerId = player.player.id,
-      statut = PoolDraftStatut.TAKEN
+      statut = PoolDraftStatut.TAKEN,
     )
 
     refresh()
@@ -52,11 +52,11 @@ class PoolPreviewViewModel(
 
   private fun updatePlayerForPool(
     playerId: Int,
-    statut: PoolDraftStatut
+    statut: PoolDraftStatut,
   ) {
     dbService.updatePlayerForPool(
       playerId = playerId,
-      statut = statut
+      statut = statut,
     )
   }
 

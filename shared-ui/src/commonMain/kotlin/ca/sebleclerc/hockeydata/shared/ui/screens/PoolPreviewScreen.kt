@@ -22,7 +22,7 @@ fun PoolPreviewScreen(
     LazyColumn(
       modifier =
         Modifier
-          .fillMaxWidth()
+          .fillMaxWidth(),
     ) {
       items(count = state.skaterPlayers.size) {
         val player = state.skaterPlayers[it]
