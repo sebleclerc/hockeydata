@@ -1,5 +1,7 @@
 package ca.sebleclerc.hockeydata.shared.ui.viewmodels
 
+import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
+import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Logger
 import ca.sebleclerc.hockeydata.database.DatabaseService
 import ca.sebleclerc.hockeydata.shared.viewmodels.SharedPoolPreviewViewModel
@@ -14,6 +16,51 @@ class PoolPreviewViewModel(
   val state = _state.asStateFlow()
 
   init {
+    refresh()
+  }
+
+  fun onAction(action: PoolPreviewAction) {
+    Logger.debug("PPVM onAction $action")
+
+    when (action) {
+      is PoolPreviewAction.OnPlayerSelect -> {
+        didReceivedOnPlayerSelect(player = action.player)
+      }
+      is PoolPreviewAction.OnPlayerTaken -> {
+        didReceivedOnPlayerTaken(player = action.player)
+      }
+    }
+  }
+
+  private fun didReceivedOnPlayerSelect(player: PoolSkaterPlayer) {
+    updatePlayerForPool(
+      playerId = player.player.id,
+      statut = PoolDraftStatut.SELECTED
+    )
+
+    refresh()
+  }
+
+  private fun didReceivedOnPlayerTaken(player: PoolSkaterPlayer) {
+    updatePlayerForPool(
+      playerId = player.player.id,
+      statut = PoolDraftStatut.TAKEN
+    )
+
+    refresh()
+  }
+
+  private fun updatePlayerForPool(
+    playerId: Int,
+    statut: PoolDraftStatut
+  ) {
+    dbService.updatePlayerForPool(
+      playerId = playerId,
+      statut = statut
+    )
+  }
+
+  private fun refresh() {
     val skaters =
       getAllPoolPreviewPlayers(
         minimal = false,
@@ -21,29 +68,5 @@ class PoolPreviewViewModel(
       )
 
     _state.update { it.copy(skaterPlayers = skaters) }
-  }
-
-//  var poolSkaters: List<PoolSkaterPlayer> =
-//    getAllPoolPreviewPlayers(
-//      minimal = false,
-//      sortValue = false,
-//    )
-//
-//  fun refresh() {
-//    poolSkaters =
-//      getAllPoolPreviewPlayers(
-//        minimal = false,
-//        sortValue = false,
-//      )
-//  }
-
-  fun onAction(action: PoolPreviewAction) {
-    Logger.debug("PPVM onAction $action")
-
-    when (action) {
-      is PoolPreviewAction.OnPlayerSelect -> {
-      }
-      is PoolPreviewAction.OnPlayerTaken -> {}
-    }
   }
 }

@@ -8,7 +8,7 @@ import ca.sebleclerc.hockeydata.core.helpers.Logger
 import ca.sebleclerc.hockeydata.database.DatabaseService
 
 open class SharedPoolPreviewViewModel(
-  private val dbService: DatabaseService,
+  val dbService: DatabaseService,
 ) : ViewModel() {
   fun getAllPoolPreviewPlayers(
     teamId: Int? = null,
