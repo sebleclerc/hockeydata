@@ -13,7 +13,7 @@ import ca.sebleclerc.hockeydata.models.CacheStep
 class PoolMeCommand(
   di: DI,
 ) : BaseCommand(di, name = "me") {
-  private var totalSalary = 11900000
+  private var totalSalary = 0
 
   override fun run() {
     super.run()

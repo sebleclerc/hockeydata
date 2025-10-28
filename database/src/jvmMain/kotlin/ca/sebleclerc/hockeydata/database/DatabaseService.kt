@@ -129,7 +129,6 @@ class DatabaseService {
   }
 
   fun getPoolMePlayers(): List<Player> {
-    Logger.debug("[DatabaseService] getPoolMePlayers()")
     val players = mutableListOf<Player>()
 
     @Suppress("ktlint:standard:max-line-length")
@@ -141,8 +140,6 @@ class DatabaseService {
       playerIds.add(rs.getInt("playerId"))
     }
     rs.close()
-
-    Logger.debug("Got ${playerIds.size} player Ids")
 
     playerIds.forEach { playerId ->
       getPlayerForId(playerId)?.also { players.add(it) }
