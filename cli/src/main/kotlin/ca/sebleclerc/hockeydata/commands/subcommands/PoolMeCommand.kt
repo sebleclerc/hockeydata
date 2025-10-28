@@ -3,6 +3,7 @@ package ca.sebleclerc.hockeydata.commands.subcommands
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.core.domain.Player
+import ca.sebleclerc.hockeydata.core.domain.PoolMePlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import ca.sebleclerc.hockeydata.helpers.Logger
@@ -62,17 +63,24 @@ class PoolMeCommand(
   private fun displayPlayer(player: Player) {
     val stats = di.database.getSingleSeasonForSkateId(player.id, Constants.currentSeason)
     val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
+
+    val mePlayer = PoolMePlayer(
+      player = player,
+      stats = stats,
+      salary = salary
+    )
+
     totalSalary += salary?.salary ?: 0
 
     Logger.row(
       LoggerColumn.ID(player.id),
       LoggerColumn.Name(player.fullName),
-      LoggerColumn.Games(stats?.games ?: 0),
-      LoggerColumn.Goals(stats?.goals ?: 0),
-      LoggerColumn.Assists(stats?.assists ?: 0),
-      LoggerColumn.Points(stats?.points ?: 0),
-      LoggerColumn.PoolPts(stats?.poolPoints ?: 0F),
-      LoggerColumn.Salary(salary?.avv ?: "N/A"),
+      LoggerColumn.Games(mePlayer.games),
+      LoggerColumn.Goals(mePlayer.goals),
+      LoggerColumn.Assists(mePlayer.assists),
+      LoggerColumn.Points(mePlayer.points),
+      LoggerColumn.PoolPts(mePlayer.poolPoints),
+      LoggerColumn.Salary(mePlayer.avv),
     )
   }
 }

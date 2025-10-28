@@ -19,6 +19,7 @@ import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolMe
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolPreview
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolPreviewScreen
+import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewViewModel
 
 @Composable
@@ -30,18 +31,26 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
   ) {
     NavigationBar {
       Button(onClick = { navController.navigate(PoolMe) }) {
-        Text("PoolMe")
+        Text("ME")
       }
       Button(onClick = { navController.navigate(PoolPreview) }) {
-        Text("PoolPreview")
+        Text("Preview")
       }
     }
     NavHost(
       navController = navController,
-      startDestination = PoolPreview,
+      startDestination = PoolMe,
       modifier = Modifier,
     ) {
-      composable<PoolMe> { PoolMeScreen() }
+      composable<PoolMe> {
+        val viewModel: PoolMeViewModel = viewModel { PoolMeViewModel(DI.database) }
+        val state by viewModel.state.collectAsStateWithLifecycle()
+
+        PoolMeScreen(
+          state = state
+        )
+      }
+
       composable<PoolPreview> {
         val viewModel: PoolPreviewViewModel = viewModel { PoolPreviewViewModel(DI.database) }
         val state by viewModel.state.collectAsStateWithLifecycle()
