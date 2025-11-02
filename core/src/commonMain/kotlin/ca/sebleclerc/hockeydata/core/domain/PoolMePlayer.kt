@@ -1,6 +1,6 @@
 package ca.sebleclerc.hockeydata.core.domain
 
-class PoolMePlayer (
+class PoolMePlayer(
   val player: Player,
   val salary: PlayerSalarySeason?,
   val stats: PlayerSkaterSeason?,

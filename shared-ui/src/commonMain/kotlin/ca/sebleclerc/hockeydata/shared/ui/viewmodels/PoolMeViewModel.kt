@@ -8,7 +8,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 
-class PoolMeViewModel(val dbService: DatabaseService) : ViewModel() {
+class PoolMeViewModel(
+  val dbService: DatabaseService,
+) : ViewModel() {
   private val _state = MutableStateFlow(PoolMeState())
   val state = _state.asStateFlow()
 
@@ -30,18 +32,20 @@ class PoolMeViewModel(val dbService: DatabaseService) : ViewModel() {
         PoolMePlayer(
           player = it,
           salary = salary,
-          stats = stats
-        )
+          stats = stats,
+        ),
       )
     }
 
     val forwards = players.filter { it.player.positionCode != "D" }
     val defenses = players.filter { it.player.positionCode == "D" }
 
-    _state.update { it.copy(
-      forwards = forwards,
-      defenses = defenses,
-      salary = totalSalary
-    ) }
+    _state.update {
+      it.copy(
+        forwards = forwards,
+        defenses = defenses,
+        salary = totalSalary,
+      )
+    }
   }
 }

@@ -47,7 +47,7 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
         val state by viewModel.state.collectAsStateWithLifecycle()
 
         PoolMeScreen(
-          state = state
+          state = state,
         )
       }
 

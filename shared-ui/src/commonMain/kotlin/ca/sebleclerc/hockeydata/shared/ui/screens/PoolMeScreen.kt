@@ -13,14 +13,13 @@ import ca.sebleclerc.hockeydata.shared.ui.components.page.PageTitle
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeState
 
 @Composable
-fun PoolMeScreen(
-  state: PoolMeState
-) {
-  Column{
+fun PoolMeScreen(state: PoolMeState) {
+  Column {
     PageTitle("Pool Me")
     LazyColumn(
-      modifier = Modifier
-        .fillMaxWidth()
+      modifier =
+        Modifier
+          .fillMaxWidth(),
     ) {
       item {
         PoolMeHeader()

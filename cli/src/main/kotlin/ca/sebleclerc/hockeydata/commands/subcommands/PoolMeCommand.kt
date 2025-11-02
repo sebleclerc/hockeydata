@@ -64,11 +64,12 @@ class PoolMeCommand(
     val stats = di.database.getSingleSeasonForSkateId(player.id, Constants.currentSeason)
     val salary = di.database.getPlayerSeasonSalary(Constants.currentSeason, player.id)
 
-    val mePlayer = PoolMePlayer(
-      player = player,
-      stats = stats,
-      salary = salary
-    )
+    val mePlayer =
+      PoolMePlayer(
+        player = player,
+        stats = stats,
+        salary = salary,
+      )
 
     totalSalary += salary?.salary ?: 0
 

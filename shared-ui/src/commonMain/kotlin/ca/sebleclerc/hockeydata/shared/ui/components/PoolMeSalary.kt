@@ -12,12 +12,13 @@ import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.RowItem
 @Composable
 fun PoolMeSalary(salary: Int) {
   Row(
-    modifier = Modifier
-      .height(Constants.UI_ROW_HEIGHT.dp)
+    modifier =
+      Modifier
+        .height(Constants.UI_ROW_HEIGHT.dp),
   ) {
     RowItem(
       text = "       Salaire total:    ${Formatter.intToSalary(salary)}",
-      padding = 500
+      padding = 500,
     )
   }
 }

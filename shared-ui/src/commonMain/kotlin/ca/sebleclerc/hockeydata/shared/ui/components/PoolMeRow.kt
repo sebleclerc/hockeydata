@@ -12,8 +12,9 @@ import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.RowItem
 @Composable
 fun PoolMeRow(player: PoolMePlayer) {
   Row(
-    modifier = Modifier
-      .height(Constants.UI_ROW_HEIGHT.dp)
+    modifier =
+      Modifier
+        .height(Constants.UI_ROW_HEIGHT.dp),
   ) {
     RowItem(text = player.player.id.toString(), padding = Constants.UI_PADDING_ID)
     RowItem(text = player.player.fullName, padding = Constants.UI_PADDING_NAME)

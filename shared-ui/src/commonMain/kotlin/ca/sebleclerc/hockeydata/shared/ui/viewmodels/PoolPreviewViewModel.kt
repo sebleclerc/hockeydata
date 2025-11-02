@@ -16,41 +16,48 @@ class PoolPreviewViewModel(
   val state = _state.asStateFlow()
 
   init {
-    refresh()
+    updateState(refreshPlayers = true)
   }
+
+  // region Public
 
   fun onAction(action: PoolPreviewAction) {
     Logger.debug("PPVM onAction $action")
 
     when (action) {
-      is PoolPreviewAction.OnPlayerSelect -> {
-        didReceivedOnPlayerSelect(player = action.player)
-      }
-      is PoolPreviewAction.OnPlayerTaken -> {
-        didReceivedOnPlayerTaken(player = action.player)
-      }
+      is PoolPreviewAction.OnPlayerSelect -> didReceivedOnPlayerSelect(player = action.player)
+      is PoolPreviewAction.OnPlayerTaken -> didReceivedOnPlayerTaken(player = action.player)
+      is PoolPreviewAction.OnSearchValueChanged -> didUpdateSearch(action.search)
     }
   }
 
+  // endregion
+
+  // region Actions
+
   private fun didReceivedOnPlayerSelect(player: PoolSkaterPlayer) {
-    updatePlayerForPool(
+    updatePlayerAndRefresh(
       playerId = player.player.id,
       statut = PoolDraftStatut.SELECTED,
     )
-
-    refresh()
   }
 
   private fun didReceivedOnPlayerTaken(player: PoolSkaterPlayer) {
-    updatePlayerForPool(
+    updatePlayerAndRefresh(
       playerId = player.player.id,
       statut = PoolDraftStatut.TAKEN,
     )
-
-    refresh()
   }
 
-  private fun updatePlayerForPool(
+  private fun didUpdateSearch(searchValue: String) {
+    updateState(newSearch = searchValue)
+  }
+
+  // endregion
+
+  // region Helpers
+
+  private fun updatePlayerAndRefresh(
     playerId: Int,
     statut: PoolDraftStatut,
   ) {
@@ -58,15 +65,36 @@ class PoolPreviewViewModel(
       playerId = playerId,
       statut = statut,
     )
+
+    updateState(refreshPlayers = true)
   }
 
-  private fun refresh() {
-    val skaters =
-      getAllPoolPreviewPlayers(
-        minimal = false,
-        sortValue = false,
+  private fun updateState(
+    refreshPlayers: Boolean = false,
+    newSearch: String? = null,
+  ) {
+    val allPlayers =
+      if (refreshPlayers) {
+        getAllPoolPreviewPlayers(
+          minimal = false,
+          sortValue = false,
+        )
+      } else {
+        _state.value.allPLayers
+      }
+
+    val searchTerm = newSearch ?: _state.value.currentSearchValue
+
+    val filtered = if (searchTerm.isEmpty()) allPlayers else allPlayers.filter { it.player.fullName.lowercase().contains(searchTerm.lowercase()) }
+
+    _state.update {
+      it.copy(
+        allPLayers = allPlayers,
+        filteredPlayers = filtered,
+        currentSearchValue = searchTerm,
       )
-
-    _state.update { it.copy(skaterPlayers = skaters) }
+    }
   }
+
+  // endregion
 }

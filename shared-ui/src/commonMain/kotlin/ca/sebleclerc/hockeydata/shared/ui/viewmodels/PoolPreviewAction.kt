@@ -10,4 +10,8 @@ sealed interface PoolPreviewAction {
   data class OnPlayerSelect(
     val player: PoolSkaterPlayer,
   ) : PoolPreviewAction
+
+  data class OnSearchValueChanged(
+    val search: String,
+  ) : PoolPreviewAction
 }

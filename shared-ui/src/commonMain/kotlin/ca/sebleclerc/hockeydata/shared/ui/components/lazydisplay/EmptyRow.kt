@@ -10,7 +10,8 @@ import ca.sebleclerc.hockeydata.core.helpers.Constants
 @Composable
 fun EmptyRow() {
   Row(
-    modifier = Modifier
-      .height(Constants.UI_ROW_HEIGHT.dp)
+    modifier =
+      Modifier
+        .height(Constants.UI_ROW_HEIGHT.dp),
   ) {}
 }
