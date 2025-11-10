@@ -9,3 +9,6 @@ object PoolPreview
 
 @Serializable
 object PoolMe
+
+@Serializable
+object PoolData

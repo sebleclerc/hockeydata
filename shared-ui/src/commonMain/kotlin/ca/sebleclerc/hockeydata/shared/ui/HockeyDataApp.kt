@@ -15,8 +15,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolData
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolMe
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolPreview
+import ca.sebleclerc.hockeydata.shared.ui.screens.PoolDataScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolPreviewScreen
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeViewModel
@@ -35,6 +37,9 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       }
       Button(onClick = { navController.navigate(PoolPreview) }) {
         Text("Preview")
+      }
+      Button(onClick = { navController.navigate(PoolData) }) {
+        Text("Data")
       }
     }
     NavHost(
@@ -59,6 +64,10 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
           state = state,
           onAction = viewModel::onAction,
         )
+      }
+
+      composable<PoolData> {
+        PoolDataScreen()
       }
     }
   }
