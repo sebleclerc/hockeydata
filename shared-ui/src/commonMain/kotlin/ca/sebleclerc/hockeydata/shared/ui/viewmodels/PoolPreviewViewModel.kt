@@ -85,7 +85,16 @@ class PoolPreviewViewModel(
 
     val searchTerm = newSearch ?: _state.value.currentSearchValue
 
-    val filtered = if (searchTerm.isEmpty()) allPlayers else allPlayers.filter { it.player.fullName.lowercase().contains(searchTerm.lowercase()) }
+    val filtered =
+      if (searchTerm.isEmpty()) {
+        allPlayers
+      } else {
+        allPlayers.filter {
+          it.player.fullName
+            .lowercase()
+            .contains(searchTerm.lowercase())
+        }
+      }
 
     _state.update {
       it.copy(
