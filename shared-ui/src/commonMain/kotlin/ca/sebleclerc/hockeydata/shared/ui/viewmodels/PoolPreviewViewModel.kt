@@ -16,7 +16,8 @@ import kotlinx.coroutines.launch
 
 class PoolPreviewViewModel(
   dbService: DatabaseService,
-) : SharedPoolPreviewViewModel(dbService), Loading by LoadingViewModel() {
+) : SharedPoolPreviewViewModel(dbService),
+  Loading by LoadingViewModel() {
   private val _state = MutableStateFlow(PoolPreviewState())
   val state = _state.asStateFlow()
 

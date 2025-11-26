@@ -7,6 +7,7 @@ import kotlinx.coroutines.flow.update
 
 interface Loading {
   val loadingState: StateFlow<LoadingState>
+
   fun updateLoading(isLoading: Boolean)
 }
 

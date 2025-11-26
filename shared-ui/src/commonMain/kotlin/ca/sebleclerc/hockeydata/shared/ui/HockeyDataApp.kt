@@ -63,7 +63,7 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
         val loading by viewModel.loadingState.collectAsStateWithLifecycle()
 
         LoadingOverlay(
-          state = loading
+          state = loading,
         ) {
           PoolPreviewScreen(
             state = state,
