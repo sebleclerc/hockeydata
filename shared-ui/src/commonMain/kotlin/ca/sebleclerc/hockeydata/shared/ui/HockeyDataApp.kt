@@ -15,6 +15,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import ca.sebleclerc.hockeydata.shared.ui.components.loading.LoadingOverlay
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolData
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolMe
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolPreview
@@ -59,11 +60,16 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       composable<PoolPreview> {
         val viewModel: PoolPreviewViewModel = viewModel { PoolPreviewViewModel(DI.database) }
         val state by viewModel.state.collectAsStateWithLifecycle()
+        val loading by viewModel.loadingState.collectAsStateWithLifecycle()
 
-        PoolPreviewScreen(
-          state = state,
-          onAction = viewModel::onAction,
-        )
+        LoadingOverlay(
+          state = loading
+        ) {
+          PoolPreviewScreen(
+            state = state,
+            onAction = viewModel::onAction,
+          )
+        }
       }
 
       composable<PoolData> {
