@@ -9,6 +9,7 @@ version = "1.0-SNAPSHOT"
 
 dependencies {
   implementation(project(":core"))
+  implementation(project(":cache"))
   implementation(project(":database"))
 
   implementation(project(":shared"))
@@ -16,10 +17,7 @@ dependencies {
 
   implementation(libs.clikt)
 
-  implementation(libs.okhttp)
-  implementation(libs.kotlinx.serialization)
-
-    testImplementation(kotlin("test"))
+  testImplementation(kotlin("test"))
 }
 
 tasks.test {

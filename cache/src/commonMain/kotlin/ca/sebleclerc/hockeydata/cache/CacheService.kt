@@ -1,12 +1,15 @@
-package ca.sebleclerc.hockeydata.services
+package ca.sebleclerc.hockeydata.cache
 
-import ca.sebleclerc.hockeydata.helpers.Logger
-import ca.sebleclerc.hockeydata.models.CacheStep
+import ca.sebleclerc.hockeydata.core.cache.CacheStep
+import ca.sebleclerc.hockeydata.core.helpers.Logger
+import ca.sebleclerc.hockeydata.core.helpers.Progress
 import okhttp3.OkHttpClient
 import okhttp3.Request
+import kotlin.collections.forEach
 
 class CacheService(
   private val import: ImportService,
+  private val progress: Progress,
 ) {
   private val apiClient = OkHttpClient()
 
@@ -18,7 +21,7 @@ class CacheService(
     steps.forEach {
       cacheStep(it, force)
       if (showProgress) {
-        Logger.step()
+        progress.step()
       }
     }
 
@@ -38,17 +41,17 @@ class CacheService(
     force: Boolean,
   ) {
     if (force && step.file.exists()) {
-      Logger.info("Deleting file at path.")
+      Logger.debug("Deleting file at path.")
       step.file.delete()
     }
   }
 
   private fun checkCacheAndSave(step: CacheStep) {
     if (step.file.exists()) {
-      Logger.info("Cache file exist, nothing to do.")
+      Logger.debug("Cache file exist, nothing to do.")
     } else {
       Logger.warning("Calling NHL's API")
-      Logger.info(step.apiPath)
+      Logger.debug(step.apiPath)
       val request =
         Request
           .Builder()

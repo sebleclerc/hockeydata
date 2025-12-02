@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.models
+package ca.sebleclerc.hockeydata.core.cache
 
 import ca.sebleclerc.hockeydata.core.domain.Team
 import java.io.File

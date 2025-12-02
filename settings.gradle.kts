@@ -6,6 +6,7 @@ rootProject.name = "hockeydata"
 
 include("core")
 
+include("cache")
 include("database")
 
 include("shared")

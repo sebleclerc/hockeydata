@@ -1,12 +1,12 @@
-package ca.sebleclerc.hockeydata.services
+package ca.sebleclerc.hockeydata.cache
 
 import ca.sebleclerc.hockeydata.core.cache.CacheGoalerPlayer
 import ca.sebleclerc.hockeydata.core.cache.CachePlayer
 import ca.sebleclerc.hockeydata.core.cache.CacheRoster
 import ca.sebleclerc.hockeydata.core.cache.CacheSkaterPlayer
+import ca.sebleclerc.hockeydata.core.cache.CacheStep
+import ca.sebleclerc.hockeydata.core.helpers.Logger
 import ca.sebleclerc.hockeydata.database.DatabaseService
-import ca.sebleclerc.hockeydata.helpers.Logger
-import ca.sebleclerc.hockeydata.models.CacheStep
 import kotlinx.serialization.json.Json
 
 class ImportService(
@@ -35,7 +35,7 @@ class ImportService(
 
   fun importPlayers(steps: List<CacheStep.Player>) {
     steps.forEach { step ->
-      Logger.info("Import player ${step.playerId}")
+      Logger.debug("Import player ${step.playerId}")
       val fileContent = step.file.readText()
       val cachePlayer = json.decodeFromString<CachePlayer>(fileContent)
 
