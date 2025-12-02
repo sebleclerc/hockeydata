@@ -1,9 +1,9 @@
-package ca.sebleclerc.hockeydata.helpers
+package ca.sebleclerc.hockeydata.cli.helpers
 
+import ca.sebleclerc.hockeydata.cli.helpers.Logger.completed
+import ca.sebleclerc.hockeydata.cli.helpers.Logger.debug
+import ca.sebleclerc.hockeydata.cli.helpers.Logger.enabled
 import ca.sebleclerc.hockeydata.core.helpers.ProgressRunner
-import ca.sebleclerc.hockeydata.helpers.Logger.completed
-import ca.sebleclerc.hockeydata.helpers.Logger.debug
-import ca.sebleclerc.hockeydata.helpers.Logger.enabled
 
 class CLIProgressRunner : ProgressRunner {
   private var isInProgress = false
@@ -34,7 +34,7 @@ class CLIProgressRunner : ProgressRunner {
       enabled = true
 
       logProgressMessage("Done!                                                                   ")
-      Logger.debug("")
+      debug("")
       debug("")
       debug("")
       completed()

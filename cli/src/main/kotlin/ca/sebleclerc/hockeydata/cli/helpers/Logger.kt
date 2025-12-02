@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.helpers
+package ca.sebleclerc.hockeydata.cli.helpers
 
 import com.andreapivetta.kolor.green
 import com.andreapivetta.kolor.yellow

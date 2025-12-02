@@ -1,10 +1,10 @@
-package ca.sebleclerc.hockeydata.commands.subcommands
+package ca.sebleclerc.hockeydata.cli.commands.subcommands
 
-import ca.sebleclerc.hockeydata.DI
-import ca.sebleclerc.hockeydata.commands.BaseCommand
+import ca.sebleclerc.hockeydata.cli.DI
+import ca.sebleclerc.hockeydata.cli.commands.BaseCommand
+import ca.sebleclerc.hockeydata.cli.helpers.Logger
+import ca.sebleclerc.hockeydata.cli.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.core.helpers.Constants
-import ca.sebleclerc.hockeydata.helpers.Logger
-import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 
 class SalaryAllCommand(
   di: DI,

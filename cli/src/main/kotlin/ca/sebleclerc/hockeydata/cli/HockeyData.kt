@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata
+package ca.sebleclerc.hockeydata.cli
 
 import com.github.ajalt.clikt.core.CliktCommand
 

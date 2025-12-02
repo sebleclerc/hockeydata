@@ -1,16 +1,14 @@
-package ca.sebleclerc.hockeydata.commands.subcommands
+package ca.sebleclerc.hockeydata.cli.commands.subcommands
 
-import ca.sebleclerc.hockeydata.DI
-import ca.sebleclerc.hockeydata.commands.BaseCommand
+import ca.sebleclerc.hockeydata.cli.DI
+import ca.sebleclerc.hockeydata.cli.commands.BaseCommand
+import ca.sebleclerc.hockeydata.cli.helpers.Logger
+import ca.sebleclerc.hockeydata.cli.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
-import ca.sebleclerc.hockeydata.helpers.Logger
-import ca.sebleclerc.hockeydata.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.shared.viewmodels.SharedPoolPreviewViewModel
 import com.github.ajalt.clikt.parameters.options.flag
 import com.github.ajalt.clikt.parameters.options.option
 import com.github.ajalt.clikt.parameters.types.int
-import java.math.BigDecimal
-import java.math.RoundingMode
 
 class PoolPreviewCommand(
   di: DI,

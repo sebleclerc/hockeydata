@@ -1,6 +1,6 @@
-package ca.sebleclerc.hockeydata.commands
+package ca.sebleclerc.hockeydata.cli.commands
 
-import ca.sebleclerc.hockeydata.DI
+import ca.sebleclerc.hockeydata.cli.DI
 
 class CacheCommand(
   di: DI,

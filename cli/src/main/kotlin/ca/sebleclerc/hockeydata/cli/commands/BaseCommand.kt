@@ -1,7 +1,7 @@
-package ca.sebleclerc.hockeydata.commands
+package ca.sebleclerc.hockeydata.cli.commands
 
-import ca.sebleclerc.hockeydata.DI
-import ca.sebleclerc.hockeydata.helpers.Logger
+import ca.sebleclerc.hockeydata.cli.DI
+import ca.sebleclerc.hockeydata.cli.helpers.Logger
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.options.flag
 import com.github.ajalt.clikt.parameters.options.option

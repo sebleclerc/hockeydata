@@ -1,8 +1,8 @@
-package ca.sebleclerc.hockeydata.commands
+package ca.sebleclerc.hockeydata.cli.commands
 
-import ca.sebleclerc.hockeydata.DI
-import ca.sebleclerc.hockeydata.helpers.Logger
-import ca.sebleclerc.hockeydata.helpers.LoggerColumn
+import ca.sebleclerc.hockeydata.cli.DI
+import ca.sebleclerc.hockeydata.cli.helpers.Logger
+import ca.sebleclerc.hockeydata.cli.helpers.LoggerColumn
 import ca.sebleclerc.hockeydata.core.cache.CacheStep
 import com.github.ajalt.clikt.core.CliktCommand
 
