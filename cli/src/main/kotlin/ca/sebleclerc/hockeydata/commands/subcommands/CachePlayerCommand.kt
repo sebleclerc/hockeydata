@@ -4,7 +4,7 @@ import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.helpers.Logger
-import ca.sebleclerc.hockeydata.models.CacheStep
+import ca.sebleclerc.hockeydata.core.cache.CacheStep
 import com.github.ajalt.clikt.parameters.arguments.argument
 import kotlin.io.path.Path
 import kotlin.io.path.listDirectoryEntries
@@ -40,13 +40,13 @@ class CachePlayerCommand(
 
     val players = Path(Constants.JSON_FOLDER).listDirectoryEntries("*-player.json")
 
-    Logger.startProgress("Players", players.count().toFloat())
+    di.progress.startProgress("Players", players.count().toFloat())
     players.forEach {
       val playerId = it.name.split("-")[0].toInt()
-      Logger.info("Caching player $playerId from ${it.name}")
+      Logger.debug("Caching player $playerId from ${it.name}")
 
       cachePlayerWithId(playerId)
-      Logger.step()
+      di.progress.step()
     }
   }
 }

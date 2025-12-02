@@ -19,10 +19,10 @@ class PlayerCommand(
 
     val player = di.database.getPlayerForId(playerId) ?: return
 
-    Logger.info("Name: ${player.fullName}")
-    Logger.info("Birthday: ${player.birthDate.display}")
-    Logger.info("Primary number: ${player.primaryNumber}")
-    Logger.info("")
+    Logger.debug("Name: ${player.fullName}")
+    Logger.debug("Birthday: ${player.birthDate.display}")
+    Logger.debug("Primary number: ${player.primaryNumber}")
+    Logger.debug("")
 
     Logger.header(
       LoggerColumn.Season(),
@@ -48,7 +48,7 @@ class PlayerCommand(
       )
     }
 
-    Logger.info("")
+    Logger.debug("")
     Logger.taskEnd()
   }
 }

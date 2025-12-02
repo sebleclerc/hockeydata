@@ -3,7 +3,7 @@ package ca.sebleclerc.hockeydata.commands.subcommands
 import ca.sebleclerc.hockeydata.DI
 import ca.sebleclerc.hockeydata.commands.BaseCommand
 import ca.sebleclerc.hockeydata.helpers.Logger
-import ca.sebleclerc.hockeydata.models.CacheStep
+import ca.sebleclerc.hockeydata.core.cache.CacheStep
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.types.int
 
@@ -22,13 +22,13 @@ class CacheTeamCommand(
     val roster = di.database.getRosterForTeam(team.id)
 
     val nbSteps = roster.count().toFloat()
-    Logger.startProgress("Players", nbSteps)
+    di.progress.startProgress("Players", nbSteps)
 
     val playerSteps = roster.map { CacheStep.Player(it) }
     di.cache.cache(playerSteps, force ?: false, showProgress = true)
     di.import.importPlayers(playerSteps)
 
-    Logger.endProgress()
+    di.progress.endProgress()
 
     Logger.enabled = true
     Logger.taskEnd()

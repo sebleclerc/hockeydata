@@ -13,9 +13,9 @@ class SalaryAllCommand(
     super.run()
 
     Logger.taskTitle("Salary Summary")
-    Logger.info("Showing a summary of salary informations from all teams in season ${Constants.currentSeason}")
-    Logger.info("")
-    Logger.info("")
+    Logger.debug("Showing a summary of salary informations from all teams in season ${Constants.currentSeason}")
+    Logger.debug("")
+    Logger.debug("")
 
     val customPadding = 15
     Logger.header(
@@ -49,8 +49,8 @@ class SalaryAllCommand(
       )
     }
 
-    Logger.info("")
-    Logger.info("Total players proportion: $totalInDbPlayers / $totalPlayers")
+    Logger.debug("")
+    Logger.debug("Total players proportion: $totalInDbPlayers / $totalPlayers")
 
     Logger.taskEnd()
   }

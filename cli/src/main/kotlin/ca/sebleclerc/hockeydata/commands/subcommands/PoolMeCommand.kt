@@ -8,7 +8,7 @@ import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import ca.sebleclerc.hockeydata.helpers.Logger
 import ca.sebleclerc.hockeydata.helpers.LoggerColumn
-import ca.sebleclerc.hockeydata.models.CacheStep
+import ca.sebleclerc.hockeydata.core.cache.CacheStep
 
 class PoolMeCommand(
   di: DI,
@@ -46,16 +46,16 @@ class PoolMeCommand(
     Logger.header(*columns.toTypedArray())
     forwards.forEach { displayPlayer(it) }
 
-    Logger.info("")
-    Logger.info("")
+    Logger.debug("")
+    Logger.debug("")
 
     Logger.taskSubtitle("Defense")
     Logger.header(*columns.toTypedArray())
     defenses.forEach { displayPlayer(it) }
 
-    Logger.info("")
-    Logger.info("")
-    Logger.info("Salaire total:      ${Formatter.intToSalary(totalSalary)}")
+    Logger.debug("")
+    Logger.debug("")
+    Logger.debug("Salaire total:      ${Formatter.intToSalary(totalSalary)}")
 
     Logger.taskEnd()
   }

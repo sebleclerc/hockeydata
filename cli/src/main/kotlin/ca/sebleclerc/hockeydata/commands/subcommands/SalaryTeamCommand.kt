@@ -24,7 +24,7 @@ class SalaryTeamCommand(
     val team = di.database.getTeamForId(teamId) ?: return
     val roster = di.database.getRosterForTeam(teamId)
 
-    Logger.info("Salaries for team ${team.name}")
+    Logger.debug("Salaries for team ${team.name}")
     val salaries = mutableMapOf<String, PlayerSeasonSalary>()
 
     roster.forEach { playerId ->
@@ -71,7 +71,7 @@ class SalaryTeamCommand(
     player: Player,
     season: Season,
   ) {
-    Logger.info("Quel est le salaire de ${player.lastName}, ${player.firstName} (${player.positionCode})(${player.id}) pour $season?")
+    Logger.debug("Quel est le salaire de ${player.lastName}, ${player.firstName} (${player.positionCode})(${player.id}) pour $season?")
     val salary = readln()
 
     val sanitizedSalary =
@@ -92,7 +92,7 @@ class SalaryTeamCommand(
         salary = sanitizedSalary,
       )
 
-      Logger.info("Pour combien d'années encore?")
+      Logger.debug("Pour combien d'années encore?")
       val nbYear = readlnOrNull()?.toIntOrNull()
 
       nbYear?.also {
@@ -101,7 +101,7 @@ class SalaryTeamCommand(
 
           repeat(it) {
             val nextSeason = currentSeason.next
-            Logger.info("Adding salary for season $nextSeason")
+            Logger.debug("Adding salary for season $nextSeason")
             di.database.insertPlayerSalary(
               playerId = player.id,
               season = nextSeason,
