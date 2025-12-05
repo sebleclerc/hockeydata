@@ -22,6 +22,7 @@ import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolPreview
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolDataScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolPreviewScreen
+import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolDataViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewViewModel
 
@@ -73,7 +74,22 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       }
 
       composable<PoolData> {
-        PoolDataScreen()
+        val viewModel: PoolDataViewModel = viewModel {
+          PoolDataViewModel(
+            cacheService = DI.cache,
+            dbService = DI.database,
+            importService = DI.import
+          )
+        }
+        val loading by viewModel.loadingState.collectAsStateWithLifecycle()
+
+        LoadingOverlay(
+          state = loading,
+        ) {
+          PoolDataScreen(
+            viewModel = viewModel
+          )
+        }
       }
     }
   }

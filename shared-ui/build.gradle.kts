@@ -12,7 +12,10 @@ kotlin {
   sourceSets {
     commonMain.dependencies {
       implementation(project(":core"))
+
+      implementation(project(":cache"))
       implementation(project(":database"))
+
       implementation(project(":shared"))
 
       implementation(libs.compose.navigation)
