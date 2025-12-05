@@ -3,7 +3,7 @@ package ca.sebleclerc.hockeydata.core.helpers
 interface ProgressRunner {
   fun startProgress(
     title: String,
-    max: Float
+    max: Float,
   )
 
   fun step()
@@ -11,15 +11,16 @@ interface ProgressRunner {
   fun endProgress()
 }
 
-class Progress(val runner: ProgressRunner)  {
+class Progress(
+  val runner: ProgressRunner,
+) {
   fun startProgress(
     title: String,
-    max: Float
-  ) =
-    runner.startProgress(
-      title = title,
-      max = max,
-    )
+    max: Float,
+  ) = runner.startProgress(
+    title = title,
+    max = max,
+  )
 
   fun step() = runner.step()
 

@@ -10,7 +10,10 @@ class CLIProgressRunner : ProgressRunner {
   private var currentStep: Float = 0F
   private var maxSteps: Float = 0F
 
-  override fun startProgress(title: String, max: Float) {
+  override fun startProgress(
+    title: String,
+    max: Float,
+  ) {
     isInProgress = true
     currentStep = 0F
     maxSteps = max

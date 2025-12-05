@@ -15,7 +15,7 @@ fun PoolDataScreen(viewModel: PoolDataViewModel) {
 
     Column {
       Button(
-        onClick = { viewModel.onAction(PoolDataAction.PoolDataRefresh)}
+        onClick = { viewModel.onAction(PoolDataAction.PoolDataRefresh) },
       ) {
         Text("Update Pool Data")
       }

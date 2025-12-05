@@ -15,7 +15,8 @@ class PoolDataViewModel(
   val cacheService: CacheService,
   val dbService: DatabaseService,
   val importService: ImportService,
-) : ViewModel(), Loading by LoadingViewModel() {
+) : ViewModel(),
+  Loading by LoadingViewModel() {
   fun onAction(action: PoolDataAction) {
     when (action) {
       is PoolDataAction.PoolDataRefresh -> poolDataRefresh()

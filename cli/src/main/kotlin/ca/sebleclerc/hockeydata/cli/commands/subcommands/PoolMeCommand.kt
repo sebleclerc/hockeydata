@@ -4,11 +4,11 @@ import ca.sebleclerc.hockeydata.cli.DI
 import ca.sebleclerc.hockeydata.cli.commands.BaseCommand
 import ca.sebleclerc.hockeydata.cli.helpers.Logger
 import ca.sebleclerc.hockeydata.cli.helpers.LoggerColumn
+import ca.sebleclerc.hockeydata.core.cache.CacheStep
 import ca.sebleclerc.hockeydata.core.domain.Player
 import ca.sebleclerc.hockeydata.core.domain.PoolMePlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
-import ca.sebleclerc.hockeydata.core.cache.CacheStep
 
 class PoolMeCommand(
   di: DI,

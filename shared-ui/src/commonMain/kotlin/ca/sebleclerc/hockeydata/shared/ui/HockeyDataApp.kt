@@ -74,20 +74,21 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       }
 
       composable<PoolData> {
-        val viewModel: PoolDataViewModel = viewModel {
-          PoolDataViewModel(
-            cacheService = DI.cache,
-            dbService = DI.database,
-            importService = DI.import
-          )
-        }
+        val viewModel: PoolDataViewModel =
+          viewModel {
+            PoolDataViewModel(
+              cacheService = DI.cache,
+              dbService = DI.database,
+              importService = DI.import,
+            )
+          }
         val loading by viewModel.loadingState.collectAsStateWithLifecycle()
 
         LoadingOverlay(
           state = loading,
         ) {
           PoolDataScreen(
-            viewModel = viewModel
+            viewModel = viewModel,
           )
         }
       }

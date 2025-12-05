@@ -10,8 +10,9 @@ object DI {
 
   val import = ImportService(dbService = database)
   val progress = Progress(runner = ComposeProgressRunner())
-  val cache = CacheService(
-    import = import,
-    progress = progress,
-  )
+  val cache =
+    CacheService(
+      import = import,
+      progress = progress,
+    )
 }
