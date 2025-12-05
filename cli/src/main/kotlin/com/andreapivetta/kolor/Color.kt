@@ -11,7 +11,9 @@ private const val BG_JUMP = 10
 /**
  * An enumeration of colors supported by most terminals. Can be applied to both foreground and background.
  */
-enum class Color(baseCode: Int) {
+enum class Color(
+  baseCode: Int,
+) {
   BLACK(30),
   RED(31),
   GREEN(32),
@@ -28,7 +30,8 @@ enum class Color(baseCode: Int) {
   LIGHT_BLUE(94),
   LIGHT_MAGENTA(95),
   LIGHT_CYAN(96),
-  WHITE(97);
+  WHITE(97),
+  ;
 
   /** ANSI modifier string to apply the color to the text itself */
   val foreground: String = "$ESCAPE[${baseCode}m"

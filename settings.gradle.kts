@@ -4,4 +4,14 @@ plugins {
 
 rootProject.name = "hockeydata"
 
+include("core")
+
+include("cache")
+include("database")
+
+include("shared")
+include("shared-ui")
+
 include("cli")
+
+include("desktop")

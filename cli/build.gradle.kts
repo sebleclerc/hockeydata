@@ -8,15 +8,16 @@ group = "ca.sebleclerc"
 version = "1.0-SNAPSHOT"
 
 dependencies {
-    implementation(libs.clikt)
+  implementation(project(":core"))
+  implementation(project(":cache"))
+  implementation(project(":database"))
 
-    implementation(libs.maria.db)
-    implementation(libs.slf4j)
+  implementation(project(":shared"))
+  implementation(libs.androidx.lifecycle.viewmodelCompose)
 
-    implementation(libs.okhttp)
-    implementation(libs.kotlinx.serialization)
+  implementation(libs.clikt)
 
-    testImplementation(kotlin("test"))
+  testImplementation(kotlin("test"))
 }
 
 tasks.test {

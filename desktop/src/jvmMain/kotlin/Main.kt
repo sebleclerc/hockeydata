@@ -1,0 +1,28 @@
+package ca.sebleclerc.hockeydata.desktop
+
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Window
+import androidx.compose.ui.window.application
+import androidx.compose.ui.window.rememberWindowState
+import ca.sebleclerc.hockeydata.shared.ui.HockeyDataApp
+
+fun main() {
+  application {
+    val windowState =
+      rememberWindowState(
+        width = 1400.dp,
+        height = 925.dp,
+      )
+
+    Window(
+      onCloseRequest = ::exitApplication,
+      state = windowState,
+      title = "HockeyData",
+    ) {
+      MaterialTheme {
+        HockeyDataApp()
+      }
+    }
+  }
+}
