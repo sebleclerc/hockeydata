@@ -21,10 +21,13 @@ class PoolMeViewModel(
   private fun refresh() {
     val players = mutableListOf<PoolMePlayer>()
     var totalSalary = 0
+    var totalPoolPoints = 0.0F
 
     val mePlayers = dbService.getPoolMePlayers()
     mePlayers.forEach {
       val stats = dbService.getSingleSeasonForSkateId(it.id, Constants.currentSeason)
+      totalPoolPoints += stats?.poolPoints ?: 0F
+
       val salary = dbService.getPlayerSeasonSalary(Constants.currentSeason, it.id)
       totalSalary += salary?.salary ?: 0
 
@@ -45,6 +48,7 @@ class PoolMeViewModel(
         forwards = forwards,
         defenses = defenses,
         salary = totalSalary,
+        poolPoints = totalPoolPoints,
       )
     }
   }
