@@ -1,6 +1,24 @@
 # Voici un historique des sélections de pool au cours des années
 ## 2025-2026
 ### Current (TBD 2025-10-05)
+- James van Riemsdyk
+- Nick Schmaltz
+- Adrian Kempe
+- Victor Olofsson
+- Alex DeBrincat
+- Jesper Bratt
+- Jason Robertson
+- Kiefer Sherwook
+- Jack Hughes
+- Dylan Holloway
+- Logan Cooley
+- Adam Fantilly
+- Brent Burns
+- Rasmus Andersson
+- Ryan Shea
+- Charlie McAvoy
+- Quinn Hughes
+- Evan Bouchard
 
 ## 2024-2025
 ### Current
