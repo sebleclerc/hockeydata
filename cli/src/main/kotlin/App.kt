@@ -8,7 +8,6 @@ import ca.sebleclerc.hockeydata.cli.commands.subcommands.CachePlayerCommand
 import ca.sebleclerc.hockeydata.cli.commands.subcommands.CacheTeamCommand
 import ca.sebleclerc.hockeydata.cli.commands.subcommands.CacheTeamsCommand
 import ca.sebleclerc.hockeydata.cli.commands.subcommands.PoolPreviewCommand
-import ca.sebleclerc.hockeydata.cli.commands.subcommands.PoolTakenCommand
 import ca.sebleclerc.hockeydata.cli.commands.subcommands.SalaryAllCommand
 import ca.sebleclerc.hockeydata.cli.commands.subcommands.SalaryTeamCommand
 import ca.sebleclerc.hockeydata.commands.subcommands.PoolMeCommand
@@ -27,7 +26,6 @@ fun main(args: Array<String>) {
       PoolCommand(DI)
         .subcommands(
           PoolPreviewCommand(DI),
-          PoolTakenCommand(DI),
           PoolMeCommand(DI),
         ),
       SalaryCommand(DI)
