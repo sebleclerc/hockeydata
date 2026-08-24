@@ -8,9 +8,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
 @Composable
-fun PageLayout(title: String, content: LazyListScope.() -> Unit,) {
+fun PageLayout(title: String, header: (@Composable () -> Unit)? = null, content: LazyListScope.() -> Unit,) {
   Column {
     PageTitle(title = title)
+    if (header != null) { header() }
     LazyColumn(
       modifier =
         Modifier

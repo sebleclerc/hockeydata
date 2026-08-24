@@ -29,6 +29,7 @@ object Constants {
   const val UI_PADDING_ID = 70
   const val UI_PADDING_NAME = 175
   const val UI_PADDING_POSITION = 30
+  const val UI_PADDING_PROPORTION = 70
   const val UI_PADDING_TEAM_ABBREV = 45
   const val UI_PADDING_HISTORY = 85
   const val UI_ROW_HEIGHT = 25

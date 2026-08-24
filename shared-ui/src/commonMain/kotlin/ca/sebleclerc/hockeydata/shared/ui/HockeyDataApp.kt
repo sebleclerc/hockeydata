@@ -28,6 +28,7 @@ import ca.sebleclerc.hockeydata.shared.ui.screens.TeamsScreen
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolDataViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewViewModel
+import ca.sebleclerc.hockeydata.shared.ui.viewmodels.TeamsViewModel
 
 @Composable
 fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
@@ -80,10 +81,19 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       }
 
       composable<Teams> {
-        TeamsScreen()
-//        LoadingOverlay(
-//          state = Loading,
-//        )
+        val viewModel: TeamsViewModel = viewModel {
+          TeamsViewModel(DI.database)
+        }
+        val state by viewModel.state.collectAsStateWithLifecycle()
+        val loading by viewModel.loadingState.collectAsStateWithLifecycle()
+
+        LoadingOverlay(
+          state = loading,
+        ) {
+          TeamsScreen(
+            state = state
+          )
+        }
       }
 
       composable<PoolData> {

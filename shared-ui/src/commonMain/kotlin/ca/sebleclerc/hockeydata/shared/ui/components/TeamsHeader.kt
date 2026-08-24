@@ -1,0 +1,15 @@
+package ca.sebleclerc.hockeydata.shared.ui.components
+
+import androidx.compose.foundation.layout.Row
+import androidx.compose.runtime.Composable
+import ca.sebleclerc.hockeydata.core.helpers.Constants
+import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.Header
+
+@Composable
+fun TeamsHeader() {
+  Row {
+    Header(text = "ID", padding = Constants.UI_PADDING_ID)
+    Header(text = "Name", padding = Constants.UI_PADDING_NAME)
+    Header(text = "Prop", padding = Constants.UI_PADDING_PROPORTION)
+  }
+}
