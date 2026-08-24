@@ -2,6 +2,8 @@ package ca.sebleclerc.hockeydata.shared.ui.screens
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.height
+import androidx.compose.material3.Button
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -9,13 +11,17 @@ import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.shared.ui.components.TeamsHeader
 import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.RowItem
 import ca.sebleclerc.hockeydata.shared.ui.components.page.PageLayout
+import ca.sebleclerc.hockeydata.shared.ui.viewmodels.TeamsAction
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.TeamsState
 
 @Composable
-fun TeamsScreen(state: TeamsState) {
+fun TeamsScreen(
+  state: TeamsState,
+  onAction: (TeamsAction) -> Unit) {
   PageLayout(
     title = "Teams",
-    header = { TeamsHeader() }
+    actions = { Button(onClick = { onAction(TeamsAction.RefreshRosters) }){ Text("Update Rosters")} },
+    listHeader = { TeamsHeader() }
   ) {
     items(state.data.size) { index ->
       val team = state.data[index].first

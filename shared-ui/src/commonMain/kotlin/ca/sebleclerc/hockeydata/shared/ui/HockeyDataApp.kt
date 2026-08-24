@@ -82,7 +82,10 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
 
       composable<Teams> {
         val viewModel: TeamsViewModel = viewModel {
-          TeamsViewModel(DI.database)
+          TeamsViewModel(
+            cacheService = DI.cache,
+            dbService = DI.database
+          )
         }
         val state by viewModel.state.collectAsStateWithLifecycle()
         val loading by viewModel.loadingState.collectAsStateWithLifecycle()
@@ -91,7 +94,8 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
           state = loading,
         ) {
           TeamsScreen(
-            state = state
+            state = state,
+            onAction = viewModel::onAction,
           )
         }
       }
