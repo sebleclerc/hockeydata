@@ -11,4 +11,7 @@ object PoolPreview
 object PoolMe
 
 @Serializable
+object Teams
+
+@Serializable
 object PoolData

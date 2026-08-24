@@ -15,13 +15,16 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import ca.sebleclerc.hockeydata.shared.ui.components.loading.Loading
 import ca.sebleclerc.hockeydata.shared.ui.components.loading.LoadingOverlay
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolData
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolMe
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolPreview
+import ca.sebleclerc.hockeydata.shared.ui.navigation.Teams
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolDataScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolPreviewScreen
+import ca.sebleclerc.hockeydata.shared.ui.screens.TeamsScreen
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolDataViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewViewModel
@@ -39,6 +42,9 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       }
       Button(onClick = { navController.navigate(PoolPreview) }) {
         Text("Preview")
+      }
+      Button(onClick = { navController.navigate(route = Teams) }) {
+        Text("Teams")
       }
       Button(onClick = { navController.navigate(PoolData) }) {
         Text("Data")
@@ -71,6 +77,13 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
             onAction = viewModel::onAction,
           )
         }
+      }
+
+      composable<Teams> {
+        TeamsScreen()
+//        LoadingOverlay(
+//          state = Loading,
+//        )
       }
 
       composable<PoolData> {
