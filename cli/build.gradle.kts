@@ -31,3 +31,19 @@ kotlin {
 application {
     mainClass = "AppKt"
 }
+
+distributions {
+  main {
+    contents {
+      duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    }
+  }
+}
+
+
+tasks.withType<Tar>().configureEach {
+  duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+tasks.withType<Zip>().configureEach {
+  duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
