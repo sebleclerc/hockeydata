@@ -12,7 +12,11 @@ import kotlin.io.path.name
 
 class CachePlayerCommand(
   di: DI,
-) : BaseCommand(di = di, name = "player") {
+) : BaseCommand(
+  di = di,
+  name = "player",
+  help = "Cache a single player or all players (always force)"
+) {
   private val playerId: String by argument()
 
   override fun run() {

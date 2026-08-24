@@ -7,7 +7,11 @@ import ca.sebleclerc.hockeydata.core.cache.CacheStep
 
 class CacheTeamsCommand(
   di: DI,
-) : BaseCommand(di = di, name = "teams") {
+) : BaseCommand(
+  di = di,
+  name = "teams",
+  help = "Cache all teams rosters and all missing players."
+) {
   override fun run() {
     Logger.taskTitle("Cache Teams rosters")
     Logger.enabled = false

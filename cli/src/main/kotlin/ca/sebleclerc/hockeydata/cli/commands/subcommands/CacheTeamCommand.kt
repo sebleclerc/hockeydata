@@ -9,7 +9,11 @@ import com.github.ajalt.clikt.parameters.types.int
 
 class CacheTeamCommand(
   di: DI,
-) : BaseCommand(di, name = "team") {
+) : BaseCommand(
+  di = di,
+  name = "team",
+  help = "Cache single team rosters and all missing players. (Can force)"
+) {
   val teamId by argument().int()
 
   override fun run() {
