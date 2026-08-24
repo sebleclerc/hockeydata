@@ -3,6 +3,7 @@ package ca.sebleclerc.hockeydata.shared.ui.viewmodels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import ca.sebleclerc.hockeydata.cache.CacheService
+import ca.sebleclerc.hockeydata.cache.ImportService
 import ca.sebleclerc.hockeydata.core.cache.CacheStep
 import ca.sebleclerc.hockeydata.database.DatabaseService
 import ca.sebleclerc.hockeydata.shared.ui.components.loading.Loading
@@ -16,6 +17,7 @@ import kotlinx.coroutines.launch
 class TeamsViewModel(
   val cacheService: CacheService,
   val dbService: DatabaseService,
+  val importService: ImportService,
 ) : ViewModel(),
   Loading by LoadingViewModel() {
   private val _state = MutableStateFlow(TeamsState())
@@ -67,14 +69,24 @@ class TeamsViewModel(
   }
 
   private fun updateRosters() {
-    val steps: MutableList<CacheStep> = mutableListOf(CacheStep.Teams())
-    steps += dbService
+    val teams = dbService
       .getAllTeams()
-      .map { CacheStep.CacheTeamRoster(it) }
+
+    val steps: MutableList<CacheStep> = mutableListOf(CacheStep.Teams())
+    steps += teams.map { CacheStep.CacheTeamRoster(it) }
 
     cacheService.cache(
       steps = steps,
       force = false
     )
+
+    importService.importRosters()
+
+    teams.forEach { team ->
+      val roster = dbService.getRosterForTeam(team.id)
+      val playerSteps = roster.map { CacheStep.Player(it) }
+      cacheService.cache(playerSteps, false)
+      importService.importPlayers(playerSteps)
+    }
   }
 }

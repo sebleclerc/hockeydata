@@ -84,7 +84,8 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
         val viewModel: TeamsViewModel = viewModel {
           TeamsViewModel(
             cacheService = DI.cache,
-            dbService = DI.database
+            dbService = DI.database,
+            importService = DI.import
           )
         }
         val state by viewModel.state.collectAsStateWithLifecycle()
