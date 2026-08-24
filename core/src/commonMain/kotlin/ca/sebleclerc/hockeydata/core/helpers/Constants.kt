@@ -3,7 +3,7 @@ package ca.sebleclerc.hockeydata.core.helpers
 import ca.sebleclerc.hockeydata.core.domain.Season
 
 object Constants {
-  val currentSeason = Season(20252026)
+  val currentSeason = Season(20262027)
 
   const val DB_URL = "jdbc:mariadb://127.0.0.1:3306/hockeydata"
   const val DB_USER = "sleclerc"

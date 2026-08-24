@@ -12,6 +12,7 @@ object Formatter {
   fun intToSalary(salary: Int): String {
     var formatted =
       when {
+        salary == 0 -> "0"
         salary < 1000000 ->
           StringBuilder(salary.toString())
             .insert(3, ' ')
