@@ -16,9 +16,6 @@ Questions salaire...
 Et pour demander le salaire des joueurs manquants, on ajoute `--force`
 
 Pool  
-Pour enlever un joueur:  
-`./run.sh pool taken XXXX`
-
 Pour trouver tous les joueurs sélectionnés:
 ```
 SELECT id, firstName, lastName, statut
