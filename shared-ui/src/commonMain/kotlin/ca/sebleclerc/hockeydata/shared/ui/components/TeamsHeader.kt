@@ -6,10 +6,12 @@ import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.Header
 
 @Composable
-fun TeamsHeader() {
+fun
+  TeamsHeader() {
   Row {
     Header(text = "ID", padding = Constants.UI_PADDING_ID)
     Header(text = "Name", padding = Constants.UI_PADDING_NAME)
-    Header(text = "Prop", padding = Constants.UI_PADDING_PROPORTION)
+    Header(text = "DB %", padding = Constants.UI_PADDING_PROPORTION)
+    Header(text = "Sal %", padding = Constants.UI_PADDING_PROPORTION)
   }
 }

@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import ca.sebleclerc.hockeydata.cache.CacheService
 import ca.sebleclerc.hockeydata.cache.ImportService
 import ca.sebleclerc.hockeydata.core.cache.CacheStep
+import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.database.DatabaseService
 import ca.sebleclerc.hockeydata.shared.ui.components.loading.Loading
 import ca.sebleclerc.hockeydata.shared.ui.components.loading.LoadingViewModel
@@ -40,27 +41,45 @@ class TeamsViewModel(
           fetchAllTeams()
         }
       }
+
+      TeamsAction.Reload -> {
+        updateLoading(isLoading = true)
+        viewModelScope.launch(Dispatchers.IO) {
+          fetchAllTeams()
+        }
+      }
     }
   }
 
   private fun fetchAllTeams() {
     val teams = dbService.getAllTeams()
+    var totalPlayers = 0
+    var totalPlayersSalaries = 0
 
     _state.update { teamsState ->
       teamsState.copy(
         data = teams.map { team ->
           val roster = dbService.getRosterForTeam(team.id)
           val nbPlayersInRoster = roster.count()
+          totalPlayers += nbPlayersInRoster
+
           var nbPlayerInDB = 0
+          var nbPlayersSalary = 0
 
           roster.forEach { playerId ->
             val player = dbService.getPlayerForId(playerId)
             if (player != null) nbPlayerInDB += 1
+
+            val salary = dbService.getPlayerSeasonSalary(Constants.currentSeason, playerId)
+            if (salary != null) nbPlayersSalary += 1
           }
 
-          val proportion = "$nbPlayerInDB / $nbPlayersInRoster"
+          totalPlayersSalaries += nbPlayersSalary
 
-          Pair(team, proportion)
+          val dbProportion = "$nbPlayerInDB / $nbPlayersInRoster"
+          val salaryProportion = "$nbPlayersSalary / $nbPlayersInRoster"
+
+          Triple(team, dbProportion, salaryProportion)
         }
       )
     }
