@@ -56,31 +56,34 @@ class TeamsViewModel(
     var totalPlayers = 0
     var totalPlayersSalaries = 0
 
+    val data = teams.map { team ->
+      val roster = dbService.getRosterForTeam(team.id)
+      val nbPlayersInRoster = roster.count()
+      totalPlayers += nbPlayersInRoster
+
+      var nbPlayerInDB = 0
+      var nbPlayersSalary = 0
+
+      roster.forEach { playerId ->
+        val player = dbService.getPlayerForId(playerId)
+        if (player != null) nbPlayerInDB += 1
+
+        val salary = dbService.getPlayerSeasonSalary(Constants.currentSeason, playerId)
+        if (salary != null) nbPlayersSalary += 1
+      }
+
+      totalPlayersSalaries += nbPlayersSalary
+
+      val dbProportion = "$nbPlayerInDB / $nbPlayersInRoster"
+      val salaryProportion = "$nbPlayersSalary / $nbPlayersInRoster"
+
+      Triple(team, dbProportion, salaryProportion)
+    }
+
     _state.update { teamsState ->
       teamsState.copy(
-        data = teams.map { team ->
-          val roster = dbService.getRosterForTeam(team.id)
-          val nbPlayersInRoster = roster.count()
-          totalPlayers += nbPlayersInRoster
-
-          var nbPlayerInDB = 0
-          var nbPlayersSalary = 0
-
-          roster.forEach { playerId ->
-            val player = dbService.getPlayerForId(playerId)
-            if (player != null) nbPlayerInDB += 1
-
-            val salary = dbService.getPlayerSeasonSalary(Constants.currentSeason, playerId)
-            if (salary != null) nbPlayersSalary += 1
-          }
-
-          totalPlayersSalaries += nbPlayersSalary
-
-          val dbProportion = "$nbPlayerInDB / $nbPlayersInRoster"
-          val salaryProportion = "$nbPlayersSalary / $nbPlayersInRoster"
-
-          Triple(team, dbProportion, salaryProportion)
-        }
+        data = data,
+        totalSalaryProportion = "$totalPlayersSalaries / $totalPlayers"
       )
     }
 
