@@ -20,14 +20,17 @@ import ca.sebleclerc.hockeydata.shared.ui.components.loading.LoadingOverlay
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolData
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolMe
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolPreview
+import ca.sebleclerc.hockeydata.shared.ui.navigation.Taken
 import ca.sebleclerc.hockeydata.shared.ui.navigation.Teams
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolDataScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolPreviewScreen
+import ca.sebleclerc.hockeydata.shared.ui.screens.PoolTakenScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.TeamsScreen
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolDataViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewViewModel
+import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolTakenViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.TeamsViewModel
 
 @Composable
@@ -49,6 +52,9 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       }
       Button(onClick = { navController.navigate(PoolData) }) {
         Text("Data")
+      }
+      Button(onClick = { navController.navigate(Taken) }) {
+        Text("Taken")
       }
     }
     NavHost(
@@ -118,6 +124,21 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
           PoolDataScreen(
             viewModel = viewModel,
           )
+        }
+      }
+
+      composable<Taken> {
+        val viewModel: PoolTakenViewModel =
+          viewModel {
+            PoolTakenViewModel(DI.database)
+          }
+        val loading by viewModel.loadingState.collectAsStateWithLifecycle()
+        val state by viewModel.state.collectAsStateWithLifecycle()
+
+        LoadingOverlay(
+          state = loading,
+        ) {
+          PoolTakenScreen(state = state)
         }
       }
     }

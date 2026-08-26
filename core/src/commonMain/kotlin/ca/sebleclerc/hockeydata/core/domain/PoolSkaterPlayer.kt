@@ -32,6 +32,11 @@ class PoolSkaterPlayer(
       if (salary == null) return ""
 
       val value = averagePoints / salary.salary * 100000
+
+      if (value == 0.0 || value.isNaN() || value.isInfinite()) {
+        return ""
+      }
+
       return BigDecimal(value)
         .setScale(5, RoundingMode.HALF_EVEN)
         .toString()

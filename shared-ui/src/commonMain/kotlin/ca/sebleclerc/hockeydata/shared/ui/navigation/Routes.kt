@@ -15,3 +15,6 @@ object Teams
 
 @Serializable
 object PoolData
+
+@Serializable
+object Taken
