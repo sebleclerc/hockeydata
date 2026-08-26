@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.components
+package ca.sebleclerc.hockeydata.shared.ui.poolpreview
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -20,7 +20,6 @@ import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.RowButton
 import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.RowItem
-import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewAction
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable

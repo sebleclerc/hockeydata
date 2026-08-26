@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.viewmodels
+package ca.sebleclerc.hockeydata.shared.ui.poolpreview
 
 import androidx.lifecycle.viewModelScope
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
