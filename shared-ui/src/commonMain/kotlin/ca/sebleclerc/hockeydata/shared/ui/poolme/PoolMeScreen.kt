@@ -1,17 +1,12 @@
-package ca.sebleclerc.hockeydata.shared.ui.screens
+package ca.sebleclerc.hockeydata.shared.ui.poolme
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import ca.sebleclerc.hockeydata.shared.ui.components.PoolMeHeader
-import ca.sebleclerc.hockeydata.shared.ui.components.PoolMePoolPoints
-import ca.sebleclerc.hockeydata.shared.ui.components.PoolMeRow
-import ca.sebleclerc.hockeydata.shared.ui.components.PoolMeSalary
 import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.EmptyRow
 import ca.sebleclerc.hockeydata.shared.ui.components.page.PageTitle
-import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeState
 
 @Composable
 fun PoolMeScreen(state: PoolMeState) {

@@ -15,7 +15,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import ca.sebleclerc.hockeydata.shared.ui.components.loading.Loading
 import ca.sebleclerc.hockeydata.shared.ui.components.loading.LoadingOverlay
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolData
 import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolMe
@@ -23,12 +22,12 @@ import ca.sebleclerc.hockeydata.shared.ui.navigation.PoolPreview
 import ca.sebleclerc.hockeydata.shared.ui.navigation.Taken
 import ca.sebleclerc.hockeydata.shared.ui.navigation.Teams
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolDataScreen
-import ca.sebleclerc.hockeydata.shared.ui.screens.PoolMeScreen
+import ca.sebleclerc.hockeydata.shared.ui.poolme.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolPreviewScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.PoolTakenScreen
 import ca.sebleclerc.hockeydata.shared.ui.screens.TeamsScreen
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolDataViewModel
-import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolMeViewModel
+import ca.sebleclerc.hockeydata.shared.ui.poolme.PoolMeViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolPreviewViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolTakenViewModel
 import ca.sebleclerc.hockeydata.shared.ui.viewmodels.TeamsViewModel
