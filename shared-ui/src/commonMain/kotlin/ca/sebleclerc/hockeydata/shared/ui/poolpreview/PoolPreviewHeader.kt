@@ -3,7 +3,7 @@ package ca.sebleclerc.hockeydata.shared.ui.poolpreview
 import androidx.compose.foundation.layout.Row
 import androidx.compose.runtime.Composable
 import ca.sebleclerc.hockeydata.core.helpers.Constants
-import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.Header
+import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.Header
 
 @Composable
 fun PoolPreviewHeader() {

@@ -7,7 +7,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.core.domain.PoolMePlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
-import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.RowItem
+import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
 
 @Composable
 fun PoolMeRow(player: PoolMePlayer) {

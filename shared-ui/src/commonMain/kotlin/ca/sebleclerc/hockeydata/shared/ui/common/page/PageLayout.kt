@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.components.page
+package ca.sebleclerc.hockeydata.shared.ui.common.page
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column

@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.components.loading
+package ca.sebleclerc.hockeydata.shared.ui.common.loading
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

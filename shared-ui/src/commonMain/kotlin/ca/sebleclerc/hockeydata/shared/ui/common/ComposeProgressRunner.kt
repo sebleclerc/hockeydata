@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui
+package ca.sebleclerc.hockeydata.shared.ui.common
 
 import ca.sebleclerc.hockeydata.core.helpers.ProgressRunner
 

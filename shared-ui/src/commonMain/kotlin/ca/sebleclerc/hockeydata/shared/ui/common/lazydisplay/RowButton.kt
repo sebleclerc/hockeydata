@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay
+package ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.height

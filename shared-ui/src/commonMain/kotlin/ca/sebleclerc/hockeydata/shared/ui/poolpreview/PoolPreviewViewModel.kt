@@ -5,8 +5,8 @@ import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Logger
 import ca.sebleclerc.hockeydata.database.DatabaseService
-import ca.sebleclerc.hockeydata.shared.ui.components.loading.Loading
-import ca.sebleclerc.hockeydata.shared.ui.components.loading.LoadingViewModel
+import ca.sebleclerc.hockeydata.shared.ui.common.loading.Loading
+import ca.sebleclerc.hockeydata.shared.ui.common.loading.LoadingViewModel
 import ca.sebleclerc.hockeydata.shared.viewmodels.SharedPoolPreviewViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

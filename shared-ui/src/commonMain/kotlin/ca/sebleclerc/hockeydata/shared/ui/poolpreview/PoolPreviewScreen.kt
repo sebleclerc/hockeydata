@@ -9,7 +9,7 @@ import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import ca.sebleclerc.hockeydata.shared.ui.components.page.PageTitle
+import ca.sebleclerc.hockeydata.shared.ui.common.page.PageTitle
 
 @Composable
 fun PoolPreviewScreen(

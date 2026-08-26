@@ -1,6 +1,7 @@
-package ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay
+package ca.sebleclerc.hockeydata.shared.ui.common.page
 
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -8,15 +9,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun Header(
-  text: String,
-  padding: Int,
-) {
+fun PageTitle(title: String) {
   Text(
-    text = text,
+    text = title,
     textAlign = TextAlign.Center,
     modifier =
       Modifier
-        .width(padding.dp),
+        .padding(8.dp)
+        .fillMaxWidth(),
   )
 }

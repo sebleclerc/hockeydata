@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
-import ca.sebleclerc.hockeydata.shared.ui.components.lazydisplay.RowItem
+import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable

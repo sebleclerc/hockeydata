@@ -1,6 +1,6 @@
 @file:Suppress("ktlint:standard:filename")
 
-package ca.sebleclerc.hockeydata.shared.ui.navigation
+package ca.sebleclerc.hockeydata.shared.ui.common.navigation
 
 import kotlinx.serialization.Serializable
 

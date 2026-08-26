@@ -6,8 +6,8 @@ import ca.sebleclerc.hockeydata.cache.CacheService
 import ca.sebleclerc.hockeydata.cache.ImportService
 import ca.sebleclerc.hockeydata.core.cache.CacheStep
 import ca.sebleclerc.hockeydata.database.DatabaseService
-import ca.sebleclerc.hockeydata.shared.ui.components.loading.Loading
-import ca.sebleclerc.hockeydata.shared.ui.components.loading.LoadingViewModel
+import ca.sebleclerc.hockeydata.shared.ui.common.loading.Loading
+import ca.sebleclerc.hockeydata.shared.ui.common.loading.LoadingViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

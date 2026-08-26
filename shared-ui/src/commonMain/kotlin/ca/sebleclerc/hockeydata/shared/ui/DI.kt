@@ -4,6 +4,7 @@ import ca.sebleclerc.hockeydata.cache.CacheService
 import ca.sebleclerc.hockeydata.cache.ImportService
 import ca.sebleclerc.hockeydata.core.helpers.Progress
 import ca.sebleclerc.hockeydata.database.DatabaseService
+import ca.sebleclerc.hockeydata.shared.ui.common.ComposeProgressRunner
 
 object DI {
   val database = DatabaseService()

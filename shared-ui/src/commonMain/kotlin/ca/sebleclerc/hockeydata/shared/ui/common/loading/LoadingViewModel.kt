@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.components.loading
+package ca.sebleclerc.hockeydata.shared.ui.common.loading
 
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

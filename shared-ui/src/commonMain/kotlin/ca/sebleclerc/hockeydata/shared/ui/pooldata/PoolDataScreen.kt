@@ -4,7 +4,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import ca.sebleclerc.hockeydata.shared.ui.components.page.PageTitle
+import ca.sebleclerc.hockeydata.shared.ui.common.page.PageTitle
 
 @Composable
 fun PoolDataScreen(viewModel: PoolDataViewModel) {
