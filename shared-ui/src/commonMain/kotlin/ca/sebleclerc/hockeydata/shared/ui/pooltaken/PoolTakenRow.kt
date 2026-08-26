@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.components
+package ca.sebleclerc.hockeydata.shared.ui.pooltaken
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row

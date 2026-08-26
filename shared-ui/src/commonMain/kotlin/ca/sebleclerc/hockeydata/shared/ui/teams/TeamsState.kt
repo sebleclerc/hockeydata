@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.viewmodels
+package ca.sebleclerc.hockeydata.shared.ui.teams
 
 import ca.sebleclerc.hockeydata.core.domain.Team
 

@@ -1,10 +1,8 @@
-package ca.sebleclerc.hockeydata.shared.ui.screens
+package ca.sebleclerc.hockeydata.shared.ui.pooltaken
 
 import androidx.compose.runtime.Composable
 import ca.sebleclerc.hockeydata.shared.ui.poolpreview.PoolPreviewHeader
-import ca.sebleclerc.hockeydata.shared.ui.components.PoolTakenRow
 import ca.sebleclerc.hockeydata.shared.ui.components.page.PageLayout
-import ca.sebleclerc.hockeydata.shared.ui.viewmodels.PoolTakenState
 
 @Composable
 fun PoolTakenScreen(

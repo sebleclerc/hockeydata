@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.viewmodels
+package ca.sebleclerc.hockeydata.shared.ui.pooldata
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
