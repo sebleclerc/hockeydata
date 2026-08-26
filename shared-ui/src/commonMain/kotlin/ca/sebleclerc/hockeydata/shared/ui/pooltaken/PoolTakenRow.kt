@@ -18,12 +18,14 @@ import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
+import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowButton
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun PoolTakenRow(
   player: PoolSkaterPlayer,
+  onAction: (PoolTakenActions) -> Unit,
 ) {
   var isHovered by remember { mutableStateOf(false) }
 
@@ -57,10 +59,10 @@ fun PoolTakenRow(
     )
     RowItem(text = player.poolValue, padding = Constants.UI_PADDING_ID)
     RowItem(text = player.averagePoolValue, padding = Constants.UI_PADDING_ID)
-//    RowButton(
-//      text = "Taken",
-//      onClick = { onAction(PoolPreviewAction.OnPlayerTaken(player)) },
-//    )
+    RowButton(
+      text = "Available",
+      onClick = { onAction(PoolTakenActions.OnPlayerAvailable(player)) },
+    )
 //    RowButton(
 //      text = "ME",
 //      onClick = { onAction(PoolPreviewAction.OnPlayerSelect(player)) },

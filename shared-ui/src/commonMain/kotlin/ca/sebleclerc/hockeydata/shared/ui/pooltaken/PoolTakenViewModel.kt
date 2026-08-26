@@ -29,6 +29,10 @@ class PoolTakenViewModel(
     }
   }
 
+  fun onAction(action: PoolTakenActions) = when (action) {
+    is PoolTakenActions.OnPlayerAvailable -> onAvailablePlayer(action.player)
+  }
+
   private fun fetchPoolSkaterPlayerFromDatabase() {
     val players = mutableListOf<PoolSkaterPlayer>()
 
@@ -55,5 +59,18 @@ class PoolTakenViewModel(
 
     Thread.sleep(500)
     updateLoading(false)
+  }
+
+  private fun onAvailablePlayer(player: PoolSkaterPlayer) {
+    updateLoading(isLoading = true)
+
+    dbService.updatePlayerForPool(
+      playerId = player.player.id,
+      statut = PoolDraftStatut.AVAILABLE,
+    )
+
+    viewModelScope.launch(Dispatchers.IO) {
+      fetchPoolSkaterPlayerFromDatabase()
+    }
   }
 }

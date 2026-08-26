@@ -1,20 +1,20 @@
 package ca.sebleclerc.hockeydata.shared.ui.pooltaken
 
 import androidx.compose.runtime.Composable
-import ca.sebleclerc.hockeydata.shared.ui.poolpreview.PoolPreviewHeader
 import ca.sebleclerc.hockeydata.shared.ui.common.page.PageLayout
 
 @Composable
 fun PoolTakenScreen(
   state: PoolTakenState,
+  onAction: (PoolTakenActions) -> Unit,
 ) {
   PageLayout(
     title = "Pool Taken",
-    listHeader = { PoolPreviewHeader() }
+    listHeader = { PoolTakenHeader() }
   ) {
     items(count = state.allPLayers.size) {
       val player = state.allPLayers[it]
-      PoolTakenRow(player)
+      PoolTakenRow(player, onAction)
     }
   }
 }

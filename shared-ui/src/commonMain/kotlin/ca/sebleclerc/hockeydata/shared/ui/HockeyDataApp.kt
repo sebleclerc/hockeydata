@@ -137,7 +137,10 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
         LoadingOverlay(
           state = loading,
         ) {
-          PoolTakenScreen(state = state)
+          PoolTakenScreen(
+            state = state,
+            onAction = viewModel::onAction,
+          )
         }
       }
     }
