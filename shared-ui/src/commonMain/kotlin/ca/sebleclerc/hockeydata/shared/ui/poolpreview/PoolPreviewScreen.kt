@@ -7,7 +7,12 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.shared.ui.common.page.PageTitle
 
@@ -16,12 +21,19 @@ fun PoolPreviewScreen(
   state: PoolPreviewState,
   onAction: (PoolPreviewAction) -> Unit,
 ) {
+  var textState by remember {
+    mutableStateOf(TextFieldValue(text = ""))
+  }
+
   Column {
     PageTitle("Pool Preview")
 
     TextField(
-      value = state.currentSearchValue,
-      onValueChange = { onAction(PoolPreviewAction.OnSearchValueChanged(it)) },
+      value = textState,
+      onValueChange = {
+        textState = it
+        onAction(PoolPreviewAction.OnSearchValueChanged(it.text))
+      },
       modifier =
         Modifier
           .fillMaxWidth()

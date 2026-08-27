@@ -99,7 +99,7 @@ class PoolPreviewViewModel(
         _state.value.allPLayers
       }
 
-    val searchTerm = newSearch ?: _state.value.currentSearchValue
+    val searchTerm = newSearch ?: ""
 
     val filtered =
       if (searchTerm.isEmpty()) {
@@ -116,7 +116,6 @@ class PoolPreviewViewModel(
       it.copy(
         allPLayers = allPlayers,
         filteredPlayers = filtered,
-        currentSearchValue = searchTerm,
       )
     }
 
