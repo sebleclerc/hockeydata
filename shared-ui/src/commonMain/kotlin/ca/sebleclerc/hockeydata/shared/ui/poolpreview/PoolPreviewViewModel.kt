@@ -100,23 +100,17 @@ class PoolPreviewViewModel(
     }
   }
 
-  private suspend fun updateState(
+  private fun updateState(
     refreshPlayers: Boolean = false,
-    newSearch: String? = null,
   ) {
-    val allPlayers =
       if (refreshPlayers) {
-        getAllPoolPreviewPlayers(
+        allPlayers = getAllPoolPreviewPlayers(
           minimal = false,
-          sortValue = false,
+          sortValue = sortPoolValue,
         )
-      } else {
-        _state.value.allPLayers
       }
 
-    val searchTerm = newSearch ?: ""
-
-    val filtered =
+    var players =
       if (searchTerm.isEmpty()) {
         allPlayers
       } else {
@@ -127,10 +121,18 @@ class PoolPreviewViewModel(
         }
       }
 
+    if (sortPoolValue) {
+      players = players.sortedWith(
+        compareBy {
+            it.poolValue
+//            it.averagePoints
+          }
+      ).reversed()
+    }
+
     _state.update {
       it.copy(
-        allPLayers = allPlayers,
-        filteredPlayers = filtered,
+        filteredPlayers = players,
       )
     }
 
