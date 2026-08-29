@@ -21,6 +21,10 @@ class PoolPreviewViewModel(
   private val _state = MutableStateFlow(PoolPreviewState())
   val state = _state.asStateFlow()
 
+  private var allPlayers = emptyList<PoolSkaterPlayer>()
+  private var searchTerm = ""
+  private var sortPoolValue = false
+
   init {
     updateLoading(true)
 
@@ -38,6 +42,7 @@ class PoolPreviewViewModel(
       is PoolPreviewAction.OnPlayerSelect -> didReceivedOnPlayerSelect(player = action.player)
       is PoolPreviewAction.OnPlayerTaken -> didReceivedOnPlayerTaken(player = action.player)
       is PoolPreviewAction.OnSearchValueChanged -> didUpdateSearch(action.search)
+      is PoolPreviewAction.DidClickSortValue -> onClickSortValue(action.value)
     }
   }
 
@@ -60,8 +65,18 @@ class PoolPreviewViewModel(
   }
 
   private fun didUpdateSearch(searchValue: String) {
+    searchTerm = searchValue
+
     viewModelScope.launch(Dispatchers.IO) {
-      updateState(newSearch = searchValue)
+      updateState()
+    }
+  }
+
+  private fun onClickSortValue(newValue: Boolean) {
+    sortPoolValue = newValue
+
+    viewModelScope.launch(Dispatchers.IO) {
+      updateState()
     }
   }
 

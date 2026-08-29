@@ -1,4 +1,9 @@
 # HockeyData
+## Nouvelle saison
+Une fois commencée, il faut modifier à 2 endroits:  
+- `Consntants.kt`
+- `PoolSkaterPlayer.kt`
+
 ## Easy tasks
 To update all rosters + add missing players:  
 `./run.sh cache teams && mysqldump hockeydata > assets/database.sql`

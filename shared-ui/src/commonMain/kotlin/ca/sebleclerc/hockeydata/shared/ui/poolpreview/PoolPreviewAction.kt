@@ -14,4 +14,8 @@ sealed interface PoolPreviewAction {
   data class OnSearchValueChanged(
     val search: String,
   ) : PoolPreviewAction
+
+  data class DidClickSortValue(
+    val value: Boolean,
+  ) : PoolPreviewAction
 }
