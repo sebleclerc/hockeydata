@@ -15,7 +15,7 @@ class PoolSkaterPlayer(
 
   val poolValue: String
     get() {
-      val lastSeason = Season(20242025)
+      val lastSeason = Season(20252026)
       val lastSeasonPoints = seasons.firstOrNull { it.season == lastSeason }
 
       if (lastSeasonPoints == null) return ""
