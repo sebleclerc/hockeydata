@@ -105,10 +105,7 @@ class PoolPreviewViewModel(
     refreshPlayers: Boolean = false,
   ) {
       if (refreshPlayers) {
-        allPlayers = getAllPoolPreviewPlayers(
-          minimal = false,
-          sortValue = sortPoolValue,
-        )
+        allPlayers = fetchPoolSkaterPlayerFromDatabase()
       }
 
     var players =
@@ -122,14 +119,15 @@ class PoolPreviewViewModel(
         }
       }
 
-    if (sortPoolValue) {
-      players = players.sortedWith(
-        compareBy {
-            it.poolValue
-//            it.averagePoints
-          }
-      ).reversed()
-    }
+    players = players.sortedWith(
+      compareBy {
+        if (sortPoolValue) {
+          it.poolValue
+        } else {
+          it.averagePoints
+        }
+      }
+    ).reversed()
 
     _state.update {
       it.copy(
@@ -140,55 +138,12 @@ class PoolPreviewViewModel(
     Thread.sleep(500)
     updateLoading(false)
   }
-
-  // endregion
-
-  // region Old
-
-  fun getAllPoolPreviewPlayers(
-    teamId: Int? = null,
-    name: String? = null,
-    minimal: Boolean,
-    current: Boolean? = null,
-    sortValue: Boolean,
-  ): List<PoolSkaterPlayer> {
-    Logger.debug("[SharedPoolPreviewViewModel] getAllPoolPreviewPlayers")
-    val players = fetchPoolSkaterPlayerFromDatabase()
-
-    return players
-      .filter {
-        if (name != null) {
-          it.player.fullName.contains(name!!)
-        } else if (teamId != null) {
-          it.averagePoints > -1
-        } else if (minimal) {
-          it.averagePoints > 20
-        } else {
-          it.averagePoints > -1
-        }
-      }.sortedWith(
-        compareBy {
-          if (current == true) {
-            it.current?.poolPoints?.toDouble()
-          } else if (sortValue) {
-            it.poolValue
-          } else {
-            it.averagePoints
-          }
-        },
-      ).reversed()
-  }
-
-  private fun fetchPoolSkaterPlayerFromDatabase(teamId: Int? = null): List<PoolSkaterPlayer> {
+  
+  private fun fetchPoolSkaterPlayerFromDatabase(): List<PoolSkaterPlayer> {
     val players = mutableListOf<PoolSkaterPlayer>()
 
     val poolPreviewStatuses = dbService.getAllPoolDraftStatuses()
-    val dbPlayers =
-      if (teamId != null) {
-        dbService.getPlayersForTeam(teamId!!)
-      } else {
-        dbService.getAllPlayers(false)
-      }
+    val dbPlayers = dbService.getAllPlayers(false)
 
     dbPlayers.forEach { player ->
       val status = poolPreviewStatuses[player.id]
@@ -203,6 +158,7 @@ class PoolPreviewViewModel(
     }
 
     return players
+      .filter { it.averagePoints > -1 }
   }
 
   // endregion
