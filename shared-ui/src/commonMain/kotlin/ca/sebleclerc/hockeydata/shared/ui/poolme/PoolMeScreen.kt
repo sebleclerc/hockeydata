@@ -10,7 +10,7 @@ fun PoolMeScreen(state: PoolMeState, onClick: (Actions) -> Unit) {
   Column {
     PageLayout(
       title = "Pool Me",
-      actions = { Toolbar(onClick = onClick) },
+      toolbar = { Toolbar(onClick = onClick) },
     ) {
       item {
         PoolMeHeader()

@@ -17,7 +17,7 @@ fun TeamsScreen(
   onAction: (TeamsAction) -> Unit) {
   PageLayout(
     title = "Teams",
-    actions = { TeamActionsView(onAction) },
+    toolbar = { TeamActionsView(onAction) },
     listHeader = { TeamsHeader() }
   ) {
     items(state.data.size) { index ->

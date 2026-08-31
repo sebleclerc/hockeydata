@@ -13,15 +13,15 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun PageLayout(
   title: String,
-  actions: (@Composable () -> Unit)? = null,
+  toolbar: (@Composable () -> Unit)? = null,
   listHeader: (@Composable () -> Unit)? = null,
   content: LazyListScope.() -> Unit,
   ) {
   Column {
     PageTitle(title = title)
-    if (actions != null) {
+    if (toolbar != null) {
       Box(modifier = Modifier.padding(vertical = 8.dp)) {
-        actions()
+        toolbar()
       }
     }
     if (listHeader != null) { listHeader() }
