@@ -138,7 +138,7 @@ class PoolPreviewViewModel(
     Thread.sleep(500)
     updateLoading(false)
   }
-  
+
   private fun fetchPoolSkaterPlayerFromDatabase(): List<PoolSkaterPlayer> {
     val players = mutableListOf<PoolSkaterPlayer>()
 

@@ -1,21 +1,16 @@
 package ca.sebleclerc.hockeydata.shared.ui.poolme
 
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.EmptyRow
-import ca.sebleclerc.hockeydata.shared.ui.common.page.PageTitle
+import ca.sebleclerc.hockeydata.shared.ui.common.page.PageLayout
 
 @Composable
-fun PoolMeScreen(state: PoolMeState) {
+fun PoolMeScreen(state: PoolMeState, onClick: (Actions) -> Unit) {
   Column {
-    PageTitle("Pool Me")
-    LazyColumn(
-      modifier =
-        Modifier
-          .fillMaxWidth(),
+    PageLayout(
+      title = "Pool Me",
+      actions = { Toolbar(onClick = onClick) },
     ) {
       item {
         PoolMeHeader()

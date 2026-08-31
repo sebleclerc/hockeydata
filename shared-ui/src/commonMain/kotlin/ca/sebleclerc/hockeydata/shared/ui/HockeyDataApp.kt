@@ -62,11 +62,18 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       modifier = Modifier,
     ) {
       composable<PoolMe> {
-        val viewModel: PoolMeViewModel = viewModel { PoolMeViewModel(DI.database) }
+        val viewModel: PoolMeViewModel = viewModel {
+          PoolMeViewModel(
+            DI.cache,
+            DI.database,
+            DI.import
+          )
+        }
         val state by viewModel.state.collectAsStateWithLifecycle()
 
         PoolMeScreen(
           state = state,
+          onClick = viewModel::onAction
         )
       }
 
