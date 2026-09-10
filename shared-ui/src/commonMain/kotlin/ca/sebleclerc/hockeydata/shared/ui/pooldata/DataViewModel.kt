@@ -11,15 +11,36 @@ import ca.sebleclerc.hockeydata.shared.ui.common.loading.LoadingViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class PoolDataViewModel(
+class DataViewModel(
   val cacheService: CacheService,
   val dbService: DatabaseService,
   val importService: ImportService,
 ) : ViewModel(),
   Loading by LoadingViewModel() {
-  fun onAction(action: PoolDataAction) {
+  fun onAction(action: DataActions) {
     when (action) {
-      is PoolDataAction.PoolDataRefresh -> poolDataRefresh()
+      DataActions.PoolDataRefresh -> poolDataRefresh()
+      DataActions.CacheTeams -> cacheTeams()
+    }
+  }
+
+  private fun cacheTeams() {
+    updateLoading(isLoading = true)
+
+    viewModelScope.launch(Dispatchers.IO) {
+      val teams = dbService.getAllTeams()
+      val steps = teams.map { CacheStep.CacheTeamRoster(it) }
+      cacheService.cache(steps, true, showProgress = true)
+      importService.importRosters()
+
+      teams.forEach { team ->
+        val roster = dbService.getRosterForTeam(team.id)
+        val playerSteps = roster.map { CacheStep.Player(it) }
+        cacheService.cache(playerSteps, false)
+        importService.importPlayers(playerSteps)
+      }
+
+      updateLoading(isLoading = false)
     }
   }
 

@@ -7,13 +7,18 @@ import androidx.compose.runtime.Composable
 import ca.sebleclerc.hockeydata.shared.ui.common.page.PageTitle
 
 @Composable
-fun PoolDataScreen(viewModel: PoolDataViewModel) {
+fun DataScreen(viewModel: DataViewModel) {
   Column {
     PageTitle("Pool Data")
 
     Column {
       Button(
-        onClick = { viewModel.onAction(PoolDataAction.PoolDataRefresh) },
+        onClick = { viewModel.onAction(DataActions.CacheTeams)}
+      ) {
+        Text(text = "Cache all teams")
+      }
+      Button(
+        onClick = { viewModel.onAction(DataActions.PoolDataRefresh) },
       ) {
         Text("Update Pool Data")
       }

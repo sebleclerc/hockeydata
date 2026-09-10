@@ -21,12 +21,12 @@ import ca.sebleclerc.hockeydata.shared.ui.common.navigation.PoolMe
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.PoolPreview
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Taken
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Teams
-import ca.sebleclerc.hockeydata.shared.ui.pooldata.PoolDataScreen
+import ca.sebleclerc.hockeydata.shared.ui.pooldata.DataScreen
 import ca.sebleclerc.hockeydata.shared.ui.poolme.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.poolpreview.PoolPreviewScreen
 import ca.sebleclerc.hockeydata.shared.ui.pooltaken.PoolTakenScreen
 import ca.sebleclerc.hockeydata.shared.ui.teams.TeamsScreen
-import ca.sebleclerc.hockeydata.shared.ui.pooldata.PoolDataViewModel
+import ca.sebleclerc.hockeydata.shared.ui.pooldata.DataViewModel
 import ca.sebleclerc.hockeydata.shared.ui.poolme.PoolMeViewModel
 import ca.sebleclerc.hockeydata.shared.ui.poolpreview.PoolPreviewViewModel
 import ca.sebleclerc.hockeydata.shared.ui.pooltaken.PoolTakenViewModel
@@ -114,9 +114,9 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       }
 
       composable<PoolData> {
-        val viewModel: PoolDataViewModel =
+        val viewModel: DataViewModel =
           viewModel {
-            PoolDataViewModel(
+            DataViewModel(
               cacheService = DI.cache,
               dbService = DI.database,
               importService = DI.import,
@@ -127,7 +127,7 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
         LoadingOverlay(
           state = loading,
         ) {
-          PoolDataScreen(
+          DataScreen(
             viewModel = viewModel,
           )
         }
