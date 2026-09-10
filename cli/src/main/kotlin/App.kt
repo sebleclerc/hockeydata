@@ -4,7 +4,6 @@ import ca.sebleclerc.hockeydata.cli.commands.CacheCommand
 import ca.sebleclerc.hockeydata.cli.commands.PlayerCommand
 import ca.sebleclerc.hockeydata.cli.commands.SalaryCommand
 import ca.sebleclerc.hockeydata.cli.commands.subcommands.CachePlayerCommand
-import ca.sebleclerc.hockeydata.cli.commands.subcommands.CacheTeamCommand
 import com.github.ajalt.clikt.core.main
 import com.github.ajalt.clikt.core.subcommands
 
@@ -13,7 +12,6 @@ fun main(args: Array<String>) {
     .subcommands(
       CacheCommand(DI)
         .subcommands(
-          CacheTeamCommand(DI),
           CachePlayerCommand(DI),
         ),
       SalaryCommand(DI),
