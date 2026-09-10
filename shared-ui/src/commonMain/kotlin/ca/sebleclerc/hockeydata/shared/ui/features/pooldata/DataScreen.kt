@@ -26,5 +26,12 @@ fun DataScreen(viewModel: DataViewModel) {
       }
       Text("Update all players from within MY pool.")
     }
+
+    Button(
+      onClick = { viewModel.onAction(DataActions.CacheAllPlayers) }
+    ) {
+      Text(text = "Cache ALL players (Force)")
+    }
+    Text("Goes through all players in DB and force cache and import.")
   }
 }
