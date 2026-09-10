@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.core.helpers.Constants
+import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowButton
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
 import ca.sebleclerc.hockeydata.shared.ui.common.page.PageLayout
 
@@ -27,12 +28,15 @@ fun TeamsScreen(
 
       Row(
         modifier = Modifier
-          .height(Constants.UI_ROW_HEIGHT.dp)
+          .height(35.dp)
       ) {
         RowItem(text = team.id.toString(), padding = Constants.UI_PADDING_ID)
         RowItem(text = team.name, padding = Constants.UI_PADDING_NAME)
         RowItem(text = dbProportion, padding = Constants.UI_PADDING_PROPORTION)
         RowItem(text = salaryProportion, padding = Constants.UI_PADDING_PROPORTION)
+        RowButton(text = "Cache") {
+          onAction(TeamsAction.CacheTeam(team.id))
+        }
       }
     }
 

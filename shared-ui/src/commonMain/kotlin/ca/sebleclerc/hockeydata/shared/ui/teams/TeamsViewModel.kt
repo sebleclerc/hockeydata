@@ -48,6 +48,14 @@ class TeamsViewModel(
           fetchAllTeams()
         }
       }
+
+      is TeamsAction.CacheTeam -> {
+        updateLoading(isLoading = true)
+        viewModelScope.launch(Dispatchers.IO) {
+          cacheTeam(action.id)
+          fetchAllTeams()
+        }
+      }
     }
   }
 
@@ -110,5 +118,17 @@ class TeamsViewModel(
       cacheService.cache(playerSteps, false)
       importService.importPlayers(playerSteps)
     }
+  }
+
+  private fun cacheTeam(id: Int) {
+    val team = dbService.getTeamForId(id) ?: return
+    val roster = dbService.getRosterForTeam(team.id)
+
+    val playerSteps = roster.map { CacheStep.Player(playerId = it) }
+    cacheService.cache(
+      steps = playerSteps,
+      force = true
+    )
+    importService.importPlayers(playerSteps)
   }
 }
