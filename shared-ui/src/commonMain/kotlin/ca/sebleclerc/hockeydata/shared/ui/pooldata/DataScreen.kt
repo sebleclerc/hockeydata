@@ -17,11 +17,14 @@ fun DataScreen(viewModel: DataViewModel) {
       ) {
         Text(text = "Cache all teams")
       }
+      Text("Cache all teams rosters and all missing players.")
+
       Button(
         onClick = { viewModel.onAction(DataActions.PoolDataRefresh) },
       ) {
         Text("Update Pool Data")
       }
+      Text("Update all players from within MY pool.")
     }
   }
 }
