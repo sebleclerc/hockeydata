@@ -21,16 +21,16 @@ import ca.sebleclerc.hockeydata.shared.ui.common.navigation.PoolMe
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.PoolPreview
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Taken
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Teams
-import ca.sebleclerc.hockeydata.shared.ui.pooldata.DataScreen
-import ca.sebleclerc.hockeydata.shared.ui.poolme.PoolMeScreen
-import ca.sebleclerc.hockeydata.shared.ui.poolpreview.PoolPreviewScreen
-import ca.sebleclerc.hockeydata.shared.ui.pooltaken.PoolTakenScreen
-import ca.sebleclerc.hockeydata.shared.ui.teams.TeamsScreen
-import ca.sebleclerc.hockeydata.shared.ui.pooldata.DataViewModel
-import ca.sebleclerc.hockeydata.shared.ui.poolme.PoolMeViewModel
-import ca.sebleclerc.hockeydata.shared.ui.poolpreview.PoolPreviewViewModel
-import ca.sebleclerc.hockeydata.shared.ui.pooltaken.PoolTakenViewModel
-import ca.sebleclerc.hockeydata.shared.ui.teams.TeamsViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.pooldata.DataScreen
+import ca.sebleclerc.hockeydata.shared.ui.features.poolme.PoolMeScreen
+import ca.sebleclerc.hockeydata.shared.ui.features.poolpreview.PoolPreviewScreen
+import ca.sebleclerc.hockeydata.shared.ui.features.pooltaken.PoolTakenScreen
+import ca.sebleclerc.hockeydata.shared.ui.features.teams.TeamsScreen
+import ca.sebleclerc.hockeydata.shared.ui.features.pooldata.DataViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.poolme.PoolMeViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.poolpreview.PoolPreviewViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.pooltaken.PoolTakenViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.teams.TeamsViewModel
 
 @Composable
 fun HockeyDataApp(navController: NavHostController = rememberNavController()) {

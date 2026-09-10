@@ -1,0 +1,21 @@
+package ca.sebleclerc.hockeydata.shared.ui.features.poolpreview
+
+import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
+
+sealed interface PoolPreviewAction {
+  data class OnPlayerTaken(
+    val player: PoolSkaterPlayer,
+  ) : PoolPreviewAction
+
+  data class OnPlayerSelect(
+    val player: PoolSkaterPlayer,
+  ) : PoolPreviewAction
+
+  data class OnSearchValueChanged(
+    val search: String,
+  ) : PoolPreviewAction
+
+  data class DidClickSortValue(
+    val value: Boolean,
+  ) : PoolPreviewAction
+}
