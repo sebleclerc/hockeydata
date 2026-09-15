@@ -14,7 +14,7 @@ fun Header(
 ) {
   Text(
     text = text,
-    textAlign = TextAlign.Center,
+    textAlign = TextAlign.Right,
     modifier =
       Modifier
         .width(padding.dp),

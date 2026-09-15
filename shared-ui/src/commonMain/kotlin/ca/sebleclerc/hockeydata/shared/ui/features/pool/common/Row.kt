@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.features.pool.taken
+package ca.sebleclerc.hockeydata.shared.ui.features.pool.common
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -15,18 +15,22 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.unit.dp
-import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowButton
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
-import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.Actions
+
+data class RowAction(
+  val label: String,
+  val action: Actions
+)
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
-fun PoolTakenRow(
+fun Row(
   player: PoolSkaterPlayer,
+  actions: List<RowAction>,
   onAction: (Actions) -> Unit,
 ) {
   var isHovered by remember { mutableStateOf(false) }
@@ -43,33 +47,54 @@ fun PoolTakenRow(
           isHovered = false
         },
   ) {
-    RowItem(text = player.player.id.toString(), padding = Constants.UI_PADDING_ID)
-    RowItem(text = player.player.fullName, padding = Constants.UI_PADDING_NAME)
-    RowItem(text = player.player.positionCode, padding = Constants.UI_PADDING_POSITION)
+    RowItem(
+      text = player.player.id.toString(),
+      padding = Constants.UI_PADDING_ID
+    )
+    RowItem(
+      text = player.player.fullName,
+      padding = Constants.UI_PADDING_NAME
+    )
+    RowItem(
+      text = player.player.positionCode,
+      padding = Constants.UI_PADDING_POSITION
+    )
     RowItem(
       text = player.team?.abbreviation ?: "N/A",
       padding = Constants.UI_PADDING_TEAM_ABBREV,
     )
-    RowItem(text = player.salary?.avv ?: "N/A", padding = Constants.UI_PADDING_AVV)
+    RowItem(
+      text = player.salary?.avv ?: "N/A",
+      padding = Constants.UI_PADDING_AVV
+    )
     RowItem(
       text = (player.current?.poolPoints ?: 0F).toString(),
-      padding = Constants.UI_PADDING_ID,
+      padding = Constants.UI_PADDING_CURRENT,
     )
     RowItem(
       text = Formatter.roundDouble(player.averagePoints),
-      padding = Constants.UI_PADDING_ID,
+      padding = Constants.UI_PADDING_AVERAGE_PTS,
     )
-    RowItem(text = player.poolValue, padding = Constants.UI_PADDING_ID)
-    RowItem(text = player.averagePoolValue, padding = Constants.UI_PADDING_ID)
-    RowButton(
-      text = "Available",
-      onClick = {
-        onAction(Actions.OnPlayerAction(player, PoolDraftStatut.AVAILABLE))
-      },
+    RowItem(
+      text = player.poolValue,
+      padding = Constants.UI_PADDING_POOL_VALUE
     )
-//    RowButton(
-//      text = "ME",
-//      onClick = { onAction(PoolPreviewAction.OnPlayerSelect(player)) },
-//    )
+    RowItem(
+      text = player.averagePoolValue,
+      padding = Constants.UI_PADDING_ID
+    )
+
+    player.history.forEach {
+      RowItem(
+        text = it,
+        padding = Constants.UI_PADDING_HISTORY,
+      )
+    }
+
+    actions.forEach { action ->
+      RowButton(text = action.label) {
+        onAction(action.action)
+      }
+    }
   }
 }

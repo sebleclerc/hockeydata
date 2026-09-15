@@ -16,7 +16,7 @@ fun Header() {
     Header(text = "Pts", padding = Constants.UI_PADDING_CURRENT)
     Header(text = "Av Pts", padding = Constants.UI_PADDING_AVERAGE_PTS)
     Header(text = "Value", padding = Constants.UI_PADDING_POOL_VALUE)
-    Header(text = "Val Avg.", padding = Constants.UI_PADDING_ID)
+    Header(text = "Val Avg", padding = Constants.UI_PADDING_ID)
     Header(text = "History", padding = Constants.UI_PADDING_HISTORY)
   }
 }

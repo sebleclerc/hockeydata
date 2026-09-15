@@ -1,9 +1,12 @@
 package ca.sebleclerc.hockeydata.shared.ui.features.pool.taken
 
 import androidx.compose.runtime.Composable
+import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.shared.ui.common.page.PageLayout
 import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.Actions
 import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.Header
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.Row
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.RowAction
 import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.State
 
 @Composable
@@ -17,7 +20,17 @@ fun PoolTakenScreen(
   ) {
     items(count = state.players.size) {
       val player = state.players[it]
-      PoolTakenRow(player, onAction)
+
+      Row(
+        player = player,
+        actions = listOf(
+          RowAction(
+            label = "Available",
+            action = Actions.OnPlayerAction(player = player, PoolDraftStatut.AVAILABLE)
+          ),
+        ),
+        onAction = onAction
+      )
     }
   }
 }
