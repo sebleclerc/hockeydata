@@ -1,39 +1,28 @@
 package ca.sebleclerc.hockeydata.shared.ui.features.pool.taken
 
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.database.DatabaseService
-import ca.sebleclerc.hockeydata.shared.ui.common.loading.Loading
-import ca.sebleclerc.hockeydata.shared.ui.common.loading.LoadingViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.PoolViewModel
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 class PoolTakenViewModel(
   val dbService: DatabaseService,
-) : ViewModel(),
-  Loading by LoadingViewModel() {
-  private val _state = MutableStateFlow(PoolTakenState())
-  val state = _state.asStateFlow()
-
+) : PoolViewModel(dbService) {
   init {
     updateLoading(true)
 
     viewModelScope.launch(Dispatchers.IO) {
-      fetchPoolSkaterPlayerFromDatabase()
+      refreshPlayersList()
+      updateLoading(isLoading = false)
     }
   }
 
-  fun onAction(action: PoolTakenActions) = when (action) {
-    is PoolTakenActions.OnPlayerAvailable -> onAvailablePlayer(action.player)
-  }
-
-  private fun fetchPoolSkaterPlayerFromDatabase() {
+  override fun refreshPlayersList() {
     val players = mutableListOf<PoolSkaterPlayer>()
 
     val poolPreviewStatuses = dbService.getAllPoolDraftStatuses()
@@ -53,24 +42,10 @@ class PoolTakenViewModel(
 
     _state.update {
       it.copy(
-        allPLayers = players.sortedWith(compareBy { it.player.fullName }),
+        players = players.sortedWith(compareBy { it.player.fullName }),
       )
     }
 
     Thread.sleep(500)
-    updateLoading(false)
-  }
-
-  private fun onAvailablePlayer(player: PoolSkaterPlayer) {
-    updateLoading(isLoading = true)
-
-    dbService.updatePlayerForPool(
-      playerId = player.player.id,
-      statut = PoolDraftStatut.AVAILABLE,
-    )
-
-    viewModelScope.launch(Dispatchers.IO) {
-      fetchPoolSkaterPlayerFromDatabase()
-    }
   }
 }

@@ -15,17 +15,19 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.unit.dp
+import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowButton
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.Actions
 
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun PoolTakenRow(
   player: PoolSkaterPlayer,
-  onAction: (PoolTakenActions) -> Unit,
+  onAction: (Actions) -> Unit,
 ) {
   var isHovered by remember { mutableStateOf(false) }
 
@@ -61,7 +63,9 @@ fun PoolTakenRow(
     RowItem(text = player.averagePoolValue, padding = Constants.UI_PADDING_ID)
     RowButton(
       text = "Available",
-      onClick = { onAction(PoolTakenActions.OnPlayerAvailable(player)) },
+      onClick = {
+        onAction(Actions.OnPlayerAction(player, PoolDraftStatut.AVAILABLE))
+      },
     )
 //    RowButton(
 //      text = "ME",
