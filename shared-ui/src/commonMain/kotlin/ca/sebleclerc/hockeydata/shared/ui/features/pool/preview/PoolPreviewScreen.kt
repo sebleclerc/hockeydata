@@ -16,6 +16,7 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.shared.ui.common.components.ToggleButton
 import ca.sebleclerc.hockeydata.shared.ui.common.page.PageTitle
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.Header
 
 @Composable
 fun PoolPreviewScreen(
@@ -47,7 +48,7 @@ fun PoolPreviewScreen(
           .padding(end = 10.dp),
     )
 
-    PoolPreviewHeader()
+    Header()
     LazyColumn(
       modifier =
         Modifier

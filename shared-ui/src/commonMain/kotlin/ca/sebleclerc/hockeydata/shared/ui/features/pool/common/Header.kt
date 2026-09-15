@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.features.pool.preview
+package ca.sebleclerc.hockeydata.shared.ui.features.pool.common
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.runtime.Composable
@@ -6,7 +6,7 @@ import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.Header
 
 @Composable
-fun PoolPreviewHeader() {
+fun Header() {
   Row {
     Header(text = "ID", padding = Constants.UI_PADDING_ID)
     Header(text = "Name", padding = Constants.UI_PADDING_NAME)
