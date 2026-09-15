@@ -13,9 +13,9 @@ fun PoolPreviewHeader() {
     Header(text = "Pos", padding = Constants.UI_PADDING_POSITION)
     Header(text = "Team", padding = Constants.UI_PADDING_TEAM_ABBREV)
     Header(text = "Salary", padding = Constants.UI_PADDING_AVV)
-    Header(text = "Cur.", padding = Constants.UI_PADDING_ID)
-    Header(text = "L. Avg", padding = Constants.UI_PADDING_ID)
-    Header(text = "L. Val", padding = Constants.UI_PADDING_ID)
+    Header(text = "Pts", padding = Constants.UI_PADDING_CURRENT)
+    Header(text = "Av Pts", padding = Constants.UI_PADDING_AVERAGE_PTS)
+    Header(text = "Value", padding = Constants.UI_PADDING_POOL_VALUE)
     Header(text = "Val Avg.", padding = Constants.UI_PADDING_ID)
     Header(text = "History", padding = Constants.UI_PADDING_HISTORY)
   }

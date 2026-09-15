@@ -28,9 +28,12 @@ object Constants {
   const val UI_PADDING_AVV = 110
   const val UI_PADDING_ID = 70
   const val UI_PADDING_NAME = 175
-  const val UI_PADDING_POSITION = 30
+  const val UI_PADDING_POSITION = 35
   const val UI_PADDING_PROPORTION = 70
-  const val UI_PADDING_TEAM_ABBREV = 45
+  const val UI_PADDING_TEAM_ABBREV = 50
+  const val UI_PADDING_CURRENT = 75
+  const val UI_PADDING_AVERAGE_PTS = 70
+  const val UI_PADDING_POOL_VALUE = 70
   const val UI_PADDING_HISTORY = 85
   const val UI_ROW_HEIGHT = 25
 }

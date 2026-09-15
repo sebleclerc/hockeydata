@@ -41,34 +41,52 @@ fun PoolPreviewRow(
           isHovered = false
         },
   ) {
-    RowItem(text = player.player.id.toString(), padding = Constants.UI_PADDING_ID)
-    RowItem(text = player.player.fullName, padding = Constants.UI_PADDING_NAME)
-    RowItem(text = player.player.positionCode, padding = Constants.UI_PADDING_POSITION)
+    RowItem(
+      text = player.player.id.toString(),
+      padding = Constants.UI_PADDING_ID
+    )
+    RowItem(
+      text = player.player.fullName,
+      padding = Constants.UI_PADDING_NAME
+    )
+    RowItem(
+      text = player.player.positionCode,
+      padding = Constants.UI_PADDING_POSITION
+    )
     RowItem(
       text = player.team?.abbreviation ?: "N/A",
       padding = Constants.UI_PADDING_TEAM_ABBREV,
     )
-    RowItem(text = player.salary?.avv ?: "N/A", padding = Constants.UI_PADDING_AVV)
+    RowItem(
+      text = player.salary?.avv ?: "N/A",
+      padding = Constants.UI_PADDING_AVV
+    )
     RowItem(
       text = (player.current?.poolPoints ?: 0F).toString(),
-      padding = Constants.UI_PADDING_ID,
+      padding = Constants.UI_PADDING_CURRENT,
     )
     RowItem(
       text = Formatter.roundDouble(player.averagePoints),
-      padding = Constants.UI_PADDING_ID,
+      padding = Constants.UI_PADDING_AVERAGE_PTS,
     )
-    RowItem(text = player.poolValue, padding = Constants.UI_PADDING_ID)
+    RowItem(
+      text = player.poolValue,
+      padding = Constants.UI_PADDING_POOL_VALUE
+    )
     RowItem(text = player.averagePoolValue, padding = Constants.UI_PADDING_ID)
+
     player.history.forEach {
       RowItem(
         text = it,
         padding = Constants.UI_PADDING_HISTORY,
       )
     }
+
     RowButton(
       text = "Taken",
       onClick = { onAction(PoolPreviewAction.OnPlayerTaken(player)) },
     )
+
     RowButton(
       text = "ME",
       onClick = { onAction(PoolPreviewAction.OnPlayerSelect(player)) },
