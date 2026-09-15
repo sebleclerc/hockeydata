@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.features.poolpreview
+package ca.sebleclerc.hockeydata.shared.ui.features.pool.preview
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

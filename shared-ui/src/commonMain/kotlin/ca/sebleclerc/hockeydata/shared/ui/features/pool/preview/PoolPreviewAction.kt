@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.features.poolpreview
+package ca.sebleclerc.hockeydata.shared.ui.features.pool.preview
 
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 

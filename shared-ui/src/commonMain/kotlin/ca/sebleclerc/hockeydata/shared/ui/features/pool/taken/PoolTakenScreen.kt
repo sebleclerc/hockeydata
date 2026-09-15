@@ -1,4 +1,4 @@
-package ca.sebleclerc.hockeydata.shared.ui.features.pooltaken
+package ca.sebleclerc.hockeydata.shared.ui.features.pool.taken
 
 import androidx.compose.runtime.Composable
 import ca.sebleclerc.hockeydata.shared.ui.common.page.PageLayout

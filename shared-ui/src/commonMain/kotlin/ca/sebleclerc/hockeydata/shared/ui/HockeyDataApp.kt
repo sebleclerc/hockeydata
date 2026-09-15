@@ -23,13 +23,13 @@ import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Taken
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Teams
 import ca.sebleclerc.hockeydata.shared.ui.features.pooldata.DataScreen
 import ca.sebleclerc.hockeydata.shared.ui.features.poolme.PoolMeScreen
-import ca.sebleclerc.hockeydata.shared.ui.features.poolpreview.PoolPreviewScreen
-import ca.sebleclerc.hockeydata.shared.ui.features.pooltaken.PoolTakenScreen
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.preview.PoolPreviewScreen
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.taken.PoolTakenScreen
 import ca.sebleclerc.hockeydata.shared.ui.features.teams.TeamsScreen
 import ca.sebleclerc.hockeydata.shared.ui.features.pooldata.DataViewModel
 import ca.sebleclerc.hockeydata.shared.ui.features.poolme.PoolMeViewModel
-import ca.sebleclerc.hockeydata.shared.ui.features.poolpreview.PoolPreviewViewModel
-import ca.sebleclerc.hockeydata.shared.ui.features.pooltaken.PoolTakenViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.preview.PoolPreviewViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.taken.PoolTakenViewModel
 import ca.sebleclerc.hockeydata.shared.ui.features.teams.TeamsViewModel
 
 @Composable
