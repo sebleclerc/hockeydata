@@ -8,4 +8,5 @@ enum class PoolDraftStatut(
   TAKEN(2),
   EXCHANGED(3),
   REVOKED(4),
+  WATCH(5)
 }

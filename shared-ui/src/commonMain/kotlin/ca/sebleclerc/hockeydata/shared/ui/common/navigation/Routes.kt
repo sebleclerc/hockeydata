@@ -18,3 +18,6 @@ object PoolData
 
 @Serializable
 object Taken
+
+@Serializable
+object Watch

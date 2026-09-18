@@ -66,6 +66,10 @@ fun PoolPreviewScreen(
           player = player,
           actions = listOf(
             RowAction(
+              label = "Watch",
+              action = Actions.OnPlayerAction(player, PoolDraftStatut.WATCH)
+            ),
+            RowAction(
               label = "Taken",
               action = Actions.OnPlayerAction(player, PoolDraftStatut.TAKEN)
             ),

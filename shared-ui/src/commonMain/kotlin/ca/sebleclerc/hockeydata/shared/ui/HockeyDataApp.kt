@@ -21,6 +21,7 @@ import ca.sebleclerc.hockeydata.shared.ui.common.navigation.PoolMe
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.PoolPreview
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Taken
 import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Teams
+import ca.sebleclerc.hockeydata.shared.ui.common.navigation.Watch
 import ca.sebleclerc.hockeydata.shared.ui.features.pooldata.DataScreen
 import ca.sebleclerc.hockeydata.shared.ui.features.poolme.PoolMeScreen
 import ca.sebleclerc.hockeydata.shared.ui.features.pool.preview.PoolPreviewScreen
@@ -30,6 +31,8 @@ import ca.sebleclerc.hockeydata.shared.ui.features.pooldata.DataViewModel
 import ca.sebleclerc.hockeydata.shared.ui.features.poolme.PoolMeViewModel
 import ca.sebleclerc.hockeydata.shared.ui.features.pool.preview.PoolPreviewViewModel
 import ca.sebleclerc.hockeydata.shared.ui.features.pool.taken.PoolTakenViewModel
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.watch.PoolWatchScreen
+import ca.sebleclerc.hockeydata.shared.ui.features.pool.watch.PoolWatchViewModel
 import ca.sebleclerc.hockeydata.shared.ui.features.teams.TeamsViewModel
 
 @Composable
@@ -51,6 +54,9 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
       }
       Button(onClick = { navController.navigate(PoolData) }) {
         Text("Data")
+      }
+      Button(onClick = { navController.navigate(Watch) }) {
+        Text("Watch")
       }
       Button(onClick = { navController.navigate(Taken) }) {
         Text("Taken")
@@ -129,6 +135,24 @@ fun HockeyDataApp(navController: NavHostController = rememberNavController()) {
         ) {
           DataScreen(
             viewModel = viewModel,
+          )
+        }
+      }
+
+      composable<Watch> {
+        val viewModel: PoolWatchViewModel =
+          viewModel {
+            PoolWatchViewModel(DI.database)
+          }
+        val loading by viewModel.loadingState.collectAsStateWithLifecycle()
+        val state by viewModel.state.collectAsStateWithLifecycle()
+
+        LoadingOverlay(
+          state = loading,
+        ) {
+          PoolWatchScreen(
+            state = state,
+            onAction = viewModel::onAction,
           )
         }
       }
