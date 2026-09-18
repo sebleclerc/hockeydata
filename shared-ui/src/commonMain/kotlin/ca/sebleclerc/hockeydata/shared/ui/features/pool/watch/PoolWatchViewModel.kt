@@ -14,6 +14,12 @@ class PoolWatchViewModel(
   }
 
   override fun getPlayerComparator(): Comparator<PoolSkaterPlayer> {
-    return compareBy { it.player.fullName }
+    return compareByDescending {
+      if (sortPoolValue) {
+        it.poolValue
+      } else {
+        it.averagePoints
+      }
+    }
   }
 }
