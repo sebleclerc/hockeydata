@@ -2,8 +2,10 @@ package ca.sebleclerc.hockeydata.shared.ui.features.pool.common
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import ca.sebleclerc.hockeydata.core.domain.Player
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
+import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.database.DatabaseService
 import ca.sebleclerc.hockeydata.shared.ui.common.loading.Loading
 import ca.sebleclerc.hockeydata.shared.ui.common.loading.LoadingViewModel
@@ -60,15 +62,38 @@ abstract class PoolViewModel(
     refreshView()
   }
 
-  abstract fun refreshAllPlayersProperty()
+  private fun refreshAllPlayers() {
+    var players = mutableListOf<PoolSkaterPlayer>()
+
+    val poolPreviewStatuses = dbService.getAllPoolDraftStatuses()
+    val dbPlayers = dbService.getAllPlayers(false)
+
+    dbPlayers.forEach { player ->
+      val status = poolPreviewStatuses[player.id]
+      if (shouldKeepPlayer(player, status)) {
+        val seasons = dbService.getLastSeasonsForSkaterId(player.id)
+        val salary = dbService.getPlayerSeasonSalary(Constants.currentSeason, player.id)
+        val team = dbService.getTeamForId(player.teamId)
+        val current = dbService.getSingleSeasonForSkateId(player.id, Constants.currentSeason)
+
+        players.add(PoolSkaterPlayer(player, seasons, salary, team, current))
+      }
+    }
+
+    allPlayers = players
+  }
+
+  protected abstract fun shouldKeepPlayer(player: Player, statut: PoolDraftStatut?): Boolean
+  protected abstract fun getPlayerComparator(): Comparator<PoolSkaterPlayer>
 
   private fun refreshView(refreshPlayers: Boolean = false) {
     viewModelScope.launch(Dispatchers.IO) {
-      if(refreshPlayers) refreshAllPlayersProperty()
+      if(refreshPlayers) refreshAllPlayers()
 
       _state.update {
         it.copy(
-          players = allPlayers,
+          players = allPlayers
+            .sortedWith(getPlayerComparator())
         )
       }
 

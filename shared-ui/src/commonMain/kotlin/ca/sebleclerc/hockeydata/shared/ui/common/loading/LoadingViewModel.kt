@@ -16,6 +16,8 @@ class LoadingViewModel : Loading {
   override val loadingState = _loadingState.asStateFlow()
 
   override fun updateLoading(isLoading: Boolean) {
+    if (isLoading == _loadingState.value.isLoading) return
+
     _loadingState.update {
       it.copy(
         isLoading = isLoading,

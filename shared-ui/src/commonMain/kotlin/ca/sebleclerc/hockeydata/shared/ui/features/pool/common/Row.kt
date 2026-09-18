@@ -20,6 +20,8 @@ import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowButton
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
+import java.math.BigDecimal
+import java.math.RoundingMode
 
 data class RowAction(
   val label: String,
@@ -34,6 +36,10 @@ fun Row(
   onAction: (Actions) -> Unit,
 ) {
   var isHovered by remember { mutableStateOf(false) }
+
+  val poolValueString = BigDecimal(player.poolValue)
+    .setScale(5, RoundingMode.HALF_EVEN)
+    .toString()
 
   Row(
     modifier =
@@ -76,7 +82,7 @@ fun Row(
       padding = Constants.UI_PADDING_AVERAGE_PTS,
     )
     RowItem(
-      text = player.poolValue,
+      text = poolValueString,
       padding = Constants.UI_PADDING_POOL_VALUE
     )
     RowItem(
