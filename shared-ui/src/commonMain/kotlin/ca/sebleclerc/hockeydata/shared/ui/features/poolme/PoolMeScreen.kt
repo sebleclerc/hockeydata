@@ -18,7 +18,7 @@ fun PoolMeScreen(state: PoolMeState, onClick: (Actions) -> Unit) {
 
       items(state.forwards.count()) {
         val player = state.forwards[it]
-        PoolMeRow(player)
+        PoolMeRow(player, onClick)
       }
 
       item {
@@ -28,7 +28,7 @@ fun PoolMeScreen(state: PoolMeState, onClick: (Actions) -> Unit) {
 
       items(state.defenses.count()) {
         val player = state.defenses[it]
-        PoolMeRow(player)
+        PoolMeRow(player, onClick)
       }
 
       item {

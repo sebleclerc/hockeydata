@@ -7,10 +7,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.core.domain.PoolMePlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
+import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowButton
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
 
 @Composable
-fun PoolMeRow(player: PoolMePlayer) {
+fun PoolMeRow(player: PoolMePlayer, onAction: (Actions) -> Unit) {
   Row(
     modifier =
       Modifier
@@ -24,5 +25,9 @@ fun PoolMeRow(player: PoolMePlayer) {
     RowItem(text = player.points.toString(), padding = Constants.UI_PADDING_ID)
     RowItem(text = player.poolPoints.toString(), padding = Constants.UI_PADDING_ID)
     RowItem(text = player.avv, padding = Constants.UI_PADDING_AVV)
+    RowButton(
+      text = "Avail",
+      onClick = { onAction(Actions.Available(player)) },
+    )
   }
 }

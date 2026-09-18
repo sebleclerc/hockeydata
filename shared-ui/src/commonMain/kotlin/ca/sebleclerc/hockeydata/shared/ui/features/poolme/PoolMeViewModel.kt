@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import ca.sebleclerc.hockeydata.cache.CacheService
 import ca.sebleclerc.hockeydata.cache.ImportService
 import ca.sebleclerc.hockeydata.core.cache.CacheStep
+import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolMePlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.database.DatabaseService
@@ -29,6 +30,7 @@ class PoolMeViewModel(
   fun onAction(action: Actions) {
     when (action) {
       is Actions.Update -> updateData()
+      is Actions.Available -> onAvailablePlayer(action.player)
     }
   }
 
@@ -79,5 +81,14 @@ class PoolMeViewModel(
     val steps = players.map { CacheStep.Player(it.id) }
     cacheService.cache(steps, force = true)
     importService.importPlayers(steps)
+  }
+
+  private fun onAvailablePlayer(player: PoolMePlayer) {
+    dbService.updatePlayerForPool(
+      playerId = player.player.id,
+      statut = PoolDraftStatut.AVAILABLE
+    )
+
+    updateData()
   }
 }
