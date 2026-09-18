@@ -1,28 +1,15 @@
 package ca.sebleclerc.hockeydata.shared.ui.features.pool.taken
 
-import androidx.lifecycle.viewModelScope
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.database.DatabaseService
 import ca.sebleclerc.hockeydata.shared.ui.features.pool.common.PoolViewModel
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.launch
 
 class PoolTakenViewModel(
   val dbService: DatabaseService,
 ) : PoolViewModel(dbService) {
-  init {
-    updateLoading(true)
-
-    viewModelScope.launch(Dispatchers.IO) {
-      refreshPlayersList()
-      updateLoading(isLoading = false)
-    }
-  }
-
-  override fun refreshPlayersList() {
+  override fun refreshAllPlayersProperty() {
     val players = mutableListOf<PoolSkaterPlayer>()
 
     val poolPreviewStatuses = dbService.getAllPoolDraftStatuses()
@@ -40,12 +27,7 @@ class PoolTakenViewModel(
       }
     }
 
-    _state.update {
-      it.copy(
-        players = players.sortedWith(compareBy { it.player.fullName }),
-      )
-    }
-
-    Thread.sleep(500)
+    allPlayers = players
+      .sortedWith(compareBy { it.player.fullName })
   }
 }
