@@ -53,13 +53,12 @@ abstract class PoolViewModel(
 
   private fun didUpdateSearch(searchValue: String) {
     searchTerm = searchValue
-    refreshView()
+    refreshView(refreshPlayers = false)
   }
 
   private fun onClickSortValue(newValue: Boolean) {
-    updateLoading(isLoading = true)
     sortPoolValue = newValue
-    refreshView()
+    refreshView(refreshPlayers = false)
   }
 
   private fun refreshAllPlayers() {
@@ -86,13 +85,22 @@ abstract class PoolViewModel(
   protected abstract fun shouldKeepPlayer(player: Player, statut: PoolDraftStatut?): Boolean
   protected abstract fun getPlayerComparator(): Comparator<PoolSkaterPlayer>
 
-  private fun refreshView(refreshPlayers: Boolean = false) {
+  private fun refreshView(refreshPlayers: Boolean) {
     viewModelScope.launch(Dispatchers.IO) {
       if(refreshPlayers) refreshAllPlayers()
 
       _state.update {
         it.copy(
           players = allPlayers
+            .filter { player ->
+              if (searchTerm.isEmpty()) {
+                true
+              } else {
+                player.player.fullName
+                  .lowercase()
+                  .contains(searchTerm.lowercase())
+              }
+            }
             .sortedWith(getPlayerComparator())
         )
       }
