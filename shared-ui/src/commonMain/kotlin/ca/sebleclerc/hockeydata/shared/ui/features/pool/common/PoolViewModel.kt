@@ -22,7 +22,7 @@ abstract class PoolViewModel(
   val _state = MutableStateFlow(State())
   val state = _state.asStateFlow()
 
-  var allPlayers = emptyList<PoolSkaterPlayer>()
+  var allPlayers = mutableListOf<PoolSkaterPlayer>()
   var searchTerm = ""
   var sortPoolValue = false
 
@@ -41,14 +41,16 @@ abstract class PoolViewModel(
   }
 
   private fun onPlayerAction(player: PoolSkaterPlayer, statut: PoolDraftStatut) {
-    updateLoading(isLoading = true)
-
     dbService.updatePlayerForPool(
       playerId = player.player.id,
       statut = statut
     )
 
-    refreshView(refreshPlayers = true)
+    if (statut != PoolDraftStatut.WATCH) {
+      allPlayers.remove(player)
+
+      refreshView(refreshPlayers = false)
+    }
   }
 
   private fun didUpdateSearch(searchValue: String) {
