@@ -17,4 +17,8 @@ sealed interface Actions {
   data class DidClickSortValue(
     val value: Boolean,
   ) : Actions
+
+  data class DidClickOnlyDefense(
+    val value: Boolean
+  ) : Actions
 }

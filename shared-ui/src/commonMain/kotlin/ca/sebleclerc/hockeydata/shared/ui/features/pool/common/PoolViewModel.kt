@@ -25,6 +25,7 @@ abstract class PoolViewModel(
   var allPlayers = mutableListOf<PoolSkaterPlayer>()
   var searchTerm = ""
   var sortPoolValue = false
+  var onlyDefense = false
 
   init {
     updateLoading(true)
@@ -37,6 +38,7 @@ abstract class PoolViewModel(
       is Actions.OnPlayerAction -> onPlayerAction(action.player, action.statut)
       is Actions.DidClickSortValue -> onClickSortValue(action.value)
       is Actions.OnSearchValueChanged -> didUpdateSearch(action.search)
+      is Actions.DidClickOnlyDefense -> onClickDefenseOnly(action.value)
     }
   }
 
@@ -60,6 +62,11 @@ abstract class PoolViewModel(
 
   private fun onClickSortValue(newValue: Boolean) {
     sortPoolValue = newValue
+    refreshView(refreshPlayers = false)
+  }
+
+  private fun onClickDefenseOnly(newValue: Boolean) {
+    onlyDefense = newValue
     refreshView(refreshPlayers = false)
   }
 
@@ -94,6 +101,13 @@ abstract class PoolViewModel(
       _state.update {
         it.copy(
           players = allPlayers
+            .filter { player ->
+              if (onlyDefense) {
+                player.player.positionCode == "D"
+              } else {
+                true
+              }
+            }
             .filter { player ->
               if (searchTerm.isEmpty()) {
                 true

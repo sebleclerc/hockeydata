@@ -1,5 +1,6 @@
 package ca.sebleclerc.hockeydata.shared.ui.features.pool.preview
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -36,10 +37,19 @@ fun PoolPreviewScreen(
   Column {
     PageTitle("Pool Preview")
 
-    ToggleButton(
-      text = "Sort PoolValue",
-      onClick = { onAction(Actions.DidClickSortValue(it)) }
-    )
+    androidx.compose.foundation.layout.Row(
+      horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+      ToggleButton(
+        text = "Sort PoolValue",
+        onClick = { onAction(Actions.DidClickSortValue(it)) }
+      )
+
+      ToggleButton(
+        text = "Defense",
+        onClick = { onAction(Actions.DidClickOnlyDefense(it)) }
+      )
+    }
 
     TextField(
       value = textState,
