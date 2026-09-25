@@ -1,9 +1,9 @@
 package ca.sebleclerc.hockeydata.core.domain
 
-class PoolSkaterPlayer(
+class PoolGoalerPlayer(
   player: Player,
-  override val seasons: List<PlayerSkaterSeason>,
+  override val seasons: List<PlayerGoalerSeason>,
   salary: PlayerSalarySeason?,
   team: Team?,
-  val current: PlayerSkaterSeason?,
+  val current: PlayerGoalerSeason?,
 ) : PoolPlayer(player, salary, team)
