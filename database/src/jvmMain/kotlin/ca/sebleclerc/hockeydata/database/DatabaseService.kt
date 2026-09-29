@@ -1,10 +1,12 @@
 package ca.sebleclerc.hockeydata.database
 
+import ca.sebleclerc.hockeydata.core.cache.CacheGoalerPlayer
 import ca.sebleclerc.hockeydata.core.cache.CacheGoalerSeason
 import ca.sebleclerc.hockeydata.core.cache.CachePlayer
 import ca.sebleclerc.hockeydata.core.cache.CacheRosterPlayer
 import ca.sebleclerc.hockeydata.core.cache.CacheSkaterSeason
 import ca.sebleclerc.hockeydata.core.domain.Player
+import ca.sebleclerc.hockeydata.core.domain.PlayerGoalerSeason
 import ca.sebleclerc.hockeydata.core.domain.PlayerSalarySeason
 import ca.sebleclerc.hockeydata.core.domain.PlayerSkaterSeason
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
@@ -36,7 +38,7 @@ class DatabaseService {
     statement = connection.createStatement()
   }
 
-  // Teams
+  // region Teams
 
   fun getAllTeams(): List<Team> {
     val teams = mutableListOf<Team>()
@@ -86,7 +88,9 @@ class DatabaseService {
     return players
   }
 
-  // Players
+  // endregion
+
+  // region Players
 
   fun getAllPlayers(onlyGoalers: Boolean? = null): List<Player> {
     val players = mutableListOf<Player>()
@@ -191,6 +195,17 @@ class DatabaseService {
     return if (rs.next()) PlayerSkaterSeason.Companion.fromRow(rs) else null
   }
 
+  fun getSingleGoalerSeasonForId(
+    playerId: Int,
+    season: Season,
+  ): PlayerGoalerSeason? {
+    val rs = statement.executeQuery(
+      "SELECT * FROM PlayersStatsArchiveGoaler WHERE leagueName = 'NHL' AND gameTypeId = 2 AND playerId = $playerId AND season = ${season.intValue}",
+    )
+
+    return if (rs.next()) PlayerGoalerSeason.Companion.fromRow(rs) else null
+  }
+
   fun getLastSeasonsForSkaterId(playerId: Int): List<PlayerSkaterSeason> {
     val seasons = mutableListOf<PlayerSkaterSeason>()
     val rs =
@@ -200,6 +215,20 @@ class DatabaseService {
 
     while (rs.next()) {
       seasons.add(PlayerSkaterSeason.Companion.fromRow(rs))
+    }
+
+    return seasons
+  }
+
+  fun getLastSeasonsForGoaler(goalerId: Int): List<PlayerGoalerSeason> {
+    val seasons = mutableListOf<PlayerGoalerSeason>()
+    val rs =
+      statement.executeQuery(
+        "SELECT * FROM PlayersStatsArchiveGoaler WHERE leagueName = 'NHL' AND gameTypeId = 2 AND season != ${Constants.currentSeason.intValue} AND playerid = $goalerId ORDER BY season DESC LIMIT 5",
+      )
+
+    while (rs.next()) {
+      seasons.add(PlayerGoalerSeason.Companion.fromRow(rs))
     }
 
     return seasons
@@ -257,14 +286,16 @@ class DatabaseService {
   }
 
   fun insertGoalerSeason(
-    playerId: Int,
+    player: CachePlayer,
     stat: CacheGoalerSeason,
   ) {
+    val poolPoints = PoolHelper.getGoalerPoolPoint(player = player, stat)
+
     val insertStats =
       connection.prepareStatement(
         "REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName,gameTypeId) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
       )
-    insertStats.setInt(1, playerId)
+    insertStats.setInt(1, player.playerId)
     insertStats.setInt(2, stat.season)
     insertStats.setObject(3, stat.gamesPlayed, Types.INTEGER)
     insertStats.setObject(4, stat.gamesStarted, Types.INTEGER)
@@ -279,10 +310,13 @@ class DatabaseService {
     insertStats.setNull(13, Types.INTEGER) // team id
     insertStats.setString(14, stat.teamName.default)
     insertStats.setInt(15, stat.gameTypeId)
+    insertStats.setFloat(16, poolPoints)
     insertStats.execute()
   }
 
-  // Salary
+  // endregion
+
+  // region Salary
 
   fun getPlayerSeasonSalary(
     season: Season,
@@ -305,7 +339,9 @@ class DatabaseService {
     insertSalary.execute()
   }
 
-  // Pool
+  // endregion
+
+  // region Pool
 
   fun getAllPoolDraftStatuses(): Map<Int, PoolDraftStatut> {
     val statuses = mutableMapOf<Int, PoolDraftStatut>()
@@ -338,4 +374,6 @@ class DatabaseService {
 
     insertPoolDraft.execute()
   }
+
+  // endregion
 }

@@ -1,5 +1,7 @@
 package ca.sebleclerc.hockeydata.core.helpers
 
+import ca.sebleclerc.hockeydata.core.cache.CacheGoalerPlayer
+import ca.sebleclerc.hockeydata.core.cache.CacheGoalerSeason
 import ca.sebleclerc.hockeydata.core.cache.CachePlayer
 import ca.sebleclerc.hockeydata.core.cache.CacheSkaterSeason
 import ca.sebleclerc.hockeydata.core.domain.Player
@@ -14,6 +16,17 @@ object PoolHelper {
       "D" -> getSkaterPoolPointsForDefenseman(season.goals ?: 0, season.assists ?: 0)
       else -> getSkaterPoolPointsForForward(season.goals ?: 0, season.assists ?: 0)
     }
+
+  fun getGoalerPoolPoint(
+    player: CachePlayer,
+    season: CacheGoalerSeason,
+  ): Float {
+    val pWins = (season.wins ?: 0) * 3
+    val pShOuts = (season.shutouts ?: 0) * 3
+    val pOverLoss = (season.otLosses ?: 0)
+
+    return (pWins + pShOuts + pOverLoss).toFloat()
+  }
 
   fun getSkaterPoolPoints(
     player: Player,

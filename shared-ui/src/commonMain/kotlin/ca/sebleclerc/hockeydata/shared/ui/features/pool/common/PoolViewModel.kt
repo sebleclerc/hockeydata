@@ -6,6 +6,7 @@ import ca.sebleclerc.hockeydata.core.domain.Player
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
+import ca.sebleclerc.hockeydata.core.helpers.Logger
 import ca.sebleclerc.hockeydata.database.DatabaseService
 import ca.sebleclerc.hockeydata.shared.ui.common.loading.Loading
 import ca.sebleclerc.hockeydata.shared.ui.common.loading.LoadingViewModel
@@ -71,7 +72,7 @@ abstract class PoolViewModel(
   }
 
   private fun refreshAllPlayers() {
-    var players = mutableListOf<PoolSkaterPlayer>()
+    val players = mutableListOf<PoolSkaterPlayer>()
 
     val poolPreviewStatuses = dbService.getAllPoolDraftStatuses()
     val dbPlayers = dbService.getAllPlayers(false)
@@ -84,7 +85,15 @@ abstract class PoolViewModel(
         val team = dbService.getTeamForId(player.teamId)
         val current = dbService.getSingleSeasonForSkateId(player.id, Constants.currentSeason)
 
-        players.add(PoolSkaterPlayer(player, seasons, salary, team, current))
+        players.add(
+          PoolSkaterPlayer(
+            player = player,
+            seasons = seasons,
+            salary = salary,
+            team = team,
+            current = current
+          )
+        )
       }
     }
 

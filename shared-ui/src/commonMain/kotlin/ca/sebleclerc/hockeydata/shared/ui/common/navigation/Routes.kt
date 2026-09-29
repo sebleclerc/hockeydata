@@ -21,3 +21,6 @@ object Taken
 
 @Serializable
 object Watch
+
+@Serializable
+object Goalers

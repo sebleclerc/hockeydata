@@ -4,6 +4,7 @@ package ca.sebleclerc.hockeydata.database
 
 import ca.sebleclerc.hockeydata.core.domain.BirthDate
 import ca.sebleclerc.hockeydata.core.domain.Player
+import ca.sebleclerc.hockeydata.core.domain.PlayerGoalerSeason
 import ca.sebleclerc.hockeydata.core.domain.PlayerSkaterSeason
 import ca.sebleclerc.hockeydata.core.domain.Season
 import ca.sebleclerc.hockeydata.core.domain.Team
@@ -56,6 +57,25 @@ fun PlayerSkaterSeason.Companion.fromRow(rs: ResultSet): PlayerSkaterSeason =
     rs.getInt("assists"),
     rs.getInt("points"),
     rs.getFloat("poolPoints"),
+  )
+
+// endregion
+
+// region PlayerGoalerSeason
+
+fun PlayerGoalerSeason.Companion.fromRow(rs: ResultSet): PlayerGoalerSeason =
+  PlayerGoalerSeason(
+    season = Season(rs.getInt("season")),
+    league = rs.getString("leagueName"),
+    team = rs.getString("teamName"),
+    games = rs.getInt("games"),
+    gamesStarted = rs.getInt("gamesStarted"),
+    ot = rs.getInt("ot"),
+    shutouts = rs.getInt("shutouts"),
+    wins = rs.getInt("wins"),
+    losses = rs.getInt("losses"),
+    savePercentage = rs.getFloat("savePercentage"),
+    poolPoints = rs.getFloat("poolPoints"),
   )
 
 // endregion
