@@ -4,6 +4,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import ca.sebleclerc.hockeydata.cache.CacheService
 import ca.sebleclerc.hockeydata.cache.ImportService
+import ca.sebleclerc.hockeydata.core.cache.CacheGoalerPlayer
+import ca.sebleclerc.hockeydata.core.cache.CachePlayer
 import ca.sebleclerc.hockeydata.core.cache.CacheStep
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Logger
@@ -29,6 +31,7 @@ class DataViewModel(
       DataActions.PoolDataRefresh -> poolDataRefresh()
       DataActions.CacheTeams -> cacheTeams()
       DataActions.CacheAllPlayers -> cacheAllPlayers()
+      DataActions.RefreshAllGoalers -> refreshAllGoalers()
     }
   }
 
@@ -75,8 +78,20 @@ class DataViewModel(
         cacheService.cache(listOf(step), true)
         importService.importPlayers(listOf(step))
       }
-    }
 
-    updateLoading(isLoading = false)
+      updateLoading(isLoading = false)
+    }
+  }
+
+  private fun refreshAllGoalers() {
+    viewModelScope.launch(Dispatchers.IO) {
+      val goalers = dbService.getAllPlayers(onlyGoalers = true)
+        .map { CacheStep.Player(it.id) }
+
+      cacheService.cache(goalers, true)
+      importService.importPlayers(goalers)
+
+      updateLoading(isLoading = false)
+    }
   }
 }

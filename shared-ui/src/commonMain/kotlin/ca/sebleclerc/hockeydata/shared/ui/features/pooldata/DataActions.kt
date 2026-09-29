@@ -4,4 +4,5 @@ sealed interface DataActions {
   data object CacheTeams : DataActions
   data object PoolDataRefresh : DataActions
   data object CacheAllPlayers : DataActions
+  data object RefreshAllGoalers : DataActions
 }

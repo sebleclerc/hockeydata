@@ -33,5 +33,12 @@ fun DataScreen(viewModel: DataViewModel) {
       Text(text = "Cache ALL players (Force)")
     }
     Text("Goes through all players in DB and force cache and import.")
+
+    Button(
+      onClick = { viewModel.onAction(DataActions.RefreshAllGoalers) }
+    ) {
+      Text(text = "Refresh ALL Goalers")
+    }
+    Text("Update cache data and import. Force update.")
   }
 }

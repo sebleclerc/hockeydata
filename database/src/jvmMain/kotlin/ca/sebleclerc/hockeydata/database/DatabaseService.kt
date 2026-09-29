@@ -293,7 +293,7 @@ class DatabaseService {
 
     val insertStats =
       connection.prepareStatement(
-        "REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName,gameTypeId) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        "REPLACE INTO PlayersStatsArchiveGoaler (playerId,season,games,gamesStarted,ot,shutouts,wins,losses,timeOnIce,savePercentage,leagueId,leagueName,teamId,teamName,gameTypeId,poolPoints) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
       )
     insertStats.setInt(1, player.playerId)
     insertStats.setInt(2, stat.season)
@@ -310,7 +310,7 @@ class DatabaseService {
     insertStats.setNull(13, Types.INTEGER) // team id
     insertStats.setString(14, stat.teamName.default)
     insertStats.setInt(15, stat.gameTypeId)
-    insertStats.setFloat(16, poolPoints)
+    insertStats.setObject(16, poolPoints, Types.FLOAT)
     insertStats.execute()
   }
 
