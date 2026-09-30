@@ -5,7 +5,6 @@ import androidx.lifecycle.viewModelScope
 import ca.sebleclerc.hockeydata.core.domain.Player
 import ca.sebleclerc.hockeydata.core.domain.PoolDraftStatut
 import ca.sebleclerc.hockeydata.core.domain.PoolGoalerPlayer
-import ca.sebleclerc.hockeydata.core.domain.PoolSkaterPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.database.DatabaseService
 import ca.sebleclerc.hockeydata.shared.ui.common.loading.Loading
@@ -28,6 +27,26 @@ class GoalersViewModel(val dbService: DatabaseService) : ViewModel(), Loading by
     updateLoading(isLoading = true)
 
     refreshView(refreshPlayers = true)
+  }
+
+  fun onAction(action: Actions) {
+    when (action) {
+      is Actions.DidClickSortValue -> TODO()
+      is Actions.OnPlayerAction -> onGoalerAction(action.player, action.statut)
+      is Actions.OnSearchValueChanged -> TODO()
+    }
+  }
+
+  private fun onGoalerAction(goaler: PoolGoalerPlayer, statut: PoolDraftStatut) {
+    dbService.updatePlayerForPool(
+      playerId = goaler.player.id,
+      statut = statut
+    )
+
+    if (statut != PoolDraftStatut.WATCH) {
+      allPlayers.remove(goaler)
+      refreshView(refreshPlayers = false)
+    }
   }
 
   protected fun shouldKeepPlayer(player: Player, statut: PoolDraftStatut?): Boolean {

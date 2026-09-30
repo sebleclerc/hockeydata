@@ -15,12 +15,22 @@ import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.core.domain.PoolGoalerPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
 import ca.sebleclerc.hockeydata.core.helpers.Formatter
+import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowButton
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
 import java.math.BigDecimal
 import java.math.RoundingMode
 
+data class RowAction(
+  val label: String,
+  val action: Actions
+)
+
 @Composable
-fun Row(goaler: PoolGoalerPlayer) {
+fun Row(
+  goaler: PoolGoalerPlayer,
+  actions: List<RowAction>,
+  onAction: (Actions) -> Unit,
+) {
   var isHovered by remember { mutableStateOf(false) }
 
   val poolValueString = BigDecimal(goaler.poolValue)
@@ -71,6 +81,12 @@ fun Row(goaler: PoolGoalerPlayer) {
         text = it,
         padding = Constants.UI_PADDING_HISTORY,
       )
+    }
+
+    actions.forEach { action ->
+      RowButton(text = action.label) {
+        onAction(action.action)
+      }
     }
   }
 }
