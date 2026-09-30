@@ -14,11 +14,18 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import ca.sebleclerc.hockeydata.core.domain.PoolGoalerPlayer
 import ca.sebleclerc.hockeydata.core.helpers.Constants
+import ca.sebleclerc.hockeydata.core.helpers.Formatter
 import ca.sebleclerc.hockeydata.shared.ui.common.lazydisplay.RowItem
+import java.math.BigDecimal
+import java.math.RoundingMode
 
 @Composable
 fun Row(goaler: PoolGoalerPlayer) {
   var isHovered by remember { mutableStateOf(false) }
+
+  val poolValueString = BigDecimal(goaler.poolValue)
+    .setScale(5, RoundingMode.HALF_EVEN)
+    .toString()
 
   Row(
     modifier = Modifier
@@ -46,5 +53,24 @@ fun Row(goaler: PoolGoalerPlayer) {
       text = (goaler.current?.poolPoints ?: 0F).toString(),
       padding = Constants.UI_PADDING_CURRENT,
     )
+    RowItem(
+      text = Formatter.roundDouble(goaler.averagePoints),
+      padding = Constants.UI_PADDING_AVERAGE_PTS,
+    )
+    RowItem(
+      text = poolValueString,
+      padding = Constants.UI_PADDING_POOL_VALUE
+    )
+    RowItem(
+      text = goaler.averagePoolValue,
+      padding = Constants.UI_PADDING_ID
+    )
+
+    goaler.history.forEach {
+      RowItem(
+        text = it,
+        padding = Constants.UI_PADDING_HISTORY,
+      )
+    }
   }
 }

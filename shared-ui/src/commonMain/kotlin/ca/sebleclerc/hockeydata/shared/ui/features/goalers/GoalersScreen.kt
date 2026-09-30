@@ -7,6 +7,7 @@ import ca.sebleclerc.hockeydata.shared.ui.common.page.PageLayout
 fun GoalersScreen(state: State) {
   PageLayout(
     title = "Goalers",
+    listHeader = { Header() }
   ) {
     items(count = state.players.size) {
       val player = state.players[it]
